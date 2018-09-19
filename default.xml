@@ -4,6 +4,9 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
+  <remote  name="gitlab"
+           fetch=".."
+           revision="refs/heads/pie-platform-release" />
   <default revision="refs/tags/android-9.0.0_r6"
            remote="aosp"
            sync-j="4" />
