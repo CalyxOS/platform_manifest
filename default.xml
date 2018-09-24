@@ -9,7 +9,8 @@
            revision="refs/heads/pie-platform-release" />
   <default revision="refs/tags/android-9.0.0_r6"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4"
+           sync-c="true" />
 
   <project path="build/make" name="platform_build" groups="pdk" remote="gitlab" >
     <copyfile src="core/root.mk" dest="Makefile" />
