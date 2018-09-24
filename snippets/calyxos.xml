@@ -2,5 +2,7 @@
 <manifest>
 
   <project name="vendor_android-prepare-vendor" path="vendor/android-prepare-vendor" remote="gitlab" />
+  <project name="kernel_google_marlin" path="kernel/google/marlin" remote="gitlab" />
+  <project name="kernel_google_wahoo" path="kernel/google/wahoo" remote="gitlab" />
 
 </manifest>
