@@ -7,4 +7,7 @@
   <project name="calyxos/vendor_android-prepare-vendor" path="vendor/android-prepare-vendor" remote="gitlab" />
   <project name="calyxos/vendor_calyx" path="vendor/calyx" remote="gitlab" />
 
+  <!-- Temporary -->
+  <project name="calyxos/vendor_calyx-tmp" path="vendor/calyx-tmp" remote="gitlab" />
+
 </manifest>
