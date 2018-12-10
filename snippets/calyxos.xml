@@ -2,8 +2,10 @@
 <manifest>
 
   <project name="calyxos/platform_manifest" path="manifest" remote="gitlab" />
+  <project name="calyxos/device_xiaomi_jasmine" path="device/xiaomi/jasmine" remote="gitlab" />
   <project name="calyxos/kernel_google_marlin" path="kernel/google/marlin" remote="gitlab" />
   <project name="calyxos/kernel_google_wahoo" path="kernel/google/wahoo" remote="gitlab" />
+  <project name="calyxos/kernel_xiaomi_jasmine" path="kernel/xiaomi/jasmine" remote="gitlab" />
   <project name="calyxos/vendor_android-prepare-vendor" path="vendor/android-prepare-vendor" remote="gitlab" />
   <project name="calyxos/vendor_calyx" path="vendor/calyx" remote="gitlab" />
 
