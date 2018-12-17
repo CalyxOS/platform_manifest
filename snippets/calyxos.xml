@@ -14,5 +14,6 @@
     <linkfile src="scripts/envsetup.sh" dest="envsetup.sh" />
   </project>
   <project name="calyxos/vendor_calyx-tmp" path="vendor/calyx-tmp" remote="gitlab" />
+  <project name="calyxos/calyxos.wiki" path="wiki" revision="master" remote="gitlab" />
 
 </manifest>
