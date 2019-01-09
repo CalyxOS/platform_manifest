@@ -9,6 +9,7 @@
   <project name="calyxos/platform_packages_apps_F-DroidPrivilegedExtension" path="packages/apps/F-DroidPrivilegedExtension" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Updater" path="packages/apps/Updater" remote="gitlab" />
+  <project name="calyxos/platform_prebuilts_calyx" path="prebuilts/calyx" remote="gitlab" clone-depth="1" />
   <project name="calyxos/vendor_android-prepare-vendor" path="vendor/android-prepare-vendor" remote="gitlab" />
   <project name="calyxos/vendor_calyx" path="vendor/calyx" remote="gitlab" >
     <linkfile src="scripts/envsetup.sh" dest="envsetup.sh" />
