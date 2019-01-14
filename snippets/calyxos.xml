@@ -3,6 +3,7 @@
 
   <project name="calyxos/platform_manifest" path="manifest" remote="gitlab" />
   <project name="calyxos/device_xiaomi_jasmine" path="device/xiaomi/jasmine" remote="gitlab" />
+  <project name="calyxos/device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="gitlab" />
   <project name="calyxos/kernel_google_marlin" path="kernel/google/marlin" remote="gitlab" />
   <project name="calyxos/kernel_google_wahoo" path="kernel/google/wahoo" remote="gitlab" />
   <project name="calyxos/kernel_xiaomi_jasmine" path="kernel/xiaomi/jasmine" remote="gitlab" />
