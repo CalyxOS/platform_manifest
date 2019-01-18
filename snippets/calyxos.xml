@@ -2,20 +2,29 @@
 <manifest>
 
   <project name="calyxos/platform_manifest" path="manifest" remote="gitlab" />
+  <project name="calyxos/device_qcom_sepolicy" path="device/qcom/sepolicy" remote="gitlab" />
   <project name="calyxos/device_xiaomi_jasmine" path="device/xiaomi/jasmine" remote="gitlab" />
   <project name="calyxos/device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="gitlab" />
+  <project name="calyxos/platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="gitlab" />
+  <project name="calyxos/platform_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="gitlab" />
+  <project name="calyxos/platform_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="gitlab" />
   <project name="calyxos/kernel_google_marlin" path="kernel/google/marlin" remote="gitlab" />
   <project name="calyxos/kernel_google_wahoo" path="kernel/google/wahoo" remote="gitlab" />
   <project name="calyxos/kernel_xiaomi_jasmine" path="kernel/xiaomi/jasmine" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_F-DroidPrivilegedExtension" path="packages/apps/F-DroidPrivilegedExtension" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Updater" path="packages/apps/Updater" remote="gitlab" />
+  <project name="calyxos/platform_packages_resources_devicesettings" path="platform/packages/devicesettings" remote="gitlab" />
   <project name="calyxos/platform_prebuilts_calyx" path="prebuilts/calyx" remote="gitlab" clone-depth="1" />
   <project name="calyxos/vendor_android-prepare-vendor" path="vendor/android-prepare-vendor" remote="gitlab" />
   <project name="calyxos/vendor_calyx" path="vendor/calyx" remote="gitlab" >
     <linkfile src="scripts/envsetup.sh" dest="envsetup.sh" />
   </project>
   <project name="calyxos/vendor_calyx-tmp" path="vendor/calyx-tmp" remote="gitlab" />
+  <project name="calyxos/vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="gitlab" />
+  <project name="calyxos/vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="gitlab" />
+  <project name="calyxos/vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="gitlab" />
+  <project name="calyxos/vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="gitlab" />
   <project name="calyxos/calyxos.wiki" path="wiki" revision="master" remote="gitlab" />
 
 </manifest>
