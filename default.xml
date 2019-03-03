@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <remote  name="gitlab"
-           fetch=".."
+           fetch="ssh://git@gitlab.com"
            revision="refs/heads/pie-qpr2-release" />
   <default revision="refs/tags/android-9.0.0_r33"
            remote="aosp"
