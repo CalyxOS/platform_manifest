@@ -7,7 +7,7 @@
   <remote  name="gitlab"
            fetch="ssh://git@gitlab.com"
            revision="refs/heads/pie-qpr2-release" />
-  <default revision="refs/tags/android-9.0.0_r33"
+  <default revision="refs/tags/android-9.0.0_r34"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
