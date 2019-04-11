@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com/" />
   <remote  name="gitlab"
            fetch="ssh://git@gitlab.com"
-           revision="refs/heads/pie-qpr2-release" />
+           revision="refs/heads/pie" />
   <default revision="refs/tags/android-9.0.0_r35"
            remote="aosp"
            sync-j="4"
