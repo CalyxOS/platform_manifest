@@ -9,7 +9,6 @@
   <project name="calyxos/platform_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="gitlab" />
   <project name="calyxos/platform_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="gitlab" />
   <project name="calyxos/kernel_google_bluecross" path="kernel/google/bluecross" remote="gitlab" />
-  <project name="calyxos/kernel_google_marlin" path="kernel/google/marlin" remote="gitlab" />
   <project name="calyxos/kernel_google_wahoo" path="kernel/google/wahoo" remote="gitlab" />
   <project name="calyxos/kernel_xiaomi_jasmine_sprout" path="kernel/xiaomi/jasmine_sprout" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_F-DroidPrivilegedExtension" path="packages/apps/F-DroidPrivilegedExtension" remote="gitlab" />
