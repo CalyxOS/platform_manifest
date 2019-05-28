@@ -20,7 +20,6 @@
   <project name="calyxos/vendor_calyx" path="vendor/calyx" remote="gitlab" >
     <linkfile src="scripts/envsetup.sh" dest="envsetup.sh" />
   </project>
-  <project name="calyxos/vendor_calyx-tmp" path="vendor/calyx-tmp" remote="gitlab" />
   <project name="calyxos/vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="gitlab" />
   <project name="calyxos/vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="gitlab" />
   <project name="calyxos/vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="gitlab" />
