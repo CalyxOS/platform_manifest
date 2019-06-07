@@ -469,7 +469,7 @@
   <project path="hardware/qcom/bootctrl" name="calyxos/platform_hardware_qcom_bootctrl" groups="pdk-qcom" remote="gitlab" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk-qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom_camera,pdk-qcom" />
-  <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk-qcom" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="calyxos/platform_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="gitlab" />
   <project path="hardware/qcom/display" name="calyxos/platform_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="gitlab" />
   <project path="hardware/qcom/gps" name="calyxos/platform_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" remote="gitlab" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk-qcom" />
