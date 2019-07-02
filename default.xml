@@ -7,7 +7,7 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com"
            revision="refs/heads/pie-3a" />
-  <default revision="refs/tags/android-9.0.0_r42"
+  <default revision="refs/tags/android-9.0.0_r45"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
