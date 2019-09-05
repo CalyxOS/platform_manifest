@@ -67,7 +67,6 @@
   <project path="device/google/cuttlefish_kernel" name="device/google/cuttlefish_kernel" groups="device,pdk" clone-depth="1" />
   <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk" clone-depth="1" />
   <project path="device/google/fuchsia" name="device/google/fuchsia" groups="device" />
-  <project path="device/google/marlin" name="device/google/marlin" groups="device,marlin" />
   <project path="device/google/muskie" name="calyxos/device_google_muskie" groups="device,generic_fs,muskie" remote="gitlab" />
   <project path="device/google/taimen" name="calyxos/device_google_taimen" groups="device,taimen" remote="gitlab" />
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" clone-depth="1" />
