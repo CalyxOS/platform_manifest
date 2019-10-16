@@ -46,11 +46,8 @@
   <!-- Devices -->
   <project name="calyxos/device_xiaomi_jasmine_sprout" path="device/xiaomi/jasmine_sprout" remote="gitlab" />
   <project name="calyxos/device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="gitlab" />
-  <!--
-  <project name="calyxos/kernel_google_bluecross" path="kernel/google/bluecross" remote="gitlab" />
-  <project name="calyxos/kernel_google_bonito" path="kernel/google/bonito" remote="gitlab" />
+  <project name="calyxos/kernel_google_msm-4.9" path="kernel/google/msm-4.9" remote="gitlab" />
   <project name="calyxos/kernel_google_wahoo" path="kernel/google/wahoo" remote="gitlab" />
-  -->
   <project name="calyxos/kernel_xiaomi_jasmine_sprout" path="kernel/xiaomi/jasmine_sprout" remote="gitlab" />
   <project name="calyxos/platform_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="gitlab" />
 
