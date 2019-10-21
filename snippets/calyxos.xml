@@ -35,9 +35,7 @@
   <project name="calyxos/platform_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" remote="gitlab" revision="staging/q-caf" />
   <project name="calyxos/vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="gitlab" />
   <project name="calyxos/vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="gitlab" />
-  <!--
   <project name="calyxos/vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="gitlab" />
-  -->
   <project name="calyxos/vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="gitlab" />
   <project name="calyxos/vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="gitlab" />
   <project name="calyxos/vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="gitlab" />
