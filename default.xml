@@ -6,8 +6,8 @@
            review="https://android-review.googlesource.com/" />
   <remote  name="gitlab"
            fetch="https://gitlab.com"
-           revision="refs/heads/staging/q" />
-  <default revision="refs/tags/android-10.0.0_r16"
+           revision="refs/heads/android10" />
+  <default revision="refs/tags/android-10.0.0_r23"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
