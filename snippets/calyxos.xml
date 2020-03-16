@@ -5,6 +5,7 @@
   <project name="calyxos/platform_manifest" path="manifest" remote="gitlab" revision="staging/android10" />
   <project name="calyxos/platform_packages_apps_Eleven" path="packages/apps/Eleven" remote="gitlab" revision="staging/android10" />
   <project name="calyxos/platform_packages_apps_F-DroidPrivilegedExtension" path="packages/apps/F-DroidPrivilegedExtension" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_Ripple" path="packages/apps/Ripple" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="gitlab" revision="staging/android10" />
   <project name="calyxos/platform_packages_apps_Updater" path="packages/apps/Updater" remote="gitlab" />
   <project name="calyxos/platform_prebuilts_calyx" path="prebuilts/calyx" remote="gitlab" clone-depth="1" />
