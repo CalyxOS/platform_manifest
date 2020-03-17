@@ -3,7 +3,7 @@
 
   <!-- CalyxOS additions -->
   <project name="calyxos/platform_manifest" path="manifest" remote="gitlab" revision="staging/android10" />
-  <project name="calyxos/platform_packages_apps_Eleven" path="packages/apps/Eleven" remote="gitlab" revision="staging/android10" />
+  <project name="calyxos/platform_packages_apps_Eleven" path="packages/apps/Eleven" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_F-DroidPrivilegedExtension" path="packages/apps/F-DroidPrivilegedExtension" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Ripple" path="packages/apps/Ripple" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="gitlab" revision="staging/android10" />
@@ -11,7 +11,7 @@
   <project name="calyxos/platform_prebuilts_calyx" path="prebuilts/calyx" remote="gitlab" clone-depth="1" />
   <project name="calyxos/platform_prebuilts_tools-lineage" path="prebuilts/tools-lineage" remote="gitlab" clone-depth="1" />
   <project name="calyxos/vendor_android-prepare-vendor" path="vendor/android-prepare-vendor" remote="gitlab" />
-  <project name="calyxos/vendor_calyx" path="vendor/calyx" remote="gitlab" >
+  <project name="calyxos/vendor_calyx" path="vendor/calyx" remote="gitlab" revision="staging/android10" >
     <linkfile src="scripts/envsetup.sh" dest="envsetup.sh" />
   </project>
 
@@ -35,17 +35,18 @@
   <project name="calyxos/platform_hardware_qcom_bt" path="hardware/qcom-caf/bt" remote="gitlab" revision="android10-caf" />
   <project name="calyxos/platform_hardware_qcom_display" path="hardware/qcom-caf/msm8998/display" remote="gitlab" revision="staging/android10-caf-msm8998" />
   <project name="calyxos/platform_hardware_qcom_media" path="hardware/qcom-caf/msm8998/media" remote="gitlab" revision="staging/android10-caf-msm8998" />
-  <project name="calyxos/platform_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" remote="gitlab" revision="android10-caf" />
+  <project name="calyxos/platform_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" remote="gitlab" revision="staging/android10-caf" />
   <project name="calyxos/vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="gitlab" revision="staging/android10" />
-  <project name="calyxos/vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="gitlab" />
+  <project name="calyxos/vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="gitlab" revision="staging/android10" />
   <project name="calyxos/vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="gitlab" revision="staging/android10" />
   <project name="calyxos/vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="gitlab" revision="staging/android10" />
-  <project name="calyxos/vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="gitlab" />
+  <project name="calyxos/vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="gitlab" revision="staging/android10" />
   <project name="calyxos/vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="gitlab" revision="staging/android10" />
 
   <!-- Devices -->
   <project name="calyxos/device_xiaomi_jasmine_sprout" path="device/xiaomi/jasmine_sprout" remote="gitlab" revision="staging/android10" />
   <project name="calyxos/device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="gitlab" revision="staging/android10" />
+  <project name="calyxos/device_xiaomi_wayne-common" path="device/xiaomi/wayne-common" remote="gitlab" revision="staging/android10" />
   <project name="calyxos/kernel_google_msm-4.9" path="kernel/google/msm-4.9" remote="gitlab" />
   <project name="calyxos/kernel_google_wahoo" path="kernel/google/wahoo" remote="gitlab" />
   <project name="calyxos/kernel_xiaomi_jasmine_sprout" path="kernel/xiaomi/jasmine_sprout" remote="gitlab" revision="staging/android10" />
