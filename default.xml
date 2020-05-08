@@ -59,7 +59,6 @@
   <project path="device/google/bonito-sepolicy" name="device/google/bonito-sepolicy" groups="device,bonito" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
   <project path="device/google/coral" name="calyxos/device_google_coral" groups="device,coral" remote="gitlab" />
-  <project path="device/google/coral-kernel" name="device/google/coral-kernel" groups="device,coral" clone-depth="1" />
   <project path="device/google/coral-sepolicy" name="device/google/coral-sepolicy" groups="device,coral" />
   <project path="device/google/crosshatch" name="calyxos/device_google_crosshatch" groups="device,crosshatch,generic_fs" remote="gitlab" />
   <project path="device/google/crosshatch-sepolicy" name="device/google/crosshatch-sepolicy" groups="device,crosshatch,generic_fs" />
