@@ -1,0 +1,6 @@
+<manifest>
+
+  <project name="calyxos/proprietary_vendor_google_devices" path="vendor/google_devices" remote="gitlab-priv" clone-depth="1" />
+  <project name="calyxos/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gitlab-priv" clone-depth="1" />
+
+</manifest>
