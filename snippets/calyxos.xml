@@ -35,6 +35,7 @@
   <project name="calyxos/platform_hardware_qcom_bt" path="hardware/qcom-caf/bt" remote="gitlab" revision="android10-caf" />
   <project name="calyxos/platform_hardware_qcom_display" path="hardware/qcom-caf/msm8998/display" remote="gitlab" revision="android10-caf-msm8998" />
   <project name="calyxos/platform_hardware_qcom_media" path="hardware/qcom-caf/msm8998/media" remote="gitlab" revision="android10-caf-msm8998" />
+  <project name="calyxos/platform_hardware_qcom_thermal" path="hardware/qcom-caf/thermal" remote="gitlab" />
   <project name="calyxos/platform_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" remote="gitlab" revision="android10-caf" />
   <project name="calyxos/vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="gitlab" />
   <project name="calyxos/vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="gitlab" />
