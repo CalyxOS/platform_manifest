@@ -3,6 +3,7 @@
 
   <!-- CalyxOS additions -->
   <project name="calyxos/platform_manifest" path="manifest" remote="gitlab" />
+  <project name="calyxos/platform_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Eleven" path="packages/apps/Eleven" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_Etar" path="packages/apps/Etar" remote="gitlab" />
   <project name="calyxos/platform_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="gitlab" />
