@@ -61,7 +61,7 @@
   <project name="calyxos/kernel_google_msm-4.9" path="kernel/google/msm-4.9" remote="gitlab" />
   <project name="calyxos/kernel_google_msm-4.9_techpack_audio" path="kernel/google/msm-4.9/techpack/audio" remote="gitlab" />
   <project name="kernel/msm-modules/qca-wfi-host-cmn" path="kernel/google/msm-4.9/drivers/staging/qca-wifi-host-cmn" revision="android-10.0.0_r0.66" />
-  <project name="calyxos/kernel_google_msm-4.9_drivers_staging_qcacld-3.0" path="kernel/google/msm-4.9/drivers/staging/qcacld-3.0" remote="gitab" />
+  <project name="calyxos/kernel_google_msm-4.9_drivers_staging_qcacld-3.0" path="kernel/google/msm-4.9/drivers/staging/qcacld-3.0" remote="gitlab" />
   <project name="kernel/msm-modules/wlan-fw-api" path="kernel/google/msm-4.9/drivers/staging/fw-api" revision="android-10.0.0_r0.66" />
   <project name="calyxos/kernel_google_wahoo" path="kernel/google/wahoo" remote="gitlab" />
   <project name="calyxos/kernel_xiaomi_jasmine_sprout" path="kernel/xiaomi/jasmine_sprout" remote="gitlab" />
