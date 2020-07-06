@@ -10,7 +10,7 @@
   <remote  name="gitlab-priv"
            fetch="ssh://git@gitlab.com"
            revision="refs/heads/android10" />
-  <default revision="refs/tags/android-10.0.0_r38"
+  <default revision="refs/tags/android-10.0.0_r40"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
@@ -74,6 +74,7 @@
   <project path="device/google/taimen" name="calyxos/device_google_taimen" groups="device,taimen" remote="gitlab" />
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" clone-depth="1" />
   <project path="device/google/wahoo" name="calyxos/device_google_wahoo" groups="device,generic_fs,wahoo" remote="gitlab" />
+  <project path="device/google_car" name="device/google_car" groups="pdk" />
   <project path="device/linaro/bootloader/arm-trusted-firmware" name="device/linaro/bootloader/arm-trusted-firmware" />
   <project path="device/linaro/bootloader/edk2" name="device/linaro/bootloader/edk2" />
   <project path="device/linaro/bootloader/OpenPlatformPkg" name="device/linaro/bootloader/OpenPlatformPkg" />
