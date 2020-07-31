@@ -468,7 +468,7 @@
   <project path="frameworks/opt/net/ike" name="platform/frameworks/opt/net/ike" groups="pdk" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
+  <project path="frameworks/opt/net/wifi" name="calyxos/platform_frameworks_opt_net_wifi" groups="pdk" remote="gitlab" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/telephony" name="calyxos/platform_frameworks_opt_telephony" groups="pdk" remote="gitlab" />
@@ -553,7 +553,7 @@
   <project path="packages/apps/Car/externallibs" name="platform/packages/apps/Car/externallibs" groups="pdk-fs" />
   <project path="packages/apps/Car/libs" name="platform/packages/apps/Car/libs" groups="pdk-fs" />
   <project path="packages/apps/Car/tests" name="platform/packages/apps/Car/tests" groups="pdk-fs" />
-  <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/CarrierConfig" name="calyxos/platform_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CertInstaller" name="calyxos/platform_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
   <project path="packages/apps/Contacts" name="calyxos/platform_packages_apps_Contacts" groups="pdk-fs" remote="gitlab" />
@@ -563,7 +563,7 @@
   <project path="packages/apps/DocumentsUI" name="platform/packages/apps/DocumentsUI" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="calyxos/platform_packages_apps_EmergencyInfo" groups="pdk-fs" remote="gitlab" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
+  <project path="packages/apps/Gallery2" name="calyxos/platform_packages_apps_Gallery2" groups="pdk-fs" remote="gitlab" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher3" name="calyxos/platform_packages_apps_Launcher3" groups="pdk-fs" remote="gitlab" />
@@ -585,7 +585,7 @@
   <project path="packages/apps/SettingsIntelligence" name="calyxos/platform_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="gitlab" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
+  <project path="packages/apps/Stk" name="calyxos/platform_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="gitlab" />
   <project path="packages/apps/StorageManager" name="calyxos/platform_packages_apps_StorageManager" groups="pdk-fs" remote="gitlab" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" />
@@ -612,7 +612,7 @@
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/MediaProvider" name="calyxos/platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
@@ -702,7 +702,7 @@
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" />
   <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" />
+  <project path="system/netd" name="calyxos/platform_system_netd" groups="pdk" remote="gitlab" />
   <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
