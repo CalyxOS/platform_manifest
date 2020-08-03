@@ -10,7 +10,7 @@
   <remote  name="gitlab-priv"
            fetch="ssh://git@gitlab.com"
            revision="refs/heads/android10" />
-  <default revision="refs/tags/android-10.0.0_r40"
+  <default revision="refs/tags/android-10.0.0_r41"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
