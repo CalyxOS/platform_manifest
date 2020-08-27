@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com/" />
   <remote  name="gitlab"
            fetch="https://gitlab.com"
-           revision="refs/heads/android10" />
+           revision="refs/heads/staging/android10-d4" />
   <remote  name="gitlab-priv"
            fetch="ssh://git@gitlab.com"
            revision="refs/heads/staging/android10-d4" />
