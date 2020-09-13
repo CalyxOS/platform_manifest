@@ -396,7 +396,7 @@
   <project path="external/smali" name="platform/external/smali" groups="pdk" />
   <project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
-  <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
+  <project path="external/sonivox" name="calyxos/platform_external_sonivox" groups="pdk" remote="gitlab" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
   <project path="external/spirv-llvm" name="platform/external/spirv-llvm" groups="pdk" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
@@ -568,7 +568,7 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher3" name="calyxos/platform_packages_apps_Launcher3" groups="pdk-fs" remote="gitlab" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
-  <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
+  <project path="packages/apps/ManagedProvisioning" name="calyxos/platform_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="gitlab" />
   <project path="packages/apps/Messaging" name="calyxos/platform_packages_apps_Messaging" groups="pdk-fs" remote="gitlab" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="calyxos/platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="gitlab" />
@@ -679,7 +679,7 @@
   </project>
   <project path="system/apex" name="platform/system/apex" groups="pdk" />
   <project path="system/ashmemd" name="platform/system/ashmemd" groups="pdk" />
-  <project path="system/bt" name="platform/system/bt" groups="pdk" />
+  <project path="system/bt" name="calyxos/platform_system_bt" groups="pdk" remote="gitlab" />
   <project path="system/bpf" name="platform/system/bpf" groups="pdk" />
   <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
@@ -706,7 +706,7 @@
   <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
+  <project path="system/sepolicy" name="calyxos/platform_system_sepolicy" groups="pdk" remote="gitlab" />
   <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk"/>
   <project path="system/testing/gtest_extras" name="platform/system/testing/gtest_extras" groups="pdk" />
   <project path="system/timezone" name="platform/system/timezone" groups="pdk" />
