@@ -12,7 +12,7 @@
            fetch="ssh://git@gitlab.com"
            review="review.calyxos.org"
            revision="refs/heads/android11" />
-  <default revision="refs/tags/android-11.0.0_r4"
+  <default revision="refs/tags/android-11.0.0_r17"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
