@@ -414,7 +414,7 @@
   <project path="external/tensorflow" name="platform/external/tensorflow" groups="pdk" />
   <project path="external/testng" name="platform/external/testng" groups="pdk" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" />
-  <project path="external/tinycompress" name="LineageOS/platform_external_tinycompress" groups="pdk" remote="gitlab" />
+  <project path="external/tinycompress" name="CalyxOS/platform_external_tinycompress" groups="pdk" remote="gitlab" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/toolchain-utils" name="platform/external/toolchain-utils" />
@@ -738,7 +738,7 @@
   <project path="system/libhidl" name="platform/system/libhidl" groups="pdk" />
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" />
   <project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" />
-  <project path="system/libufdt" name="LineageOS/platform_system_libufdt" groups="pdk" rempte="gitlab" />
+  <project path="system/libufdt" name="CalyxOS/platform_system_libufdt" groups="pdk" rempte="gitlab" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" />
   <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
