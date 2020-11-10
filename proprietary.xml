@@ -1,6 +1,15 @@
 <manifest>
 
-  <project name="CalyxOS/proprietary_vendor_google_devices" path="vendor/google_devices" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_google_devices_blueline" path="vendor/google_devices/blueline" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_google_devices_bonito" path="vendor/google_devices/bonito" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_google_devices_coral" path="vendor/google_devices/coral" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_google_devices_crosshatch" path="vendor/google_devices/crosshatch" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_google_devices_flame" path="vendor/google_devices/flame" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_google_devices_muskie" path="vendor/google_devices/muskie" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_google_devices_sargo" path="vendor/google_devices/sargo" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_google_devices_sunfish" path="vendor/google_devices/sunfish" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_google_devices_taimen" path="vendor/google_devices/taimen" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_google_devices_walleye" path="vendor/google_devices/walleye" remote="gitlab-priv" clone-depth="1" />
   <!-- <project name="CalyxOS/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gitlab-priv" clone-depth="1" /> -->
 
 </manifest>
