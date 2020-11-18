@@ -80,6 +80,7 @@
   <!-- <project name="CalyxOS/platform_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="gitlab" /> -->
 
   <!-- Non-AOSP repos -->
+  <project name="CalyxOS/chromium-patches" path="calyx/chromium-patches" remote="gitlab" />
   <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" revision="master" />
 
   <!-- Wiki -->
