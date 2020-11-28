@@ -21,7 +21,6 @@
   <project name="CalyxOS/platform_prebuilts_tools-lineage" path="prebuilts/tools-lineage" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/vendor_android-prepare-vendor" path="vendor/android-prepare-vendor" remote="gitlab" />
   <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" />
-  <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" revision="master" />
 
   <!-- CodeAurora additions -->
   <!-- <project name="CalyxOS/device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="gitlab" /> -->
@@ -79,6 +78,9 @@
   <project name="CalyxOS/kernel_google_wahoo" path="kernel/google/wahoo" remote="gitlab" />
   <!-- <project name="CalyxOS/kernel_xiaomi_jasmine_sprout" path="kernel/xiaomi/jasmine_sprout" remote="gitlab" /> -->
   <!-- <project name="CalyxOS/platform_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="gitlab" /> -->
+
+  <!-- Non-AOSP repos -->
+  <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" revision="master" />
 
   <!-- Wiki -->
   <project name="CalyxOS/calyxos.wiki" path="wiki" revision="master" remote="gitlab" />
