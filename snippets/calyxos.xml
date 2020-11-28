@@ -84,6 +84,6 @@
   <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" revision="master" />
 
   <!-- Wiki -->
-  <project name="CalyxOS/calyxos.wiki" path="wiki" revision="master" remote="gitlab" />
+  <project name="CalyxOS/calyxos.wiki" path="calyx/wiki" revision="master" remote="gitlab" />
 
 </manifest>
