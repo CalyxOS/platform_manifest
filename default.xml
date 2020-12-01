@@ -815,6 +815,4 @@
 
   <include name="snippets/calyxos.xml" />
 
-  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
-
 </manifest>
