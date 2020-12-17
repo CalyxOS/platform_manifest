@@ -1,6 +1,6 @@
 <manifest>
 
-  <project name="CalyxOS/proprietary_vendor_google_devices" path="vendor/google_devices" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gitlab-priv" clone-depth="1" />
+  <project clone-depth="1" dest-branch="refs/tags/Q.2020.12.17.20" name="CalyxOS/proprietary_vendor_google_devices" path="vendor/google_devices" remote="gitlab-priv" revision="f85d7be9a9871129ff31d6d3b4737f58eab52f11" upstream="refs/tags/Q.2020.12.17.20"/>
+  <project clone-depth="1" dest-branch="refs/tags/Q.2020.12.17.20" name="CalyxOS/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gitlab-priv" revision="758f88957b87c2741f1e8279fb2272c2c94d03b8" upstream="refs/tags/Q.2020.12.17.20"/>
 
 </manifest>
