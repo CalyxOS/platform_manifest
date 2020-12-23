@@ -25,34 +25,34 @@
   <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" />
 
   <!-- CodeAurora additions -->
-  <!-- <project name="CalyxOS/device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="gitlab" /> -->
-  <!-- <project name="CalyxOS/platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="gitlab" /> -->
-  <!-- <project name="CalyxOS/platform_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="gitlab" /> -->
-  <!-- <project name="CalyxOS/platform_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="gitlab" /> -->
+  <project name="CalyxOS/device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="gitlab" />
+  <project name="CalyxOS/platform_external_ant-wireless_ant_client" path="external/ant-wireless/ant_client" remote="gitlab" />
+  <project name="CalyxOS/platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="gitlab" />
+  <project name="CalyxOS/platform_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="gitlab" />
+  <project name="CalyxOS/platform_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="gitlab" />
+  <project name="CalyxOS/platform_external_ant-wireless_hidl" path="external/ant-wireless/hidl" remote="gitlab" />
   <project name="CalyxOS/platform_external_json-c" path="external/json-c" remote="gitlab" />
-  <!-- <project name="CalyxOS/platform_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="gitlab" > -->
+  <project name="CalyxOS/platform_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="gitlab" >
     <!-- add guard for AOSP hardware/qcom dir -->
-    <!-- <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" /> -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- for AOSP sdm845, sm7150 and sm8150, we override os_pickup.mk -->
     <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" /> -->
     <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7150/Android.mk" /> -->
     <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" /> -->
     <!-- add guards for CAF repositories -->
-    <!-- <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" /> -->
-    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" /> -->
-  <!-- </project> -->
-  <!-- <project name="CalyxOS/platform_hardware_qcom-caf_msm8998_audio" path="hardware/qcom-caf/msm8998/audio" remote="gitlab" /> -->
-  <!-- <project name="CalyxOS/platform_hardware_qcom-caf_bt" path="hardware/qcom-caf/bt" remote="gitlab" /> -->
-  <!-- <project name="CalyxOS/platform_hardware_qcom-caf_msm8998_display" path="hardware/qcom-caf/msm8998/display" remote="gitlab" /> -->
-  <!-- <project name="CalyxOS/platform_hardware_qcom-caf_msm8998_media" path="hardware/qcom-caf/msm8998/media" remote="gitlab" /> -->
-  <!-- <project name="CalyxOS/platform_hardware_qcom_thermal" path="hardware/qcom-caf/thermal" remote="gitlab" /> -->
-  <!-- <project name="CalyxOS/platform_hardware_qcom-caf_wlan" path="hardware/qcom-caf/wlan" remote="gitlab" /> -->
-  <!-- <project name="CalyxOS/vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="gitlab" /> -->
-  <!-- <project name="CalyxOS/vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="gitlab" /> -->
-  <!-- <project name="CalyxOS/vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="gitlab" /> -->
-  <!-- <project name="CalyxOS/vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="gitlab" /> -->
-  <!-- <project name="CalyxOS/vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="gitlab" /> -->
-  <!-- <project name="CalyxOS/vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="gitlab" /> -->
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+  </project>
+  <project name="CalyxOS/platform_hardware_qcom-caf_msm8998_audio" path="hardware/qcom-caf/msm8998/audio" remote="gitlab" />
+  <project name="CalyxOS/platform_hardware_qcom-caf_msm8998_display" path="hardware/qcom-caf/msm8998/display" remote="gitlab" />
+  <project name="CalyxOS/platform_hardware_qcom-caf_msm8998_media" path="hardware/qcom-caf/msm8998/media" remote="gitlab" />
+  <project name="CalyxOS/platform_hardware_qcom-caf_wlan" path="hardware/qcom-caf/wlan" remote="gitlab" />
+  <project name="CalyxOS/vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="gitlab" />
+  <project name="CalyxOS/vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="gitlab" />
+  <project name="CalyxOS/vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="gitlab" />
+  <project name="CalyxOS/vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="gitlab" />
+  <project name="CalyxOS/vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="gitlab" />
+  <project name="CalyxOS/vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="gitlab" />
 
   <!-- Devices -->
   <!-- <project name="CalyxOS/device_xiaomi_jasmine_sprout" path="device/xiaomi/jasmine_sprout" remote="gitlab" /> -->
