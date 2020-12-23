@@ -55,9 +55,9 @@
   <project name="CalyxOS/vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="gitlab" />
 
   <!-- Devices -->
-  <!-- <project name="CalyxOS/device_xiaomi_jasmine_sprout" path="device/xiaomi/jasmine_sprout" remote="gitlab" /> -->
-  <!-- <project name="CalyxOS/device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="gitlab" /> -->
-  <!-- <project name="CalyxOS/device_xiaomi_wayne-common" path="device/xiaomi/wayne-common" remote="gitlab" /> -->
+  <project name="CalyxOS/device_xiaomi_jasmine_sprout" path="device/xiaomi/jasmine_sprout" remote="gitlab" />
+  <project name="CalyxOS/device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="gitlab" />
+  <project name="CalyxOS/device_xiaomi_wayne-common" path="device/xiaomi/wayne-common" remote="gitlab" />
   <project name="CalyxOS/kernel_google_coral" path="kernel/google/coral" remote="gitlab" />
   <project name="kernel/msm-extra" path="kernel/google/coral/techpack/audio" revision="refs/tags/android-11.0.0_r0.30" />
   <project name="kernel/msm-modules/data-kernel" path="kernel/google/coral/drivers/staging/data-kernel" revision="refs/tags/android-11.0.0_r0.30" />
@@ -78,8 +78,8 @@
   <project name="CalyxOS/kernel_google_msm-4.9_drivers_staging_qcacld-3.0" path="kernel/google/msm-4.9/drivers/staging/qcacld-3.0" remote="gitlab" />
   <project name="kernel/msm-modules/wlan-fw-api" path="kernel/google/msm-4.9/drivers/staging/fw-api" revision="refs/tags/android-11.0.0_r0.29" />
   <project name="CalyxOS/kernel_google_wahoo" path="kernel/google/wahoo" remote="gitlab" />
-  <!-- <project name="CalyxOS/kernel_xiaomi_jasmine_sprout" path="kernel/xiaomi/jasmine_sprout" remote="gitlab" /> -->
-  <!-- <project name="CalyxOS/platform_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="gitlab" /> -->
+  <project name="CalyxOS/kernel_xiaomi_jasmine_sprout" path="kernel/xiaomi/jasmine_sprout" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="gitlab" />
 
   <!-- Non-AOSP repos -->
   <project name="CalyxOS/chromium-patches" path="calyx/chromium-patches" remote="gitlab" />
