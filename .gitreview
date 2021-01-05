@@ -1,0 +1,5 @@
+[gerrit]
+host=review.calyxos.org
+port=29418
+project=CalyxOS/platform_manifest
+defaultbranch=android11-qpr1
