@@ -1,15 +1,14 @@
 <manifest>
-
-  <project name="CalyxOS/proprietary_vendor_google_devices_blueline" path="vendor/google_devices/blueline" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_devices_bonito" path="vendor/google_devices/bonito" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_devices_coral" path="vendor/google_devices/coral" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_devices_crosshatch" path="vendor/google_devices/crosshatch" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_devices_flame" path="vendor/google_devices/flame" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_devices_muskie" path="vendor/google_devices/muskie" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_devices_sargo" path="vendor/google_devices/sargo" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_devices_sunfish" path="vendor/google_devices/sunfish" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_devices_taimen" path="vendor/google_devices/taimen" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_devices_walleye" path="vendor/google_devices/walleye" remote="gitlab-priv" clone-depth="1" />
-  <!-- <project name="CalyxOS/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gitlab-priv" clone-depth="1" /> -->
+  
+  <project clone-depth="1" dest-branch="refs/tags/R.2021.01.06.14" name="CalyxOS/proprietary_vendor_google_devices_blueline" path="vendor/google_devices/blueline" remote="gitlab-priv" revision="eaf9b38ef81ffeb34dca79d5b9794e9d9b6fed05" upstream="refs/tags/R.2021.01.06.14"/>
+  <project clone-depth="1" dest-branch="refs/tags/R.2021.01.06.14" name="CalyxOS/proprietary_vendor_google_devices_bonito" path="vendor/google_devices/bonito" remote="gitlab-priv" revision="937502a509982bd921b231ccd75dc422c16c8dc7" upstream="refs/tags/R.2021.01.06.14"/>
+  <project clone-depth="1" dest-branch="refs/tags/R.2021.01.06.14" name="CalyxOS/proprietary_vendor_google_devices_coral" path="vendor/google_devices/coral" remote="gitlab-priv" revision="43233bce6cce2665acd36e3fd59c734713e1b323" upstream="refs/tags/R.2021.01.06.14"/>
+  <project clone-depth="1" dest-branch="refs/tags/R.2021.01.06.14" name="CalyxOS/proprietary_vendor_google_devices_crosshatch" path="vendor/google_devices/crosshatch" remote="gitlab-priv" revision="62c94e359d8ee66df1baa06fa6553e799cc9d33a" upstream="refs/tags/R.2021.01.06.14"/>
+  <project clone-depth="1" dest-branch="refs/tags/R.2021.01.06.14" name="CalyxOS/proprietary_vendor_google_devices_flame" path="vendor/google_devices/flame" remote="gitlab-priv" revision="b259a15391a50466dcbdb12cedbdc6a660a394d5" upstream="refs/tags/R.2021.01.06.14"/>
+  <project clone-depth="1" dest-branch="refs/tags/R.2021.01.06.14" name="CalyxOS/proprietary_vendor_google_devices_muskie" path="vendor/google_devices/muskie" remote="gitlab-priv" revision="cedbf7192b01b6ba26fee42fa70d7476416e4302" upstream="refs/tags/R.2021.01.06.14"/>
+  <project clone-depth="1" dest-branch="refs/tags/R.2021.01.06.14" name="CalyxOS/proprietary_vendor_google_devices_sargo" path="vendor/google_devices/sargo" remote="gitlab-priv" revision="77a85301294143ae0ebf8f0c470332e1f34e8332" upstream="refs/tags/R.2021.01.06.14"/>
+  <project clone-depth="1" dest-branch="refs/tags/R.2021.01.06.14" name="CalyxOS/proprietary_vendor_google_devices_sunfish" path="vendor/google_devices/sunfish" remote="gitlab-priv" revision="e7e22b861c56a7d75e78fe5b13b4b870edb419e2" upstream="refs/tags/R.2021.01.06.14"/>
+  <project clone-depth="1" dest-branch="refs/tags/R.2021.01.06.14" name="CalyxOS/proprietary_vendor_google_devices_taimen" path="vendor/google_devices/taimen" remote="gitlab-priv" revision="e99d4b9a241418a7cfb91b6028c40c06685ca1e0" upstream="refs/tags/R.2021.01.06.14"/>
+  <project clone-depth="1" dest-branch="refs/tags/R.2021.01.06.14" name="CalyxOS/proprietary_vendor_google_devices_walleye" path="vendor/google_devices/walleye" remote="gitlab-priv" revision="c188e32af66e0b57522ecfbe078451a2f9048c26" upstream="refs/tags/R.2021.01.06.14"/>
 
 </manifest>
