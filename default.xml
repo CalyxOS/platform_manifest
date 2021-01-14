@@ -63,9 +63,15 @@
   <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
   <project path="device/google/bonito" name="CalyxOS/device_google_bonito" groups="device,bonito" remote="gitlab" />
   <project path="device/google/bonito-sepolicy" name="device/google/bonito-sepolicy" groups="device,bonito" />
+  <project path="device/google/bramble" name="CalyxOS/device_google_bramble" groups="device,bramble" />
+  <project path="device/google/bramble-sepolicy" name="device/google/bramble-sepolicy" groups="device,bramble" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
   <project path="device/google/coral" name="CalyxOS/device_google_coral" groups="device,coral,generic_fs" remote="gitlab" />
   <project path="device/google/coral-sepolicy" name="device/google/coral-sepolicy" groups="device,coral,generic_fs" />
+  <project path="device/google/redbull" name="CalyxOS/device_google_redbull" groups="device,redbull" />
+  <project path="device/google/redbull-sepolicy" name="device/google/redbull-sepolicy" groups="device,redbull" />
+  <project path="device/google/redfin" name="CalyxOS/device_google_redfin" groups="device,redfin" />
+  <project path="device/google/redfin-sepolicy" name="device/google/redfin-sepolicy" groups="device,redfin" />
   <project path="device/google/sunfish" name="CalyxOS/device_google_sunfish" groups="device,sunfish" remote="gitlab" />
   <project path="device/google/sunfish-sepolicy" name="device/google/sunfish-sepolicy" groups="device,sunfish" />
   <project path="device/google/crosshatch" name="CalyxOS/device_google_crosshatch" groups="device,crosshatch,generic_fs" remote="gitlab" />
