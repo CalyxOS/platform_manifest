@@ -56,10 +56,25 @@
   <project name="CalyxOS/vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="gitlab" />
 
+  <!-- Non-AOSP repos -->
+  <project name="CalyxOS/chromium-patches" path="calyx/chromium-patches" remote="gitlab" />
+  <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" revision="master" />
+
+  <!-- Wiki -->
+  <project name="CalyxOS/calyxos.wiki" path="calyx/wiki" remote="gitlab" revision="master" />
+
   <!-- Devices -->
-  <project name="CalyxOS/device_xiaomi_jasmine_sprout" path="device/xiaomi/jasmine_sprout" remote="gitlab" />
-  <project name="CalyxOS/device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="gitlab" />
-  <project name="CalyxOS/device_xiaomi_wayne-common" path="device/xiaomi/wayne-common" remote="gitlab" />
+  <!-- Pixel 2 -->
+  <project name="CalyxOS/kernel_google_wahoo" path="kernel/google/wahoo" remote="gitlab" />
+
+  <!-- Pixel 3, 3a -->
+  <project name="CalyxOS/kernel_google_msm-4.9" path="kernel/google/msm-4.9" remote="gitlab" />
+  <project name="CalyxOS/kernel_google_msm-4.9_techpack_audio" path="kernel/google/msm-4.9/techpack/audio" remote="gitlab" />
+  <project name="kernel/msm-modules/qca-wfi-host-cmn" path="kernel/google/msm-4.9/drivers/staging/qca-wifi-host-cmn" revision="refs/tags/android-11.0.0_r0.43" />
+  <project name="CalyxOS/kernel_google_msm-4.9_drivers_staging_qcacld-3.0" path="kernel/google/msm-4.9/drivers/staging/qcacld-3.0" remote="gitlab" />
+  <project name="kernel/msm-modules/wlan-fw-api" path="kernel/google/msm-4.9/drivers/staging/fw-api" revision="refs/tags/android-11.0.0_r0.43" />
+
+  <!-- Pixel 4 -->
   <project name="CalyxOS/kernel_google_coral" path="kernel/google/coral" remote="gitlab" />
   <project name="kernel/msm-extra" path="kernel/google/coral/techpack/audio" revision="refs/tags/android-11.0.0_r0.44" />
   <project name="kernel/msm-modules/data-kernel" path="kernel/google/coral/drivers/staging/data-kernel" revision="refs/tags/android-11.0.0_r0.44" />
@@ -67,6 +82,8 @@
   <project name="kernel/msm-modules/qca-wfi-host-cmn" path="kernel/google/coral/drivers/staging/qca-wifi-host-cmn" revision="refs/tags/android-11.0.0_r0.44" />
   <project name="kernel/msm-modules/qcacld" path="kernel/google/coral/drivers/staging/qcacld-3.0" revision="refs/tags/android-11.0.0_r0.44" />
   <project name="kernel/msm-modules/wlan-fw-api" path="kernel/google/coral/drivers/staging/fw-api" revision="refs/tags/android-11.0.0_r0.44" />
+
+  <!-- Pixel 4a -->
   <project name="CalyxOS/kernel_google_sunfish" path="kernel/google/sunfish" remote="gitlab" />
   <project name="kernel/msm-extra" path="kernel/google/sunfish/techpack/audio" revision="refs/tags/android-11.0.0_r0.45" />
   <project name="kernel/msm-modules/data-kernel" path="kernel/google/sunfish/drivers/staging/data-kernel" revision="refs/tags/android-11.0.0_r0.45" />
@@ -74,20 +91,12 @@
   <project name="kernel/msm-modules/qca-wfi-host-cmn" path="kernel/google/sunfish/drivers/staging/qca-wifi-host-cmn" revision="refs/tags/android-11.0.0_r0.45" />
   <project name="kernel/msm-modules/qcacld" path="kernel/google/sunfish/drivers/staging/qcacld-3.0" revision="refs/tags/android-11.0.0_r0.45" />
   <project name="kernel/msm-modules/wlan-fw-api" path="kernel/google/sunfish/drivers/staging/fw-api" revision="refs/tags/android-11.0.0_r0.45" />
-  <project name="CalyxOS/kernel_google_msm-4.9" path="kernel/google/msm-4.9" remote="gitlab" />
-  <project name="CalyxOS/kernel_google_msm-4.9_techpack_audio" path="kernel/google/msm-4.9/techpack/audio" remote="gitlab" />
-  <project name="kernel/msm-modules/qca-wfi-host-cmn" path="kernel/google/msm-4.9/drivers/staging/qca-wifi-host-cmn" revision="refs/tags/android-11.0.0_r0.43" />
-  <project name="CalyxOS/kernel_google_msm-4.9_drivers_staging_qcacld-3.0" path="kernel/google/msm-4.9/drivers/staging/qcacld-3.0" remote="gitlab" />
-  <project name="kernel/msm-modules/wlan-fw-api" path="kernel/google/msm-4.9/drivers/staging/fw-api" revision="refs/tags/android-11.0.0_r0.43" />
-  <project name="CalyxOS/kernel_google_wahoo" path="kernel/google/wahoo" remote="gitlab" />
+
+  <!-- Mi A2 -->
+  <project name="CalyxOS/device_xiaomi_jasmine_sprout" path="device/xiaomi/jasmine_sprout" remote="gitlab" />
+  <project name="CalyxOS/device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="gitlab" />
+  <project name="CalyxOS/device_xiaomi_wayne-common" path="device/xiaomi/wayne-common" remote="gitlab" />
   <project name="CalyxOS/kernel_xiaomi_jasmine_sprout" path="kernel/xiaomi/jasmine_sprout" remote="gitlab" />
   <project name="CalyxOS/platform_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="gitlab" />
-
-  <!-- Non-AOSP repos -->
-  <project name="CalyxOS/chromium-patches" path="calyx/chromium-patches" remote="gitlab" />
-  <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" revision="master" />
-
-  <!-- Wiki -->
-  <project name="CalyxOS/calyxos.wiki" path="calyx/wiki" remote="gitlab" revision="master" />
 
 </manifest>
