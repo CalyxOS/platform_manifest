@@ -92,6 +92,23 @@
   <project name="kernel/msm-modules/qcacld" path="kernel/google/sunfish/drivers/staging/qcacld-3.0" revision="refs/tags/android-11.0.0_r0.45" />
   <project name="kernel/msm-modules/wlan-fw-api" path="kernel/google/sunfish/drivers/staging/fw-api" revision="refs/tags/android-11.0.0_r0.45" />
 
+  <!-- Pixel 5, 4a (5G) -->
+  <project name="CalyxOS/kernel_google_redbull" path="kernel/google/redbull" remote="gitlab" />
+  <project name="kernel/msm-extra/devicetree" path="kernel/google/redbull/arch/arm64/boot/dts/vendor" revision="refs/tags/android-11.0.0_r0.46" />
+  <project name="kernel/msm-extra/camera-devicetree" path="kernel/google/redbull/arch/arm64/boot/dts/vendor/qcom/camera" revision="refs/tags/android-11.0.0_r0.46" />
+  <project name="kernel/msm-extra/display-devicetree" path="kernel/google/redbull/arch/arm64/boot/dts/vendor/qcom/display" revision="refs/tags/android-11.0.0_r0.46" />
+  <project name="kernel/msm-extra" path="kernel/google/redbull/techpack/audio" revision="refs/tags/android-11.0.0_r0.46" />
+  <project name="kernel/msm-extra/camera-kernel" path="kernel/google/redbull/techpack/camera" revision="refs/tags/android-11.0.0_r0.46" />
+  <project name="kernel/msm-extra/dataipa" path="kernel/google/redbull/techpack/dataipa" revision="refs/tags/android-11.0.0_r0.46" />
+  <project name="kernel/msm-extra/display-drivers" path="kernel/google/redbull/techpack/display" revision="refs/tags/android-11.0.0_r0.46" />
+  <project name="kernel/msm-extra/video-driver" path="kernel/google/redbull/techpack/video" revision="refs/tags/android-11.0.0_r0.46" />
+  <project name="kernel/msm-modules/data-kernel" path="kernel/google/redbull/drivers/staging/data-kernel" revision="refs/tags/android-11.0.0_r0.46" />
+  <project name="kernel/msm-modules/qca-wfi-host-cmn" path="kernel/google/redbull/drivers/staging/qca-wifi-host-cmn" revision="refs/tags/android-11.0.0_r0.46" />
+  <project name="kernel/msm-modules/qcacld" path="kernel/google/redbull/drivers/staging/qcacld-3.0" revision="refs/tags/android-11.0.0_r0.46" />
+  <project name="kernel/msm-modules/wlan-fw-api" path="kernel/google/redbull/drivers/staging/fw-api" revision="refs/tags/android-11.0.0_r0.46" />
+  <project name="kernel/msm-modules/fts_touch" path="kernel/google/redbull/drivers/staging/fts" revision="refs/tags/android-11.0.0_r0.46" />
+  <project name="kernel/msm-modules/sec_touch" path="kernel/google/redbull/drivers/staging/sec" revision="refs/tags/android-11.0.0_r0.46" />
+
   <!-- Mi A2 -->
   <project name="CalyxOS/device_xiaomi_jasmine_sprout" path="device/xiaomi/jasmine_sprout" remote="gitlab" />
   <project name="CalyxOS/device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="gitlab" />
