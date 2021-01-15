@@ -8,6 +8,7 @@
   <project name="CalyxOS/platform_external_microg_GmsCore" path="external/microg/GmsCore" remote="gitlab" />
   <project name="CalyxOS/platform_external_microg_GsfProxy" path="external/microg/GsfProxy" remote="gitlab" />
   <project name="CalyxOS/platform_external_microg_UnifiedNlp" path="external/microg/UnifiedNlp" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_apps_AuroraStorePrivilegedExtension" path="packages/apps/AuroraStorePrivilegedExtension" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Eleven" path="packages/apps/Eleven" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_ElmyraService" path="packages/apps/ElmyraService" remote="gitlab" />
