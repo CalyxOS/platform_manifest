@@ -25,7 +25,10 @@
   <project name="CalyxOS/platform_prebuilts_tools-lineage" path="prebuilts/tools-lineage" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_tools_extract-utils" path="tools/extract-utils" remote="gitlab" />
   <project name="CalyxOS/vendor_android-prepare-vendor" path="vendor/android-prepare-vendor" remote="gitlab" />
-  <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" />
+  <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab">
+    <linkfile src="scripts/build_kernel.sh" dest="kernel/build_kernel.sh" />
+    <linkfile src="scripts/build_kernels.sh" dest="kernel/build_kernels.sh" />
+  </project>
 
   <!-- CodeAurora additions -->
   <project name="CalyxOS/device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="gitlab" />
