@@ -62,6 +62,9 @@
   <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" revision="master" />
 
   <!-- Devices -->
+  <!-- Common -->
+  <project path="kernel/build" name="CalyxOS/kernel_build" remote="gitlab" />
+
   <!-- Pixel 2 -->
   <project name="CalyxOS/kernel_google_wahoo" path="kernel/google/wahoo" remote="gitlab" />
 

@@ -555,7 +555,6 @@
   <project path="hardware/st/nfc" name="platform/hardware/st/nfc" groups="pdk" />
   <project path="hardware/st/secure_element" name="platform/hardware/st/secure_element" groups="pdk" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" />
-  <project path="kernel/build" name="kernel/build" revision="refs/tags/android-11.0.0_r25" />
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
   <project path="kernel/prebuilts/4.19/arm64" name="kernel/prebuilts/4.19/arm64" groups="pdk" clone-depth="1" />
   <project name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" clone-depth="1" revision="05711ec41f24d15e13c3cb85f1e12735e3421e08" />
