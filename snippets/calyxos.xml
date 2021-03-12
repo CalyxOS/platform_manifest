@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- CalyxOS additions -->
+  <project name="CalyxOS/platform_calyx-sdk" path="calyx-sdk" remote="gitlab" />
   <project name="CalyxOS/platform_manifest" path="manifest" remote="gitlab" />
   <project name="CalyxOS/platform_external_microg_FakeStore" path="external/microg/FakeStore" remote="gitlab" />
   <project name="CalyxOS/platform_external_microg_GmsCore" path="external/microg/GmsCore" remote="gitlab" />
