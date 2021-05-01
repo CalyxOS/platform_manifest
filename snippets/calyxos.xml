@@ -72,6 +72,7 @@
   <!-- Devices -->
   <!-- Common -->
   <project path="kernel/build" name="CalyxOS/kernel_build" remote="gitlab" />
+  <project path="prebuilts/kernel-build-tools" name="CalyxOS/platform_prebuilts_kernel-build-tools" clone-depth="1" remote="gitlab" />
 
   <!-- Pixel 2 -->
   <project name="CalyxOS/device_google_wahoo-kernel" path="device/google/wahoo-kernel" remote="gitlab" clone-depth="1" />
