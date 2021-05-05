@@ -1,18 +1,18 @@
 <manifest>
 
-  <project name="CalyxOS/proprietary_vendor_firmware_jasmine_sprout" path="vendor/firmware/jasmine_sprout" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_devices_blueline" path="vendor/google_devices/blueline" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_devices_bonito" path="vendor/google_devices/bonito" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_devices_bramble" path="vendor/google_devices/bramble" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_devices_coral" path="vendor/google_devices/coral" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_devices_crosshatch" path="vendor/google_devices/crosshatch" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_devices_flame" path="vendor/google_devices/flame" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_devices_muskie" path="vendor/google_devices/muskie" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_devices_redfin" path="vendor/google_devices/redfin" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_devices_sargo" path="vendor/google_devices/sargo" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_devices_sunfish" path="vendor/google_devices/sunfish" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_devices_taimen" path="vendor/google_devices/taimen" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_devices_walleye" path="vendor/google_devices/walleye" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_firmware_jasmine_sprout" path="vendor/firmware/jasmine_sprout" remote="gitlab-priv" revision="37da20b663c38192dbe13b34f6447bdbc509b684" upstream="refs/tags/R.2021.05.05.12" dest-branch="refs/tags/R.2021.05.05.12" clone-depth="1"/>
+  <project name="CalyxOS/proprietary_vendor_google_devices_blueline" path="vendor/google_devices/blueline" remote="gitlab-priv" revision="d2cbb3b63904a0ba9a77d8fe7ad11f65fe1dd665" upstream="refs/tags/R.2021.05.05.12" dest-branch="refs/tags/R.2021.05.05.12" clone-depth="1"/>
+  <project name="CalyxOS/proprietary_vendor_google_devices_bonito" path="vendor/google_devices/bonito" remote="gitlab-priv" revision="9d6e378b25a45ca6ff09f474aaa18a180fee1ce5" upstream="refs/tags/R.2021.05.05.12" dest-branch="refs/tags/R.2021.05.05.12" clone-depth="1"/>
+  <project name="CalyxOS/proprietary_vendor_google_devices_bramble" path="vendor/google_devices/bramble" remote="gitlab-priv" revision="dea022236a6bf328f10c1480ac12eaf1e93e715e" upstream="refs/tags/R.2021.05.05.12" dest-branch="refs/tags/R.2021.05.05.12" clone-depth="1"/>
+  <project name="CalyxOS/proprietary_vendor_google_devices_coral" path="vendor/google_devices/coral" remote="gitlab-priv" revision="f18c57b2c08a59851e1fc739fb35ffbe7bb8336d" upstream="refs/tags/R.2021.05.05.12" dest-branch="refs/tags/R.2021.05.05.12" clone-depth="1"/>
+  <project name="CalyxOS/proprietary_vendor_google_devices_crosshatch" path="vendor/google_devices/crosshatch" remote="gitlab-priv" revision="1afd92d33b741bd130b62c18ae268f68a7c97ba9" upstream="refs/tags/R.2021.05.05.12" dest-branch="refs/tags/R.2021.05.05.12" clone-depth="1"/>
+  <project name="CalyxOS/proprietary_vendor_google_devices_flame" path="vendor/google_devices/flame" remote="gitlab-priv" revision="2735abf54a40484ee28371b74fc8588844aee5ee" upstream="refs/tags/R.2021.05.05.12" dest-branch="refs/tags/R.2021.05.05.12" clone-depth="1"/>
+  <project name="CalyxOS/proprietary_vendor_google_devices_muskie" path="vendor/google_devices/muskie" remote="gitlab-priv" revision="b3484c3595f21cb05fb3c4a904464e3d753ec3a4" upstream="refs/tags/R.2021.05.05.12" dest-branch="refs/tags/R.2021.05.05.12" clone-depth="1"/>
+  <project name="CalyxOS/proprietary_vendor_google_devices_redfin" path="vendor/google_devices/redfin" remote="gitlab-priv" revision="2f12b605cde4944edf019ae3a031760b743b006f" upstream="refs/tags/R.2021.05.05.12" dest-branch="refs/tags/R.2021.05.05.12" clone-depth="1"/>
+  <project name="CalyxOS/proprietary_vendor_google_devices_sargo" path="vendor/google_devices/sargo" remote="gitlab-priv" revision="d015d16be28de85ddb056193beb9bcd9616b81f1" upstream="refs/tags/R.2021.05.05.12" dest-branch="refs/tags/R.2021.05.05.12" clone-depth="1"/>
+  <project name="CalyxOS/proprietary_vendor_google_devices_sunfish" path="vendor/google_devices/sunfish" remote="gitlab-priv" revision="86a160a9fb0de3158518d6d87c060ae86652c68e" upstream="refs/tags/R.2021.05.05.12" dest-branch="refs/tags/R.2021.05.05.12" clone-depth="1"/>
+  <project name="CalyxOS/proprietary_vendor_google_devices_taimen" path="vendor/google_devices/taimen" remote="gitlab-priv" revision="84a53ba9cf1449ddfd7a8ef473cd30f97d8a0dd6" upstream="refs/tags/R.2021.05.05.12" dest-branch="refs/tags/R.2021.05.05.12" clone-depth="1"/>
+  <project name="CalyxOS/proprietary_vendor_google_devices_walleye" path="vendor/google_devices/walleye" remote="gitlab-priv" revision="da51855460f39fda4571427c6e7121aa31dcfc71" upstream="refs/tags/R.2021.05.05.12" dest-branch="refs/tags/R.2021.05.05.12" clone-depth="1"/>
+  <project name="CalyxOS/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gitlab-priv" revision="4103e093f241a814ba81123e59fce7f8ecb530f5" upstream="refs/tags/R.2021.05.05.12" dest-branch="refs/tags/R.2021.05.05.12" clone-depth="1"/>
 
 </manifest>
