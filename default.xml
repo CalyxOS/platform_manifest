@@ -597,7 +597,7 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher3" name="CalyxOS/platform_packages_apps_Launcher3" groups="pdk-fs" remote="gitlab" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
-  <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
+  <project path="packages/apps/ManagedProvisioning" name="CalyxOS/platform_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="gitlab" />
   <project path="packages/apps/Messaging" name="CalyxOS/platform_packages_apps_Messaging" groups="pdk-fs" remote="gitlab" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
