@@ -70,7 +70,7 @@
 
   <!-- Non-AOSP repos -->
   <project name="CalyxOS/chromium-patches" path="calyx/chromium-patches" remote="gitlab" />
-  <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" revision="master" />
+  <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" />
 
   <!-- Devices -->
   <!-- Common -->
