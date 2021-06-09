@@ -23,6 +23,7 @@
   <project name="CalyxOS/platform_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Updater" path="packages/apps/Updater" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_providers_CrossProfileProvider" path="packages/providers/CrossProfileProvider" remote="gitlab" />
   <project name="CalyxOS/platform_prebuilts_calyx_chromium_arm" path="prebuilts/calyx/chromium/arm" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_calyx_chromium_arm64" path="prebuilts/calyx/chromium/arm64" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_calyx_chromium_x64" path="prebuilts/calyx/chromium/x64" remote="gitlab" clone-depth="1" />
