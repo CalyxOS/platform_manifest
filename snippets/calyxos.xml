@@ -129,7 +129,7 @@
   <project name="kernel/msm-modules/sec_touch" path="kernel/google/redbull/drivers/staging/sec" revision="refs/tags/android-11.0.0_r0.100" />
 
   <!-- Pixel 5a -->
-  <project name="CalyxOS/device_google_barbet-kernel" path="device/google/barbet-kernel" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/device_google_barbet-kernel" path="device/google/barbet-kernel" remote="gitlab" clone-depth="1" revision="refs/heads/android11-qpr1" />
   <project name="CalyxOS/kernel_google_barbet" path="kernel/google/barbet" remote="gitlab" />
   <project name="kernel/msm-extra/devicetree" path="kernel/google/barbet/arch/arm64/boot/dts/vendor" revision="refs/tags/android-11.0.0_r0.110" />
   <project name="kernel/msm-extra/camera-devicetree" path="kernel/google/barbet/arch/arm64/boot/dts/vendor/qcom/camera" revision="refs/tags/android-11.0.0_r0.110" />
