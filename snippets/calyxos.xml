@@ -78,7 +78,7 @@
   <project path="prebuilts/kernel-build-tools" name="CalyxOS/platform_prebuilts_kernel-build-tools" clone-depth="1" remote="gitlab" />
 
   <!-- Pixel 2 -->
-  <project name="CalyxOS/device_google_wahoo-kernel" path="device/google/wahoo-kernel" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/device_google_wahoo-kernel" path="device/google/wahoo-kernel" remote="gitlab" clone-depth="1" revision="refs/heads/android11-qpr1" />
   <project name="CalyxOS/kernel_google_wahoo" path="kernel/google/wahoo" remote="gitlab" />
 
   <!-- Pixel 3, 3a -->
