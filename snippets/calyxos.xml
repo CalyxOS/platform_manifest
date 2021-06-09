@@ -75,6 +75,7 @@
   <!-- Devices -->
   <!-- Common -->
   <project path="kernel/build" name="CalyxOS/kernel_build" remote="gitlab" />
+  <project path="prebuilt/gas/linux-x86" name="CalyxOS/platform_prebuilts_gas_linux-x86" clone-depth="1" remote="gitlab" />
   <project path="prebuilts/kernel-build-tools" name="CalyxOS/platform_prebuilts_kernel-build-tools" clone-depth="1" remote="gitlab" />
 
   <!-- Pixel 2 -->
