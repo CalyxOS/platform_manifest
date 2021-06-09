@@ -82,12 +82,12 @@
   <project path="prebuilts/kernel-build-tools" name="CalyxOS/platform_prebuilts_kernel-build-tools" clone-depth="1" remote="gitlab" />
 
   <!-- Pixel 2 -->
-  <project name="CalyxOS/device_google_wahoo-kernel" path="device/google/wahoo-kernel" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/device_google_wahoo-kernel" path="device/google/wahoo-kernel" remote="gitlab" clone-depth="1" revision="refs/heads/android11-qpr1" />
   <project name="CalyxOS/kernel_google_wahoo" path="kernel/google/wahoo" remote="gitlab" />
 
   <!-- Pixel 3, 3a -->
-  <project name="CalyxOS/device_google_crosshatch-kernel" path="device/google/crosshatch-kernel" remote="gitlab" clone-depth="1" />
-  <project name="CalyxOS/device_google_bonito-kernel" path="device/google/bonito-kernel" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/device_google_crosshatch-kernel" path="device/google/crosshatch-kernel" remote="gitlab" clone-depth="1" revision="refs/heads/android11-qpr1" />
+  <project name="CalyxOS/device_google_bonito-kernel" path="device/google/bonito-kernel" remote="gitlab" clone-depth="1" revision="refs/heads/android11-qpr1" />
   <project name="CalyxOS/kernel_google_msm-4.9" path="kernel/google/msm-4.9" remote="gitlab" />
   <project name="CalyxOS/kernel_google_msm-4.9_techpack_audio" path="kernel/google/msm-4.9/techpack/audio" remote="gitlab" />
   <project name="kernel/msm-modules/qca-wfi-host-cmn" path="kernel/google/msm-4.9/drivers/staging/qca-wifi-host-cmn" revision="refs/tags/android-11.0.0_r0.112" />
@@ -95,7 +95,7 @@
   <project name="kernel/msm-modules/wlan-fw-api" path="kernel/google/msm-4.9/drivers/staging/fw-api" revision="refs/tags/android-11.0.0_r0.112" />
 
   <!-- Pixel 4 -->
-  <project name="CalyxOS/device_google_coral-kernel" path="device/google/coral-kernel" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/device_google_coral-kernel" path="device/google/coral-kernel" remote="gitlab" clone-depth="1" revision="refs/heads/android11-qpr1" />
   <project name="CalyxOS/kernel_google_coral" path="kernel/google/coral" remote="gitlab" />
   <project name="kernel/msm-extra" path="kernel/google/coral/techpack/audio" revision="refs/tags/android-11.0.0_r0.113" />
   <project name="kernel/msm-modules/data-kernel" path="kernel/google/coral/drivers/staging/data-kernel" revision="refs/tags/android-11.0.0_r0.113" />
@@ -105,7 +105,7 @@
   <project name="kernel/msm-modules/wlan-fw-api" path="kernel/google/coral/drivers/staging/fw-api" revision="refs/tags/android-11.0.0_r0.113" />
 
   <!-- Pixel 4a -->
-  <project name="CalyxOS/device_google_sunfish-kernel" path="device/google/sunfish-kernel" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/device_google_sunfish-kernel" path="device/google/sunfish-kernel" remote="gitlab" clone-depth="1" revision="refs/heads/android11-qpr1" />
   <project name="CalyxOS/kernel_google_sunfish" path="kernel/google/sunfish" remote="gitlab" />
   <project name="CalyxOS/kernel_google_sunfish_techpack_audio" path="kernel/google/sunfish/techpack/audio" remote="gitlab" />
   <project name="kernel/msm-modules/data-kernel" path="kernel/google/sunfish/drivers/staging/data-kernel" revision="refs/tags/android-11.0.0_r0.114" />
@@ -115,7 +115,7 @@
   <project name="kernel/msm-modules/wlan-fw-api" path="kernel/google/sunfish/drivers/staging/fw-api" revision="refs/tags/android-11.0.0_r0.114" />
 
   <!-- Pixel 5, 4a (5G) -->
-  <project name="CalyxOS/device_google_redbull-kernel" path="device/google/redbull-kernel" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/device_google_redbull-kernel" path="device/google/redbull-kernel" remote="gitlab" clone-depth="1" revision="refs/heads/android11-qpr1" />
   <project name="CalyxOS/kernel_google_redbull" path="kernel/google/redbull" remote="gitlab" />
   <project name="kernel/msm-extra/devicetree" path="kernel/google/redbull/arch/arm64/boot/dts/vendor" revision="refs/tags/android-11.0.0_r0.115" />
   <project name="kernel/msm-extra/camera-devicetree" path="kernel/google/redbull/arch/arm64/boot/dts/vendor/qcom/camera" revision="refs/tags/android-11.0.0_r0.115" />
@@ -133,7 +133,7 @@
   <project name="kernel/msm-modules/sec_touch" path="kernel/google/redbull/drivers/staging/sec" revision="refs/tags/android-11.0.0_r0.115" />
 
   <!-- Pixel 5a -->
-  <project name="CalyxOS/device_google_barbet-kernel" path="device/google/barbet-kernel" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/device_google_barbet-kernel" path="device/google/barbet-kernel" remote="gitlab" clone-depth="1" revision="refs/heads/android11-qpr1" />
   <project name="CalyxOS/kernel_google_barbet" path="kernel/google/barbet" remote="gitlab" />
   <project name="kernel/msm-extra/devicetree" path="kernel/google/barbet/arch/arm64/boot/dts/vendor" revision="refs/tags/android-11.0.0_r0.116" />
   <project name="kernel/msm-extra/camera-devicetree" path="kernel/google/barbet/arch/arm64/boot/dts/vendor/qcom/camera" revision="refs/tags/android-11.0.0_r0.116" />
