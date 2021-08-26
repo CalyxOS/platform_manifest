@@ -61,6 +61,8 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
   <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
+  <project path="device/google/barbet" name="CalyxOS/device_google_barbet" groups="device,barbet" remote="gitlab" />
+  <project path="device/google/barbet-sepolicy" name="CalyxOS/device_google_barbet-sepolicy" groups="device,barbet" remote="gitlab" />
   <project path="device/google/bonito" name="CalyxOS/device_google_bonito" groups="device,bonito" remote="gitlab" />
   <project path="device/google/bonito-sepolicy" name="CalyxOS/device_google_bonito-sepolicy" groups="device,bonito" remote="gitlab" />
   <project path="device/google/bramble" name="CalyxOS/device_google_bramble" groups="device,bramble" remote="gitlab" />
