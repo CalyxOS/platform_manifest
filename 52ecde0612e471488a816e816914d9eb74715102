@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95ee7e05_9c4a0505",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-05T22:27:25Z",
+      "side": 1,
+      "message": "I guess this could wait until we figure things out / Google drops Pixel sauce.\n\nI was thinking kernel/manifest otherwise.",
+      "revId": "52ecde0612e471488a816e816914d9eb74715102",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
