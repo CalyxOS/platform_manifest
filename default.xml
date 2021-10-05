@@ -12,7 +12,7 @@
            fetch="ssh://git@gitlab.com"
            review="review.calyxos.org"
            revision="refs/heads/android11-qpr1" />
-  <default revision="refs/tags/android-11.0.0_r43"
+  <default revision="refs/tags/android-11.0.0_r46"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
