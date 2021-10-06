@@ -16,6 +16,23 @@
       "message": "Not all pushed yet.\n\nbionic\ndevice/google/bonito\ndevice/google/sunfish\ndevice/google/crosshatch\nframeworks/base\npackages/apps/Launcher3",
       "revId": "c9179c13144c64dc2a1894c05e841f530086c8f2",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "51242983_4b41283f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-06T11:27:42Z",
+      "side": 1,
+      "message": "All pushed, sync works.\n\nFaster to just push them all, I think.\n\nIf we need forks, easy to make one.\n\nIf something ends up un-used, we can just take it out / switch back to AOSP in December.",
+      "revId": "c9179c13144c64dc2a1894c05e841f530086c8f2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
