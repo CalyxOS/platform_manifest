@@ -1082,5 +1082,6 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <include name="snippets/calyxos.xml" />
+  <include name="snippets/lineageos.xml" />
 
 </manifest>
