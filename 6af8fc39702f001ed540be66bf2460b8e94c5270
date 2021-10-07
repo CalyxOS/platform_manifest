@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "473997e2_9c95ab9e",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T10:58:33Z",
+      "side": 1,
+      "message": "We can get rid of these links.\n\nNot going to build kernel like this anymore.\n\nWill cleanup / move the files later.",
+      "revId": "6af8fc39702f001ed540be66bf2460b8e94c5270",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
