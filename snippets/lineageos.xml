@@ -8,9 +8,9 @@
   <!--<project name="CalyxOS/platform_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="gitlab" />-->
   <!--<project name="CalyxOS/platform_packages_apps_Recorder" path="packages/apps/Recorder" remote="gitlab" />-->
   <!--<project name="CalyxOS/platform_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" remote="gitlab" />-->
-  <!--<project name="CalyxOS/platform_prebuilts_extract-tools" path="prebuilts/extract-tools" remote="gitlab" clone-depth="1" />-->
-  <!--<project name="CalyxOS/platform_prebuilts_tools-lineage" path="prebuilts/tools-lineage" remote="gitlab" clone-depth="1" />-->
-  <!--<project name="CalyxOS/platform_tools_extract-utils" path="tools/extract-utils" remote="gitlab" />-->
+  <project name="CalyxOS/platform_prebuilts_extract-tools" path="prebuilts/extract-tools" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/platform_prebuilts_tools-lineage" path="prebuilts/tools-lineage" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/platform_tools_extract-utils" path="tools/extract-utils" remote="gitlab" />
 
   <!-- CodeAurora additions -->
   <!--<project name="CalyxOS/device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="gitlab" />-->
