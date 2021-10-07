@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "353cc7a0_c36dbc26",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T10:58:02Z",
+      "side": 0,
+      "message": "We could move this to a different section, \n\n\u003c!-- LineageOS forks with additional changes --\u003e or something.",
+      "revId": "c6c66a112ec52825dee30e6ac28cf4fb648460b0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d5ed9910_edef8aeb",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T10:58:02Z",
+      "side": 0,
+      "message": "This could go in that section with sdk.",
+      "revId": "c6c66a112ec52825dee30e6ac28cf4fb648460b0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7357c36a_62068e78",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T10:58:02Z",
+      "side": 0,
+      "message": "I guess this isn\u0027t exactly lineage, but works.",
+      "revId": "c6c66a112ec52825dee30e6ac28cf4fb648460b0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1da39e1b_a22f3489",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T10:58:02Z",
+      "side": 0,
+      "message": "This could go in that section with sdk.",
+      "revId": "c6c66a112ec52825dee30e6ac28cf4fb648460b0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e5d4d8c7_b325a25c",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-07T10:58:02Z",
+      "side": 0,
+      "message": "Same, different upstream.",
+      "revId": "c6c66a112ec52825dee30e6ac28cf4fb648460b0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
