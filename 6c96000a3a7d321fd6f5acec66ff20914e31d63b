@@ -16,6 +16,24 @@
       "message": "Maybe have this in it\u0027s own since we\u0027ll probably have different merging frequency / strategy for devices.",
       "revId": "6c96000a3a7d321fd6f5acec66ff20914e31d63b",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3af324d_095e6098",
+        "filename": "snippets/lineageos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-11T19:40:01Z",
+      "side": 1,
+      "message": "Fine for now.",
+      "parentUuid": "c4140e8e_40154170",
+      "revId": "6c96000a3a7d321fd6f5acec66ff20914e31d63b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
