@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ad81cd49_28469936",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-10-25T20:14:46Z",
+      "side": 1,
+      "message": "Up on gerrit now, if you want to upload changes.\n\nWill be on gitlab momentarily.",
+      "revId": "894060c966c899c295a9d547d6b8cf11c564b2d7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
