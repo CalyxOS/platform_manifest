@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b7975a6c_9b025773",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-10-26T02:33:56Z",
+      "side": 1,
+      "message": "Cannot compile new netd java methods without adding netd_aidl_interface-V8-java(minSdkVersion:29) to https://cs.android.com/android/platform/superproject/+/master:packages/modules/common/build/allowed_deps.txt;l\u003d1?q\u003dallowed_deps",
+      "revId": "c482ae1290d0bd63cb707cb1ba96deca6f0b3631",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
