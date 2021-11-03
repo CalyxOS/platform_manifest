@@ -381,7 +381,7 @@
   <project path="external/rappor" name="platform/external/rappor" groups="pdk" />
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk" />
   <project path="external/rmi4utils" name="platform/external/rmi4utils" groups="pdk" />
-  <project path="external/robolectric-shadows" name="platform/external/robolectric-shadows" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/robolectric-shadows" name="CalyxOS/platform_external_robolectric-shadows" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
   <project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk" />
   <project path="external/rootdev" name="platform/external/rootdev" groups="pdk" />
   <project path="external/Reactive-Extensions/RxCpp" name="platform/external/Reactive-Extensions/RxCpp" groups="pdk" />
@@ -506,7 +506,7 @@
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="CalyxOS/platform_hardware_knowles_athletico_sound_trigger_hal" groups="coral,generic_fs" remote="gitlab" />
   <project path="hardware/libhardware" name="CalyxOS/platform_hardware_libhardware" groups="pdk" remote="gitlab" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
-  <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" groups="pdk" />
+  <project path="hardware/nxp/nfc" name="CalyxOS/platform_hardware_nxp_nfc" groups="pdk" remote="gitlab" />
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk" />
   <project path="hardware/qcom/audio" name="CalyxOS/platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="gitlab" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk-qcom" />
@@ -728,7 +728,7 @@
   <project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" groups="pdk" clone-depth="1" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/apex" name="platform/system/apex" groups="pdk" />
-  <project path="system/bt" name="platform/system/bt" groups="pdk" />
+  <project path="system/bt" name="CalyxOS/platform_system_bt" groups="pdk" remote="gitlab" />
   <project path="system/bpf" name="platform/system/bpf" groups="pdk" />
   <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
