@@ -54,6 +54,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "f24add7c_f1b29d19",
+        "filename": "snippets/lineageos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-11-09T21:54:42Z",
+      "side": 1,
+      "message": "pushed",
+      "parentUuid": "471b24b1_05ae4dec",
+      "revId": "d5c5588ac27236572143af65e893c084c4270400",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "e4b0fdba_eef7d289",
         "filename": "snippets/lineageos.xml",
         "patchSetId": 1
