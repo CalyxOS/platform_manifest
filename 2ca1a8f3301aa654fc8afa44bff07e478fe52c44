@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db45d2ff_9d811c60",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-11-10T16:29:54Z",
+      "side": 1,
+      "message": "https://review.calyxos.org/c/CalyxOS/platform_packages_overlays_Calyx/+/6624 Add git-review configuration [NEW]",
+      "revId": "2ca1a8f3301aa654fc8afa44bff07e478fe52c44",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2d377fb3_d50a222f",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-11-10T16:29:54Z",
+      "side": 1,
+      "message": "pushed lineage-19.0 to android12",
+      "revId": "2ca1a8f3301aa654fc8afa44bff07e478fe52c44",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
