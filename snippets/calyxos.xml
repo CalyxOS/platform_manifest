@@ -5,13 +5,13 @@
   <project name="CalyxOS/platform_manifest" path="manifest" remote="gitlab" />
   <!--<project name="CalyxOS/platform_external_calyx_GCamPhotosPreview" path="external/calyx/GCamPhotosPreview" remote="gitlab" />-->
   <!--<project name="CalyxOS/platform_external_fdroid_fdroidclient" path="external/fdroid/fdroidclient" remote="gitlab" />-->
-  <!--<project name="CalyxOS/platform_external_microg_DejaVu" path="external/microg/DejaVu" remote="gitlab" />-->
-  <!--<project name="CalyxOS/platform_external_microg_FakeStore" path="external/microg/FakeStore" remote="gitlab" />-->
-  <!--<project name="CalyxOS/platform_external_microg_GmsCore" path="external/microg/GmsCore" remote="gitlab" />-->
-  <!--<project name="CalyxOS/platform_external_microg_GsfProxy" path="external/microg/GsfProxy" remote="gitlab" />-->
-  <!--<project name="CalyxOS/platform_external_microg_IchnaeaNlpBackend" path="external/microg/IchnaeaNlpBackend" remote="gitlab" />-->
-  <!--<project name="CalyxOS/platform_external_microg_NominatimGeocoderBackend" path="external/microg/NominatimGeocoderBackend" remote="gitlab" />-->
-  <!--<project name="CalyxOS/platform_external_microg_UnifiedNlp" path="external/microg/UnifiedNlp" remote="gitlab" />-->
+  <project name="CalyxOS/platform_external_microg_DejaVu" path="external/microg/DejaVu" remote="gitlab" />
+  <project name="CalyxOS/platform_external_microg_FakeStore" path="external/microg/FakeStore" remote="gitlab" />
+  <project name="CalyxOS/platform_external_microg_GmsCore" path="external/microg/GmsCore" remote="gitlab" />
+  <project name="CalyxOS/platform_external_microg_GsfProxy" path="external/microg/GsfProxy" remote="gitlab" />
+  <project name="CalyxOS/platform_external_microg_IchnaeaNlpBackend" path="external/microg/IchnaeaNlpBackend" remote="gitlab" />
+  <project name="CalyxOS/platform_external_microg_NominatimGeocoderBackend" path="external/microg/NominatimGeocoderBackend" remote="gitlab" />
+  <project name="CalyxOS/platform_external_microg_UnifiedNlp" path="external/microg/UnifiedNlp" remote="gitlab" />
   <!--<project name="CalyxOS/platform_packages_apps_AuroraStorePrivilegedExtension" path="packages/apps/AuroraStorePrivilegedExtension" remote="gitlab" />-->
   <!--<project name="CalyxOS/platform_packages_apps_F-DroidPrivilegedExtension" path="packages/apps/F-DroidPrivilegedExtension" remote="gitlab" />-->
   <!--<project name="CalyxOS/platform_packages_apps_Firewall" path="packages/apps/Firewall" remote="gitlab" />-->
@@ -22,7 +22,7 @@
   <!--<project name="CalyxOS/platform_prebuilts_calyx_chromium_x64" path="prebuilts/calyx/chromium/x64" remote="gitlab" clone-depth="1" />-->
   <!--<project name="CalyxOS/platform_prebuilts_calyx_chromium_x86" path="prebuilts/calyx/chromium/x86" remote="gitlab" clone-depth="1" />-->
   <!--<project name="CalyxOS/platform_prebuilts_calyx_fdroid" path="prebuilts/calyx/fdroid" remote="gitlab" clone-depth="1" />-->
-  <!--<project name="CalyxOS/platform_prebuilts_calyx_microg" path="prebuilts/calyx/microg" remote="gitlab" clone-depth="1" />-->
+  <project name="CalyxOS/platform_prebuilts_calyx_microg" path="prebuilts/calyx/microg" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" />
 
   <!-- LineageOS forks with additional changes -->
