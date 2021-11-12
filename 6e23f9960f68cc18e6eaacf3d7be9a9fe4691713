@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bf3d180d_47ed1a11",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-11-12T23:00:13Z",
+      "side": 1,
+      "message": "Chromium works.\nDuckduckgo works.\nSettings -\u003e About -\u003e Legal works.",
+      "revId": "6e23f9960f68cc18e6eaacf3d7be9a9fe4691713",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
