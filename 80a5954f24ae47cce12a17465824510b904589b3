@@ -16,6 +16,23 @@
       "message": "All pushed.\n\nWill push new .gitreview and then start rebasing our changes.",
       "revId": "80a5954f24ae47cce12a17465824510b904589b3",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d14eed10_4d37ac69",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-11-16T13:32:11Z",
+      "side": 1,
+      "message": "Actually, wait before Android.mk removal is merged everywhere since that\u0027ll break builds otherwise.",
+      "revId": "80a5954f24ae47cce12a17465824510b904589b3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
