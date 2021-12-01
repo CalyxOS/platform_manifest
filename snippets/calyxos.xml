@@ -44,19 +44,22 @@
   <!--<project name="CalyxOS/device_google_wahoo-kernel" path="device/google/wahoo-kernel" remote="gitlab" clone-depth="1" />-->
 
   <!-- Pixel 3, 3a -->
-  <!--<project name="CalyxOS/device_google_crosshatch-kernel" path="device/google/crosshatch-kernel" remote="gitlab" clone-depth="1" />-->
-  <!--<project name="CalyxOS/device_google_bonito-kernel" path="device/google/bonito-kernel" remote="gitlab" clone-depth="1" />-->
+  <project name="CalyxOS/device_google_crosshatch-kernel" path="device/google/crosshatch-kernel" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/device_google_bonito-kernel" path="device/google/bonito-kernel" remote="gitlab" clone-depth="1" />
 
   <!-- Pixel 4 -->
-  <!--<project name="CalyxOS/device_google_coral-kernel" path="device/google/coral-kernel" remote="gitlab" clone-depth="1" />-->
+  <project name="CalyxOS/device_google_coral-kernel" path="device/google/coral-kernel" remote="gitlab" clone-depth="1" />
 
   <!-- Pixel 4a -->
-  <!--<project name="CalyxOS/device_google_sunfish-kernel" path="device/google/sunfish-kernel" remote="gitlab" clone-depth="1" />-->
+  <project name="CalyxOS/device_google_sunfish-kernel" path="device/google/sunfish-kernel" remote="gitlab" clone-depth="1" />
 
   <!-- Pixel 5, 4a (5G) -->
-  <!--<project name="CalyxOS/device_google_redbull-kernel" path="device/google/redbull-kernel" remote="gitlab" clone-depth="1" />-->
+  <project name="CalyxOS/device_google_redbull-kernel" path="device/google/redbull-kernel" remote="gitlab" clone-depth="1" />
 
   <!-- Pixel 5a -->
-  <!--<project name="CalyxOS/device_google_barbet-kernel" path="device/google/barbet-kernel" remote="gitlab" clone-depth="1" />-->
+  <project name="CalyxOS/device_google_barbet-kernel" path="device/google/barbet-kernel" remote="gitlab" clone-depth="1" />
+
+  <!-- Pixel 6, 6 Pro -->
+  <project name="CalyxOS/device_google_raviole-kernel" path="device/google/raviole-kernel" remote="gitlab" clone-depth="1" />
 
 </manifest>
