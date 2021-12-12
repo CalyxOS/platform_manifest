@@ -3,6 +3,7 @@
 
   <!-- LineageOS additions -->
   <project name="CalyxOS/platform_external_exfatprogs" path="external/exfatprogs" groups="lineage" remote="gitlab" />
+  <project name="platform/external/tinyxml" path="external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
   <project name="CalyxOS/platform_packages_apps_Aperture" path="packages/apps/Aperture" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_AudioFX" path="packages/apps/AudioFX" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_DeskClock" path="packages/apps/DeskClock" groups="lineage" remote="gitlab" />
