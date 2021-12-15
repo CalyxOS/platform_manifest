@@ -44,20 +44,23 @@
   <!-- Pixel 2 -->
   <!--<project name="CalyxOS/device_google_wahoo-kernel" path="device/google/wahoo-kernel" remote="gitlab" clone-depth="1" />-->
 
-  <!-- Pixel 3 -->
+  <!-- Pixel 3, 3 XL -->
+  <project name="CalyxOS/device_google_blueline" path="device/google/blueline" groups="device,crosshatch,generic_fs" remote="gitlab" />
   <project name="CalyxOS/device_google_crosshatch" path="device/google/crosshatch" groups="device,crosshatch,generic_fs" remote="gitlab" />
   <project name="CalyxOS/device_google_crosshatch-kernel" path="device/google/crosshatch-kernel" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_crosshatch-sepolicy" path="device/google/crosshatch-sepolicy" groups="device,crosshatch,generic_fs" remote="gitlab" />
 
-  <!-- Pixel 3a -->
+  <!-- Pixel 3a, 3a XL -->
   <project name="CalyxOS/device_google_bonito" path="device/google/bonito" groups="device,bonito" remote="gitlab" />
   <project name="CalyxOS/device_google_bonito-kernel" path="device/google/bonito-kernel" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_bonito-sepolicy" path="device/google/bonito-sepolicy" groups="device,bonito" remote="gitlab" />
+  <project name="CalyxOS/device_google_sargo" path="device/google/sargo" groups="device,bonito" remote="gitlab" />
 
-  <!-- Pixel 4 -->
+  <!-- Pixel 4, 4 XL -->
   <project name="CalyxOS/device_google_coral" path="device/google/coral" groups="device,coral,generic_fs" remote="gitlab" />
   <project name="CalyxOS/device_google_coral-kernel" path="device/google/coral-kernel" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_coral-sepolicy" path="device/google/coral-sepolicy" groups="device,coral,generic_fs" remote="gitlab" />
+  <project name="CalyxOS/device_google_flame" path="device/google/flame" groups="device,coral,generic_fs" remote="gitlab" />
 
   <!-- Pixel 4a -->
   <project name="CalyxOS/device_google_sunfish" path="device/google/sunfish" groups="device,sunfish" remote="gitlab" />
@@ -80,6 +83,8 @@
   <project name="CalyxOS/device_google_gs101" path="device/google/gs101" groups="device,slider" remote="gitlab" />
   <project name="CalyxOS/device_google_gs101-sepolicy" path="device/google/gs101-sepolicy" groups="device,slider" remote="gitlab" />
   <project name="CalyxOS/device_google_gs-common" path="device/google/gs-common" groups="device,slider,pdk-gs-arm" remote="gitlab" />
+  <project name="CalyxOS/device_google_oriole" path="device/google/oriole" groups="device,slider" remote="gitlab" />
+  <project name="CalyxOS/device_google_raven" path="device/google/raven" groups="device,slider" remote="gitlab" />
   <project name="CalyxOS/device_google_raviole" path="device/google/raviole" groups="device,slider" remote="gitlab" />
   <project name="CalyxOS/device_google_raviole-kernel" path="device/google/raviole-kernel" remote="gitlab" clone-depth="1" />
 
