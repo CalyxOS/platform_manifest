@@ -26,7 +26,7 @@
     <!-- add guards for CAF repositories -->
     <!--<linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />-->
     <!--<linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />-->
-  <!--</project>-->
+  </project>
   <!--<project name="CalyxOS/platform_hardware_qcom-caf_msm8998_audio" path="hardware/qcom-caf/msm8998/audio" remote="gitlab" />-->
   <!--<project name="CalyxOS/platform_hardware_qcom-caf_msm8998_display" path="hardware/qcom-caf/msm8998/display" remote="gitlab" />-->
   <!--<project name="CalyxOS/platform_hardware_qcom-caf_msm8998_media" path="hardware/qcom-caf/msm8998/media" remote="gitlab" />-->
