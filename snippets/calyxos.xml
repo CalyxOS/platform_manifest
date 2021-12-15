@@ -45,17 +45,23 @@
   <!--<project name="CalyxOS/device_google_wahoo-kernel" path="device/google/wahoo-kernel" remote="gitlab" clone-depth="1" />-->
 
   <!-- Pixel 3 -->
-  <project name="CalyxOS/device_google_crosshatch" path="device/google/crosshatch" groups="device,crosshatch,generic_fs" remote="gitlab" />
+  <project name="CalyxOS/device_google_crosshatch" path="device/google/crosshatch" groups="device,crosshatch,generic_fs" remote="gitlab" >
+    <linkfile src="blueline/extract-files.sh" dest="device/google/blueline/extract-files.sh" />
+  </project>
   <project name="CalyxOS/device_google_crosshatch-kernel" path="device/google/crosshatch-kernel" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_crosshatch-sepolicy" path="device/google/crosshatch-sepolicy" groups="device,crosshatch,generic_fs" remote="gitlab" />
 
   <!-- Pixel 3a -->
-  <project name="CalyxOS/device_google_bonito" path="device/google/bonito" groups="device,bonito" remote="gitlab" />
+  <project name="CalyxOS/device_google_bonito" path="device/google/bonito" groups="device,bonito" remote="gitlab" >
+    <linkfile src="sargo/extract-files.sh" dest="device/google/sargo/extract-files.sh" />
+  </project>
   <project name="CalyxOS/device_google_bonito-kernel" path="device/google/bonito-kernel" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_bonito-sepolicy" path="device/google/bonito-sepolicy" groups="device,bonito" remote="gitlab" />
 
   <!-- Pixel 4 -->
-  <project name="CalyxOS/device_google_coral" path="device/google/coral" groups="device,coral,generic_fs" remote="gitlab" />
+  <project name="CalyxOS/device_google_coral" path="device/google/coral" groups="device,coral,generic_fs" remote="gitlab" >
+    <linkfile src="flame/extract-files.sh" dest="device/google/flame/extract-files.sh" />
+  </project>
   <project name="CalyxOS/device_google_coral-kernel" path="device/google/coral-kernel" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_coral-sepolicy" path="device/google/coral-sepolicy" groups="device,coral,generic_fs" remote="gitlab" />
 
@@ -80,7 +86,10 @@
   <project name="CalyxOS/device_google_gs101" path="device/google/gs101" groups="device,slider" remote="gitlab" />
   <project name="CalyxOS/device_google_gs101-sepolicy" path="device/google/gs101-sepolicy" groups="device,slider" remote="gitlab" />
   <project name="CalyxOS/device_google_gs-common" path="device/google/gs-common" groups="device,slider,pdk-gs-arm" remote="gitlab" />
-  <project name="CalyxOS/device_google_raviole" path="device/google/raviole" groups="device,slider" remote="gitlab" />
+  <project name="CalyxOS/device_google_raviole" path="device/google/raviole" groups="device,slider" remote="gitlab" >
+    <linkfile src="oriole/extract-files.sh" dest="device/google/oriole/extract-files.sh" />
+    <linkfile src="raven/extract-files.sh" dest="device/google/raven/extract-files.sh" />
+  </project>
   <project name="CalyxOS/device_google_raviole-kernel" path="device/google/raviole-kernel" remote="gitlab" clone-depth="1" />
 
 </manifest>
