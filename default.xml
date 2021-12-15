@@ -72,27 +72,7 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
   <project path="device/generic/vulkan-cereal" name="device/generic/vulkan-cereal" groups="pdk" />
   <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
-  <project path="device/google/barbet" name="CalyxOS/device_google_barbet" groups="device,barbet" remote="gitlab" />
-  <project path="device/google/barbet-sepolicy" name="CalyxOS/device_google_barbet-sepolicy" groups="device,barbet" remote="gitlab" />
-  <project path="device/google/bonito" name="CalyxOS/device_google_bonito" groups="device,bonito" remote="gitlab" />
-  <project path="device/google/bonito-sepolicy" name="CalyxOS/device_google_bonito-sepolicy" groups="device,bonito" remote="gitlab" />
-  <project path="device/google/bramble" name="CalyxOS/device_google_bramble" groups="device,bramble" remote="gitlab" />
-  <project path="device/google/bramble-sepolicy" name="CalyxOS/device_google_bramble-sepolicy" groups="device,bramble" remote="gitlab" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
-  <project path="device/google/coral" name="CalyxOS/device_google_coral" groups="device,coral,generic_fs" remote="gitlab" />
-  <project path="device/google/coral-sepolicy" name="CalyxOS/device_google_coral-sepolicy" groups="device,coral,generic_fs" remote="gitlab" />
-  <project path="device/google/gs101" name="CalyxOS/device_google_gs101" groups="device,slider" remote="gitlab" />
-  <project path="device/google/gs101-sepolicy" name="CalyxOS/device_google_gs101-sepolicy" groups="device,slider" remote="gitlab" />
-  <project path="device/google/gs-common" name="CalyxOS/device_google_gs-common" groups="device,slider,pdk-gs-arm" remote="gitlab" />
-  <project path="device/google/raviole" name="CalyxOS/device_google_raviole" groups="device,slider" remote="gitlab" />
-  <project path="device/google/redbull" name="CalyxOS/device_google_redbull" groups="device,redbull" remote="gitlab" />
-  <project path="device/google/redbull-sepolicy" name="CalyxOS/device_google_redbull-sepolicy" groups="device,redbull" remote="gitlab" />
-  <project path="device/google/redfin" name="CalyxOS/device_google_redfin" groups="device,redfin" remote="gitlab" />
-  <project path="device/google/redfin-sepolicy" name="CalyxOS/device_google_redfin-sepolicy" groups="device,redfin" remote="gitlab" />
-  <project path="device/google/sunfish" name="CalyxOS/device_google_sunfish" groups="device,sunfish" remote="gitlab" />
-  <project path="device/google/sunfish-sepolicy" name="CalyxOS/device_google_sunfish-sepolicy" groups="device,sunfish" remote="gitlab" />
-  <project path="device/google/crosshatch" name="CalyxOS/device_google_crosshatch" groups="device,crosshatch,generic_fs" remote="gitlab" />
-  <project path="device/google/crosshatch-sepolicy" name="CalyxOS/device_google_crosshatch-sepolicy" groups="device,crosshatch,generic_fs" remote="gitlab" />
   <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
   <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk" clone-depth="1" />
   <project path="device/google/fuchsia" name="device/google/fuchsia" groups="device" />
