@@ -22,6 +22,30 @@
       },
       "revId": "151fbf16f578bf03490f77919e0c399246b02e68",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb53053e_e465e000",
+        "filename": "snippets/lineageos.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-15T22:44:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "69c83cde_21d67246",
+      "range": {
+        "startLine": 37,
+        "startChar": 2,
+        "endLine": 37,
+        "endChar": 133
+      },
+      "revId": "151fbf16f578bf03490f77919e0c399246b02e68",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
