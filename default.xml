@@ -105,8 +105,8 @@
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" groups="pdk" />
   <project path="external/auto" name="platform/external/auto" groups="pdk" />
   <project path="external/autotest" name="platform/external/autotest" groups="pdk-fs" />
-  <project path="external/android-nn-driver" name="platform/external/android-nn-driver" groups="pdk-lassen" />
-  <project path="external/armnn" name="platform/external/armnn" groups="pdk-lassen" />
+  <project path="external/android-nn-driver" name="CalyxOS/platform_external_android-nn-driver" groups="pdk-lassen" remote="gitlab" />
+  <project path="external/armnn" name="CalyxOS/platform_external_armnn" groups="pdk-lassen" remote="gitlab" />
   <project path="external/avb" name="platform/external/avb" groups="pdk" />
   <project path="external/bazelbuild-rules_android" name="platform/external/bazelbuild-rules_android" groups="pdk" />
   <project path="external/bc" name="platform/external/bc" groups="pdk" />
