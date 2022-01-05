@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3f01c83_c06d0634",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-05T16:01:39Z",
+      "side": 1,
+      "message": "android-11.0.0_r46 pushed to both.\n\nhttps://review.calyxos.org/c/CalyxOS/platform_external_tremolo/+/7597\nhttps://review.calyxos.org/c/CalyxOS/platform_system_tools_aidl/+/7598",
+      "revId": "f76483a8e6251d6228a63854787669c30bd7666b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
