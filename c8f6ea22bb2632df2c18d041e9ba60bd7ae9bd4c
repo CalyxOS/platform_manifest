@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "508bf72e_8ee23783",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-10T22:32:50Z",
+      "side": 1,
+      "message": "Forked, r18 pushed.",
+      "revId": "c8f6ea22bb2632df2c18d041e9ba60bd7ae9bd4c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
