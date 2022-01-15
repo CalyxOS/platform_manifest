@@ -12,12 +12,12 @@
            fetch="ssh://git@gitlab.com"
            review="review.calyxos.org"
            revision="refs/heads/android12" />
-  <default revision="refs/tags/android-12.0.0_r26"
+  <default revision="refs/tags/android-12.0.0_r27"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-12.0.0_r26" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-12.0.0_r27" />
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="CalyxOS/platform_build" groups="pdk" remote="gitlab" >
@@ -128,7 +128,7 @@
   <project path="external/cldr" name="platform/external/cldr" groups="pdk" />
   <project path="external/cn-cbor" name="platform/external/cn-cbor" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
-  <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" groups="pdk-lassen" revision="refs/tags/android-12.0.0_r18" />
+  <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" groups="pdk-lassen" />
   <project path="external/connectedappssdk" name="platform/external/connectedappssdk" groups="pdk" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk" />
   <project path="external/cpu_features" name="platform/external/cpu_features" groups="pdk" />
@@ -694,9 +694,9 @@
   <project path="hardware/google/av" name="platform/hardware/google/av" groups="pdk" />
   <project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk" />
   <project path="hardware/google/easel" name="platform/hardware/google/easel" groups="pdk,easel" />
-  <project path="hardware/google/gchips" name="platform/hardware/google/gchips" groups="pdk-lassen" revision="refs/tags/android-12.0.0_r18" />
-  <project path="hardware/google/graphics/common" name="platform/hardware/google/graphics/common" groups="pdk-lassen" revision="refs/tags/android-12.0.0_r18" />
-  <project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" groups="pdk-lassen" revision="refs/tags/android-12.0.0_r18" />
+  <project path="hardware/google/gchips" name="platform/hardware/google/gchips" groups="pdk-lassen" />
+  <project path="hardware/google/graphics/common" name="platform/hardware/google/graphics/common" groups="pdk-lassen" />
+  <project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" groups="pdk-lassen" />
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" />
   <project path="hardware/google/pixel" name="CalyxOS/platform_hardware_google_pixel" groups="generic_fs,pixel" remote="gitlab" />
   <project path="hardware/google/pixel-sepolicy" name="CalyxOS/platform_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="gitlab" />
@@ -705,7 +705,7 @@
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="CalyxOS/platform_hardware_knowles_athletico_sound_trigger_hal" groups="coral,generic_fs" remote="gitlab" />
   <project path="hardware/libhardware" name="CalyxOS/platform_hardware_libhardware" groups="pdk" remote="gitlab" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
-  <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" groups="pdk" />
+  <project path="hardware/nxp/nfc" name="CalyxOS/platform_hardware_nxp_nfc" groups="pdk" remote="gitlab" />
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk" />
   <project path="hardware/qcom/audio" name="CalyxOS/platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="gitlab" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk-qcom" />
