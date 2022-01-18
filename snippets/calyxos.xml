@@ -30,6 +30,7 @@
   <project name="CalyxOS/device_calyx_sepolicy" path="device/calyx/sepolicy" remote="gitlab" />
   <project name="CalyxOS/platform_calyx-sdk" path="calyx-sdk" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_calyx_interfaces" path="hardware/calyx/interfaces" remote="gitlab" />
+  <project name="CalyxOS/platform_hardware_calyx_livedisplay" path="hardware/calyx/livedisplay" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_CalyxParts" path="packages/apps/CalyxParts" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="gitlab" />
