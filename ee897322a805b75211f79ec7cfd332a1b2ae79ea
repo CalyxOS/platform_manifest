@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f9e5f247_e0faabcd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-18T17:07:30Z",
+      "side": 1,
+      "message": "Pushed.  https://review.calyxos.org/c/CalyxOS/platform_hardware_calyx_livedisplay/+/8492",
+      "revId": "ee897322a805b75211f79ec7cfd332a1b2ae79ea",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
