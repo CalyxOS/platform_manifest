@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8df46abd_209eaf87",
+        "filename": "snippets/lineageos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-02-23T19:58:52Z",
+      "side": 1,
+      "message": "This is the one that\u0027s wrong, however\n\nhttps://github.com/LineageOS/android_vendor_qcom_opensource_display-commonsys-intf\n\nWe should do\n\nCalyxOS/vendor_qcom_opensource_commonsys-intf_display",
+      "revId": "fa468411e0178c482a0ddfb13b5475b036411487",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
