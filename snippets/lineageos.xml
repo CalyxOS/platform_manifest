@@ -55,7 +55,7 @@
   <project name="CalyxOS/vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_audio-hal_st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_commonsys_display" path="vendor/qcom/opensource/commonsys/display" remote="gitlab" />
-  <project name="CalyxOS/vendor_qcom_opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="gitlab" />
+  <project name="CalyxOS/vendor_qcom_opensource_commonsys-intf_display" path="vendor/qcom/opensource/commonsys-intf/display" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_display" path="vendor/qcom/opensource/display" remote="gitlab" />
