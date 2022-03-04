@@ -17,6 +17,8 @@
   <project name="CalyxOS/proprietary_vendor_google_raven" path="vendor/google/raven" remote="gitlab-priv" clone-depth="1" />
   <project name="CalyxOS/proprietary_vendor_google_oriole" path="vendor/google/oriole" remote="gitlab-priv" clone-depth="1" />
 
+  <project name="CalyxOS/proprietary_vendor_fairphone_FP4" path="vendor/fairphone/FP4" remote="gitlab-priv" clone-depth="1" />
+
   <!--<project name="CalyxOS/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gitlab-priv" clone-depth="1" />-->
   <!--<project name="CalyxOS/proprietary_vendor_firmware_jasmine_sprout" path="vendor/firmware/jasmine_sprout" remote="gitlab-priv" clone-depth="1" />-->
 
