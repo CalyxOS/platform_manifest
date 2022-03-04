@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f365926_a9f3a16e",
+        "filename": "proprietary.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-04T18:14:23Z",
+      "side": 1,
+      "message": "Split",
+      "revId": "a8a9d8e08e8a6d88714687b760c0de6db03f103b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0013ded1_dc796851",
+        "filename": "snippets/lineageos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-04T18:14:23Z",
+      "side": 1,
+      "message": "https://github.com/WeAreFairphone/android_device_fairphone_FP4/commit/90b364ac06b5a90e65790a752ef7c013f5f9c8f7 pushed",
+      "revId": "a8a9d8e08e8a6d88714687b760c0de6db03f103b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1923f8a9_fb8f5d85",
+        "filename": "snippets/lineageos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-04T18:14:23Z",
+      "side": 1,
+      "message": "https://github.com/WeAreFairphone/android_kernel_fairphone_sm7225/commit/db5f38bbd162db2d19eaebe783eb79eacb1e1ed9 on the way",
+      "revId": "a8a9d8e08e8a6d88714687b760c0de6db03f103b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "440f3030_206a87e8",
+        "filename": "snippets/lineageos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-04T18:14:23Z",
+      "side": 1,
+      "message": "lineage-19.0 pushed to android12 for below repos.\n\ndevice and hardware done, kernel on the way",
+      "revId": "a8a9d8e08e8a6d88714687b760c0de6db03f103b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
