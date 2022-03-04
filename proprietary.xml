@@ -21,6 +21,10 @@
   <!--<project name="CalyxOS/proprietary_vendor_google_devices_walleye" path="vendor/google_devices/walleye" remote="gitlab-priv" clone-depth="1" />-->
   <!--<project name="CalyxOS/proprietary_vendor_google_devices_taimen" path="vendor/google_devices/taimen" remote="gitlab-priv" clone-depth="1" />-->
 
+  <project name="CalyxOS/proprietary_vendor_fairphone" path="vendor/fairphone" remote="gitlab-priv" clone-depth="1" />
+
+  <project name="CalyxOS/proprietary_vendor_oneplus" path="vendor/oneplus" remote="gitlab-priv" clone-depth="1" />
+
   <!--<project name="CalyxOS/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gitlab-priv" clone-depth="1" />-->
   <!--<project name="CalyxOS/proprietary_vendor_firmware_jasmine_sprout" path="vendor/firmware/jasmine_sprout" remote="gitlab-priv" clone-depth="1" />-->
 
