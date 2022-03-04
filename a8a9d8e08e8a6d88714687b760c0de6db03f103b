@@ -70,6 +70,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fc923dc8_5d6f8ade",
+        "filename": "snippets/lineageos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-04T20:26:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1923f8a9_fb8f5d85",
+      "revId": "a8a9d8e08e8a6d88714687b760c0de6db03f103b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "440f3030_206a87e8",
@@ -83,6 +101,24 @@
       "writtenOn": "2022-03-04T18:14:23Z",
       "side": 1,
       "message": "lineage-19.0 pushed to android12 for below repos.\n\ndevice and hardware done, kernel on the way",
+      "revId": "a8a9d8e08e8a6d88714687b760c0de6db03f103b",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a8b486de_61d3d295",
+        "filename": "snippets/lineageos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-04T20:26:07Z",
+      "side": 1,
+      "message": "Kernel done",
+      "parentUuid": "440f3030_206a87e8",
       "revId": "a8a9d8e08e8a6d88714687b760c0de6db03f103b",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
