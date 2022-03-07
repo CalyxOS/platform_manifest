@@ -24,7 +24,7 @@
   <project name="CalyxOS/platform_prebuilts_calyx_fdroid" path="prebuilts/calyx/fdroid" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_calyx_microg" path="prebuilts/calyx/microg" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_calyx_tmp" path="prebuilts/calyx/tmp" remote="gitlab" clone-depth="1" />
-  <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" />
+  <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" revision="refs/tags/3.2.2" />
 
   <!-- LineageOS forks with additional changes -->
   <project name="CalyxOS/device_calyx_sepolicy" path="device/calyx/sepolicy" remote="gitlab" />
@@ -88,6 +88,6 @@
   <project name="CalyxOS/device_google_oriole" path="device/google/oriole" groups="device,slider" remote="gitlab" />
   <project name="CalyxOS/device_google_raven" path="device/google/raven" groups="device,slider" remote="gitlab" />
   <project name="CalyxOS/device_google_raviole" path="device/google/raviole" groups="device,slider" remote="gitlab" />
-  <project name="CalyxOS/device_google_raviole-kernel" path="device/google/raviole-kernel" groups="device,slider" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/device_google_raviole-kernel" path="device/google/raviole-kernel" groups="device,slider" remote="gitlab" clone-depth="1" revision="refs/tags/3.2.2" />
 
 </manifest>
