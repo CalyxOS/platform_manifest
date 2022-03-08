@@ -7,11 +7,15 @@
   <remote  name="gitlab"
            fetch=".."
            review="review.calyxos.org"
+           revision="refs/heads/android12" />
+  <remote  name="agitlab"
+           fetch=".."
+           review="review.calyxos.org"
            revision="refs/heads/android12L" />
   <remote  name="gitlab-priv"
            fetch="ssh://git@gitlab.com"
            review="review.calyxos.org"
-           revision="refs/heads/android12L" />
+           revision="refs/heads/android12" />
   <default revision="refs/tags/android-12.1.0_r1"
            remote="aosp"
            sync-j="4"
@@ -20,7 +24,7 @@
   <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r1" />
   <contactinfo bugurl="go/repo-bug" />
 
-  <project path="build/make" name="CalyxOS/platform_build" groups="pdk" remote="gitlab" >
+  <project path="build/make" name="CalyxOS/platform_build" groups="pdk" remote="agitlab" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -36,12 +40,12 @@
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" />
-  <project path="build/soong" name="CalyxOS/platform_build_soong" groups="pdk,tradefed" remote="gitlab" >
+  <project path="build/soong" name="CalyxOS/platform_build_soong" groups="pdk,tradefed" remote="agitlab" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="CalyxOS/platform_bionic" groups="pdk" remote="gitlab" />
+  <project path="bionic" name="CalyxOS/platform_bionic" groups="pdk" remote="agitlab" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" />
@@ -50,9 +54,9 @@
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" />
   <project path="developers/samples/android" name="platform/developers/samples/android" groups="developers" />
-  <project path="development" name="CalyxOS/platform_development" groups="developers,pdk-cw-fs,pdk-fs" remote="gitlab" />
+  <project path="development" name="CalyxOS/platform_development" groups="developers,pdk-cw-fs,pdk-fs" remote="agitlab" />
   <project path="device/amlogic/yukawa" name="device/amlogic/yukawa" groups="device,yukawa,pdk" />
-  <project path="device/common" name="CalyxOS/device_common" groups="pdk-cw-fs,pdk" remote="gitlab" />
+  <project path="device/common" name="CalyxOS/device_common" groups="pdk-cw-fs,pdk" remote="agitlab" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/art" name="device/generic/art" groups="pdk" />
@@ -104,8 +108,8 @@
   <project path="external/arm-trusted-firmware" name="platform/external/arm-trusted-firmware" groups="pdk" />
   <project path="external/auto" name="platform/external/auto" groups="pdk" />
   <project path="external/autotest" name="platform/external/autotest" groups="pdk-fs" />
-  <project path="external/android-nn-driver" name="CalyxOS/platform_external_android-nn-driver" groups="pdk-lassen" remote="gitlab" />
-  <project path="external/armnn" name="CalyxOS/platform_external_armnn" groups="pdk-lassen" remote="gitlab" />
+  <project path="external/android-nn-driver" name="CalyxOS/platform_external_android-nn-driver" groups="pdk-lassen" remote="agitlab" />
+  <project path="external/armnn" name="CalyxOS/platform_external_armnn" groups="pdk-lassen" remote="agitlab" />
   <project path="external/avb" name="platform/external/avb" groups="pdk" />
   <project path="external/bazelbuild-rules_android" name="platform/external/bazelbuild-rules_android" groups="pdk" />
   <project path="external/bc" name="platform/external/bc" groups="pdk" />
@@ -617,7 +621,7 @@
   <project path="external/timezone-boundary-builder" name="platform/external/timezone-boundary-builder" groups="pdk" clone-depth="2" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" />
   <project path="external/tinyalsa_new" name="platform/external/tinyalsa_new" groups="pdk" />
-  <project path="external/tinycompress" name="CalyxOS/platform_external_tinycompress" groups="pdk" remote="gitlab" />
+  <project path="external/tinycompress" name="CalyxOS/platform_external_tinycompress" groups="pdk" remote="agitlab" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/toolchain-utils" name="platform/external/toolchain-utils" />
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" />
@@ -652,8 +656,8 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" />
   <project path="external/zstd" name="platform/external/zstd" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" />
-  <project path="frameworks/av" name="CalyxOS/platform_frameworks_av" groups="pdk" remote="gitlab" />
-  <project path="frameworks/base" name="CalyxOS/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
+  <project path="frameworks/av" name="CalyxOS/platform_frameworks_av" groups="pdk" remote="agitlab" />
+  <project path="frameworks/base" name="CalyxOS/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="agitlab" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -662,12 +666,12 @@
   <project path="frameworks/layoutlib" name="platform/frameworks/layoutlib" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/libs/systemui" name="platform/frameworks/libs/systemui" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/libs/modules-utils" name="platform/frameworks/libs/modules-utils" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/libs/net" name="CalyxOS/platform_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
+  <project path="frameworks/libs/net" name="CalyxOS/platform_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" remote="agitlab" />
   <project path="frameworks/libs/native_bridge_support" name="platform/frameworks/libs/native_bridge_support" groups="pdk" />
   <project path="frameworks/libs/service_entitlement" name="platform/frameworks/libs/service_entitlement" groups="pdk" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="CalyxOS/platform_frameworks_native" groups="pdk" remote="gitlab" />
+  <project path="frameworks/native" name="CalyxOS/platform_frameworks_native" groups="pdk" remote="agitlab" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/car/services" name="platform/frameworks/opt/car/services" groups="pdk-fs" />
@@ -678,11 +682,11 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/net/wifi" name="CalyxOS/platform_frameworks_opt_net_wifi" groups="pdk" remote="gitlab" />
+  <project path="frameworks/opt/net/wifi" name="CalyxOS/platform_frameworks_opt_net_wifi" groups="pdk" remote="agitlab" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="CalyxOS/platform_frameworks_opt_telephony" groups="pdk" remote="gitlab" />
-  <project path="frameworks/opt/timezonepicker" name="CalyxOS/platform_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
+  <project path="frameworks/opt/telephony" name="CalyxOS/platform_frameworks_opt_telephony" groups="pdk" remote="agitlab" />
+  <project path="frameworks/opt/timezonepicker" name="CalyxOS/platform_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="agitlab" />
   <project path="frameworks/opt/tv/tvsystem" name="platform/frameworks/opt/tv/tvsystem" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/proto_logging" name="platform/frameworks/proto_logging" groups="pdk-cw-fs,pdk-fs" />
@@ -698,20 +702,20 @@
   <project path="hardware/google/graphics/common" name="platform/hardware/google/graphics/common" groups="pdk-lassen" />
   <project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" groups="pdk-lassen" />
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" />
-  <project path="hardware/google/pixel" name="CalyxOS/platform_hardware_google_pixel" groups="generic_fs,pixel" remote="gitlab" />
-  <project path="hardware/google/pixel-sepolicy" name="CalyxOS/platform_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="gitlab" />
-  <project path="hardware/interfaces" name="CalyxOS/platform_hardware_interfaces" groups="pdk" remote="gitlab" />
+  <project path="hardware/google/pixel" name="CalyxOS/platform_hardware_google_pixel" groups="generic_fs,pixel" remote="agitlab" />
+  <project path="hardware/google/pixel-sepolicy" name="CalyxOS/platform_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="agitlab" />
+  <project path="hardware/interfaces" name="CalyxOS/platform_hardware_interfaces" groups="pdk" remote="agitlab" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
-  <project path="hardware/knowles/athletico/sound_trigger_hal" name="CalyxOS/platform_hardware_knowles_athletico_sound_trigger_hal" groups="coral,generic_fs" remote="gitlab" />
-  <project path="hardware/libhardware" name="CalyxOS/platform_hardware_libhardware" groups="pdk" remote="gitlab" />
+  <project path="hardware/knowles/athletico/sound_trigger_hal" name="CalyxOS/platform_hardware_knowles_athletico_sound_trigger_hal" groups="coral,generic_fs" remote="agitlab" />
+  <project path="hardware/libhardware" name="CalyxOS/platform_hardware_libhardware" groups="pdk" remote="agitlab" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
-  <project path="hardware/nxp/nfc" name="CalyxOS/platform_hardware_nxp_nfc" groups="pdk" remote="gitlab" />
+  <project path="hardware/nxp/nfc" name="CalyxOS/platform_hardware_nxp_nfc" groups="pdk" remote="agitlab" />
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk" />
-  <project path="hardware/qcom/audio" name="CalyxOS/platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="gitlab" />
+  <project path="hardware/qcom/audio" name="CalyxOS/platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="agitlab" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk-qcom" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk-qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom_camera,pdk-qcom" />
-  <project path="hardware/qcom/data/ipacfg-mgr" name="CalyxOS/platform_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="gitlab" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="CalyxOS/platform_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="agitlab" />
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk-qcom,qcom,qcom_display" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps,pdk-qcom" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk-qcom" />
@@ -722,28 +726,28 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
   </project>
-  <project path="hardware/qcom/sdm845/display" name="CalyxOS/platform_hardware_qcom_sdm845_display" groups="generic_fs,qcom_sdm845" remote="gitlab" />
+  <project path="hardware/qcom/sdm845/display" name="CalyxOS/platform_hardware_qcom_sdm845_display" groups="generic_fs,qcom_sdm845" remote="agitlab" />
   <project path="hardware/qcom/sdm845/gps" name="platform/hardware/qcom/sdm845/gps" groups="generic_fs,qcom_sdm845" />
-  <project path="hardware/qcom/sdm845/media" name="CalyxOS/platform_hardware_qcom_sdm845_media" groups="generic_fs,qcom_sdm845" remote="gitlab" />
+  <project path="hardware/qcom/sdm845/media" name="CalyxOS/platform_hardware_qcom_sdm845_media" groups="generic_fs,qcom_sdm845" remote="agitlab" />
   <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" groups="generic_fs,qcom_sdm845" />
   <project path="hardware/qcom/sdm845/vr" name="platform/hardware/qcom/sdm845/vr" groups="generic_fs,qcom_sdm845" />
   <project path="hardware/qcom/sm7150/gps" name="platform/hardware/qcom/sm7150/gps" groups="qcom_sm7150" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7150/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7150/Android.bp" />
   </project>
-  <project path="hardware/qcom/sm7250/display" name="CalyxOS/platform_hardware_qcom_sm7250_display" groups="qcom_sm7250" remote="gitlab" />
+  <project path="hardware/qcom/sm7250/display" name="CalyxOS/platform_hardware_qcom_sm7250_display" groups="qcom_sm7250" remote="agitlab" />
   <project path="hardware/qcom/sm7250/gps" name="platform/hardware/qcom/sm7250/gps" groups="qcom_sm7250" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7250/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7250/Android.bp" />
   </project>
-  <project path="hardware/qcom/sm7250/media" name="CalyxOS/platform_hardware_qcom_sm7250_media" groups="qcom_sm7250" remote="gitlab" />
-  <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="CalyxOS/platform_hardware_qcom_sm8150_data_ipacfg-mgr" groups="qcom_sm8150" remote="gitlab" >
+  <project path="hardware/qcom/sm7250/media" name="CalyxOS/platform_hardware_qcom_sm7250_media" groups="qcom_sm7250" remote="agitlab" />
+  <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="CalyxOS/platform_hardware_qcom_sm8150_data_ipacfg-mgr" groups="qcom_sm8150" remote="agitlab" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
   </project>
-  <project path="hardware/qcom/sm8150/display" name="CalyxOS/platform_hardware_qcom_sm8150_display" groups="qcom_sm8150" remote="gitlab" />
+  <project path="hardware/qcom/sm8150/display" name="CalyxOS/platform_hardware_qcom_sm8150_display" groups="qcom_sm8150" remote="agitlab" />
   <project path="hardware/qcom/sm8150/gps" name="platform/hardware/qcom/sm8150/gps" groups="qcom_sm8150" />
-  <project path="hardware/qcom/sm8150/media" name="CalyxOS/platform_hardware_qcom_sm8150_media" groups="qcom_sm8150" remote="gitlab" />
+  <project path="hardware/qcom/sm8150/media" name="CalyxOS/platform_hardware_qcom_sm8150_media" groups="qcom_sm8150" remote="agitlab" />
   <project path="hardware/qcom/sm8150/thermal" name="platform/hardware/qcom/sm8150/thermal" groups="qcom_sm8150" />
   <project path="hardware/qcom/sm8150/vr" name="platform/hardware/qcom/sm8150/vr" groups="qcom_sm8150" />
   <project path="hardware/qcom/sm8150p/gps" name="platform/hardware/qcom/sm8150p/gps" groups="qcom_sm8150p" >
@@ -776,9 +780,9 @@
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="CalyxOS/platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
+  <project path="packages/apps/Bluetooth" name="CalyxOS/platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="agitlab" />
   <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" />
-  <project path="packages/apps/Camera2" name="CalyxOS/platform_packages_apps_Camera2" groups="pdk-fs" remote="gitlab" />
+  <project path="packages/apps/Camera2" name="CalyxOS/platform_packages_apps_Camera2" groups="pdk-fs" remote="agitlab" />
   <project path="packages/apps/Car/Calendar" name="platform/packages/apps/Car/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Car/SystemUI" name="platform/packages/apps/Car/SystemUI" groups="pdk-fs" />
   <project path="packages/apps/Car/Cluster" name="platform/packages/apps/Car/Cluster" groups="pdk-fs" />
@@ -800,26 +804,26 @@
   <project path="packages/apps/Car/SystemUpdater" name="platform/packages/apps/Car/SystemUpdater" groups="pdk-fs" />
   <project path="packages/apps/Car/libs" name="platform/packages/apps/Car/libs" groups="pdk-fs" />
   <project path="packages/apps/Car/tests" name="platform/packages/apps/Car/tests" groups="pdk-fs" />
-  <project path="packages/apps/CarrierConfig" name="CalyxOS/platform_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
-  <project path="packages/apps/CellBroadcastReceiver" name="CalyxOS/platform_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
+  <project path="packages/apps/CarrierConfig" name="CalyxOS/platform_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="agitlab" />
+  <project path="packages/apps/CellBroadcastReceiver" name="CalyxOS/platform_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="agitlab" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="CalyxOS/platform_packages_apps_Contacts" groups="pdk-fs" remote="gitlab" />
+  <project path="packages/apps/Contacts" name="CalyxOS/platform_packages_apps_Contacts" groups="pdk-fs" remote="agitlab" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
-  <project path="packages/apps/Dialer" name="CalyxOS/platform_packages_apps_Dialer" groups="pdk-fs" remote="gitlab" />
-  <project path="packages/apps/DocumentsUI" name="CalyxOS/platform_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
+  <project path="packages/apps/Dialer" name="CalyxOS/platform_packages_apps_Dialer" groups="pdk-fs" remote="agitlab" />
+  <project path="packages/apps/DocumentsUI" name="CalyxOS/platform_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="agitlab" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
-  <project path="packages/apps/Gallery2" name="CalyxOS/platform_packages_apps_Gallery2" groups="pdk-fs" remote="gitlab" />
+  <project path="packages/apps/Gallery2" name="CalyxOS/platform_packages_apps_Gallery2" groups="pdk-fs" remote="agitlab" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/ImsServiceEntitlement" name="platform/packages/apps/ImsServiceEntitlement" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="CalyxOS/platform_packages_apps_Launcher3" groups="pdk-fs" remote="gitlab" />
+  <project path="packages/apps/Launcher3" name="CalyxOS/platform_packages_apps_Launcher3" groups="pdk-fs" remote="agitlab" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
-  <project path="packages/apps/ManagedProvisioning" name="CalyxOS/platform_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="gitlab" />
-  <project path="packages/apps/Messaging" name="CalyxOS/platform_packages_apps_Messaging" groups="pdk-fs" remote="gitlab" />
+  <project path="packages/apps/ManagedProvisioning" name="CalyxOS/platform_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="agitlab" />
+  <project path="packages/apps/Messaging" name="CalyxOS/platform_packages_apps_Messaging" groups="pdk-fs" remote="agitlab" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" name="CalyxOS/platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="gitlab" />
+  <project path="packages/apps/Nfc" name="CalyxOS/platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="agitlab" />
   <project path="packages/apps/OnDeviceAppPrediction" name="platform/packages/apps/OnDeviceAppPrediction" groups="pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
@@ -831,23 +835,23 @@
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" />
   <project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" />
   <project path="packages/apps/SecureElement" name="platform/packages/apps/SecureElement" groups="apps_se,pdk-fs" />
-  <project path="packages/apps/Settings" name="CalyxOS/platform_packages_apps_Settings" groups="pdk-fs" remote="gitlab" />
-  <project path="packages/apps/SettingsIntelligence" name="CalyxOS/platform_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="gitlab" />
+  <project path="packages/apps/Settings" name="CalyxOS/platform_packages_apps_Settings" groups="pdk-fs" remote="agitlab" />
+  <project path="packages/apps/SettingsIntelligence" name="CalyxOS/platform_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="agitlab" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
-  <project path="packages/apps/Stk" name="CalyxOS/platform_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="gitlab" />
-  <project path="packages/apps/StorageManager" name="CalyxOS/platform_packages_apps_StorageManager" groups="pdk-fs" remote="gitlab" />
+  <project path="packages/apps/Stk" name="CalyxOS/platform_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="agitlab" />
+  <project path="packages/apps/StorageManager" name="CalyxOS/platform_packages_apps_StorageManager" groups="pdk-fs" remote="agitlab" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" groups="pdk" />
   <project path="packages/apps/TimeZoneData" name="platform/packages/apps/TimeZoneData" groups="pdk" />
   <project path="packages/apps/TimeZoneUpdater" name="platform/packages/apps/TimeZoneUpdater" groups="pdk" />
-  <project path="packages/apps/ThemePicker" name="CalyxOS/platform_packages_apps_ThemePicker" groups="pdk-fs" remote="gitlab" />
+  <project path="packages/apps/ThemePicker" name="CalyxOS/platform_packages_apps_ThemePicker" groups="pdk-fs" remote="agitlab" />
   <project path="packages/apps/Traceur" name="platform/packages/apps/Traceur" groups="pdk-fs" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="pdk-fs" />
   <project path="packages/apps/TV" name="platform/packages/apps/TV" groups="pdk" />
   <project path="packages/apps/UniversalMediaPlayer" name="platform/packages/apps/UniversalMediaPlayer" />
   <project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" groups="pdk-fs" />
-  <project path="packages/apps/WallpaperPicker2" name="CalyxOS/platform_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="gitlab" />
-  <project path="packages/inputmethods/LatinIME" name="CalyxOS/platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="gitlab" />
+  <project path="packages/apps/WallpaperPicker2" name="CalyxOS/platform_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="agitlab" />
+  <project path="packages/inputmethods/LatinIME" name="CalyxOS/platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="agitlab" />
   <project path="packages/inputmethods/LeanbackIME" name="platform/packages/inputmethods/LeanbackIME" groups="pdk-fs" />
   <project path="packages/modules/adb" name="platform/packages/modules/adb" groups="pdk" />
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" groups="pdk" clone-depth="1" />
@@ -855,8 +859,8 @@
   <project path="packages/modules/BootPrebuilt/5.10/arm64" name="platform/packages/modules/BootPrebuilt/5.10/arm64" groups="pdk" clone-depth="1" />
   <project path="packages/modules/CaptivePortalLogin" name="platform/packages/modules/CaptivePortalLogin" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/CellBroadcastService" name="platform/packages/modules/CellBroadcastService" groups="pdk" />
-  <project path="packages/modules/common" name="CalyxOS/platform_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
-  <project path="packages/modules/Connectivity" name="CalyxOS/platform_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
+  <project path="packages/modules/common" name="CalyxOS/platform_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="agitlab" />
+  <project path="packages/modules/Connectivity" name="CalyxOS/platform_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="agitlab" />
   <project path="packages/modules/Cronet" name="platform/packages/modules/Cronet" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/ExtServices" name="platform/packages/modules/ExtServices" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/GeoTZ" name="platform/packages/modules/GeoTZ" groups="pdk-cw-fs,pdk-fs" />
@@ -867,7 +871,7 @@
   <project path="packages/modules/NetworkPermissionConfig" name="platform/packages/modules/NetworkPermissionConfig" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/modules/Permission" name="CalyxOS/platform_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
+  <project path="packages/modules/Permission" name="CalyxOS/platform_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="agitlab" />
   <project path="packages/modules/RuntimeI18n" name="platform/packages/modules/RuntimeI18n" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/Scheduling" name="platform/packages/modules/Scheduling" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/SdkExtensions" name="platform/packages/modules/SdkExtensions" groups="pdk-cw-fs,pdk-fs" />
@@ -875,16 +879,16 @@
   <project path="packages/modules/TestModule" name="platform/packages/modules/TestModule" />
   <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" groups="pdk" />
   <project path="packages/modules/vndk" name="platform/packages/modules/vndk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/modules/Wifi" name="CalyxOS/platform_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
+  <project path="packages/modules/Wifi" name="CalyxOS/platform_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="agitlab" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" groups="pdk-fs" />
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
-  <project path="packages/providers/ContactsProvider" name="CalyxOS/platform_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
-  <project path="packages/providers/DownloadProvider" name="CalyxOS/platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
+  <project path="packages/providers/ContactsProvider" name="CalyxOS/platform_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="agitlab" />
+  <project path="packages/providers/DownloadProvider" name="CalyxOS/platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="agitlab" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
-  <project path="packages/providers/TelephonyProvider" name="CalyxOS/platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
+  <project path="packages/providers/TelephonyProvider" name="CalyxOS/platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="agitlab" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" />
@@ -895,8 +899,8 @@
   <project path="packages/services/Iwlan" name="platform/packages/services/Iwlan" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mtp" name="platform/packages/services/Mtp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telecomm" name="CalyxOS/platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
-  <project path="packages/services/Telephony" name="CalyxOS/platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
+  <project path="packages/services/Telecomm" name="CalyxOS/platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="agitlab" />
+  <project path="packages/services/Telephony" name="CalyxOS/platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="agitlab" />
   <project path="packages/wallpapers/ImageWallpaper" name="platform/packages/wallpapers/ImageWallpaper" groups="pdk-fs" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
@@ -967,13 +971,13 @@
   <project path="prebuilts/vndk/v31" name="platform/prebuilts/vndk/v31" groups="pdk" clone-depth="1" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/apex" name="platform/system/apex" groups="pdk" />
-  <project path="system/bt" name="CalyxOS/platform_system_bt" groups="pdk" remote="gitlab" />
+  <project path="system/bt" name="CalyxOS/platform_system_bt" groups="pdk" remote="agitlab" />
   <project path="system/bpf" name="platform/system/bpf" groups="pdk" />
   <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
   <project path="system/chre" name="platform/system/chre" groups="pdk" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" />
-  <project path="system/core" name="CalyxOS/platform_system_core" groups="pdk" remote="gitlab" />
+  <project path="system/core" name="CalyxOS/platform_system_core" groups="pdk" remote="agitlab" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/gsid" name="platform/system/gsid" groups="pdk" />
@@ -989,7 +993,7 @@
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" />
   <project path="system/libprocinfo" name="platform/system/libprocinfo" groups="pdk" />
   <project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" />
-  <project path="system/libufdt" name="CalyxOS/platform_system_libufdt" groups="pdk" remote="gitlab" />
+  <project path="system/libufdt" name="CalyxOS/platform_system_libufdt" groups="pdk" remote="agitlab" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" />
   <project path="system/libziparchive" name="platform/system/libziparchive" groups="pdk" />
   <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" />
@@ -1001,11 +1005,11 @@
   <project path="system/memory/libmemtrack" name="platform/system/memory/libmemtrack" groups="pdk" />
   <project path="system/memory/libmemunreachable" name="platform/system/memory/libmemunreachable" groups="pdk" />
   <project path="system/memory/lmkd" name="platform/system/memory/lmkd" groups="pdk" />
-  <project path="system/netd" name="CalyxOS/platform_system_netd" groups="pdk" remote="gitlab" />
+  <project path="system/netd" name="CalyxOS/platform_system_netd" groups="pdk" remote="agitlab" />
   <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="CalyxOS/platform_system_sepolicy" groups="pdk" remote="gitlab" />
+  <project path="system/sepolicy" name="CalyxOS/platform_system_sepolicy" groups="pdk" remote="agitlab" />
   <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk"/>
   <project path="system/teeui" name="platform/system/teeui" groups="pdk" />
   <project path="system/testing/gtest_extras" name="platform/system/testing/gtest_extras" groups="pdk" />
@@ -1016,7 +1020,7 @@
   <project path="system/tools/sysprop" name="platform/system/tools/sysprop" groups="pdk" />
   <project path="system/tools/xsdc" name="platform/system/tools/xsdc" groups="pdk" />
   <project path="system/unwinding" name="platform/system/unwinding" groups="pdk" />
-  <project path="system/update_engine" name="CalyxOS/platform_system_update_engine" groups="pdk" remote="gitlab" />
+  <project path="system/update_engine" name="CalyxOS/platform_system_update_engine" groups="pdk" remote="agitlab" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="test/framework" name="platform/test/framework" groups="vts,projectarch,pdk" />
   <project path="test/mlts/benchmark" name="platform/test/mlts/benchmark" groups="pdk" />
