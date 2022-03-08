@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc56b00e_3ca18608",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-08T18:36:46Z",
+      "side": 1,
+      "message": "Pick to sync.",
+      "revId": "4ca2ff14fcbdbf3fdcfed23645a807711cfd6e48",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
