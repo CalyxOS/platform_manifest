@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "283c2818_508dffcd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-13T00:07:55Z",
+      "side": 1,
+      "message": "Wait till above commit is merged in Etar-Group and also LineageOS, and then we can update our fork.",
+      "revId": "b12846d58deb83ec36946c26264912816fec9974",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
