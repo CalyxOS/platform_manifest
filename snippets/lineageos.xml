@@ -72,6 +72,18 @@
   <project name="CalyxOS/device_fairphone_FP4" path="device/fairphone/FP4" remote="gitlab" />
   <project name="CalyxOS/kernel_fairphone_sm7225" path="kernel/fairphone/sm7225" remote="gitlab" />
 
+  <!-- OnePlus 8T -->
+  <project name="CalyxOS/device_oneplus_kebab" path="device/oneplus/kebab" remote="gitlab" />
+  <project name="CalyxOS/device_oneplus_sm8250-common" path="device/oneplus/sm8250-common" remote="gitlab" />
+  <project name="CalyxOS/kernel_oneplus_sm8250" path="kernel/oneplus/sm8250" remote="gitlab" />
+
+  <!-- OnePlus 9 -->
+  <project name="CalyxOS/device_oneplus_lemonade" path="device/oneplus/lemonade" remote="gitlab" />
+  <project name="CalyxOS/device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="gitlab" />
+  <project name="CalyxOS/kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="gitlab" />
+
+  <project name="CalyxOS/platform_hardware_oneplus" path="hardware/oneplus" remote="gitlab" />
+
   <!-- Mi A2 -->
   <!--<project name="CalyxOS/device_xiaomi_jasmine_sprout" path="device/xiaomi/jasmine_sprout" remote="gitlab" />-->
   <!--<project name="CalyxOS/device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="gitlab" />-->
