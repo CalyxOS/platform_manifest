@@ -42,9 +42,6 @@
 
   <!-- Devices -->
 
-  <!-- Pixel 2 -->
-  <!--<project name="CalyxOS/device_google_wahoo-kernel" path="device/google/wahoo-kernel" remote="gitlab" clone-depth="1" />-->
-
   <!-- Pixel 3, 3 XL -->
   <project name="CalyxOS/device_google_blueline" path="device/google/blueline" groups="device,crosshatch,generic_fs" remote="gitlab" />
   <project name="CalyxOS/device_google_crosshatch" path="device/google/crosshatch" groups="device,crosshatch,generic_fs" remote="gitlab" />
