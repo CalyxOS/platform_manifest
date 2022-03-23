@@ -16,6 +16,23 @@
       "message": "Not forked yet.\n\nNeed to fork and apply https://gist.github.com/luca020400/9e1d0c9ba949e9b63997c8852d4e72c0",
       "revId": "138825b19a92fe0ac8d62a66b5ee6a65dea9efdc",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb461f81_55f129cf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-23T22:23:37Z",
+      "side": 1,
+      "message": "Forked ",
+      "revId": "138825b19a92fe0ac8d62a66b5ee6a65dea9efdc",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
