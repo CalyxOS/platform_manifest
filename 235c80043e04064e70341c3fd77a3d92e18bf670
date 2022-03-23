@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8588a57c_aa18e241",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-23T17:45:05Z",
+      "side": 1,
+      "message": "Hold, vendor repos exist but they\u0027re empty so sync will fail.",
+      "revId": "235c80043e04064e70341c3fd77a3d92e18bf670",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
