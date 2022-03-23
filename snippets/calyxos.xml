@@ -3,6 +3,7 @@
 
   <!-- CalyxOS additions -->
   <project name="CalyxOS/platform_manifest" path="manifest" remote="gitlab" />
+  <project name="CalyxOS/platform_external_calyx_chromium" path="external/calyx/chromium" remote="gitlab" />
   <!--<project name="CalyxOS/platform_external_calyx_GCamPhotosPreview" path="external/calyx/GCamPhotosPreview" remote="gitlab" />-->
   <project name="CalyxOS/platform_external_fdroid_fdroidclient" path="external/fdroid/fdroidclient" remote="gitlab" />
   <project name="CalyxOS/platform_external_microg_DejaVu" path="external/microg/DejaVu" remote="gitlab" />
@@ -37,7 +38,6 @@
   <project name="CalyxOS/platform_packages_overlays_Calyx" path="packages/overlays/Calyx" remote="gitlab" />
 
   <!-- Non-AOSP repos -->
-  <project name="CalyxOS/chromium-patches" path="calyx/chromium-patches" remote="gitlab" />
   <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" />
 
   <!-- Devices -->
