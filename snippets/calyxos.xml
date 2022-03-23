@@ -3,6 +3,7 @@
 
   <!-- CalyxOS additions -->
   <project name="CalyxOS/platform_manifest" path="manifest" remote="gitlab" />
+  <project name="CalyxOS/platform_external_calyx_chromium" path="external/calyx/chromium" remote="gitlab" />
   <!--<project name="CalyxOS/platform_external_calyx_GCamPhotosPreview" path="external/calyx/GCamPhotosPreview" remote="gitlab" />-->
   <project name="CalyxOS/platform_external_fdroid_fdroidclient" path="external/fdroid/fdroidclient" remote="gitlab" />
   <project name="CalyxOS/platform_external_microg_DejaVu" path="external/microg/DejaVu" remote="gitlab" />
