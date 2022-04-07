@@ -16,6 +16,23 @@
       "message": "To help with easier future auto-merging",
       "revId": "3956d5b4ed30b3d6d3e6dfda0ea5458f73a44c15",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce04209a_616ec879",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-04-07T22:44:51Z",
+      "side": 1,
+      "message": "We don\u0027t track lineage app directly for this (eg. we skipped all the db migration changes)",
+      "revId": "3956d5b4ed30b3d6d3e6dfda0ea5458f73a44c15",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
