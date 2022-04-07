@@ -7,6 +7,7 @@
   <project name="CalyxOS/platform_packages_apps_ElmyraService" path="packages/apps/ElmyraService" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Etar" path="packages/apps/Etar" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_apps_Gallery2" path="packages/apps/Gallery2" groups="pdk-fs" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Recorder" path="packages/apps/Recorder" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" remote="gitlab" />
   <project name="CalyxOS/platform_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="gitlab" />
