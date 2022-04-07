@@ -33,6 +33,24 @@
       "message": "We don\u0027t track lineage app directly for this (eg. we skipped all the db migration changes)",
       "revId": "3956d5b4ed30b3d6d3e6dfda0ea5458f73a44c15",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "be0357c7_698be3b1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-04-07T22:45:46Z",
+      "side": 1,
+      "message": "We could track lineage repository directly and make our removals an extra commit on top if we want to make upstream picking/merging easier.",
+      "parentUuid": "ce04209a_616ec879",
+      "revId": "3956d5b4ed30b3d6d3e6dfda0ea5458f73a44c15",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
