@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "85cf210c_95e602c2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-05-02T22:52:24Z",
+      "side": 1,
+      "message": "Hold for android-building post, that\u0027s usually around when kernel tags are up too.\n\nTreat this as a final step then basically.",
+      "revId": "278f2675956d88688ce9085d8331a4cdc3ade525",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
