@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e95af298_3326c7d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-05-07T22:00:14Z",
+      "side": 1,
+      "message": "https://review.calyxos.org/c/CalyxOS/platform_external_setupdesign/+/10945",
+      "revId": "6f7105f91c1134989e8c975017147573c32f8a6a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
