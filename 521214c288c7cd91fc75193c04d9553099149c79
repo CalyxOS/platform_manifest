@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "376408e2_b7b75ea7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-06-03T19:01:35Z",
+      "side": 1,
+      "message": "11220: Add git-review configuration | https://review.calyxos.org/c/CalyxOS/platform_bootable_recovery/+/11220",
+      "revId": "521214c288c7cd91fc75193c04d9553099149c79",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
