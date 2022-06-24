@@ -35,8 +35,4 @@
   <project name="CalyxOS/proprietary_vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" remote="gitlab-priv" clone-depth="1" />
   <project name="CalyxOS/proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" remote="gitlab-priv" clone-depth="1" />
 
-  <!-- Mi A2 -->
-  <!--<project name="CalyxOS/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gitlab-priv" clone-depth="1" />-->
-  <!--<project name="CalyxOS/proprietary_vendor_firmware_jasmine_sprout" path="vendor/firmware/jasmine_sprout" remote="gitlab-priv" clone-depth="1" />-->
-
 </manifest>
