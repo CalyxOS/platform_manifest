@@ -87,6 +87,7 @@
   <project name="CalyxOS/kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="gitlab" />
 
   <project name="CalyxOS/platform_hardware_oneplus" path="hardware/oneplus" remote="gitlab" />
+  <project name="CalyxOS/platform_hardware_oplus" path="hardware/oplus" remote="gitlab" />
 
   <!-- Mi A2 -->
   <!--<project name="CalyxOS/device_xiaomi_jasmine_sprout" path="device/xiaomi/jasmine_sprout" remote="gitlab" />-->
