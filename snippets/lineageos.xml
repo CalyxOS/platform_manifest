@@ -81,5 +81,6 @@
   <project name="CalyxOS/kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="gitlab" />
 
   <project name="CalyxOS/platform_hardware_oneplus" path="hardware/oneplus" remote="gitlab" />
+  <project name="CalyxOS/platform_hardware_oplus" path="hardware/oplus" remote="gitlab" />
 
 </manifest>
