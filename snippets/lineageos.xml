@@ -49,6 +49,9 @@
   <project name="CalyxOS/platform_hardware_qcom-caf_thermal" path="hardware/qcom-caf/thermal" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_wlan" path="hardware/qcom-caf/wlan" remote="gitlab" />
   <project name="CalyxOS/vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="gitlab" />
+  <project name="CalyxOS/vendor_nxp_opensource_interfaces_nfc" path="vendor/nxp/opensource/interfaces/nfc" remote="gitlab" />
+  <project name="CalyxOS/vendor_nxp_opensource_sn100x_halimpl" path="vendor/nxp/opensource/sn100x/halimpl" remote="gitlab" />
+  <project name="CalyxOS/vendor_nxp_opensource_sn100x_hidlimpl" path="vendor/nxp/opensource/sn100x/hidlimpl" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_audio-hal_st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_commonsys_display" path="vendor/qcom/opensource/commonsys/display" remote="gitlab" />
