@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "101e894c_78d3d1d9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-07-12T19:19:14Z",
+      "side": 1,
+      "message": "I don\u0027t mind, but why?\n\nWe\u0027ll need `.gitupstream-lineage` for many repos anyway due to branch and naming differences.",
+      "revId": "e260432ffb29cd0d08f94f59d355c66fbac2adf7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
