@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e6191872_c68706c9",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-07-14T13:36:43Z",
+      "side": 1,
+      "message": "Could move this to lineage.xml now",
+      "revId": "133483f7f2f4a98b52f7489425851f6e074748a7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
