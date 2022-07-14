@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d8d196d_09d453d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-07-14T17:36:16Z",
+      "side": 1,
+      "message": "Doesn\u0027t hurt to sync, we are not building the tools (yet)",
+      "revId": "f69ed24154560ecc9104755ac155a482fbb2cd7d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
