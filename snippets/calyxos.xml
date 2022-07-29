@@ -83,4 +83,8 @@
   <project name="CalyxOS/device_google_raviole" path="device/google/raviole" groups="device,slider" remote="gitlab" />
   <project name="CalyxOS/device_google_raviole-kernel" path="device/google/raviole-kernel" groups="device,slider" remote="gitlab" clone-depth="1" />
 
+  <!-- Pixel 6a -->
+  <project name="CalyxOS/device_google_bluejay" path="device/google/bluejay" groups="device,bluejay" remote="gitlab" />
+  <project name="CalyxOS/device_google_bluejay-sepolicy" path="device/google/bluejay-sepolicy" groups="device,bluejay" remote="gitlab" />
+
 </manifest>
