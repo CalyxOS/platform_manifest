@@ -1,77 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="gitlab-12L"
+           fetch=".."
+           review="review.calyxos.org"
+           revision="refs/heads/android12L" />
+
   <!-- CalyxOS additions -->
   <project name="CalyxOS/platform_manifest" path="manifest" remote="gitlab" />
-  <project name="CalyxOS/platform_external_calyx_chromium" path="external/calyx/chromium" remote="gitlab" />
-  <!--<project name="CalyxOS/platform_external_calyx_GCamPhotosPreview" path="external/calyx/GCamPhotosPreview" remote="gitlab" />-->
-  <project name="CalyxOS/platform_external_microg_DejaVu" path="external/microg/DejaVu" remote="gitlab" />
-  <project name="CalyxOS/platform_external_microg_FakeStore" path="external/microg/FakeStore" remote="gitlab" />
-  <project name="CalyxOS/platform_external_microg_GmsCore" path="external/microg/GmsCore" remote="gitlab" />
-  <project name="CalyxOS/platform_external_microg_GsfProxy" path="external/microg/GsfProxy" remote="gitlab" />
-  <project name="CalyxOS/platform_external_microg_IchnaeaNlpBackend" path="external/microg/IchnaeaNlpBackend" remote="gitlab" />
-  <project name="CalyxOS/platform_external_microg_NominatimGeocoderBackend" path="external/microg/NominatimGeocoderBackend" remote="gitlab" />
-  <project name="CalyxOS/platform_external_microg_UnifiedNlp" path="external/microg/UnifiedNlp" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_AuroraStorePrivilegedExtension" path="packages/apps/AuroraStorePrivilegedExtension" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_Bellis" path="packages/apps/Bellis" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_F-DroidPrivilegedExtension" path="packages/apps/F-DroidPrivilegedExtension" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_Firewall" path="packages/apps/Firewall" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_Ripple" path="packages/apps/Ripple" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_Seedvault" path="packages/apps/Seedvault" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_Updater" path="packages/apps/Updater" remote="gitlab" />
-  <project name="CalyxOS/platform_prebuilts_calyx_chromium_arm64" path="prebuilts/calyx/chromium/arm64" remote="gitlab" clone-depth="1" />
-  <project name="CalyxOS/platform_prebuilts_calyx_chromium_x64" path="prebuilts/calyx/chromium/x64" remote="gitlab" clone-depth="1" />
-  <project name="CalyxOS/platform_prebuilts_calyx_chromium_x86" path="prebuilts/calyx/chromium/x86" remote="gitlab" clone-depth="1" />
-  <project name="CalyxOS/platform_prebuilts_calyx_fdroid" path="prebuilts/calyx/fdroid" remote="gitlab" clone-depth="1" />
-  <project name="CalyxOS/platform_prebuilts_calyx_microg" path="prebuilts/calyx/microg" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/platform_external_calyx_chromium" path="external/calyx/chromium" remote="gitlab-12L" />
+  <!--<project name="CalyxOS/platform_external_calyx_GCamPhotosPreview" path="external/calyx/GCamPhotosPreview" remote="gitlab-12L" />-->
+  <project name="CalyxOS/platform_external_microg_DejaVu" path="external/microg/DejaVu" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_external_microg_FakeStore" path="external/microg/FakeStore" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_external_microg_GmsCore" path="external/microg/GmsCore" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_external_microg_GsfProxy" path="external/microg/GsfProxy" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_external_microg_IchnaeaNlpBackend" path="external/microg/IchnaeaNlpBackend" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_external_microg_NominatimGeocoderBackend" path="external/microg/NominatimGeocoderBackend" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_external_microg_UnifiedNlp" path="external/microg/UnifiedNlp" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_packages_apps_AuroraStorePrivilegedExtension" path="packages/apps/AuroraStorePrivilegedExtension" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_packages_apps_Bellis" path="packages/apps/Bellis" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_packages_apps_F-DroidPrivilegedExtension" path="packages/apps/F-DroidPrivilegedExtension" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_packages_apps_Firewall" path="packages/apps/Firewall" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_packages_apps_Ripple" path="packages/apps/Ripple" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_packages_apps_Seedvault" path="packages/apps/Seedvault" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_packages_apps_Updater" path="packages/apps/Updater" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_prebuilts_calyx_chromium_arm64" path="prebuilts/calyx/chromium/arm64" remote="gitlab-12L" clone-depth="1" />
+  <project name="CalyxOS/platform_prebuilts_calyx_chromium_x64" path="prebuilts/calyx/chromium/x64" remote="gitlab-12L" clone-depth="1" />
+  <project name="CalyxOS/platform_prebuilts_calyx_chromium_x86" path="prebuilts/calyx/chromium/x86" remote="gitlab-12L" clone-depth="1" />
+  <project name="CalyxOS/platform_prebuilts_calyx_fdroid" path="prebuilts/calyx/fdroid" remote="gitlab-12L" clone-depth="1" />
+  <project name="CalyxOS/platform_prebuilts_calyx_microg" path="prebuilts/calyx/microg" remote="gitlab-12L" clone-depth="1" />
   <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" />
   <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" />
 
   <!-- LineageOS forks with additional changes -->
-  <project name="CalyxOS/device_calyx_sepolicy" path="device/calyx/sepolicy" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_calyx-sdk" path="calyx-sdk" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_hardware_calyx_interfaces" path="hardware/calyx/interfaces" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_hardware_calyx_livedisplay" path="hardware/calyx/livedisplay" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_Backgrounds" path="packages/apps/Backgrounds" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_CalyxParts" path="packages/apps/CalyxParts" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_SetupWizard" path="packages/apps/SetupWizard" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_overlays_Calyx" path="packages/overlays/Calyx" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/device_calyx_sepolicy" path="device/calyx/sepolicy" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_calyx-sdk" path="calyx-sdk" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_hardware_calyx_interfaces" path="hardware/calyx/interfaces" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_hardware_calyx_livedisplay" path="hardware/calyx/livedisplay" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_packages_apps_Backgrounds" path="packages/apps/Backgrounds" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_packages_apps_CalyxParts" path="packages/apps/CalyxParts" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_packages_apps_SetupWizard" path="packages/apps/SetupWizard" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_packages_overlays_Calyx" path="packages/overlays/Calyx" groups="lineage" remote="gitlab-12L" />
 
   <!-- Devices -->
 
   <!-- Pixel 3, 3 XL -->
-  <project name="CalyxOS/device_google_blueline" path="device/google/blueline" groups="device,crosshatch,generic_fs" remote="gitlab" />
-  <project name="CalyxOS/device_google_crosshatch" path="device/google/crosshatch" groups="device,crosshatch,generic_fs" remote="gitlab" />
-  <project name="CalyxOS/device_google_crosshatch-kernel" path="device/google/crosshatch-kernel" groups="device,crosshatch,generic_fs" remote="gitlab" clone-depth="1" />
-  <project name="CalyxOS/device_google_crosshatch-sepolicy" path="device/google/crosshatch-sepolicy" groups="device,crosshatch,generic_fs" remote="gitlab" />
+  <project name="CalyxOS/device_google_blueline" path="device/google/blueline" groups="device,crosshatch,generic_fs" remote="gitlab-12L" />
+  <project name="CalyxOS/device_google_crosshatch" path="device/google/crosshatch" groups="device,crosshatch,generic_fs" remote="gitlab-12L" />
+  <project name="CalyxOS/device_google_crosshatch-kernel" path="device/google/crosshatch-kernel" groups="device,crosshatch,generic_fs" remote="gitlab-12L" clone-depth="1" />
+  <project name="CalyxOS/device_google_crosshatch-sepolicy" path="device/google/crosshatch-sepolicy" groups="device,crosshatch,generic_fs" remote="gitlab-12L" />
 
   <!-- Pixel 3a, 3a XL -->
-  <project name="CalyxOS/device_google_bonito" path="device/google/bonito" groups="device,bonito" remote="gitlab" />
-  <project name="CalyxOS/device_google_bonito-kernel" path="device/google/bonito-kernel" groups="device,bonito" remote="gitlab" clone-depth="1" />
-  <project name="CalyxOS/device_google_bonito-sepolicy" path="device/google/bonito-sepolicy" groups="device,bonito" remote="gitlab" />
-  <project name="CalyxOS/device_google_sargo" path="device/google/sargo" groups="device,bonito" remote="gitlab" />
+  <project name="CalyxOS/device_google_bonito" path="device/google/bonito" groups="device,bonito" remote="gitlab-12L" />
+  <project name="CalyxOS/device_google_bonito-kernel" path="device/google/bonito-kernel" groups="device,bonito" remote="gitlab-12L" clone-depth="1" />
+  <project name="CalyxOS/device_google_bonito-sepolicy" path="device/google/bonito-sepolicy" groups="device,bonito" remote="gitlab-12L" />
+  <project name="CalyxOS/device_google_sargo" path="device/google/sargo" groups="device,bonito" remote="gitlab-12L" />
 
   <!-- Pixel 4, 4 XL -->
   <project name="CalyxOS/device_google_coral" path="device/google/coral" groups="device,coral,generic_fs" remote="gitlab" />
-  <project name="CalyxOS/device_google_coral-kernel" path="device/google/coral-kernel" groups="device,coral,generic_fs" remote="gitlab" clone-depth="1" />
+  <project name="device/google/coral-kernel" path="device/google/coral-kernel" groups="device,coral,generic_fs" clone-depth="1" revision="refs/tags/android-13.0.0_r1" />
   <project name="CalyxOS/device_google_coral-sepolicy" path="device/google/coral-sepolicy" groups="device,coral,generic_fs" remote="gitlab" />
   <project name="CalyxOS/device_google_flame" path="device/google/flame" groups="device,coral,generic_fs" remote="gitlab" />
 
   <!-- Pixel 4a -->
   <project name="CalyxOS/device_google_sunfish" path="device/google/sunfish" groups="device,sunfish" remote="gitlab" />
-  <project name="CalyxOS/device_google_sunfish-kernel" path="device/google/sunfish-kernel" groups="device,sunfish" remote="gitlab" clone-depth="1" />
+  <project name="device/google/sunfish-kernel" path="device/google/sunfish-kernel" groups="device,sunfish" clone-depth="1" revision="refs/tags/android-13.0.0_r1" />
   <project name="CalyxOS/device_google_sunfish-sepolicy" path="device/google/sunfish-sepolicy" groups="device,sunfish" remote="gitlab" />
 
   <!-- Pixel 5, 4a (5G), 5a -->
   <project name="CalyxOS/device_google_redbull" path="device/google/redbull" groups="device,redbull" remote="gitlab" />
-  <project name="CalyxOS/device_google_redbull-kernel" path="device/google/redbull-kernel" groups="device,bramble,redfin" remote="gitlab" clone-depth="1" />
+  <project name="device/google/redbull-kernel" path="device/google/redbull-kernel" groups="device,bramble,redfin" clone-depth="1" revision="refs/tags/android-13.0.0_r1" />
   <project name="CalyxOS/device_google_redbull-sepolicy" path="device/google/redbull-sepolicy" groups="device,redbull" remote="gitlab" />
   <project name="CalyxOS/device_google_redfin" path="device/google/redfin" groups="device,redfin" remote="gitlab" />
   <project name="CalyxOS/device_google_redfin-sepolicy" path="device/google/redfin-sepolicy" groups="device,redfin" remote="gitlab" />
   <project name="CalyxOS/device_google_bramble" path="device/google/bramble" groups="device,bramble" remote="gitlab" />
   <project name="CalyxOS/device_google_bramble-sepolicy" path="device/google/bramble-sepolicy" groups="device,bramble" remote="gitlab" />
   <project name="CalyxOS/device_google_barbet" path="device/google/barbet" groups="device,barbet" remote="gitlab" />
-  <project name="CalyxOS/device_google_barbet-kernel" path="device/google/barbet-kernel" groups="device,barbet" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_barbet-sepolicy" path="device/google/barbet-sepolicy" groups="device,barbet" remote="gitlab" />
 
   <!-- Pixel 6, 6 Pro -->
@@ -81,11 +85,11 @@
   <project name="CalyxOS/device_google_oriole" path="device/google/oriole" groups="device,slider" remote="gitlab" />
   <project name="CalyxOS/device_google_raven" path="device/google/raven" groups="device,slider" remote="gitlab" />
   <project name="CalyxOS/device_google_raviole" path="device/google/raviole" groups="device,slider" remote="gitlab" />
-  <project name="CalyxOS/device_google_raviole-kernel" path="device/google/raviole-kernel" groups="device,slider" remote="gitlab" clone-depth="1" />
+  <project name="device/google/raviole-kernel" path="device/google/raviole-kernel" groups="device,slider" clone-depth="1" revision="refs/tags/android-13.0.0_r2" />
 
   <!-- Pixel 6a -->
   <project name="CalyxOS/device_google_bluejay" path="device/google/bluejay" groups="device,bluejay" remote="gitlab" />
-  <project name="CalyxOS/device_google_bluejay-kernel" path="device/google/bluejay-kernel" groups="device,bluejay" remote="gitlab" clone-depth="1" />
+  <project name="device/google/bluejay-kernel" path="device/google/bluejay-kernel" groups="device,bluejay" clone-depth="1" revision="refs/tags/android-13.0.0_r3" />
   <project name="CalyxOS/device_google_bluejay-sepolicy" path="device/google/bluejay-sepolicy" groups="device,bluejay" remote="gitlab" />
 
 </manifest>
