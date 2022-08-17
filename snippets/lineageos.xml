@@ -20,7 +20,9 @@
 
   <!-- CodeAurora additions -->
   <project name="CalyxOS/device_qcom_sepolicy" path="device/qcom/sepolicy" groups="lineage" remote="gitlab" />
+  <!--
   <project name="CalyxOS/device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" groups="lineage" remote="gitlab" />
+  -->
   <project name="CalyxOS/platform_external_ant-wireless_ant_client" path="external/ant-wireless/ant_client" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" groups="lineage" remote="gitlab" />
@@ -31,22 +33,30 @@
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
+    <!--
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    -->
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <!--
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+    -->
   </project>
+  <!--
   <project name="CalyxOS/platform_hardware_qcom-caf_sm8150_audio" path="hardware/qcom-caf/sm8150/audio" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_sm8150_display" path="hardware/qcom-caf/sm8150/display" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_sm8150_media" path="hardware/qcom-caf/sm8150/media" groups="lineage" remote="gitlab" />
+  -->
   <project name="CalyxOS/platform_hardware_qcom-caf_sm8250_audio" path="hardware/qcom-caf/sm8250/audio" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_sm8250_display" path="hardware/qcom-caf/sm8250/display" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_sm8250_media" path="hardware/qcom-caf/sm8250/media" groups="lineage" remote="gitlab" />
+  <!--
   <project name="CalyxOS/platform_hardware_qcom-caf_sm8350_audio" path="hardware/qcom-caf/sm8350/audio" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_sm8350_display" path="hardware/qcom-caf/sm8350/display" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_sm8350_media" path="hardware/qcom-caf/sm8350/media" groups="lineage" remote="gitlab" />
+  -->
   <project name="CalyxOS/platform_hardware_qcom-caf_thermal" path="hardware/qcom-caf/thermal" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_wlan" path="hardware/qcom-caf/wlan" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" groups="lineage" remote="gitlab" />
@@ -67,20 +77,26 @@
   <!-- Devices -->
 
   <!-- Fairphone 4 -->
+  <!--
   <project name="CalyxOS/device_fairphone_FP4" path="device/fairphone/FP4" remote="gitlab" />
   <project name="CalyxOS/kernel_fairphone_sm7225" path="kernel/fairphone/sm7225" remote="gitlab" />
+  -->
 
   <!-- OnePlus 8T -->
+  <!--
   <project name="CalyxOS/device_oneplus_kebab" path="device/oneplus/kebab" remote="gitlab" />
   <project name="CalyxOS/device_oneplus_sm8250-common" path="device/oneplus/sm8250-common" remote="gitlab" />
   <project name="CalyxOS/kernel_oneplus_sm8250" path="kernel/oneplus/sm8250" remote="gitlab" />
+  -->
 
   <!-- OnePlus 9, 9 Pro -->
+  <!--
   <project name="CalyxOS/device_oneplus_lemonade" path="device/oneplus/lemonade" remote="gitlab" />
   <project name="CalyxOS/device_oneplus_lemonadep" path="device/oneplus/lemonadep" remote="gitlab" />
   <project name="CalyxOS/device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="gitlab" />
   <project name="CalyxOS/kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="gitlab" />
 
   <project name="CalyxOS/platform_hardware_oneplus" path="hardware/oneplus" remote="gitlab" />
+  -->
 
 </manifest>
