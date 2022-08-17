@@ -2,85 +2,97 @@
 <manifest>
 
   <!-- LineageOS additions -->
-  <project name="CalyxOS/platform_external_exfatprogs" path="external/exfatprogs" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_AudioFX" path="packages/apps/AudioFX" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_DeskClock" path="packages/apps/DeskClock" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_Eleven" path="packages/apps/Eleven" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_ElmyraService" path="packages/apps/ElmyraService" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_Etar" path="packages/apps/Etar" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_Gallery2" path="packages/apps/Gallery2" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_Recorder" path="packages/apps/Recorder" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_resources_devicesettings" path="packages/resources/devicesettings" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_prebuilts_extract-tools" path="prebuilts/extract-tools" groups="lineage" remote="gitlab" clone-depth="1" />
-  <project name="CalyxOS/platform_prebuilts_tools-lineage" path="prebuilts/tools-lineage" groups="lineage" remote="gitlab" clone-depth="1" />
-  <project name="CalyxOS/platform_tools_extract-utils" path="tools/extract-utils" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/vendor_crowdin" path="vendor/crowdin" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_external_exfatprogs" path="external/exfatprogs" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_packages_apps_AudioFX" path="packages/apps/AudioFX" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_packages_apps_DeskClock" path="packages/apps/DeskClock" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_packages_apps_Eleven" path="packages/apps/Eleven" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_packages_apps_ElmyraService" path="packages/apps/ElmyraService" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_packages_apps_Etar" path="packages/apps/Etar" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_packages_apps_Gallery2" path="packages/apps/Gallery2" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_packages_apps_Recorder" path="packages/apps/Recorder" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_packages_resources_devicesettings" path="packages/resources/devicesettings" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_prebuilts_extract-tools" path="prebuilts/extract-tools" groups="lineage" remote="gitlab-12L" clone-depth="1" />
+  <project name="CalyxOS/platform_prebuilts_tools-lineage" path="prebuilts/tools-lineage" groups="lineage" remote="gitlab-12L" clone-depth="1" />
+  <project name="CalyxOS/platform_tools_extract-utils" path="tools/extract-utils" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/vendor_crowdin" path="vendor/crowdin" groups="lineage" remote="gitlab-12L" />
 
   <!-- CodeAurora additions -->
-  <project name="CalyxOS/device_qcom_sepolicy" path="device/qcom/sepolicy" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_external_ant-wireless_ant_client" path="external/ant-wireless/ant_client" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_external_ant-wireless_hidl" path="external/ant-wireless/hidl" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_external_json-c" path="external/json-c" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_hardware_qcom-caf_bootctrl" path="hardware/qcom-caf/bootctrl" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_hardware_qcom-caf_common" path="hardware/qcom-caf/common" groups="lineage" remote="gitlab" >
+  <project name="CalyxOS/device_qcom_sepolicy" path="device/qcom/sepolicy" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_external_ant-wireless_ant_client" path="external/ant-wireless/ant_client" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_external_ant-wireless_hidl" path="external/ant-wireless/hidl" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_external_json-c" path="external/json-c" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_hardware_qcom-caf_bootctrl" path="hardware/qcom-caf/bootctrl" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_hardware_qcom-caf_common" path="hardware/qcom-caf/common" groups="lineage" remote="gitlab-12L" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
+    <!--
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    -->
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <!--
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+    -->
   </project>
-  <project name="CalyxOS/platform_hardware_qcom-caf_sm8150_audio" path="hardware/qcom-caf/sm8150/audio" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_hardware_qcom-caf_sm8150_display" path="hardware/qcom-caf/sm8150/display" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_hardware_qcom-caf_sm8150_media" path="hardware/qcom-caf/sm8150/media" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_hardware_qcom-caf_sm8250_audio" path="hardware/qcom-caf/sm8250/audio" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_hardware_qcom-caf_sm8250_display" path="hardware/qcom-caf/sm8250/display" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_hardware_qcom-caf_sm8250_media" path="hardware/qcom-caf/sm8250/media" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_hardware_qcom-caf_sm8350_audio" path="hardware/qcom-caf/sm8350/audio" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_hardware_qcom-caf_sm8350_display" path="hardware/qcom-caf/sm8350/display" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_hardware_qcom-caf_sm8350_media" path="hardware/qcom-caf/sm8350/media" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_hardware_qcom-caf_thermal" path="hardware/qcom-caf/thermal" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_hardware_qcom-caf_wlan" path="hardware/qcom-caf/wlan" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/vendor_qcom_opensource_audio-hal_st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/vendor_qcom_opensource_commonsys_display" path="vendor/qcom/opensource/commonsys/display" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/vendor_qcom_opensource_commonsys-intf_display" path="vendor/qcom/opensource/commonsys-intf/display" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/vendor_qcom_opensource_display" path="vendor/qcom/opensource/display" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/vendor_qcom_opensource_usb" path="vendor/qcom/opensource/usb" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/vendor_qcom_opensource_wfd-commonsys" path="vendor/qcom/opensource/wfd-commonsys" groups="lineage" remote="gitlab" />
+  <!--
+  <project name="CalyxOS/platform_hardware_qcom-caf_sm8150_audio" path="hardware/qcom-caf/sm8150/audio" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_hardware_qcom-caf_sm8150_display" path="hardware/qcom-caf/sm8150/display" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_hardware_qcom-caf_sm8150_media" path="hardware/qcom-caf/sm8150/media" groups="lineage" remote="gitlab-12L" />
+  -->
+  <project name="CalyxOS/platform_hardware_qcom-caf_sm8250_audio" path="hardware/qcom-caf/sm8250/audio" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_hardware_qcom-caf_sm8250_display" path="hardware/qcom-caf/sm8250/display" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_hardware_qcom-caf_sm8250_media" path="hardware/qcom-caf/sm8250/media" groups="lineage" remote="gitlab-12L" />
+  <!--
+  <project name="CalyxOS/platform_hardware_qcom-caf_sm8350_audio" path="hardware/qcom-caf/sm8350/audio" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_hardware_qcom-caf_sm8350_display" path="hardware/qcom-caf/sm8350/display" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_hardware_qcom-caf_sm8350_media" path="hardware/qcom-caf/sm8350/media" groups="lineage" remote="gitlab-12L" />
+  -->
+  <project name="CalyxOS/platform_hardware_qcom-caf_thermal" path="hardware/qcom-caf/thermal" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/platform_hardware_qcom-caf_wlan" path="hardware/qcom-caf/wlan" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/vendor_qcom_opensource_audio-hal_st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/vendor_qcom_opensource_commonsys_display" path="vendor/qcom/opensource/commonsys/display" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/vendor_qcom_opensource_commonsys-intf_display" path="vendor/qcom/opensource/commonsys-intf/display" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/vendor_qcom_opensource_display" path="vendor/qcom/opensource/display" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/vendor_qcom_opensource_usb" path="vendor/qcom/opensource/usb" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" groups="lineage" remote="gitlab-12L" />
+  <project name="CalyxOS/vendor_qcom_opensource_wfd-commonsys" path="vendor/qcom/opensource/wfd-commonsys" groups="lineage" remote="gitlab-12L" />
 
   <!-- Devices -->
 
   <!-- Fairphone 4 -->
-  <project name="CalyxOS/device_fairphone_FP4" path="device/fairphone/FP4" remote="gitlab" />
-  <project name="CalyxOS/kernel_fairphone_sm7225" path="kernel/fairphone/sm7225" remote="gitlab" />
+  <project name="CalyxOS/device_fairphone_FP4" path="device/fairphone/FP4" remote="gitlab-12L" />
+  <project name="CalyxOS/kernel_fairphone_sm7225" path="kernel/fairphone/sm7225" remote="gitlab-12L" />
 
   <!-- OnePlus 8T -->
-  <project name="CalyxOS/device_oneplus_kebab" path="device/oneplus/kebab" remote="gitlab" />
-  <project name="CalyxOS/device_oneplus_sm8250-common" path="device/oneplus/sm8250-common" remote="gitlab" />
-  <project name="CalyxOS/kernel_oneplus_sm8250" path="kernel/oneplus/sm8250" remote="gitlab" />
+  <!--
+  <project name="CalyxOS/device_oneplus_kebab" path="device/oneplus/kebab" remote="gitlab-12L" />
+  <project name="CalyxOS/device_oneplus_sm8250-common" path="device/oneplus/sm8250-common" remote="gitlab-12L" />
+  <project name="CalyxOS/kernel_oneplus_sm8250" path="kernel/oneplus/sm8250" remote="gitlab-12L" />
+  -->
 
   <!-- OnePlus 9, 9 Pro -->
-  <project name="CalyxOS/device_oneplus_lemonade" path="device/oneplus/lemonade" remote="gitlab" />
-  <project name="CalyxOS/device_oneplus_lemonadep" path="device/oneplus/lemonadep" remote="gitlab" />
-  <project name="CalyxOS/device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="gitlab" />
-  <project name="CalyxOS/kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="gitlab" />
+  <!--
+  <project name="CalyxOS/device_oneplus_lemonade" path="device/oneplus/lemonade" remote="gitlab-12L" />
+  <project name="CalyxOS/device_oneplus_lemonadep" path="device/oneplus/lemonadep" remote="gitlab-12L" />
+  <project name="CalyxOS/device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="gitlab-12L" />
+  <project name="CalyxOS/kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="gitlab-12L" />
 
-  <project name="CalyxOS/platform_hardware_oneplus" path="hardware/oneplus" remote="gitlab" />
+  <project name="CalyxOS/platform_hardware_oneplus" path="hardware/oneplus" remote="gitlab-12L" />
+  -->
 
 </manifest>
