@@ -53,25 +53,24 @@
 
   <!-- Pixel 4, 4 XL -->
   <project name="CalyxOS/device_google_coral" path="device/google/coral" groups="device,coral,generic_fs" remote="gitlab" />
-  <project name="CalyxOS/device_google_coral-kernel" path="device/google/coral-kernel" groups="device,coral,generic_fs" remote="gitlab" clone-depth="1" />
+  <project name="device/google/coral-kernel" path="device/google/coral-kernel" groups="device,coral,generic_fs" clone-depth="1" revision="refs/tags/android-13.0.0_r1" />
   <project name="CalyxOS/device_google_coral-sepolicy" path="device/google/coral-sepolicy" groups="device,coral,generic_fs" remote="gitlab" />
   <project name="CalyxOS/device_google_flame" path="device/google/flame" groups="device,coral,generic_fs" remote="gitlab" />
 
   <!-- Pixel 4a -->
   <project name="CalyxOS/device_google_sunfish" path="device/google/sunfish" groups="device,sunfish" remote="gitlab" />
-  <project name="CalyxOS/device_google_sunfish-kernel" path="device/google/sunfish-kernel" groups="device,sunfish" remote="gitlab" clone-depth="1" />
+  <project name="device/google/sunfish-kernel" path="device/google/sunfish-kernel" groups="device,sunfish" clone-depth="1" revision="refs/tags/android-13.0.0_r1" />
   <project name="CalyxOS/device_google_sunfish-sepolicy" path="device/google/sunfish-sepolicy" groups="device,sunfish" remote="gitlab" />
 
   <!-- Pixel 5, 4a (5G), 5a -->
   <project name="CalyxOS/device_google_redbull" path="device/google/redbull" groups="device,redbull" remote="gitlab" />
-  <project name="CalyxOS/device_google_redbull-kernel" path="device/google/redbull-kernel" groups="device,bramble,redfin" remote="gitlab" clone-depth="1" />
+  <project name="device/google/redbull-kernel" path="device/google/redbull-kernel" groups="device,bramble,redfin" clone-depth="1" revision="refs/tags/android-13.0.0_r1" />
   <project name="CalyxOS/device_google_redbull-sepolicy" path="device/google/redbull-sepolicy" groups="device,redbull" remote="gitlab" />
   <project name="CalyxOS/device_google_redfin" path="device/google/redfin" groups="device,redfin" remote="gitlab" />
   <project name="CalyxOS/device_google_redfin-sepolicy" path="device/google/redfin-sepolicy" groups="device,redfin" remote="gitlab" />
   <project name="CalyxOS/device_google_bramble" path="device/google/bramble" groups="device,bramble" remote="gitlab" />
   <project name="CalyxOS/device_google_bramble-sepolicy" path="device/google/bramble-sepolicy" groups="device,bramble" remote="gitlab" />
   <project name="CalyxOS/device_google_barbet" path="device/google/barbet" groups="device,barbet" remote="gitlab" />
-  <project name="CalyxOS/device_google_barbet-kernel" path="device/google/barbet-kernel" groups="device,barbet" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_barbet-sepolicy" path="device/google/barbet-sepolicy" groups="device,barbet" remote="gitlab" />
 
   <!-- Pixel 6, 6 Pro -->
@@ -81,11 +80,11 @@
   <project name="CalyxOS/device_google_oriole" path="device/google/oriole" groups="device,slider" remote="gitlab" />
   <project name="CalyxOS/device_google_raven" path="device/google/raven" groups="device,slider" remote="gitlab" />
   <project name="CalyxOS/device_google_raviole" path="device/google/raviole" groups="device,slider" remote="gitlab" />
-  <project name="CalyxOS/device_google_raviole-kernel" path="device/google/raviole-kernel" groups="device,slider" remote="gitlab" clone-depth="1" />
+  <project name="device/google/raviole-kernel" path="device/google/raviole-kernel" groups="device,slider" clone-depth="1" revision="refs/tags/android-13.0.0_r2" />
 
   <!-- Pixel 6a -->
   <project name="CalyxOS/device_google_bluejay" path="device/google/bluejay" groups="device,bluejay" remote="gitlab" />
-  <project name="CalyxOS/device_google_bluejay-kernel" path="device/google/bluejay-kernel" groups="device,bluejay" remote="gitlab" clone-depth="1" />
+  <project name="device/google/bluejay-kernel" path="device/google/bluejay-kernel" groups="device,bluejay" clone-depth="1" revision="refs/tags/android-13.0.0_r3" />
   <project name="CalyxOS/device_google_bluejay-sepolicy" path="device/google/bluejay-sepolicy" groups="device,bluejay" remote="gitlab" />
 
 </manifest>
