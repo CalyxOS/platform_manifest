@@ -34,6 +34,23 @@
       "parentUuid": "f3cb1083_c42ef921",
       "revId": "ee7e2a81d0d44674eb2559ea45a91038ce0c9dc9",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ac689643_de4fcd9e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-08-23T21:14:06Z",
+      "side": 1,
+      "message": "I\u0027m assuming you left them under 12L in gerrit-config",
+      "revId": "ee7e2a81d0d44674eb2559ea45a91038ce0c9dc9",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
