@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d6e1b484_b8cb89cf",
+        "filename": "default.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-08-30T18:01:07Z",
+      "side": 1,
+      "message": "This needs to be switched once vendor repos have android13 branch",
+      "range": {
+        "startLine": 14,
+        "startChar": 39,
+        "endLine": 14,
+        "endChar": 42
+      },
+      "revId": "8615dd3e60aa07c6abd09ad258e3591482f2b0d5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
