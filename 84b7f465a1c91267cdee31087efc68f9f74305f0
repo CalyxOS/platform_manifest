@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6632b529_4fe06c2a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-08-30T14:33:28Z",
+      "side": 1,
+      "message": "https://review.calyxos.org/admin/repos/CalyxOS/platform_packages_modules_Bluetooth,general is created.\n\nNeed to push branches then we can create patch sets.\n\nAlso need to create on GitLab / GitHub later for syncing.",
+      "revId": "84b7f465a1c91267cdee31087efc68f9f74305f0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
