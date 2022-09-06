@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d87555e_78efe992",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-09-06T19:05:05Z",
+      "side": 1,
+      "message": "https://support.google.com/pixelphone/thread/178196365/google-pixel-update-september-2022?hl\u003den\n\nPixel 6a devices will receive the update later this month. So that can just stay on the previous tags till then",
+      "revId": "afb895eb9494d807a6de5ec48ac377dc6368de25",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
