@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc3890cb_86a10a37",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-09-08T12:35:50Z",
+      "side": 1,
+      "message": "repo will need to be updated\n\nMerge android-12.1.0_r11",
+      "revId": "5072bd9a1fcbed32cb9005c60cae4d3b2bbd6e28",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
