@@ -20,9 +20,7 @@
 
   <!-- CodeAurora additions -->
   <project name="CalyxOS/device_qcom_sepolicy" path="device/qcom/sepolicy" groups="lineage" remote="gitlab" />
-  <!--
-  <project name="CalyxOS/device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" groups="lineage" remote="gitlab" />
-  -->
+  <project name="CalyxOS/device_qcom_sepolicy_vndr-legacy-um" path="device/qcom/sepolicy_vndr-legacy-um" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_external_ant-wireless_ant_client" path="external/ant-wireless/ant_client" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" groups="lineage" remote="gitlab" />
@@ -64,7 +62,7 @@
   <project name="CalyxOS/vendor_qcom_opensource_audio-hal_st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_commonsys_display" path="vendor/qcom/opensource/commonsys/display" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_commonsys-intf_display" path="vendor/qcom/opensource/commonsys-intf/display" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/vendor_qcom_opensource_data-ipa-cfg-mgr-legacy-um" path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_display" path="vendor/qcom/opensource/display" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" groups="lineage" remote="gitlab" />
@@ -77,10 +75,8 @@
   <!-- Devices -->
 
   <!-- Fairphone 4 -->
-  <!--
   <project name="CalyxOS/device_fairphone_FP4" path="device/fairphone/FP4" remote="gitlab" />
   <project name="CalyxOS/kernel_fairphone_sm7225" path="kernel/fairphone/sm7225" remote="gitlab" />
-  -->
 
   <!-- OnePlus 8T -->
   <!--
