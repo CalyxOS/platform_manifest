@@ -30,6 +30,7 @@
   <!-- LineageOS forks with additional changes -->
   <project name="CalyxOS/device_calyx_sepolicy" path="device/calyx/sepolicy" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_calyx-sdk" path="calyx-sdk" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_hardware_calyx_compat" path="hardware/calyx/compat" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_calyx_interfaces" path="hardware/calyx/interfaces" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_calyx_livedisplay" path="hardware/calyx/livedisplay" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Backgrounds" path="packages/apps/Backgrounds" groups="lineage" remote="gitlab" />
