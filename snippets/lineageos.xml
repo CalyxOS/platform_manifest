@@ -35,6 +35,8 @@
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
     <!--
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
@@ -46,6 +48,9 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
     -->
   </project>
+  <project name="CalyxOS/platform_hardware_qcom-caf_sdm845_audio" path="hardware/qcom-caf/sdm845/audio" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_hardware_qcom-caf_sdm845_display" path="hardware/qcom-caf/sdm845/display" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_hardware_qcom-caf_sdm845_media" path="hardware/qcom-caf/sdm845/media" groups="lineage" remote="gitlab" />
   <!--
   <project name="CalyxOS/platform_hardware_qcom-caf_sm8150_audio" path="hardware/qcom-caf/sm8150/audio" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_sm8150_display" path="hardware/qcom-caf/sm8150/display" groups="lineage" remote="gitlab" />
