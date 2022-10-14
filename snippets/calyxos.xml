@@ -88,4 +88,11 @@
   <project name="device/google/bluejay-kernel" path="device/google/bluejay-kernel" groups="device,bluejay" clone-depth="1" revision="refs/tags/android-13.0.0_r8" />
   <project name="CalyxOS/device_google_bluejay-sepolicy" path="device/google/bluejay-sepolicy" groups="device,bluejay" remote="gitlab" />
 
+  <!-- Pixel 7, 7 Pro -->
+  <project name="CalyxOS/device_google_gs201" path="device/google/gs201" groups="device,cloudripper" remote="gitlab" />
+  <project name="CalyxOS/device_google_gs201-sepolicy" path="device/google/gs201-sepolicy" groups="device,cloudripper" remote="gitlab" />
+  <project name="CalyxOS/device_google_pantah" path="device/google/pantah" groups="device,cloudripper" remote="gitlab" />
+  <project name="CalyxOS/device_google_pantah-sepolicy" path="device/google/pantah-sepolicy" groups="device,cloudripper" remote="gitlab" />
+  <project name="device/google/pantah-kernel" path="device/google/pantah-kernel" groups="device,cloudripper" clone-depth="1" revision="refs/tags/android-13.0.0_r11" />
+
 </manifest>
