@@ -60,7 +60,7 @@
 
   <!-- Pixel 4a -->
   <project name="CalyxOS/device_google_sunfish" path="device/google/sunfish" groups="device,sunfish" remote="gitlab" />
-  <project name="device/google/sunfish-kernel" path="device/google/sunfish-kernel" groups="device,sunfish" clone-depth="1" revision="refs/tags/android-13.0.0_r12" />
+  <project name="CalyxOS/device_google_sunfish-kernel" path="device/google/sunfish-kernel" groups="device,sunfish" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_sunfish-sepolicy" path="device/google/sunfish-sepolicy" groups="device,sunfish" remote="gitlab" />
 
   <!-- Pixel 5, 4a (5G), 5a -->
