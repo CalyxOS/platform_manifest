@@ -85,7 +85,7 @@
 
   <!-- Pixel 6a -->
   <project name="CalyxOS/device_google_bluejay" path="device/google/bluejay" groups="device,bluejay" remote="gitlab" />
-  <project name="device/google/bluejay-kernel" path="device/google/bluejay-kernel" groups="device,bluejay" clone-depth="1" revision="refs/tags/android-13.0.0_r12" />
+  <project name="CalyxOS/device_google_bluejay-kernel" path="device/google/bluejay-kernel" groups="device,bluejay" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_bluejay-sepolicy" path="device/google/bluejay-sepolicy" groups="device,bluejay" remote="gitlab" />
 
   <!-- Pixel 7, 7 Pro -->
