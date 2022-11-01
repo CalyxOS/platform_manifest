@@ -95,6 +95,6 @@
   <project name="CalyxOS/device_google_panther" path="device/google/panther" groups="device,cloudripper" remote="gitlab" />
   <project name="CalyxOS/device_google_pantah" path="device/google/pantah" groups="device,cloudripper" remote="gitlab" />
   <project name="CalyxOS/device_google_pantah-sepolicy" path="device/google/pantah-sepolicy" groups="device,cloudripper" remote="gitlab" />
-  <project name="device/google/pantah-kernel" path="device/google/pantah-kernel" groups="device,cloudripper" clone-depth="1" revision="refs/tags/android-13.0.0_r11" />
+  <project name="CalyxOS/device_google_pantah-kernel" path="device/google/pantah-kernel" groups="device,cloudripper" remote="gitlab" clone-depth="1" />
 
 </manifest>
