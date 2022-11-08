@@ -60,12 +60,12 @@
 
   <!-- Pixel 4a -->
   <project name="CalyxOS/device_google_sunfish" path="device/google/sunfish" groups="device,sunfish" remote="gitlab" />
-  <project name="device/google/sunfish-kernel" path="device/google/sunfish-kernel" groups="device,sunfish" clone-depth="1" revision="refs/tags/android-13.0.0_r7" />
+  <project name="device/google/sunfish-kernel" path="device/google/sunfish-kernel" groups="device,sunfish" clone-depth="1" revision="refs/tags/android-13.0.0_r12" />
   <project name="CalyxOS/device_google_sunfish-sepolicy" path="device/google/sunfish-sepolicy" groups="device,sunfish" remote="gitlab" />
 
   <!-- Pixel 5, 4a (5G), 5a -->
   <project name="CalyxOS/device_google_redbull" path="device/google/redbull" groups="device,redbull" remote="gitlab" />
-  <project name="device/google/redbull-kernel" path="device/google/redbull-kernel" groups="device,bramble,redfin" clone-depth="1" revision="refs/tags/android-13.0.0_r7" />
+  <project name="device/google/redbull-kernel" path="device/google/redbull-kernel" groups="device,bramble,redfin" clone-depth="1" revision="refs/tags/android-13.0.0_r12" />
   <project name="CalyxOS/device_google_redbull-sepolicy" path="device/google/redbull-sepolicy" groups="device,redbull" remote="gitlab" />
   <project name="CalyxOS/device_google_redfin" path="device/google/redfin" groups="device,redfin" remote="gitlab" />
   <project name="CalyxOS/device_google_redfin-sepolicy" path="device/google/redfin-sepolicy" groups="device,redfin" remote="gitlab" />
@@ -81,11 +81,11 @@
   <project name="CalyxOS/device_google_oriole" path="device/google/oriole" groups="device,slider" remote="gitlab" />
   <project name="CalyxOS/device_google_raven" path="device/google/raven" groups="device,slider" remote="gitlab" />
   <project name="CalyxOS/device_google_raviole" path="device/google/raviole" groups="device,slider" remote="gitlab" />
-  <project name="device/google/raviole-kernel" path="device/google/raviole-kernel" groups="device,slider" clone-depth="1" revision="refs/tags/android-13.0.0_r7" />
+  <project name="device/google/raviole-kernel" path="device/google/raviole-kernel" groups="device,slider" clone-depth="1" revision="refs/tags/android-13.0.0_r12" />
 
   <!-- Pixel 6a -->
   <project name="CalyxOS/device_google_bluejay" path="device/google/bluejay" groups="device,bluejay" remote="gitlab" />
-  <project name="device/google/bluejay-kernel" path="device/google/bluejay-kernel" groups="device,bluejay" clone-depth="1" revision="refs/tags/android-13.0.0_r8" />
+  <project name="device/google/bluejay-kernel" path="device/google/bluejay-kernel" groups="device,bluejay" clone-depth="1" revision="refs/tags/android-13.0.0_r12" />
   <project name="CalyxOS/device_google_bluejay-sepolicy" path="device/google/bluejay-sepolicy" groups="device,bluejay" remote="gitlab" />
 
   <!-- Pixel 7, 7 Pro -->
@@ -95,6 +95,6 @@
   <project name="CalyxOS/device_google_panther" path="device/google/panther" groups="device,cloudripper" remote="gitlab" />
   <project name="CalyxOS/device_google_pantah" path="device/google/pantah" groups="device,cloudripper" remote="gitlab" />
   <project name="CalyxOS/device_google_pantah-sepolicy" path="device/google/pantah-sepolicy" groups="device,cloudripper" remote="gitlab" />
-  <project name="device/google/pantah-kernel" path="device/google/pantah-kernel" groups="device,cloudripper" clone-depth="1" revision="refs/tags/android-13.0.0_r11" />
+  <project name="device/google/pantah-kernel" path="device/google/pantah-kernel" groups="device,cloudripper" clone-depth="1" revision="refs/tags/android-13.0.0_r13" />
 
 </manifest>

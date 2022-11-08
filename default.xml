@@ -12,12 +12,12 @@
            fetch="ssh://git@gitlab.com"
            review="review.calyxos.org"
            revision="refs/heads/android13" />
-  <default revision="refs/tags/android-13.0.0_r11"
+  <default revision="refs/tags/android-13.0.0_r13"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r11" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r13" />
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="CalyxOS/platform_build" groups="pdk" remote="gitlab" >
