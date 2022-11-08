@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "04c6e5b1_7726e48b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-08T19:25:33Z",
+      "side": 1,
+      "message": "Not meant to be merged, I\u0027ll just pick it for the Pixel 6 and 6a specific tag instead.\n\n",
+      "revId": "bd18f10042eadbd19020ae4ee61f93234605164f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
