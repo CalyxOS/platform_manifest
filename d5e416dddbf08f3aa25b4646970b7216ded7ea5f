@@ -16,6 +16,24 @@
       "message": "RIP Pixel 4 means this is pointless.",
       "revId": "d5e416dddbf08f3aa25b4646970b7216ded7ea5f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8498913c_3229a5cd",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-08T19:50:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a6bee1ca_98518f22",
+      "revId": "d5e416dddbf08f3aa25b4646970b7216ded7ea5f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
