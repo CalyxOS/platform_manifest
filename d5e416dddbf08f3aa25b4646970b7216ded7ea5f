@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a6bee1ca_98518f22",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-08T19:37:05Z",
+      "side": 1,
+      "message": "RIP Pixel 4 means this is pointless.",
+      "revId": "d5e416dddbf08f3aa25b4646970b7216ded7ea5f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
