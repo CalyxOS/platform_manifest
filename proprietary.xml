@@ -20,11 +20,11 @@
   <project name="CalyxOS/proprietary_vendor_google_barbet" path="vendor/google/barbet" remote="gitlab-priv" clone-depth="1" />
 
   <!-- Pixel 6, 6 Pro -->
-  <project name="CalyxOS/proprietary_vendor_google_raven" path="vendor/google/raven" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_oriole" path="vendor/google/oriole" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_google_raven" path="vendor/google/raven" remote="gitlab-priv" clone-depth="1" revision="refs/tags/4.3.0-2" />
+  <project name="CalyxOS/proprietary_vendor_google_oriole" path="vendor/google/oriole" remote="gitlab-priv" clone-depth="1" revision="refs/tags/4.3.0-2" />
 
   <!-- Pixel 6a -->
-  <project name="CalyxOS/proprietary_vendor_google_bluejay" path="vendor/google/bluejay" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_google_bluejay" path="vendor/google/bluejay" remote="gitlab-priv" clone-depth="1" revision="refs/tags/4.3.0-2" />
 
   <!-- Pixel 7, 7 Pro -->
   <project name="CalyxOS/proprietary_vendor_google_cheetah" path="vendor/google/cheetah" remote="gitlab-priv" clone-depth="1" />
