@@ -16,6 +16,24 @@
       "message": "Will do this one later",
       "revId": "21d34fab66ea1c5bf2107a78fde3f4eb56095ef0",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43962548_c03b8b12",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-14T20:48:50Z",
+      "side": 1,
+      "message": "Empty repos created.",
+      "parentUuid": "4ebeea18_1ef6106c",
+      "revId": "21d34fab66ea1c5bf2107a78fde3f4eb56095ef0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
