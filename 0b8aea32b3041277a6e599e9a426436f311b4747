@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "17a63042_eb49e0e4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2022-12-09T14:43:14Z",
+      "side": 1,
+      "message": "These broke when Google refactored Launcher3QuickStep\u0027s icon handling in Android 13; all briefcases are blue now, except in notifications or in Settings. I have a fairly small fix, but it needs this.",
+      "revId": "0b8aea32b3041277a6e599e9a426436f311b4747",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
