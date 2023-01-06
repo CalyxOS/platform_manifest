@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa32be2b_d1d37df5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-06T00:22:35Z",
+      "side": 1,
+      "message": "TODO: Fork https://gitea.angry.im/PeterCxy/OpenEUICC\n",
+      "revId": "08692f30adbb90683dabec03e4832dd88504f4a3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
