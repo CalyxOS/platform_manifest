@@ -16,6 +16,24 @@
       "message": "We can\u0027t do that, master keeps changing. We only fetch tags from AOSP, or fork.\n\nI guess this is for Updater. Would it affect any other apps?\n\nIt\u0027d be safer to add a newer gson to Updater and use that ",
       "revId": "e805b45edcb15290b53a29228e2f2cb9a784eeb1",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eeca6646_4e2a66b4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-17T12:56:55Z",
+      "side": 1,
+      "message": "I\u0027ll just fork current master, and we can keep updating it.",
+      "parentUuid": "a8c47267_06f85211",
+      "revId": "e805b45edcb15290b53a29228e2f2cb9a784eeb1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
