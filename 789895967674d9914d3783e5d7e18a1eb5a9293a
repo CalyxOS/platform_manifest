@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f7ee5e8_0fb492e7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-20T20:10:25Z",
+      "side": 1,
+      "message": "Moved to snippets because all aosp repos in default.xml get auto merged monthly from the Pixel tags, which wouldn\u0027t work for this repo.",
+      "revId": "789895967674d9914d3783e5d7e18a1eb5a9293a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
