@@ -5,6 +5,7 @@
   <project name="CalyxOS/platform_manifest" path="manifest" remote="gitlab" />
   <project name="CalyxOS/platform_external_calyx_chromium" path="external/calyx/chromium" remote="gitlab" />
   <project name="CalyxOS/platform_external_calyx_GCamPhotosPreview" path="external/calyx/GCamPhotosPreview" remote="gitlab" />
+  <project name="CalyxOS/platform_external_gson" path="external/gson" remote="gitlab" />
   <project name="CalyxOS/platform_external_microg_DejaVu" path="external/microg/DejaVu" remote="gitlab" />
   <project name="CalyxOS/platform_external_microg_FakeStore" path="external/microg/FakeStore" remote="gitlab" />
   <project name="CalyxOS/platform_external_microg_GmsCore" path="external/microg/GmsCore" remote="gitlab" />
