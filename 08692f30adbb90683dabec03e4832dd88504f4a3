@@ -16,6 +16,24 @@
       "message": "TODO: Fork https://gitea.angry.im/PeterCxy/OpenEUICC\n",
       "revId": "08692f30adbb90683dabec03e4832dd88504f4a3",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e68478d_6427c70f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-01-23T16:32:42Z",
+      "side": 1,
+      "message": "prebuilts too.",
+      "parentUuid": "fa32be2b_d1d37df5",
+      "revId": "08692f30adbb90683dabec03e4832dd88504f4a3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
