@@ -1065,7 +1065,7 @@
   <project path="system/libartpalette" name="platform/system/libartpalette" groups="pdk" />
   <project path="system/libbase" name="platform/system/libbase" groups="pdk" />
   <project path="system/libfmq" name="platform/system/libfmq" groups="pdk" />
-  <project path="system/libhidl" name="platform/system/libhidl" groups="pdk" />
+  <project path="system/libhidl" name="CalyxOS/platform_system_libhidl" groups="pdk" remote="gitlab" />
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" />
   <project path="system/libprocinfo" name="platform/system/libprocinfo" groups="pdk" />
   <project path="system/librustutils" name="platform/system/librustutils" groups="pdk" />
