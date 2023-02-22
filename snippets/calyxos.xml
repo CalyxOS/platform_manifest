@@ -28,6 +28,7 @@
   <project name="CalyxOS/platform_prebuilts_calyx_fdroid" path="prebuilts/calyx/fdroid" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_calyx_lupin" path="prebuilts/calyx/lupin" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_calyx_microg" path="prebuilts/calyx/microg" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/keys" path="calyx/keys" remote="gitlab" />
   <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" />
   <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" />
 
