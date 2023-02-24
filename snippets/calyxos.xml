@@ -29,7 +29,7 @@
   <project name="CalyxOS/platform_prebuilts_calyx_lupin" path="prebuilts/calyx/lupin" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_calyx_microg" path="prebuilts/calyx/microg" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" />
-  <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" />
+  <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" revision="refs/tags/4.6.1" />
 
   <!-- LineageOS forks with additional changes -->
   <project name="CalyxOS/device_calyx_sepolicy" path="device/calyx/sepolicy" groups="lineage" remote="gitlab" />
@@ -46,13 +46,13 @@
 
   <!-- Pixel 3, 3 XL -->
   <project name="CalyxOS/device_google_blueline" path="device/google/blueline" groups="device,crosshatch,generic_fs" remote="gitlab" />
-  <project name="CalyxOS/device_google_crosshatch" path="device/google/crosshatch" groups="device,crosshatch,generic_fs" remote="gitlab" />
-  <project name="CalyxOS/device_google_crosshatch-kernel" path="device/google/crosshatch-kernel" groups="device,crosshatch,generic_fs" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/device_google_crosshatch" path="device/google/crosshatch" groups="device,crosshatch,generic_fs" remote="gitlab" revision="refs/tags/4.6.1" />
+  <project name="CalyxOS/device_google_crosshatch-kernel" path="device/google/crosshatch-kernel" groups="device,crosshatch,generic_fs" remote="gitlab" clone-depth="1" revision="refs/tags/4.6.1" />
   <project name="CalyxOS/device_google_crosshatch-sepolicy" path="device/google/crosshatch-sepolicy" groups="device,crosshatch,generic_fs" remote="gitlab" />
 
   <!-- Pixel 3a, 3a XL -->
-  <project name="CalyxOS/device_google_bonito" path="device/google/bonito" groups="device,bonito" remote="gitlab" />
-  <project name="CalyxOS/device_google_bonito-kernel" path="device/google/bonito-kernel" groups="device,bonito" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/device_google_bonito" path="device/google/bonito" groups="device,bonito" remote="gitlab" revision="refs/tags/4.6.1" />
+  <project name="CalyxOS/device_google_bonito-kernel" path="device/google/bonito-kernel" groups="device,bonito" remote="gitlab" clone-depth="1" revision="refs/tags/4.6.1" />
   <project name="CalyxOS/device_google_bonito-sepolicy" path="device/google/bonito-sepolicy" groups="device,bonito" remote="gitlab" />
   <project name="CalyxOS/device_google_sargo" path="device/google/sargo" groups="device,bonito" remote="gitlab" />
 
