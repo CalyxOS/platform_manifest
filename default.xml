@@ -1075,7 +1075,7 @@
   <project path="system/libziparchive" name="platform/system/libziparchive" groups="pdk" />
   <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" />
   <project path="system/logging" name="CalyxOS/platform_system_logging" groups="pdk" remote="gitlab" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
+  <project path="system/media" name="CalyxOS/platform_system_media" groups="pdk" remote="gitlab" />
   <project path="system/memory/libion" name="platform/system/memory/libion" groups="pdk" />
   <project path="system/memory/libdmabufheap" name="platform/system/memory/libdmabufheap" groups="pdk" />
   <project path="system/memory/libmeminfo" name="platform/system/memory/libmeminfo" groups="pdk" />
