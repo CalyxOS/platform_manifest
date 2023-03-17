@@ -742,7 +742,7 @@
   <project path="frameworks/libs/service_entitlement" name="platform/frameworks/libs/service_entitlement" groups="pdk" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="CalyxOS/platform_frameworks_native" groups="pdk" remote="gitlab" />
+  <project path="frameworks/native" name="CalyxOS/platform_frameworks_native" groups="pdk" remote="gitlab" revision="refs/tags/4.7.2" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/calendar" name="CalyxOS/platform_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
   <project path="frameworks/opt/car/services" name="platform/frameworks/opt/car/services" groups="pdk-fs" />
