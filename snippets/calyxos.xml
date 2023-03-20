@@ -30,7 +30,7 @@
   <project name="CalyxOS/platform_prebuilts_calyx_microg" path="prebuilts/calyx/microg" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/keys" path="calyx/keys" remote="gitlab" />
   <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" />
-  <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" revision="refs/tags/4.7.3" />
+  <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" revision="refs/tags/4.7.4" />
 
   <!-- LineageOS forks with additional changes -->
   <project name="CalyxOS/device_calyx_sepolicy" path="device/calyx/sepolicy" groups="lineage" remote="gitlab" />
@@ -80,16 +80,16 @@
   <project name="CalyxOS/device_google_barbet-sepolicy" path="device/google/barbet-sepolicy" groups="device,barbet" remote="gitlab" />
 
   <!-- Pixel 6, 6 Pro -->
-  <project name="CalyxOS/device_google_gs101" path="device/google/gs101" groups="device,slider" remote="gitlab" />
+  <project name="CalyxOS/device_google_gs101" path="device/google/gs101" groups="device,slider" remote="gitlab" revision="refs/tags/4.7.4" />
   <project name="CalyxOS/device_google_gs101-sepolicy" path="device/google/gs101-sepolicy" groups="device,slider" remote="gitlab" />
   <project name="CalyxOS/device_google_gs-common" path="device/google/gs-common" groups="device,slider,pdk-gs-arm" remote="gitlab" />
   <project name="CalyxOS/device_google_oriole" path="device/google/oriole" groups="device,slider" remote="gitlab" />
   <project name="CalyxOS/device_google_raven" path="device/google/raven" groups="device,slider" remote="gitlab" />
-  <project name="CalyxOS/device_google_raviole" path="device/google/raviole" groups="device,slider" remote="gitlab" revision="refs/tags/4.7.3" />
+  <project name="CalyxOS/device_google_raviole" path="device/google/raviole" groups="device,slider" remote="gitlab" revision="refs/tags/4.7.4" />
   <project name="device/google/raviole-kernel" path="device/google/raviole-kernel" groups="device,slider" clone-depth="1" revision="refs/tags/android-13.0.0_r36" />
 
   <!-- Pixel 6a -->
-  <project name="CalyxOS/device_google_bluejay" path="device/google/bluejay" groups="device,bluejay" remote="gitlab" revision="refs/tags/4.7.3" />
+  <project name="CalyxOS/device_google_bluejay" path="device/google/bluejay" groups="device,bluejay" remote="gitlab" revision="refs/tags/4.7.4" />
   <project name="device/google/bluejay-kernel" path="device/google/bluejay-kernel" groups="device,bluejay" clone-depth="1" revision="refs/tags/android-13.0.0_r36" />
   <project name="CalyxOS/device_google_bluejay-sepolicy" path="device/google/bluejay-sepolicy" groups="device,bluejay" remote="gitlab" />
 
