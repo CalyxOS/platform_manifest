@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec9ede93_7650bcf2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-27T21:52:20Z",
+      "side": 1,
+      "message": " https://review.calyxos.org/c/CalyxOS/device_generic_goldfish/+/16308 Add git-review configuration",
+      "revId": "be942c2920fbf1c56a929d07ede1c5b4201134fd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
