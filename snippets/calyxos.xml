@@ -24,7 +24,6 @@
   <project name="CalyxOS/platform_packages_apps_Updater" path="packages/apps/Updater" remote="gitlab" />
   <project name="CalyxOS/platform_prebuilts_calyx_chromium_arm64" path="prebuilts/calyx/chromium/arm64" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_calyx_chromium_x64" path="prebuilts/calyx/chromium/x64" remote="gitlab" clone-depth="1" />
-  <project name="CalyxOS/platform_prebuilts_calyx_chromium_x86" path="prebuilts/calyx/chromium/x86" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_calyx_fdroid" path="prebuilts/calyx/fdroid" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_calyx_lupin" path="prebuilts/calyx/lupin" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_calyx_microg" path="prebuilts/calyx/microg" remote="gitlab" clone-depth="1" />
