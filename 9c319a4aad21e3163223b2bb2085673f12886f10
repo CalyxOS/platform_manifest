@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "183a30ba_53c375ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-04-24T17:35:28Z",
+      "side": 1,
+      "message": "Hold a little for APEX updates.",
+      "revId": "9c319a4aad21e3163223b2bb2085673f12886f10",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
