@@ -101,4 +101,9 @@
   <project name="CalyxOS/device_google_pantah-sepolicy" path="device/google/pantah-sepolicy" groups="device,cloudripper" remote="gitlab" />
   <project name="CalyxOS/device_google_pantah-kernel" path="device/google/pantah-kernel" groups="device,cloudripper" remote="gitlab" clone-depth="1" />
 
+  <!-- Pixel 7a -->
+  <project name="CalyxOS/device_google_lynx" path="device/google/lynx" groups="device,lynx" remote="gitlab" />
+  <project name="CalyxOS/device_google_lynx-sepolicy" path="device/google/lynx-sepolicy" groups="device,lynx" remote="gitlab" />
+  <project name="device/google/lynx-kernel" path="device/google/lynx-kernel" groups="device,lynx" clone-depth="1" revision="refs/tags/android-13.0.0_r49" />
+
 </manifest>
