@@ -33,7 +33,7 @@
   <project name="CalyxOS/proprietary_vendor_google_panther" path="vendor/google/panther" remote="gitlab-priv" clone-depth="1" />
 
   <!-- Pixel 7a -->
-  <project name="CalyxOS/proprietary_vendor_google_lynx" path="vendor/google/lynx" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_google_lynx" path="vendor/google/lynx" remote="gitlab-priv" clone-depth="1" revision="refs/tags/4.9.3" />
 
   <!-- Fairphone 4 -->
   <project name="CalyxOS/proprietary_vendor_fairphone_FP4" path="vendor/fairphone/FP4" remote="gitlab-priv" clone-depth="1" />
