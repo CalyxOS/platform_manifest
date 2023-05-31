@@ -728,7 +728,7 @@
   <project path="external/zucchini" name="platform/external/zucchini" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" />
   <project path="frameworks/av" name="CalyxOS/platform_frameworks_av" groups="pdk" remote="gitlab" />
-  <project path="frameworks/base" name="CalyxOS/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
+  <project path="frameworks/base" name="CalyxOS/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="gitlab" revision="refs/tags/4.9.4-2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -901,7 +901,7 @@
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" />
   <project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" />
   <project path="packages/apps/SecureElement" name="platform/packages/apps/SecureElement" groups="apps_se,pdk-fs" />
-  <project path="packages/apps/Settings" name="CalyxOS/platform_packages_apps_Settings" groups="pdk-fs" remote="gitlab" />
+  <project path="packages/apps/Settings" name="CalyxOS/platform_packages_apps_Settings" groups="pdk-fs" remote="gitlab" revision="refs/tags/4.9.4-2" />
   <project path="packages/apps/SettingsIntelligence" name="CalyxOS/platform_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="gitlab" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
