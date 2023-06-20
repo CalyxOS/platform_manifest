@@ -106,4 +106,9 @@
   <project name="CalyxOS/device_google_lynx-sepolicy" path="device/google/lynx-sepolicy" groups="device,lynx" remote="gitlab" />
   <project name="CalyxOS/device_google_lynx-kernel" path="device/google/lynx-kernel" groups="device,lynx" remote="gitlab" clone-depth="1" />
 
+  <!-- Pixel Tablet -->
+  <project name="CalyxOS/device_google_tangorpro" path="device/google/tangorpro" groups="device,tangorpro" remote="gitlab" />
+  <project name="CalyxOS/device_google_tangorpro-sepolicy" path="device/google/tangorpro-sepolicy" groups="device,tangorpro" remote="gitlab" />
+  <project name="CalyxOS/device_google_tangorpro-kernel" path="device/google/tangorpro-kernel" groups="device,tangorpro" remote="gitlab" clone-depth="1" />
+
 </manifest>
