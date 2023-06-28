@@ -33,6 +33,24 @@
       "message": "was this updated in qpr3?",
       "revId": "9c319a4aad21e3163223b2bb2085673f12886f10",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f88da32_62d96fa0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-06-28T16:30:43Z",
+      "side": 1,
+      "message": "Yes https://android.googlesource.com/platform/external/icu/+log/2d5bbc3651d15d9c063f371e36dc18016ba48911",
+      "parentUuid": "5b45441b_da10887b",
+      "revId": "9c319a4aad21e3163223b2bb2085673f12886f10",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
