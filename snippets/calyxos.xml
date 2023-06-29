@@ -110,4 +110,9 @@
   <project name="CalyxOS/device_google_tangorpro-sepolicy" path="device/google/tangorpro-sepolicy" groups="device,tangorpro" remote="gitlab" />
   <project name="CalyxOS/device_google_tangorpro-kernel" path="device/google/tangorpro-kernel" groups="device,tangorpro" remote="gitlab" clone-depth="1" />
 
+  <!-- Pixel Fold -->
+  <project name="CalyxOS/device_google_felix" path="device/google/felix" groups="device,felix" remote="gitlab" />
+  <project name="CalyxOS/device_google_felix-sepolicy" path="device/google/felix-sepolicy" groups="device,felix" remote="gitlab" />
+  <project name="CalyxOS/device_google_felix-kernel" path="device/google/felix-kernel" groups="device,felix" remote="gitlab" clone-depth="1" />
+
 </manifest>
