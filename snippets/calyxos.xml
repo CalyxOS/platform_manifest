@@ -14,6 +14,7 @@
   <project name="CalyxOS/platform_external_microg_IchnaeaNlpBackend" path="external/microg/IchnaeaNlpBackend" remote="gitlab" />
   <project name="CalyxOS/platform_external_microg_NominatimGeocoderBackend" path="external/microg/NominatimGeocoderBackend" remote="gitlab" />
   <project name="CalyxOS/platform_external_microg_UnifiedNlp" path="external/microg/UnifiedNlp" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_apps_AuroraStorePrivilegedExtension" path="packages/apps/AuroraStorePrivilegedExtension" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Bellis" path="packages/apps/Bellis" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_F-DroidPrivilegedExtension" path="packages/apps/F-DroidPrivilegedExtension" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Firewall" path="packages/apps/Firewall" remote="gitlab" />
