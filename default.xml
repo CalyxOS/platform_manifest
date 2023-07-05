@@ -12,12 +12,12 @@
            fetch="ssh://git@gitlab.com"
            review="review.calyxos.org"
            revision="refs/heads/android13" />
-  <default revision="refs/tags/android-13.0.0_r52"
+  <default revision="refs/tags/android-13.0.0_r61"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r52" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r61" />
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- BEGIN open-source projects -->
