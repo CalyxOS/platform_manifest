@@ -18,6 +18,7 @@
   <project name="CalyxOS/platform_packages_apps_Bellis" path="packages/apps/Bellis" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_F-DroidPrivilegedExtension" path="packages/apps/F-DroidPrivilegedExtension" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Firewall" path="packages/apps/Firewall" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_apps_Panic" path="packages/apps/Panic" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Ripple" path="packages/apps/Ripple" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Seedvault" path="packages/apps/Seedvault" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_SystemUpdater" path="packages/apps/SystemUpdater" remote="gitlab" />
