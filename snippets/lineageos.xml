@@ -82,7 +82,7 @@
   <!-- Devices -->
 
   <!-- Fairphone 4 -->
-  <project name="CalyxOS/device_fairphone_FP4" path="device/fairphone/FP4" remote="gitlab" />
+  <project name="CalyxOS/device_fairphone_FP4" path="device/fairphone/FP4" remote="gitlab" revision="refs/tags/4.12.1" />
   <project name="CalyxOS/kernel_fairphone_sm7225" path="kernel/fairphone/sm7225" remote="gitlab" />
 
   <!-- SHIFT SHIFT6mq -->
