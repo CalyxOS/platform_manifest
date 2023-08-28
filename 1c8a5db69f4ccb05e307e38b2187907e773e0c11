@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "45a04d5b_e79fc3c0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-08-28T12:48:24Z",
+      "side": 1,
+      "message": "Pushed android-13.0.0_r67 to android13\n\n   https://review.calyxos.org/c/CalyxOS/platform_hardware_libhardware_legacy/+/18864 Add git-review configuration",
+      "revId": "1c8a5db69f4ccb05e307e38b2187907e773e0c11",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
