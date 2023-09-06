@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "06e78646_30aa4d2e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-06T20:31:43Z",
+      "side": 1,
+      "message": "https://review.calyxos.org/c/CalyxOS/platform_packages_modules_NeuralNetworks/+/20001\n\nhttps://review.calyxos.org/c/CalyxOS/platform_packages_apps_Nfc/+/20002",
+      "revId": "99421486c68ad3ea9fd0727c74acd9b71f065d31",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
