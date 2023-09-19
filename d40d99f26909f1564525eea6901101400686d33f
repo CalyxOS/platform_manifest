@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3cb6ffa_1c830d8e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-19T20:19:44Z",
+      "side": 1,
+      "message": "Hold, will merge and ship v0.2.1, then rebase GmsCore and ship this with that.",
+      "revId": "d40d99f26909f1564525eea6901101400686d33f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
