@@ -20,7 +20,6 @@
   <project name="CalyxOS/vendor_crowdin" path="vendor/crowdin" groups="lineage" remote="gitlab" />
 
   <!-- Inline kernel build -->
-  <project name="platform/external/dwarves" path="external/dwarves" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project name="CalyxOS/platform_prebuilts_clang_kernel_linux-x86_clang-r416183b"  path="prebuilts/clang/kernel/linux-x86/clang-r416183b" groups="lineage" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="lineage" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="lineage" remote="gitlab" clone-depth="1" />
