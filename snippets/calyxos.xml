@@ -4,6 +4,7 @@
   <!-- CalyxOS additions -->
   <project name="CalyxOS/platform_manifest" path="manifest" remote="gitlab" />
   <project name="CalyxOS/platform_external_calyx_chromium" path="external/calyx/chromium" remote="gitlab" />
+  <project name="CalyxOS/platform_external_calyx_datura" path="external/calyx/datura" remote="gitlab" />
   <project name="CalyxOS/platform_external_calyx_GCamPhotosPreview" path="external/calyx/GCamPhotosPreview" remote="gitlab" />
   <project name="CalyxOS/platform_external_calyx_lupin" path="external/calyx/lupin" remote="gitlab" />
   <project name="CalyxOS/platform_external_gson" path="external/gson" remote="gitlab" />
@@ -12,7 +13,6 @@
   <project name="CalyxOS/platform_external_microg_GsfProxy" path="external/microg/GsfProxy" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_AuroraStorePrivilegedExtension" path="packages/apps/AuroraStorePrivilegedExtension" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Bellis" path="packages/apps/Bellis" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_Datura" path="packages/apps/Datura" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_F-DroidPrivilegedExtension" path="packages/apps/F-DroidPrivilegedExtension" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Firewall" path="packages/apps/Firewall" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Panic" path="packages/apps/Panic" remote="gitlab" />
@@ -22,6 +22,7 @@
   <project name="CalyxOS/platform_packages_apps_Updater" path="packages/apps/Updater" remote="gitlab" />
   <project name="CalyxOS/platform_prebuilts_calyx_chromium_arm64" path="prebuilts/calyx/chromium/arm64" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_calyx_chromium_x64" path="prebuilts/calyx/chromium/x64" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/platform_prebuilts_calyx_datura" path="prebuilts/calyx/datura" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_calyx_fdroid" path="prebuilts/calyx/fdroid" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_calyx_lupin" path="prebuilts/calyx/lupin" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_calyx_microg" path="prebuilts/calyx/microg" remote="gitlab" clone-depth="1" />
