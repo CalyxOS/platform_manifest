@@ -87,4 +87,13 @@
   <project name="CalyxOS/device_shift_axolotl" path="device/shift/axolotl" remote="gitlab" />
   <project name="CalyxOS/kernel_shift_sdm845" path="kernel/shift/sdm845" remote="gitlab" />
 
+  <!-- Motorola sm6225 -->
+  <project name="CalyxOS/device_motorola_devon" path="device/motorola/devon" remote="gitlab" />
+  <project name="CalyxOS/device_motorola_hawao" path="device/motorola/hawao" remote="gitlab" />
+  <project name="CalyxOS/device_motorola_rhode" path="device/motorola/rhode" remote="gitlab" />
+  <project name="CalyxOS/device_motorola_sm6225-common" path="device/motorola/sm6225-common" remote="gitlab" />
+  <project name="CalyxOS/kernel_motorola_sm6225" path="kernel/motorola/sm6225" remote="gitlab" />
+  <project name="CalyxOS/platform_hardware_motorola" path="hardware/motorola" remote="gitlab" />
+  <project name="CalyxOS/platform_system_qcom" path="system/qcom" remote="gitlab" />
+
 </manifest>

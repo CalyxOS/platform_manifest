@@ -47,4 +47,10 @@
   <!-- SHIFT SHIFT6mq -->
   <project name="CalyxOS/proprietary_vendor_shift_axolotl" path="vendor/shift/axolotl" remote="gitlab-priv" clone-depth="1" />
 
+  <!-- Motorola sm6225 -->
+  <project name="CalyxOS/proprietary_vendor_motorola_devon" path="vendor/motorola/devon" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_motorola_hawao" path="vendor/motorola/hawao" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_motorola_rhode" path="vendor/motorola/rhode" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_motorola_sm6225-common" path="vendor/motorola/sm6225-common" remote="gitlab-priv" clone-depth="1" />
+
 </manifest>
