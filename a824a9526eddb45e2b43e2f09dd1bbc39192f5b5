@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a48e6adf_b3fe5c11",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-09-28T02:28:01Z",
+      "side": 1,
+      "message": "Using private /tmp repos. Not ready to go at all. Just for testing.",
+      "revId": "a824a9526eddb45e2b43e2f09dd1bbc39192f5b5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
