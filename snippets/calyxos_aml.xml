@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project revision="main" name="CalyxOS/tmp/aml_blueprints" path="prebuilts/calyx/aml" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_CaptivePortal_arm64" path="prebuilts/calyx/aml/CaptivePortalLogin/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_NetworkStack_arm64" path="prebuilts/calyx/aml/NetworkStack/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.adbd_arm64" path="prebuilts/calyx/aml/com.android.adbd/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.adservices_arm64" path="prebuilts/calyx/aml/com.android.adservices/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.appsearch_arm64" path="prebuilts/calyx/aml/com.android.appsearch/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.art_arm64" path="prebuilts/calyx/aml/com.android.art/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.cellbroadcast_arm64" path="prebuilts/calyx/aml/com.android.cellbroadcast/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.conscrypt_arm64" path="prebuilts/calyx/aml/com.android.conscrypt/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.extservices_arm64" path="prebuilts/calyx/aml/com.android.extservices/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.ipsec_arm64" path="prebuilts/calyx/aml/com.android.ipsec/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.media_arm64" path="prebuilts/calyx/aml/com.android.media/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.mediaprovider_arm64" path="prebuilts/calyx/aml/com.android.mediaprovider/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.media.swcodec_arm64" path="prebuilts/calyx/aml/com.android.media.swcodec/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.neuralnetworks_arm64" path="prebuilts/calyx/aml/com.android.neuralnetworks/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.ondevicepersonalization_arm64" path="prebuilts/calyx/aml/com.android.ondevicepersonalization/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.os.statsd_arm64" path="prebuilts/calyx/aml/com.android.os.statsd/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.permission_arm64" path="prebuilts/calyx/aml/com.android.permission/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.resolv_arm64" path="prebuilts/calyx/aml/com.android.resolv/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.scheduling_arm64" path="prebuilts/calyx/aml/com.android.scheduling/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.sdkext_arm64" path="prebuilts/calyx/aml/com.android.sdkext/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.tethering_arm64" path="prebuilts/calyx/aml/com.android.tethering/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.tzdata_arm64" path="prebuilts/calyx/aml/com.android.tzdata/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.uwb_arm64" path="prebuilts/calyx/aml/com.android.uwb/arm64" remote="gitlab-priv" />
+  <project revision="main" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.wifi_arm64" path="prebuilts/calyx/aml/com.android.wifi/arm64" remote="gitlab-priv" />
+</manifest>
