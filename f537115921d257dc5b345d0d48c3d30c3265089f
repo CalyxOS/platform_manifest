@@ -110,6 +110,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "07281793_40d293e4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-09-28T14:39:36Z",
+      "side": 1,
+      "message": "Alright, so the Android.bp files and other supplemental files shipping alongside the arm64 binaries?\n\ne.g.\n```\nprebuilts/calyx/aml/net/Android.bp\nprebuilts/calyx/aml/net/CaptivePortalLogin.apk\nprebuilts/calyx/aml/net/NetworkStack.apk\nprebuilts/calyx/aml/net/permissions_com.android.networkstack.xml\n```",
+      "parentUuid": "20c964dc_7e309e91",
+      "revId": "f537115921d257dc5b345d0d48c3d30c3265089f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "72eca77e_084448c9",
         "filename": "default.xml",
         "patchSetId": 4
