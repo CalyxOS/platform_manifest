@@ -1145,5 +1145,6 @@
 
   <include name="snippets/calyxos.xml" />
   <include name="snippets/lineageos.xml" />
+  <include name="snippets/calyxos_aml.xml" />
 
 </manifest>
