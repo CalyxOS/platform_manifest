@@ -36,6 +36,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "efd1a32b_e7390147",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-09-28T14:06:15Z",
+      "side": 1,
+      "message": "\u003e Those are some long repo names!\n\nTrue! We could also potentially match the naming in the `packages/modules` directories, e.g. instead of `platform_prebuilts_calyx_aml_com.android.tethering`, it could be `platform_prebuilts_calyx_aml_Connectivity`. It will have a negligible impact on whatever process we establish / scripts we use for building and placement, since we would need a mapping from module or package name to directory, but that\u0027s fine and not difficult.\n\n\u003e I don\u0027t see the need to deal with another set of prebuilts (x86_64) just yet. Double the work for not that much gain at the moment.\n\nGiven the amount of work that has already been done, this seems like a trivial amount to me. If possible, I really don\u0027t want another area for our emulator images to potentially get left behind or deviate from the on-device experience.\n\nI\u0027m not saying we need to have prebuilts for x86_64 up immediately, but I do see a need.",
+      "parentUuid": "73947845_e49efe5e",
+      "revId": "f537115921d257dc5b345d0d48c3d30c3265089f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "72eca77e_084448c9",
