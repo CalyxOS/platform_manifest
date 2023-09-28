@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="CalyxOS/tmp/aml_blueprints" path="prebuilts/calyx/aml" remote="gitlab-priv" />
+  <project name="CalyxOS/apex_manifest" path="external/calyx/apex_manifest" remote="gitlab" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_adb" path="prebuilts/calyx/aml/adb" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_AdServices" path="prebuilts/calyx/aml/AdServices" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_AppSearch" path="prebuilts/calyx/aml/AppSearch" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_art" path="prebuilts/calyx/aml/art" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_CaptivePortalLogin" path="prebuilts/calyx/aml/CaptivePortalLogin" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_CellBroadcastService" path="prebuilts/calyx/aml/CellBroadcastService" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_ConfigInfrastructure" path="prebuilts/calyx/aml/ConfigInfrastructure" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_Connectivity" path="prebuilts/calyx/aml/Connectivity" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_conscrypt" path="prebuilts/calyx/aml/conscrypt" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_DocumentsUI" path="prebuilts/calyx/aml/DocumentsUI" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_DnsResolver" path="prebuilts/calyx/aml/DnsResolver" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_ExtServices" path="prebuilts/calyx/aml/ExtServices" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_HealthFitness" path="prebuilts/calyx/aml/HealthFitness" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_IPsec" path="prebuilts/calyx/aml/IPsec" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_Media" path="prebuilts/calyx/aml/Media" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_MediaProvider" path="prebuilts/calyx/aml/MediaProvider" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_MediaSwCodec" path="prebuilts/calyx/aml/MediaSwCodec" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_NetworkStack" path="prebuilts/calyx/aml/NetworkStack" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_NeuralNetworks" path="prebuilts/calyx/aml/NeuralNetworks" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_OnDevicePersonalization" path="prebuilts/calyx/aml/OnDevicePersonalization" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_StatsD" path="prebuilts/calyx/aml/StatsD" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_Permission" path="prebuilts/calyx/aml/Permission" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_RemoteKeyProvisioning" path="prebuilts/calyx/aml/RemoteKeyProvisioning" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_Scheduling" path="prebuilts/calyx/aml/Scheduling" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_SdkExtensions" path="prebuilts/calyx/aml/SdkExtensions" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_TimezoneData" path="prebuilts/calyx/aml/TimezoneData" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_Uwb" path="prebuilts/calyx/aml/Uwb" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/tmp/platform_prebuilts_calyx_aml_Wifi" path="prebuilts/calyx/aml/Wifi" remote="gitlab-priv" clone-depth="1" />
+
+  <!-- Module Metadata -->
+  <remove-project name="platform/packages/modules/ModuleMetadata" />
+  <project path="packages/modules/ModuleMetadata" name="CalyxOS/tmp/platform_packages_modules_ModuleMetadata" remote="gitlab-priv" groups="pdk" clone-depth="1" />
+
+  <!-- Module SDKs -->
+  <remove-project name="platform/prebuilts/module_sdk/art" />
+  <project path="prebuilts/module_sdk/art" name="CalyxOS/tmp/platform_prebuilts_module_sdk_art" remote="gitlab-priv" groups="pdk" clone-depth="1" />
+  <remove-project name="platform/prebuilts/module_sdk/AdServices" />
+  <project path="prebuilts/module_sdk/AdServices" name="CalyxOS/tmp/platform_prebuilts_module_sdk_AdServices" remote="gitlab-priv" groups="pdk" clone-depth="1" />
+  <remove-project name="platform/prebuilts/module_sdk/AppSearch" />
+  <project path="prebuilts/module_sdk/AppSearch" name="CalyxOS/tmp/platform_prebuilts_module_sdk_AppSearch" remote="gitlab-priv" groups="pdk" clone-depth="1" />
+  <remove-project name="platform/prebuilts/module_sdk/Connectivity" />
+  <project path="prebuilts/module_sdk/Connectivity" name="CalyxOS/tmp/platform_prebuilts_module_sdk_Connectivity" remote="gitlab-priv" groups="pdk" clone-depth="1" />
+  <remove-project name="platform/prebuilts/module_sdk/conscrypt" />
+  <project path="prebuilts/module_sdk/conscrypt" name="CalyxOS/tmp/platform_prebuilts_module_sdk_conscrypt" remote="gitlab-priv" groups="pdk" clone-depth="1" />
+  <remove-project name="platform/prebuilts/module_sdk/IPsec" />
+  <project path="prebuilts/module_sdk/IPsec" name="CalyxOS/tmp/platform_prebuilts_module_sdk_IPsec" remote="gitlab-priv" groups="pdk" clone-depth="1" />
+  <remove-project name="platform/prebuilts/module_sdk/Uwb" />
+  <project path="prebuilts/module_sdk/Uwb" name="CalyxOS/tmp/platform_prebuilts_module_sdk_Uwb" remote="gitlab-priv" groups="pdk" clone-depth="1" />
+  <remove-project name="platform/prebuilts/module_sdk/Wifi" />
+  <project path="prebuilts/module_sdk/Wifi" name="CalyxOS/tmp/platform_prebuilts_module_sdk_Wifi" remote="gitlab-priv" groups="pdk" clone-depth="1" />
+</manifest>
