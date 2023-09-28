@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "73947845_e49efe5e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-28T09:44:36Z",
+      "side": 1,
+      "message": "To be clear, don\u0027t rename the tmp repos\n\nI\u0027m saying:\n\n* CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.wifi_arm64 -\u003e CalyxOS/platform_prebuilts_calyx_aml_wifi\n* CalyxOS/tmp/platform_prebuilts_calyx_aml_CaptivePortalLogin_arm64 -\u003e CalyxOS/platform_prebuilts_calyx_aml_CaptivePortalLogin\n\nand so on.\n\n\nI don\u0027t see the need to deal with another set of prebuilts (x86_64) just yet. Double the work for not that much gain at the moment.\n\nIf needed, it can just be wifi_x86_64 or something, or just under it, that\u0027s fine.",
+      "parentUuid": "ed3e06d6_78c0f6e6",
+      "revId": "f537115921d257dc5b345d0d48c3d30c3265089f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "72eca77e_084448c9",
