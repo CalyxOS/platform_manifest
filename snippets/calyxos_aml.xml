@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project revision="android14" name="CalyxOS/tmp/aml_blueprints" path="prebuilts/calyx/aml" remote="gitlab-priv" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_NetworkStack_arm64" path="prebuilts/calyx/aml/net" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.adbd_arm64" path="prebuilts/calyx/aml/adb" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.adservices_arm64" path="prebuilts/calyx/aml/ads" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_Bluetooth" path="prebuilts/calyx/aml/Bluetooth" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.appsearch_arm64" path="prebuilts/calyx/aml/ase" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.art_arm64" path="prebuilts/calyx/aml/art" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.cellbroadcast_arm64" path="prebuilts/calyx/aml/cbr" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_ConfigInfrastructure" path="prebuilts/calyx/aml/ConfigInfrastructure" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.conscrypt_arm64" path="prebuilts/calyx/aml/con" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_DeviceLock" path="prebuilts/calyx/aml/DeviceLock" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.extservices_arm64" path="prebuilts/calyx/aml/ext" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_hef" path="prebuilts/calyx/aml/hef" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.ipsec_arm64" path="prebuilts/calyx/aml/ips" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.media_arm64" path="prebuilts/calyx/aml/med" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.mediaprovider_arm64" path="prebuilts/calyx/aml/mpr" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.media.swcodec_arm64" path="prebuilts/calyx/aml/swc" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.neuralnetworks_arm64" path="prebuilts/calyx/aml/neu" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.ondevicepersonalization_arm64" path="prebuilts/calyx/aml/odp" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.os.statsd_arm64" path="prebuilts/calyx/aml/sta" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.permission_arm64" path="prebuilts/calyx/aml/per" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.resolv_arm64" path="prebuilts/calyx/aml/res" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_rkp" path="prebuilts/calyx/aml/rkp" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.scheduling_arm64" path="prebuilts/calyx/aml/sch" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.sdkext_arm64" path="prebuilts/calyx/aml/sdk" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.tethering_arm64" path="prebuilts/calyx/aml/tet" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.tzdata_arm64" path="prebuilts/calyx/aml/TimezoneData" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.uwb_arm64" path="prebuilts/calyx/aml/uwb" remote="gitlab-priv" clone-depth="1" />
+  <project revision="aml_34" name="CalyxOS/tmp/platform_prebuilts_calyx_aml_com.android.wifi_arm64" path="prebuilts/calyx/aml/wif" remote="gitlab-priv" clone-depth="1" />
+
+  <!-- Module SDKs -->
+  <remove-project name="platform/prebuilts/module_sdk/art" />
+  <project revision="android14" path="prebuilts/module_sdk/art" name="CalyxOS/tmp/platform_prebuilts_module_sdk_art" remote="gitlab-priv" groups="pdk" clone-depth="1" />
+  <remove-project name="platform/prebuilts/module_sdk/AdServices" />
+  <project revision="android14" path="prebuilts/module_sdk/AdServices" name="CalyxOS/tmp/platform_prebuilts_module_sdk_AdServices" remote="gitlab-priv" groups="pdk" clone-depth="1" />
+  <remove-project name="platform/prebuilts/module_sdk/AppSearch" />
+  <project revision="android14" path="prebuilts/module_sdk/AppSearch" name="CalyxOS/tmp/platform_prebuilts_module_sdk_AppSearch" remote="gitlab-priv" groups="pdk" clone-depth="1" />
+  <remove-project name="platform/prebuilts/module_sdk/Connectivity" />
+  <project revision="android14" path="prebuilts/module_sdk/Connectivity" name="CalyxOS/tmp/platform_prebuilts_module_sdk_Connectivity" remote="gitlab-priv" groups="pdk" clone-depth="1" />
+  <remove-project name="platform/prebuilts/module_sdk/Uwb" />
+  <project revision="android14" path="prebuilts/module_sdk/Uwb" name="CalyxOS/tmp/platform_prebuilts_module_sdk_Uwb" remote="gitlab-priv" groups="pdk" clone-depth="1" />
+</manifest>
