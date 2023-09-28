@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="CalyxOS/platform_prebuilts_calyx_aml" path="prebuilts/calyx/aml" remote="gitlab" />
+  <project name="CalyxOS/apex_manifest" path="external/calyx/apex_manifest" remote="gitlab" />
+
+  <!-- Module Metadata -->
+  <remove-project name="platform/packages/modules/ModuleMetadata" />
+  <project path="packages/modules/ModuleMetadata" name="CalyxOS/platform_packages_modules_ModuleMetadata" remote="gitlab" groups="pdk" clone-depth="1" />
+
+  <!-- Module SDKs -->
+  <remove-project name="platform/prebuilts/module_sdk/art" />
+  <project name="CalyxOS/platform_prebuilts_module_sdk_art" path="prebuilts/module_sdk/art" remote="gitlab" groups="pdk" clone-depth="1" />
+  <remove-project name="platform/prebuilts/module_sdk/AdServices" />
+  <project name="CalyxOS/platform_prebuilts_module_sdk_AdServices" path="prebuilts/module_sdk/AdServices" remote="gitlab" groups="pdk" clone-depth="1" />
+  <remove-project name="platform/prebuilts/module_sdk/AppSearch" />
+  <project name="CalyxOS/platform_prebuilts_module_sdk_AppSearch" path="prebuilts/module_sdk/AppSearch" remote="gitlab" groups="pdk" clone-depth="1" />
+  <remove-project name="platform/prebuilts/module_sdk/Connectivity" />
+  <project name="CalyxOS/platform_prebuilts_module_sdk_Connectivity" path="prebuilts/module_sdk/Connectivity" remote="gitlab" groups="pdk" clone-depth="1" />
+  <remove-project name="platform/prebuilts/module_sdk/IPsec" />
+  <project name="CalyxOS/platform_prebuilts_module_sdk_IPsec" path="prebuilts/module_sdk/IPsec" remote="gitlab" groups="pdk" clone-depth="1" />
+  <remove-project name="platform/prebuilts/module_sdk/Uwb" />
+  <project name="CalyxOS/platform_prebuilts_module_sdk_Uwb" path="prebuilts/module_sdk/Uwb" remote="gitlab" groups="pdk" clone-depth="1" />
+  <remove-project name="platform/prebuilts/module_sdk/Wifi" />
+  <project name="CalyxOS/platform_prebuilts_module_sdk_Wifi" path="prebuilts/module_sdk/Wifi" remote="gitlab" groups="pdk" clone-depth="1" />
+</manifest>
