@@ -54,6 +54,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c9d71dc0_77acc8de",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-28T14:11:52Z",
+      "side": 1,
+      "message": "\u003e Naming\n\nWe could also do `net` and so on, based on https://review.calyxos.org/c/CalyxOS/scripts/+/20571/1/vars/aml#16\n\n\u003e x86_64\n\nI really don\u0027t want another area for our emulator images to potentially get left behind or deviate from the on-device experience.\n\nI really don\u0027t want to double the build (and test time) every single month / every single module update. Emulator is currently meant to make development easier, this\u0027d make it harder for me to manage things, for now at least.\n\nWe all have enough test phones anyways.",
+      "parentUuid": "efd1a32b_e7390147",
+      "revId": "f537115921d257dc5b345d0d48c3d30c3265089f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "72eca77e_084448c9",
