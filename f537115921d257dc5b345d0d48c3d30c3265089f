@@ -16,6 +16,23 @@
       "message": "Those are some long repo names!\n\nFor prod, I\u0027d be tempted to do\n\nprebuilts/calyx/aml/shortname/\n\n1. Drop arm64\n2. s/com.android.// to keep it easier to get a shorter name",
       "revId": "f537115921d257dc5b345d0d48c3d30c3265089f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "72eca77e_084448c9",
+        "filename": "default.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 1012,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-28T09:41:32Z",
+      "side": 1,
+      "message": "Which tag are these repos forked from?",
+      "revId": "f537115921d257dc5b345d0d48c3d30c3265089f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
