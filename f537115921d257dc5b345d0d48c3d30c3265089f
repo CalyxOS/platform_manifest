@@ -92,6 +92,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "20c964dc_7e309e91",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-28T14:34:09Z",
+      "side": 1,
+      "message": "Combining directories for just one is ok\n\n\u003e I don\u0027t know what kind of testing you mean.\n\nEach built module would get some basic smoke-test leve of testing before shipping. Or atest where possible, I imagine, as that\u0027s simple enough.\n\n\u003e I think the emulator images are more beneficial for outside folks.\n\nWell, if mainline modules are absolutely needed for someone who can\u0027t test on a phone, we can just deal with it then. Till then, not worth it.\n\n\u003e But I don\u0027t want to get off on a tangent with this.\n\nYeah I\u0027ll drop it here too\n\n\u003e We would still have the subdirectories, right\n\nNo, not needed.\n\n1. prebuilts/calyx/amt/net/.git and prebuilts/calyx/amt/net/foo.apks\n2. prebuilts/calyx/amt/net/x86_64/.git when the day comes",
+      "parentUuid": "38537680_956cdd16",
+      "revId": "f537115921d257dc5b345d0d48c3d30c3265089f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "72eca77e_084448c9",
         "filename": "default.xml",
         "patchSetId": 4
