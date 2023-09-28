@@ -74,6 +74,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "38537680_956cdd16",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-09-28T14:28:27Z",
+      "side": 1,
+      "message": "\u003e We could also do `net` and so on\n\nThat works, although tags with multiple modules (currently just `NetworkStack` and `CaptivePortalLogin` in `net`?) will need to be combined into one directory again, which is okay.\n\n\u003e (and test time)\n\nI don\u0027t know what kind of testing you mean.\n\n\u003e We all have enough test phones anyways.\n\nI think the emulator images are more beneficial for outside folks. But I don\u0027t want to get off on a tangent with this.\n\nWhat I\u0027m thinking about now is mainly the naming. If we keep the `_arm64` part off the repo names, it\u0027s inconsistent and could be confusing later, but if it makes things easier somehow, it\u0027s fine.\n\nWe would still have the subdirectories, right (e.g. net/arm64/)? Otherwise I\u0027m not sure how we would layer the git repos on top of each other.",
+      "parentUuid": "c9d71dc0_77acc8de",
+      "revId": "f537115921d257dc5b345d0d48c3d30c3265089f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "72eca77e_084448c9",
         "filename": "default.xml",
         "patchSetId": 4
