@@ -33,6 +33,24 @@
       "message": "Which tag are these repos forked from?",
       "revId": "f537115921d257dc5b345d0d48c3d30c3265089f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dced8bfb_7996693b",
+        "filename": "default.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 1012,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-09-28T09:42:55Z",
+      "side": 1,
+      "message": "Looks like it\u0027s standard platform tags, `android-13.0.0_r75`",
+      "parentUuid": "72eca77e_084448c9",
+      "revId": "f537115921d257dc5b345d0d48c3d30c3265089f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
