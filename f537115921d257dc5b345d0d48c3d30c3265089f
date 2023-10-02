@@ -177,6 +177,24 @@
       "parentUuid": "72eca77e_084448c9",
       "revId": "f537115921d257dc5b345d0d48c3d30c3265089f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "55dfc2cc_fb1d6255",
+        "filename": "default.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 1012,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-10-02T14:04:55Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "dced8bfb_7996693b",
+      "revId": "f537115921d257dc5b345d0d48c3d30c3265089f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
