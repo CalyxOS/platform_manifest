@@ -7,17 +7,21 @@
   <remote  name="gitlab"
            fetch=".."
            review="review.calyxos.org"
+           revision="refs/heads/staging/android13-rebase" />
+  <remote  name="gitlab2"
+           fetch=".."
+           review="review.calyxos.org"
            revision="refs/heads/android13" />
   <remote  name="gitlab-priv"
            fetch="ssh://git@gitlab.com"
            review="review.calyxos.org"
            revision="refs/heads/android13" />
-  <default revision="refs/tags/android-13.0.0_r75"
+  <default revision="refs/tags/android-14.0.0_r1"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r75" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-14.0.0_r1" />
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- BEGIN open-source projects -->
@@ -81,7 +85,7 @@
   <project path="device/linaro/dragonboard" name="device/linaro/dragonboard" groups="device,dragonboard,pdk" />
   <project path="device/linaro/hikey" name="device/linaro/hikey" groups="device,hikey,pdk" />
   <project path="device/linaro/poplar" name="device/linaro/poplar" groups="device,poplar,pdk" />
-  <project name="device/mediatek/wembley-sepolicy" path="device/mediatek/wembley-sepolicy" groups="device"/>
+  <!--<project name="device/mediatek/wembley-sepolicy" path="device/mediatek/wembley-sepolicy" groups="device"/>-->
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/ti/beagle_x15" name="device/ti/beagle-x15" groups="device,beagle_x15,pdk" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -134,7 +138,7 @@
   <project path="external/cpu_features" name="platform/external/cpu_features" groups="pdk" />
   <project path="external/cpuinfo" name="platform/external/cpuinfo" groups="pdk" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk" />
-  <project path="external/cros/system_api" name="platform/external/cros/system_api" groups="pdk" />
+  <!--<project path="external/cros/system_api" name="platform/external/cros/system_api" groups="pdk" />-->
   <project path="external/crosvm" name="platform/external/crosvm" groups="pdk" />
   <project path="external/curl" name="platform/external/curl" groups="pdk" />
   <project path="external/dagger2" name="platform/external/dagger2" groups="pdk" />
@@ -272,7 +276,7 @@
   <project path="external/libchrome" name="platform/external/libchrome" groups="pdk" />
   <project path="external/libchromeos-rs" name="platform/external/libchromeos-rs" groups="pdk" />
   <project path="external/libconfig" name="platform/external/libconfig" groups="pdk" />
-  <project path="external/libcppbor" name="platform/external/libcppbor" groups="pdk" />
+  <!--<project path="external/libcppbor" name="platform/external/libcppbor" groups="pdk" />-->
   <project path="external/libcups" name="platform/external/libcups" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
@@ -309,12 +313,12 @@
   <project path="external/liburing" name="platform/external/liburing" groups="pdk" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk" />
   <project path="external/libutf" name="platform/external/libutf" groups="pdk" />
-  <project path="external/libvpx" name="CalyxOS/platform_external_libvpx" groups="pdk" remote="gitlab" />
+  <project path="external/libvpx" name="CalyxOS/platform_external_libvpx" groups="pdk" remote="gitlab2" />
   <project path="external/libwebm" name="platform/external/libwebm" groups="pdk" />
   <project path="external/libwebsockets" name="platform/external/libwebsockets" groups="pdk" />
   <project path="external/libxaac" name="platform/external/libxaac" groups="pdk" />
   <project path="external/libxkbcommon" name="platform/external/libxkbcommon" groups="pdk" />
-  <project path="external/libxml2" name="CalyxOS/platform_external_libxml2" groups="pdk,libxml2" remote="gitlab" />
+  <project path="external/libxml2" name="platform/external/libxml2" groups="pdk,libxml2" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="pdk,libyuv" />
   <project path="external/linux-kselftest" name="platform/external/linux-kselftest" groups="vts,pdk" clone-depth="1" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
@@ -362,7 +366,7 @@
   <project path="external/obstack" name="platform/external/obstack" groups="pdk" />
   <project path="external/oj-libjdwp" name="platform/external/oj-libjdwp" groups="pdk" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk" />
-  <project path="external/okhttp4" name="platform/external/okhttp4" groups="pdk" />
+  <!--<project path="external/okhttp4" name="platform/external/okhttp4" groups="pdk" />-->
   <project path="external/okio" name="platform/external/okio" groups="pdk" />
   <project path="external/one-true-awk" name="platform/external/one-true-awk" groups="pdk" />
   <project path="external/opencensus-java" name="platform/external/opencensus-java" groups="pdk,tradefed" />
@@ -400,8 +404,8 @@
   <project path="external/python/cryptography" name="platform/external/python/cryptography" groups="pdk" />
   <project path="external/python/dateutil" name="platform/external/python/dateutil" groups="pdk" />
   <project path="external/python/enum34" name="platform/external/python/enum34" groups="vts,pdk" />
-  <project path="external/python/funcsigs" name="platform/external/python/funcsigs" groups="pdk" />
-  <project path="external/python/futures" name="platform/external/python/futures" groups="vts,pdk" />
+  <!--<project path="external/python/funcsigs" name="platform/external/python/funcsigs" groups="pdk" />-->
+  <!--<project path="external/python/futures" name="platform/external/python/futures" groups="vts,pdk" />-->
   <project path="external/python/google-auth-library-python" name="platform/external/python/google-auth-library-python" groups="pdk" />
   <project path="external/python/google-api-python-client" name="platform/external/python/google-api-python-client" groups="vts,pdk" />
   <project path="external/python/httplib2" name="platform/external/python/httplib2" groups="vts,pdk" />
@@ -417,7 +421,7 @@
   <project path="external/python/pycparser" name="platform/external/python/pycparser" groups="pdk" />
   <project path="external/python/pyee" name="platform/external/python/pyee" groups="pdk" />
   <project path="external/python/pyfakefs" name="platform/external/python/pyfakefs" groups="pdk" />
-  <project path="external/python/pyopenssl" name="platform/external/python/pyopenssl" groups="pdk" />
+  <!--<project path="external/python/pyopenssl" name="platform/external/python/pyopenssl" groups="pdk" />-->
   <project path="external/python/pyserial" name="platform/external/python/pyserial" groups="pdk" />
   <project path="external/python/python-api-core" name="platform/external/python/python-api-core" groups="pdk" />
   <project path="external/python/pyyaml" name="platform/external/python/pyyaml" groups="pdk" />
@@ -435,7 +439,7 @@
   <project path="external/robolectric-shadows" name="platform/external/robolectric-shadows" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/roboto-fonts" name="platform/external/roboto-fonts" groups="pdk" />
   <project path="external/rootdev" name="platform/external/rootdev" groups="pdk" />
-  <project path="external/Reactive-Extensions/RxCpp" name="platform/external/Reactive-Extensions/RxCpp" groups="pdk" />
+  <!--<project path="external/Reactive-Extensions/RxCpp" name="platform/external/Reactive-Extensions/RxCpp" groups="pdk" />-->
   <project path="external/rnnoise" name="platform/external/rnnoise" groups="pdk" />
   <project path="external/rust/crates/ahash" name="platform/external/rust/crates/ahash" groups="pdk" />
   <project path="external/rust/crates/aho-corasick" name="platform/external/rust/crates/aho-corasick" groups="pdk" />
@@ -537,7 +541,7 @@
   <project path="external/rust/crates/lru-cache" name="platform/external/rust/crates/lru-cache" groups="pdk" />
   <project path="external/rust/crates/macaddr" name="platform/external/rust/crates/macaddr" groups="pdk" />
   <project path="external/rust/crates/managed" name="platform/external/rust/crates/managed" groups="pdk" />
-  <project path="external/rust/crates/matches" name="platform/external/rust/crates/matches" groups="pdk" />
+  <!--<project path="external/rust/crates/matches" name="platform/external/rust/crates/matches" groups="pdk" />-->
   <project path="external/rust/crates/memchr" name="platform/external/rust/crates/memchr" groups="pdk" />
   <project path="external/rust/crates/memoffset" name="platform/external/rust/crates/memoffset" groups="pdk" />
   <project path="external/rust/crates/minimal-lexical" name="platform/external/rust/crates/minimal-lexical" groups="pdk" />
@@ -572,7 +576,7 @@
   <project path="external/rust/crates/ppv-lite86" name="platform/external/rust/crates/ppv-lite86" groups="pdk" />
   <project path="external/rust/crates/proc-macro-error" name="platform/external/rust/crates/proc-macro-error" groups="pdk" />
   <project path="external/rust/crates/proc-macro-error-attr" name="platform/external/rust/crates/proc-macro-error-attr" groups="pdk" />
-  <project path="external/rust/crates/proc-macro-hack" name="platform/external/rust/crates/proc-macro-hack" groups="pdk" />
+  <!--<project path="external/rust/crates/proc-macro-hack" name="platform/external/rust/crates/proc-macro-hack" groups="pdk" />-->
   <project path="external/rust/crates/proc-macro-nested" name="platform/external/rust/crates/proc-macro-nested" groups="pdk" />
   <project path="external/rust/crates/proc-macro2" name="platform/external/rust/crates/proc-macro2" groups="pdk" />
   <project path="external/rust/crates/protobuf" name="platform/external/rust/crates/protobuf" groups="pdk" />
@@ -614,8 +618,8 @@
   <project path="external/rust/crates/slab" name="platform/external/rust/crates/slab" groups="pdk" />
   <project path="external/rust/crates/smallvec" name="platform/external/rust/crates/smallvec" groups="pdk" />
   <project path="external/rust/crates/spin" name="platform/external/rust/crates/spin" groups="pdk" />
-  <project path="external/rust/crates/structopt" name="platform/external/rust/crates/structopt" groups="pdk" />
-  <project path="external/rust/crates/structopt-derive" name="platform/external/rust/crates/structopt-derive" groups="pdk" />
+  <!--<project path="external/rust/crates/structopt" name="platform/external/rust/crates/structopt" groups="pdk" />-->
+  <!--<project path="external/rust/crates/structopt-derive" name="platform/external/rust/crates/structopt-derive" groups="pdk" />-->
   <project path="external/rust/crates/syn" name="platform/external/rust/crates/syn" groups="pdk" />
   <project path="external/rust/crates/syn-mid" name="platform/external/rust/crates/syn-mid" groups="pdk" />
   <project path="external/rust/crates/tempfile" name="platform/external/rust/crates/tempfile" groups="pdk" />
@@ -698,7 +702,7 @@
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" />
   <project path="external/universal-tween-engine" name="platform/external/universal-tween-engine" />
   <project path="external/ukey2" name="platform/external/ukey2" groups="pdk" />
-  <project path="external/usrsctp" name="platform/external/usrsctp" groups="pdk" />
+  <!--<project path="external/usrsctp" name="platform/external/usrsctp" groups="pdk" />-->
   <project path="external/uwb" name="platform/external/uwb" groups="pdk" />
   <project path="external/v4l2_codec2" name="platform/external/v4l2_codec2" groups="pdk" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot,pdk-fs" />
@@ -711,7 +715,7 @@
   <project path="external/walt" name="platform/external/walt" groups="pdk" />
   <project path="external/wayland" name="platform/external/wayland" groups="pdk" />
   <project path="external/wayland-protocols" name="platform/external/wayland-protocols" groups="pdk" />
-  <project path="external/webp" name="CalyxOS/platform_external_webp" groups="pdk,qcom_msm8x26" remote="gitlab" />
+  <project path="external/webp" name="CalyxOS/platform_external_webp" groups="pdk,qcom_msm8x26" remote="gitlab2" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/wmediumd" name="platform/external/wmediumd" groups="pdk" />
@@ -748,7 +752,7 @@
   <project path="frameworks/opt/car/services" name="platform/frameworks/opt/car/services" groups="pdk-fs" />
   <project path="frameworks/opt/car/setupwizard" name="platform/frameworks/opt/car/setupwizard" groups="pdk" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/colorpicker" name="CalyxOS/platform_frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
+  <project path="frameworks/opt/colorpicker" name="CalyxOS/platform_frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs" remote="gitlab2" />
   <project path="frameworks/opt/localepicker" name="platform/frameworks/opt/localepicker" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
@@ -793,6 +797,7 @@
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk-qcom" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk-qcom" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk-qcom" />
+  <!--
   <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="generic_fs,qcom_sdm845" />
   <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" groups="generic_fs,vendor,qcom_sdm845" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
@@ -803,6 +808,7 @@
   <project path="hardware/qcom/sdm845/media" name="CalyxOS/platform_hardware_qcom_sdm845_media" groups="generic_fs,qcom_sdm845" remote="gitlab" />
   <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" groups="generic_fs,qcom_sdm845" />
   <project path="hardware/qcom/sdm845/vr" name="platform/hardware/qcom/sdm845/vr" groups="generic_fs,qcom_sdm845" />
+  -->
   <project path="hardware/qcom/sm7250/display" name="CalyxOS/platform_hardware_qcom_sm7250_display" groups="qcom_sm7250" remote="gitlab" />
   <project path="hardware/qcom/sm7250/gps" name="CalyxOS/platform_hardware_qcom_sm7250_gps" groups="qcom_sm7250" remote="gitlab" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7250/Android.mk" />
@@ -857,7 +863,7 @@
   <project path="packages/apps/Car/Cluster" name="platform/packages/apps/Car/Cluster" groups="pdk-fs" />
   <project path="packages/apps/Car/DebuggingRestrictionController" name="platform/packages/apps/Car/DebuggingRestrictionController" groups="pdk-fs" />
   <project path="packages/apps/Car/DialerPrebuilt" name="platform/packages/apps/Car/DialerPrebuilt" groups="pdk-fs" />
-  <project path="packages/apps/Car/Hvac" name="platform/packages/apps/Car/Hvac" groups="pdk-fs" />
+  <!--<project path="packages/apps/Car/Hvac" name="platform/packages/apps/Car/Hvac" groups="pdk-fs" />-->
   <project path="packages/apps/Car/LatinIME" name="platform/packages/apps/Car/LatinIME" groups="pdk-fs" />
   <project path="packages/apps/Car/Launcher" name="platform/packages/apps/Car/Launcher" groups="pdk-fs" />
   <project path="packages/apps/Car/LinkViewer" name="platform/packages/apps/Car/LinkViewer" groups="pdk-fs" />
@@ -890,15 +896,15 @@
   <project path="packages/apps/Messaging" name="CalyxOS/platform_packages_apps_Messaging" groups="pdk-fs" remote="gitlab" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" name="CalyxOS/platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="gitlab" />
+  <project path="packages/apps/Nfc" name="CalyxOS/platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="gitlab2" />
   <project path="packages/apps/OnDeviceAppPrediction" name="platform/packages/apps/OnDeviceAppPrediction" groups="pdk-fs" />
-  <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
+  <!--<project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />-->
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
   <project path="packages/apps/QuickAccessWallet" name="platform/packages/apps/QuickAccessWallet" groups="pdk-fs" />
-  <project path="packages/apps/RemoteProvisioner" name="platform/packages/apps/RemoteProvisioner" groups="pdk-fs" />
+  <!--<project path="packages/apps/RemoteProvisioner" name="platform/packages/apps/RemoteProvisioner" groups="pdk-fs" />-->
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" />
   <project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" />
   <project path="packages/apps/SecureElement" name="platform/packages/apps/SecureElement" groups="apps_se,pdk-fs" />
@@ -910,8 +916,8 @@
   <project path="packages/apps/SystemUIGo" name="platform/packages/apps/SystemUIGo" groups="pdk-fs" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" groups="pdk" />
-  <project path="packages/apps/TimeZoneData" name="platform/packages/apps/TimeZoneData" groups="pdk" />
-  <project path="packages/apps/TimeZoneUpdater" name="platform/packages/apps/TimeZoneUpdater" groups="pdk" />
+  <!--<project path="packages/apps/TimeZoneData" name="platform/packages/apps/TimeZoneData" groups="pdk" />-->
+  <!--<project path="packages/apps/TimeZoneUpdater" name="platform/packages/apps/TimeZoneUpdater" groups="pdk" />-->
   <project path="packages/apps/ThemePicker" name="CalyxOS/platform_packages_apps_ThemePicker" groups="pdk-fs" remote="gitlab" />
   <project path="packages/apps/Traceur" name="CalyxOS/platform_packages_apps_Traceur" groups="pdk-fs" remote="gitlab" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="pdk-fs" />
@@ -926,8 +932,8 @@
   <project path="packages/modules/AppSearch" name="platform/packages/modules/AppSearch" groups="pdk" />
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" groups="pdk" clone-depth="1" />
   <project path="packages/modules/Bluetooth" name="CalyxOS/platform_packages_modules_Bluetooth" groups="pdk" remote="gitlab" />
-  <project path="packages/modules/BootPrebuilt/5.4/arm64" name="platform/packages/modules/BootPrebuilt/5.4/arm64" groups="pdk" clone-depth="1" />
-  <project path="packages/modules/BootPrebuilt/5.10/arm64" name="platform/packages/modules/BootPrebuilt/5.10/arm64" groups="pdk" clone-depth="1" />
+  <!--<project path="packages/modules/BootPrebuilt/5.4/arm64" name="platform/packages/modules/BootPrebuilt/5.4/arm64" groups="pdk" clone-depth="1" />-->
+  <!--<project path="packages/modules/BootPrebuilt/5.10/arm64" name="platform/packages/modules/BootPrebuilt/5.10/arm64" groups="pdk" clone-depth="1" />-->
   <project path="packages/modules/CaptivePortalLogin" name="platform/packages/modules/CaptivePortalLogin" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/CellBroadcastService" name="platform/packages/modules/CellBroadcastService" groups="pdk" />
   <project path="packages/modules/common" name="CalyxOS/platform_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
@@ -942,7 +948,7 @@
   <project path="packages/modules/ModuleMetadata" name="platform/packages/modules/ModuleMetadata" groups="pdk" />
   <project path="packages/modules/NetworkPermissionConfig" name="platform/packages/modules/NetworkPermissionConfig" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/modules/NeuralNetworks" name="CalyxOS/platform_packages_modules_NeuralNetworks" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
+  <project path="packages/modules/NeuralNetworks" name="CalyxOS/platform_packages_modules_NeuralNetworks" groups="pdk-cw-fs,pdk-fs" remote="gitlab2" />
   <project path="packages/modules/OnDevicePersonalization" name="platform/packages/modules/OnDevicePersonalization" groups="pdk-fs" />
   <project path="packages/modules/Permission" name="CalyxOS/platform_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
   <project path="packages/modules/RuntimeI18n" name="platform/packages/modules/RuntimeI18n" groups="pdk-cw-fs,pdk-fs" />
@@ -1006,7 +1012,7 @@
   <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" groups="pdk" clone-depth="1" />
   <project path="prebuilts/jdk/jdk9" name="platform/prebuilts/jdk/jdk9" groups="pdk" clone-depth="1" />
   <project path="prebuilts/manifest-merger" name="platform/prebuilts/manifest-merger" groups="pdk" clone-depth="1" />
-  <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
+  <!--<project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />-->
   <project path="prebuilts/maven_repo/bumptech" name="platform/prebuilts/maven_repo/bumptech" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" clone-depth="1" />
   <project path="prebuilts/module_sdk/art" name="platform/prebuilts/module_sdk/art" groups="pdk" clone-depth="1" />
@@ -1034,7 +1040,7 @@
   <project path="prebuilts/r8" name="platform/prebuilts/r8" groups="pdk" clone-depth="1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" />
-  <project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" groups="pdk" clone-depth="1" />
+  <!--<project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" groups="pdk" clone-depth="1" />-->
   <project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" groups="pdk" clone-depth="1" />
   <project path="prebuilts/vndk/v30" name="platform/prebuilts/vndk/v30" groups="pdk" clone-depth="1" />
   <project path="prebuilts/vndk/v31" name="platform/prebuilts/vndk/v31" groups="pdk" clone-depth="1" />
@@ -1100,7 +1106,7 @@
   <project path="test/cts-root" name="platform/test/cts-root" />
   <project path="test/mts" name="platform/test/mts" />
   <project path="test/vts" name="platform/test/vts" groups="vts,pdk" />
-  <project path="test/vts-testcase/fuzz" name="platform/test/vts-testcase/fuzz" groups="vts,projectarch,pdk" />
+  <!--<project path="test/vts-testcase/fuzz" name="platform/test/vts-testcase/fuzz" groups="vts,projectarch,pdk" />-->
   <project path="test/vts-testcase/hal" name="platform/test/vts-testcase/hal" groups="vts,pdk" />
   <project path="test/vts-testcase/hal-trace" name="platform/test/vts-testcase/hal-trace" groups="vts,pdk" />
   <project path="test/vts-testcase/kernel" name="platform/test/vts-testcase/kernel" groups="vts,pdk" />
@@ -1115,7 +1121,7 @@
   <project path="tools/acloud" name="platform/tools/acloud" groups="tools,vts,projectarch,pdk,tradefed" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/apifinder" name="platform/tools/apifinder" groups="pdk,tools" />
-  <project path="tools/apksig" name="CalyxOS/platform_tools_apksig" groups="pdk,tradefed" remote="gitlab" />
+  <project path="tools/apksig" name="platform/tools/apksig" groups="pdk,tradefed" />
   <project path="tools/apkzlib" name="platform/tools/apkzlib" groups="pdk,tradefed" />
   <project path="tools/asuite" name="platform/tools/asuite" groups="pdk" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
