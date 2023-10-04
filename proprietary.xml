@@ -2,19 +2,27 @@
 <manifest>
 
   <!-- Pixel 3, 3 XL -->
+  <!--
   <project name="CalyxOS/proprietary_vendor_google_crosshatch" path="vendor/google/crosshatch" remote="gitlab-priv" clone-depth="1" />
   <project name="CalyxOS/proprietary_vendor_google_blueline" path="vendor/google/blueline" remote="gitlab-priv" clone-depth="1" />
+  -->
 
   <!-- Pixel 3a, 3a XL -->
+  <!--
   <project name="CalyxOS/proprietary_vendor_google_bonito" path="vendor/google/bonito" remote="gitlab-priv" clone-depth="1" />
   <project name="CalyxOS/proprietary_vendor_google_sargo" path="vendor/google/sargo" remote="gitlab-priv" clone-depth="1" />
+  -->
 
   <!-- Pixel 4, 4 XL -->
+  <!--
   <project name="CalyxOS/proprietary_vendor_google_coral" path="vendor/google/coral" remote="gitlab-priv" clone-depth="1" />
   <project name="CalyxOS/proprietary_vendor_google_flame" path="vendor/google/flame" remote="gitlab-priv" clone-depth="1" />
+  -->
 
   <!-- Pixel 4a -->
+  <!--
   <project name="CalyxOS/proprietary_vendor_google_sunfish" path="vendor/google/sunfish" remote="gitlab-priv" clone-depth="1" />
+  -->
 
   <!-- Pixel 5, 4a (5G), 5a -->
   <project name="CalyxOS/proprietary_vendor_google_redfin" path="vendor/google/redfin" remote="gitlab-priv" clone-depth="1" />
@@ -42,15 +50,21 @@
   <project name="CalyxOS/proprietary_vendor_google_felix" path="vendor/google/felix" remote="gitlab-priv" clone-depth="1" />
 
   <!-- Fairphone 4 -->
+  <!--
   <project name="CalyxOS/proprietary_vendor_fairphone_FP4" path="vendor/fairphone/FP4" remote="gitlab-priv" clone-depth="1" />
+  -->
 
   <!-- SHIFT SHIFT6mq -->
+  <!--
   <project name="CalyxOS/proprietary_vendor_shift_axolotl" path="vendor/shift/axolotl" remote="gitlab-priv" clone-depth="1" />
+  -->
 
   <!-- Motorola sm6225 -->
+  <!--
   <project name="CalyxOS/proprietary_vendor_motorola_devon" path="vendor/motorola/devon" remote="gitlab-priv" clone-depth="1" />
   <project name="CalyxOS/proprietary_vendor_motorola_hawao" path="vendor/motorola/hawao" remote="gitlab-priv" clone-depth="1" />
   <project name="CalyxOS/proprietary_vendor_motorola_rhode" path="vendor/motorola/rhode" remote="gitlab-priv" clone-depth="1" />
   <project name="CalyxOS/proprietary_vendor_motorola_sm6225-common" path="vendor/motorola/sm6225-common" remote="gitlab-priv" clone-depth="1" />
+  -->
 
 </manifest>
