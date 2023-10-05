@@ -1,0 +1,84 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bec9c423_b14906b6",
+        "filename": "proprietary.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-05T12:17:47Z",
+      "side": 1,
+      "message": "Pushed totally empty android14 for all Pixels below.",
+      "revId": "ddccb4b670e5971549606524326d283bce9d94fb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "83d98665_23e3d551",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-05T12:17:47Z",
+      "side": 1,
+      "message": "Pushed totally empty android14. No WebView for U yet anyways.",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 135
+      },
+      "revId": "ddccb4b670e5971549606524326d283bce9d94fb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aaf8383a_c64169bf",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-05T12:17:47Z",
+      "side": 1,
+      "message": "Pushed 13 to 14",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 123
+      },
+      "revId": "ddccb4b670e5971549606524326d283bce9d94fb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4fd96f49_e44ef0ab",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-05T12:17:47Z",
+      "side": 1,
+      "message": "Pushed totally empty 14 for all -kernel repos below. Not relevant right now since we\u0027re fetching AOSP anyways.",
+      "revId": "ddccb4b670e5971549606524326d283bce9d94fb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
