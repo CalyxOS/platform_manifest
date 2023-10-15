@@ -847,6 +847,7 @@
   <project path="hardware/google/graphics/common" name="platform/hardware/google/graphics/common" groups="pdk-lassen,pdk-gs-arm" />
   <project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" groups="pdk-lassen,pdk-gs-arm" />
   <project path="hardware/google/graphics/gs201" name="platform/hardware/google/graphics/gs201" groups="cloudripper" />
+  <project path="hardware/google/graphics/zuma" name="platform/hardware/google/graphics/zuma" groups="ripcurrent" />
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" />
   <project path="hardware/google/pixel" name="CalyxOS/platform_hardware_google_pixel" groups="generic_fs,pixel" remote="gitlab" />
   <project path="hardware/google/pixel-sepolicy" name="CalyxOS/platform_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="gitlab" />
