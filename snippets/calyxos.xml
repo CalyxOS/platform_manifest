@@ -121,4 +121,14 @@
   <project name="CalyxOS/device_google_felix-sepolicy" path="device/google/felix-sepolicy" groups="device,felix" remote="gitlab" />
   <project name="device/google/felix-kernel" path="device/google/felix-kernel" groups="device,felix" clone-depth="1" />
 
+  <!-- Pixel 7, 7 Pro -->
+  <project name="CalyxOS/device_google_zuma" path="device/google/zuma" groups="device,ripcurrent" remote="gitlab" />
+  <project name="CalyxOS/device_google_zuma-sepolicy" path="device/google/zuma-sepolicy" groups="device,ripcurrent" remote="gitlab" />
+  <project name="CalyxOS/device_google_husky" path="device/google/husky" groups="device,ripcurrent" remote="gitlab" />
+  <project name="CalyxOS/device_google_shiba" path="device/google/shiba" groups="device,ripcurrent" remote="gitlab" />
+  <project name="CalyxOS/device_google_shusky" path="device/google/shusky" groups="device,ripcurrent" remote="gitlab" />
+  <project name="CalyxOS/device_google_shusky-sepolicy" path="device/google/shusky-sepolicy" groups="device,ripcurrent" remote="gitlab" />
+  <project name="device/google/shusky-kernel" path="device/google/shusky-kernel" groups="device,ripcurrent" clone-depth="1" revision="refs/tags/android-14.0.0_r11" />
+
+
 </manifest>
