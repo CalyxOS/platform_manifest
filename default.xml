@@ -12,12 +12,12 @@
            fetch="ssh://git@gitlab.com"
            review="review.calyxos.org"
            revision="refs/heads/android14" />
-  <default revision="refs/tags/android-14.0.0_r1"
+  <default revision="refs/tags/android-14.0.0_r11"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-14.0.0_r1" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-14.0.0_r11" />
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="CalyxOS/platform_build" groups="pdk" remote="gitlab" >
@@ -847,6 +847,7 @@
   <project path="hardware/google/graphics/common" name="platform/hardware/google/graphics/common" groups="pdk-lassen,pdk-gs-arm" />
   <project path="hardware/google/graphics/gs101" name="platform/hardware/google/graphics/gs101" groups="pdk-lassen,pdk-gs-arm" />
   <project path="hardware/google/graphics/gs201" name="platform/hardware/google/graphics/gs201" groups="cloudripper" />
+  <project path="hardware/google/graphics/zuma" name="platform/hardware/google/graphics/zuma" groups="ripcurrent" />
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" />
   <project path="hardware/google/pixel" name="CalyxOS/platform_hardware_google_pixel" groups="generic_fs,pixel" remote="gitlab" />
   <project path="hardware/google/pixel-sepolicy" name="CalyxOS/platform_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="gitlab" />
