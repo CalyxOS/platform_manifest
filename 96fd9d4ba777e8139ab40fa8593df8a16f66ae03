@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9b771bb_8569df35",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-16T13:29:33Z",
+      "side": 1,
+      "message": "Actually, android14-d1",
+      "revId": "96fd9d4ba777e8139ab40fa8593df8a16f66ae03",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
