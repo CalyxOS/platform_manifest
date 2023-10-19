@@ -25,7 +25,7 @@
   <project name="CalyxOS/platform_prebuilts_calyx_lupin" path="prebuilts/calyx/lupin" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_calyx_microg" path="prebuilts/calyx/microg" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/keys" path="calyx/keys" remote="gitlab" />
-  <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" />
+  <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" revision="android14-d1" />
   <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" />
 
   <!-- LineageOS forks with additional changes -->
@@ -86,7 +86,7 @@
   <!-- Pixel 6, 6 Pro -->
   <project name="CalyxOS/device_google_gs101" path="device/google/gs101" groups="device,slider,bluejay,pdk-gs-arm" remote="gitlab" />
   <project name="CalyxOS/device_google_gs101-sepolicy" path="device/google/gs101-sepolicy" groups="device,slider,bluejay,pdk-gs-arm" remote="gitlab" />
-  <project name="CalyxOS/device_google_gs-common" path="device/google/gs-common" groups="device,slider,bluejay,cloudripper,pdk-gs-arm" remote="gitlab" />
+  <project name="CalyxOS/device_google_gs-common" path="device/google/gs-common" groups="device,slider,bluejay,cloudripper,pdk-gs-arm" remote="gitlab" revision="android14-d1" />
   <project name="CalyxOS/device_google_oriole" path="device/google/oriole" groups="device,slider,pdk-gs-arm" remote="gitlab" />
   <project name="CalyxOS/device_google_raven" path="device/google/raven" groups="device,slider,pdk-gs-arm" remote="gitlab" />
   <project name="CalyxOS/device_google_raviole" path="device/google/raviole" groups="device,slider,pdk-gs-arm" remote="gitlab" />
@@ -122,12 +122,12 @@
   <project name="device/google/felix-kernel" path="device/google/felix-kernel" groups="device,felix" clone-depth="1" />
 
   <!-- Pixel 8, 8 Pro -->
-  <project name="CalyxOS/device_google_zuma" path="device/google/zuma" groups="device,ripcurrent" remote="gitlab" />
-  <project name="CalyxOS/device_google_zuma-sepolicy" path="device/google/zuma-sepolicy" groups="device,ripcurrent" remote="gitlab" />
-  <project name="CalyxOS/device_google_husky" path="device/google/husky" groups="device,ripcurrent" remote="gitlab" />
-  <project name="CalyxOS/device_google_shiba" path="device/google/shiba" groups="device,ripcurrent" remote="gitlab" />
-  <project name="CalyxOS/device_google_shusky" path="device/google/shusky" groups="device,ripcurrent" remote="gitlab" />
-  <project name="CalyxOS/device_google_shusky-sepolicy" path="device/google/shusky-sepolicy" groups="device,ripcurrent" remote="gitlab" />
+  <project name="CalyxOS/device_google_zuma" path="device/google/zuma" groups="device,ripcurrent" remote="gitlab" revision="android14-d1" />
+  <project name="CalyxOS/device_google_zuma-sepolicy" path="device/google/zuma-sepolicy" groups="device,ripcurrent" remote="gitlab" revision="android14-d1" />
+  <project name="CalyxOS/device_google_husky" path="device/google/husky" groups="device,ripcurrent" remote="gitlab" revision="android14-d1" />
+  <project name="CalyxOS/device_google_shiba" path="device/google/shiba" groups="device,ripcurrent" remote="gitlab" revision="android14-d1" />
+  <project name="CalyxOS/device_google_shusky" path="device/google/shusky" groups="device,ripcurrent" remote="gitlab" revision="android14-d1" />
+  <project name="CalyxOS/device_google_shusky-sepolicy" path="device/google/shusky-sepolicy" groups="device,ripcurrent" remote="gitlab" revision="android14-d1" />
   <project name="device/google/shusky-kernel" path="device/google/shusky-kernel" groups="device,ripcurrent" clone-depth="1" />
 
 </manifest>
