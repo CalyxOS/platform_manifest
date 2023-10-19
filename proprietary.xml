@@ -50,8 +50,8 @@
   <project name="CalyxOS/proprietary_vendor_google_felix" path="vendor/google/felix" remote="gitlab-priv" clone-depth="1" />
 
   <!-- Pixel 8, 8 Pro -->
-  <project name="CalyxOS/proprietary_vendor_google_husky" path="vendor/google/husky" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_google_husky" path="vendor/google/husky" remote="gitlab-priv" revision="android14-d1" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="gitlab-priv" revision="android14-d1" clone-depth="1" />
 
   <!-- Fairphone 4 -->
   <!--
