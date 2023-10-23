@@ -14,15 +14,11 @@
   -->
 
   <!-- Pixel 4, 4 XL -->
-  <!--
   <project name="CalyxOS/proprietary_vendor_google_coral" path="vendor/google/coral" remote="gitlab-priv" clone-depth="1" />
   <project name="CalyxOS/proprietary_vendor_google_flame" path="vendor/google/flame" remote="gitlab-priv" clone-depth="1" />
-  -->
 
   <!-- Pixel 4a -->
-  <!--
   <project name="CalyxOS/proprietary_vendor_google_sunfish" path="vendor/google/sunfish" remote="gitlab-priv" clone-depth="1" />
-  -->
 
   <!-- Pixel 5, 4a (5G), 5a -->
   <project name="CalyxOS/proprietary_vendor_google_redfin" path="vendor/google/redfin" remote="gitlab-priv" clone-depth="1" />
