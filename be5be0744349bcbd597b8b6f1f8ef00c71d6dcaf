@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1570c0e_13d62089",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-11-01T20:00:57Z",
+      "side": 1,
+      "message": "Needs default.xml forks and for the rest branches created from android13",
+      "revId": "be5be0744349bcbd597b8b6f1f8ef00c71d6dcaf",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
