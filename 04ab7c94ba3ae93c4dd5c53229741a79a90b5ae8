@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ed465d6_4a819361",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-11-01T20:00:23Z",
+      "side": 1,
+      "message": "Needs android14 branch created from lineage-21",
+      "revId": "04ab7c94ba3ae93c4dd5c53229741a79a90b5ae8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
