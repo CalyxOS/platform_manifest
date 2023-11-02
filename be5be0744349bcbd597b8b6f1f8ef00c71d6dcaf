@@ -16,6 +16,24 @@
       "message": "Needs default.xml forks and for the rest branches created from android13",
       "revId": "be5be0744349bcbd597b8b6f1f8ef00c71d6dcaf",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fc8bd556_3a54fafd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-02T14:27:15Z",
+      "side": 1,
+      "message": "default.xml forks and branches done",
+      "parentUuid": "e1570c0e_13d62089",
+      "revId": "be5be0744349bcbd597b8b6f1f8ef00c71d6dcaf",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
