@@ -7,11 +7,11 @@
   <remote  name="gitlab"
            fetch=".."
            review="review.calyxos.org"
-           revision="refs/heads/android13" />
+           revision="refs/tags/4.14.2" />
   <remote  name="gitlab-priv"
            fetch="ssh://git@gitlab.com"
            review="review.calyxos.org"
-           revision="refs/heads/android13" />
+           revision="refs/tags/4.14.2" />
   <default revision="refs/tags/android-13.0.0_r75"
            remote="aosp"
            sync-j="4"
