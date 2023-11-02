@@ -46,9 +46,7 @@
   <project name="CalyxOS/proprietary_vendor_google_felix" path="vendor/google/felix" remote="gitlab-priv" clone-depth="1" />
 
   <!-- Fairphone 4 -->
-  <!--
   <project name="CalyxOS/proprietary_vendor_fairphone_FP4" path="vendor/fairphone/FP4" remote="gitlab-priv" clone-depth="1" />
-  -->
 
   <!-- SHIFT SHIFT6mq -->
   <!--
@@ -56,11 +54,9 @@
   -->
 
   <!-- Motorola sm6225 -->
-  <!--
   <project name="CalyxOS/proprietary_vendor_motorola_devon" path="vendor/motorola/devon" remote="gitlab-priv" clone-depth="1" />
   <project name="CalyxOS/proprietary_vendor_motorola_hawao" path="vendor/motorola/hawao" remote="gitlab-priv" clone-depth="1" />
   <project name="CalyxOS/proprietary_vendor_motorola_rhode" path="vendor/motorola/rhode" remote="gitlab-priv" clone-depth="1" />
   <project name="CalyxOS/proprietary_vendor_motorola_sm6225-common" path="vendor/motorola/sm6225-common" remote="gitlab-priv" clone-depth="1" />
-  -->
 
 </manifest>
