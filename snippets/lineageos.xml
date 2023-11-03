@@ -2,18 +2,18 @@
 <manifest>
 
   <!-- LineageOS additions -->
-  <project name="CalyxOS/platform_external_exfatprogs" path="external/exfatprogs" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_apps_Aperture" path="packages/apps/Aperture" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_apps_AudioFX" path="packages/apps/AudioFX" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_apps_DeskClock" path="packages/apps/DeskClock" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_apps_Eleven" path="packages/apps/Eleven" groups="lineage" remote="gitlab" revision="staging/android14" />
+  <project name="CalyxOS/platform_external_exfatprogs" path="external/exfatprogs" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_apps_Aperture" path="packages/apps/Aperture" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_apps_AudioFX" path="packages/apps/AudioFX" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_apps_DeskClock" path="packages/apps/DeskClock" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_apps_Eleven" path="packages/apps/Eleven" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_ElmyraService" path="packages/apps/ElmyraService" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_Etar" path="packages/apps/Etar" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_apps_Gallery2" path="packages/apps/Gallery2" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_apps_Recorder" path="packages/apps/Recorder" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_resources_devicesettings" path="packages/resources/devicesettings" groups="lineage" remote="gitlab" revision="staging/android14" />
+  <project name="CalyxOS/platform_packages_apps_Etar" path="packages/apps/Etar" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_apps_Gallery2" path="packages/apps/Gallery2" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_apps_Recorder" path="packages/apps/Recorder" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_resources_devicesettings" path="packages/resources/devicesettings" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_prebuilts_extract-tools" path="prebuilts/extract-tools" groups="lineage" remote="gitlab" revision="staging/android14" clone-depth="1" />
   <project name="CalyxOS/platform_tools_extract-utils" path="tools/extract-utils" groups="lineage" remote="gitlab" revision="staging/android14" />
   <!--
