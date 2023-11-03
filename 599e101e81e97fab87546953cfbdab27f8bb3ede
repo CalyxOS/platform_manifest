@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f8fb250_9d3e42f4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-03T17:45:28Z",
+      "side": 1,
+      "message": "I\u0027d like to wait till ASB for this, unless the contents are identical.",
+      "revId": "599e101e81e97fab87546953cfbdab27f8bb3ede",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
