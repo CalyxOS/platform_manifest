@@ -16,6 +16,24 @@
       "message": "I\u0027d like to wait till ASB for this, unless the contents are identical.",
       "revId": "599e101e81e97fab87546953cfbdab27f8bb3ede",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d9d6d2c_99b9a20a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-11-03T17:57:46Z",
+      "side": 1,
+      "message": "Not everything is identical, lineage repos have more updates, plus this still depends on all the open commits getting merged.",
+      "parentUuid": "9f8fb250_9d3e42f4",
+      "revId": "599e101e81e97fab87546953cfbdab27f8bb3ede",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
