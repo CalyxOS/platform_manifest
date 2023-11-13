@@ -2,20 +2,20 @@
 <manifest>
 
   <!-- CalyxOS additions -->
-  <project name="CalyxOS/platform_manifest" path="manifest" remote="gitlab" revision="android14-d1" />
+  <project name="CalyxOS/platform_manifest" path="manifest" remote="gitlab" revision="refs/tags/5.1.1-2" />
   <project name="CalyxOS/platform_external_calyx_chromium" path="external/calyx/chromium" remote="gitlab" />
   <project name="CalyxOS/platform_external_calyx_datura" path="external/calyx/datura" remote="gitlab" />
   <project name="CalyxOS/platform_external_calyx_GCamPhotosPreview" path="external/calyx/GCamPhotosPreview" remote="gitlab" />
   <project name="CalyxOS/platform_external_calyx_lupin" path="external/calyx/lupin" remote="gitlab" />
-  <project name="CalyxOS/platform_external_microg_FakeStore" path="external/microg/FakeStore" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_external_microg_GmsCore" path="external/microg/GmsCore" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_external_microg_GsfProxy" path="external/microg/GsfProxy" remote="gitlab" revision="staging/android14" />
+  <project name="CalyxOS/platform_external_microg_FakeStore" path="external/microg/FakeStore" remote="gitlab" revision="refs/tags/5.1.1" />
+  <project name="CalyxOS/platform_external_microg_GmsCore" path="external/microg/GmsCore" remote="gitlab" revision="refs/tags/5.1.1" />
+  <project name="CalyxOS/platform_external_microg_GsfProxy" path="external/microg/GsfProxy" remote="gitlab" revision="refs/tags/5.1.1" />
   <project name="CalyxOS/platform_packages_apps_AuroraStorePrivilegedExtension" path="packages/apps/AuroraStorePrivilegedExtension" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Bellis" path="packages/apps/Bellis" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_F-DroidPrivilegedExtension" path="packages/apps/F-DroidPrivilegedExtension" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Panic" path="packages/apps/Panic" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Ripple" path="packages/apps/Ripple" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_Seedvault" path="packages/apps/Seedvault" remote="gitlab" revision="staging/android14" />
+  <project name="CalyxOS/platform_packages_apps_Seedvault" path="packages/apps/Seedvault" remote="gitlab" revision="refs/tags/5.1.1" />
   <project name="CalyxOS/platform_packages_apps_SystemUpdater" path="packages/apps/SystemUpdater" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Updater" path="packages/apps/Updater" remote="gitlab" />
   <project name="CalyxOS/platform_prebuilts_calyx_chromium_arm64" path="prebuilts/calyx/chromium/arm64" remote="gitlab" clone-depth="1" />
@@ -25,19 +25,19 @@
   <project name="CalyxOS/platform_prebuilts_calyx_lupin" path="prebuilts/calyx/lupin" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_calyx_microg" path="prebuilts/calyx/microg" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/keys" path="calyx/keys" remote="gitlab" />
-  <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" revision="android14-d1" />
+  <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" revision="refs/tags/5.1.1" />
   <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" />
 
   <!-- LineageOS forks with additional changes -->
-  <project name="CalyxOS/device_calyx_sepolicy" path="device/calyx/sepolicy" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_calyx-sdk" path="calyx-sdk" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_hardware_calyx_compat" path="hardware/calyx/compat" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_hardware_calyx_interfaces" path="hardware/calyx/interfaces" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_hardware_calyx_livedisplay" path="hardware/calyx/livedisplay" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_apps_Backgrounds" path="packages/apps/Backgrounds" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_apps_CalyxParts" path="packages/apps/CalyxParts" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_apps_SetupWizard" path="packages/apps/SetupWizard" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_overlays_Calyx" path="packages/overlays/Calyx" groups="lineage" remote="gitlab" revision="staging/android14" />
+  <project name="CalyxOS/device_calyx_sepolicy" path="device/calyx/sepolicy" groups="lineage" remote="gitlab" revision="refs/tags/5.1.1" />
+  <project name="CalyxOS/platform_calyx-sdk" path="calyx-sdk" groups="lineage" remote="gitlab" revision="refs/tags/5.1.1" />
+  <project name="CalyxOS/platform_hardware_calyx_compat" path="hardware/calyx/compat" groups="lineage" remote="gitlab" revision="refs/tags/5.1.1" />
+  <project name="CalyxOS/platform_hardware_calyx_interfaces" path="hardware/calyx/interfaces" groups="lineage" remote="gitlab" revision="refs/tags/5.1.1" />
+  <project name="CalyxOS/platform_hardware_calyx_livedisplay" path="hardware/calyx/livedisplay" groups="lineage" remote="gitlab" revision="refs/tags/5.1.1" />
+  <project name="CalyxOS/platform_packages_apps_Backgrounds" path="packages/apps/Backgrounds" groups="lineage" remote="gitlab" revision="refs/tags/5.1.1" />
+  <project name="CalyxOS/platform_packages_apps_CalyxParts" path="packages/apps/CalyxParts" groups="lineage" remote="gitlab" revision="refs/tags/5.1.1" />
+  <project name="CalyxOS/platform_packages_apps_SetupWizard" path="packages/apps/SetupWizard" groups="lineage" remote="gitlab" revision="refs/tags/5.1.1" />
+  <project name="CalyxOS/platform_packages_overlays_Calyx" path="packages/overlays/Calyx" groups="lineage" remote="gitlab" revision="refs/tags/5.1.1" />
 
   <!-- Devices -->
 
@@ -82,7 +82,7 @@
   <!-- Pixel 6, 6 Pro -->
   <project name="CalyxOS/device_google_gs101" path="device/google/gs101" groups="device,slider,bluejay,pdk-gs-arm" remote="gitlab" />
   <project name="CalyxOS/device_google_gs101-sepolicy" path="device/google/gs101-sepolicy" groups="device,slider,bluejay,pdk-gs-arm" remote="gitlab" />
-  <project name="CalyxOS/device_google_gs-common" path="device/google/gs-common" groups="device,slider,bluejay,cloudripper,pdk-gs-arm" remote="gitlab" revision="android14-d1" />
+  <project name="CalyxOS/device_google_gs-common" path="device/google/gs-common" groups="device,slider,bluejay,cloudripper,pdk-gs-arm" remote="gitlab" revision="refs/tags/5.1.1" />
   <project name="CalyxOS/device_google_oriole" path="device/google/oriole" groups="device,slider,pdk-gs-arm" remote="gitlab" />
   <project name="CalyxOS/device_google_raven" path="device/google/raven" groups="device,slider,pdk-gs-arm" remote="gitlab" />
   <project name="CalyxOS/device_google_raviole" path="device/google/raviole" groups="device,slider,pdk-gs-arm" remote="gitlab" />
@@ -118,12 +118,12 @@
   <project name="device/google/felix-kernel" path="device/google/felix-kernel" groups="device,felix" clone-depth="1" />
 
   <!-- Pixel 8, 8 Pro -->
-  <project name="CalyxOS/device_google_zuma" path="device/google/zuma" groups="device,ripcurrent" remote="gitlab" revision="android14-d1" />
-  <project name="CalyxOS/device_google_zuma-sepolicy" path="device/google/zuma-sepolicy" groups="device,ripcurrent" remote="gitlab" revision="android14-d1" />
-  <project name="CalyxOS/device_google_husky" path="device/google/husky" groups="device,ripcurrent" remote="gitlab" revision="android14-d1" />
-  <project name="CalyxOS/device_google_shiba" path="device/google/shiba" groups="device,ripcurrent" remote="gitlab" revision="android14-d1" />
-  <project name="CalyxOS/device_google_shusky" path="device/google/shusky" groups="device,ripcurrent" remote="gitlab" revision="android14-d1" />
-  <project name="CalyxOS/device_google_shusky-sepolicy" path="device/google/shusky-sepolicy" groups="device,ripcurrent" remote="gitlab" revision="android14-d1" />
+  <project name="CalyxOS/device_google_zuma" path="device/google/zuma" groups="device,ripcurrent" remote="gitlab" revision="refs/tags/5.1.1" />
+  <project name="CalyxOS/device_google_zuma-sepolicy" path="device/google/zuma-sepolicy" groups="device,ripcurrent" remote="gitlab" revision="refs/tags/5.1.1" />
+  <project name="CalyxOS/device_google_husky" path="device/google/husky" groups="device,ripcurrent" remote="gitlab" revision="refs/tags/5.1.1" />
+  <project name="CalyxOS/device_google_shiba" path="device/google/shiba" groups="device,ripcurrent" remote="gitlab" revision="refs/tags/5.1.1" />
+  <project name="CalyxOS/device_google_shusky" path="device/google/shusky" groups="device,ripcurrent" remote="gitlab" revision="refs/tags/5.1.1" />
+  <project name="CalyxOS/device_google_shusky-sepolicy" path="device/google/shusky-sepolicy" groups="device,ripcurrent" remote="gitlab" revision="refs/tags/5.1.1" />
   <project name="device/google/shusky-kernel" path="device/google/shusky-kernel" groups="device,ripcurrent" clone-depth="1" />
 
 </manifest>
