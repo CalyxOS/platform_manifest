@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- CalyxOS additions -->
-  <project name="CalyxOS/platform_manifest" path="manifest" remote="gitlab" />
+  <project name="CalyxOS/platform_manifest" path="manifest" remote="gitlab" revision="android14-d1" />
   <project name="CalyxOS/platform_external_calyx_chromium" path="external/calyx/chromium" remote="gitlab" />
   <project name="CalyxOS/platform_external_calyx_datura" path="external/calyx/datura" remote="gitlab" />
   <project name="CalyxOS/platform_external_calyx_GCamPhotosPreview" path="external/calyx/GCamPhotosPreview" remote="gitlab" />
