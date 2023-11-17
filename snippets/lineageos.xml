@@ -21,9 +21,7 @@
   -->
 
   <!-- Legacy AOSP additions -->
-  <!--
   <project name="platform/external/tinyxml" path="external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
-  -->
   <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="generic_fs,qcom_sdm845" revision="refs/tags/android-13.0.0_r75" />
   <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" groups="generic_fs,vendor,qcom_sdm845" revision="refs/tags/android-13.0.0_r75" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
@@ -97,10 +95,8 @@
   <project name="CalyxOS/kernel_fairphone_sm7225" path="kernel/fairphone/sm7225" remote="gitlab" />
 
   <!-- SHIFT SHIFT6mq -->
-  <!--
   <project name="CalyxOS/device_shift_axolotl" path="device/shift/axolotl" remote="gitlab" />
   <project name="CalyxOS/kernel_shift_sdm845" path="kernel/shift/sdm845" remote="gitlab" />
-  -->
 
   <!-- Motorola sm6225 -->
   <project name="CalyxOS/device_motorola_devon" path="device/motorola/devon" remote="gitlab" />
