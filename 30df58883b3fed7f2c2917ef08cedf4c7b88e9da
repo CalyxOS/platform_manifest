@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5eab2dc_341cfcc2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-11-20T18:07:47Z",
+      "side": 1,
+      "message": "See https://gitlab.com/CalyxOS/calyxos/-/issues/1372#note_1486070479",
+      "revId": "30df58883b3fed7f2c2917ef08cedf4c7b88e9da",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
