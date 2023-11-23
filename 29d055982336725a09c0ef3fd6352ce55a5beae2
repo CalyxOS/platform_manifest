@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "230403ed_ee797bab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-23T17:40:17Z",
+      "side": 1,
+      "message": "Rabbit hole\n\n```\nerror: hardware/interfaces/automotive/remoteaccess/hal/default/Android.bp:71:1: \"RemoteAccessService\" depends on undefined module \"vhalclient_defaults\".\nOr did you mean [\"CalendarCommonTests\" \"canhalconfigurator\" \"hardening-benchmark\" \"vhal_v2_0_defaults\"]?\nerror: hardware/interfaces/automotive/remoteaccess/hal/default/test/Android.bp:19:1: \"RemoteAccessServiceUnitTest\" depends on undefined module \"vhalclient_defaults\".\nOr did you mean [\"CalendarCommonTests\" \"canhalconfigurator\" \"hardening-benchmark\" \"vhal_v2_0_defaults\"]?\nerror: hardware/interfaces/automotive/remoteaccess/hal/default/Android.bp:21:1: \"remote-access-hal-defaults\" depends on undefined module \"vhalclient_defaults\".\nOr did you mean [\"CalendarCommonTests\" \"canhalconfigurator\" \"hardening-benchmark\" \"vhal_v2_0_defaults\"]?\nerror: hardware/interfaces/automotive/vehicle/aidl/impl/Android.bp:21:1: \"VehicleHalDefaults\" depends on undefined module \"android-automotive-large-parcelable-defaults\".\nOr did you mean [\"com.android.apex.apkrollback.test_v2Crashing\" \"com.android.apex.cts.shim.v2_additional_file\" \"com.android.apex.maxsdk.app.unavailable.test\" \"com.android.apex.system_ext.test.certificate\" \"com.android.apex.test.sharedlibs.certificate\" \"com.android.appsearch-bootclasspath-fragment\" \"com.android.configinfrastructure.certificate\" \"com.android.conscrypt-bootclasspath-fragment\" \"com.android.future.usb.accessory.api.test.28\" \"com.android.future.usb.accessory.api.test.29\" \"com.android.future.usb.accessory.api.test.30\" \"com.android.future.usb.accessory.api.test.31\" \"com.android.future.usb.accessory.api.test.32\" \"com.android.future.usb.accessory.api.test.33\" \"com.android.future.usb.accessory.api.test.34\" \"com.android.microdroid.testservice_interface\" \"com.android.nfc_extras-removed.api.public.28\" \"com.android.nfc_extras-removed.api.public.29\" \"com.android.nfc_extras-removed.api.public.30\" \"com.android.nfc_extras-removed.api.public.31\" \"com.android.nfc_extras-removed.api.public.32\" \"com.android.nfc_extras-removed.api.public.33\" \"com.android.nfc_extras-removed.api.public.34\" \"com.android.nfc_extras-removed.api.system.28\" \"com.android.nfc_extras-removed.api.system.29\" \"com.android.nfc_extras-removed.api.system.30\" \"com.android.nfc_extras-removed.api.system.31\" \"com.android.nfc_extras-removed.api.system.32\" \"com.android.nfc_extras-removed.api.system.33\" \"com.android.nfc_extras-removed.api.system.34\" \"com.android.os.statsd-bootclasspath-fragment\" \"com.android.sysprop.watchdog_java_gen_public\" \"com.android.sysprop.watchdog_sysprop_library\" \"com.android.tethering-bootclasspath-fragment\"]?\nerror: hardware/interfaces/automotive/vehicle/vts/Android.bp:26:1: \"VtsHalAutomotiveVehicle_TargetTest\" depends on undefined module \"vhalclient_defaults\".\nOr did you mean [\"CalendarCommonTests\" \"canhalconfigurator\" \"hardening-benchmark\" \"vhal_v2_0_defaults\"]?\nerror: tools/security/fuzzing/system_fuzzers/libwatchdog_perf_service/Android.bp:5:1: \"libwatchdog_perf_service_fuzzer\" depends on undefined module \"carwatchdogd_defaults\".\nOr did you mean [\"//hardware/google/aemu\" \"//hardware/google/apf\" \"//hardware/google/av\" \"//hardware/interfaces\" \"//hardware/libhardware\" \"//hardware/samsung/nfc\" \"//hardware/st/nfc/1.0\" \"//hardware/st/nfc/1.1\" \"//hardware/st/nfc/1.2\" \"//hardware/st/nfc/aidl\" \"apache-harmony-tests\" \"apache-xml_api_files\" \"art_hugepage_defaults\"]?\nerror: tools/security/fuzzing/system_fuzzers/libwatchdog_perf_service/Android.bp:5:1: \"libwatchdog_perf_service_fuzzer\" depends on undefined module \"libwatchdog_perf_service_defaults\".\nOr did you mean [\"//libnativehelper/tests/jni_gtest\"]?\n```",
+      "revId": "29d055982336725a09c0ef3fd6352ce55a5beae2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
