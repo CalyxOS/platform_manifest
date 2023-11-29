@@ -2,26 +2,38 @@
 <manifest>
 
   <!-- LineageOS additions -->
-  <project name="CalyxOS/platform_external_exfatprogs" path="external/exfatprogs" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <!--
-  <project name="platform/external/tinyxml" path="external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
-  -->
-  <project name="CalyxOS/platform_packages_apps_Aperture" path="packages/apps/Aperture" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_apps_AudioFX" path="packages/apps/AudioFX" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_apps_DeskClock" path="packages/apps/DeskClock" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_apps_Eleven" path="packages/apps/Eleven" groups="lineage" remote="gitlab" revision="staging/android14" />
+  <project name="CalyxOS/platform_external_exfatprogs" path="external/exfatprogs" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_apps_Aperture" path="packages/apps/Aperture" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_apps_AudioFX" path="packages/apps/AudioFX" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_apps_DeskClock" path="packages/apps/DeskClock" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_apps_Eleven" path="packages/apps/Eleven" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_ElmyraService" path="packages/apps/ElmyraService" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_Etar" path="packages/apps/Etar" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_apps_Gallery2" path="packages/apps/Gallery2" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_apps_Recorder" path="packages/apps/Recorder" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_resources_devicesettings" path="packages/resources/devicesettings" groups="lineage" remote="gitlab" revision="staging/android14" />
+  <project name="CalyxOS/platform_packages_apps_Etar" path="packages/apps/Etar" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_apps_Gallery2" path="packages/apps/Gallery2" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_apps_Recorder" path="packages/apps/Recorder" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_resources_devicesettings" path="packages/resources/devicesettings" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_prebuilts_extract-tools" path="prebuilts/extract-tools" groups="lineage" remote="gitlab" revision="staging/android14" clone-depth="1" />
   <project name="CalyxOS/platform_tools_extract-utils" path="tools/extract-utils" groups="lineage" remote="gitlab" revision="staging/android14" />
   <!--
   <project name="CalyxOS/vendor_crowdin" path="vendor/crowdin" groups="lineage" remote="gitlab" />
   -->
+
+  <!-- Legacy AOSP additions -->
+  <!--
+  <project name="platform/external/tinyxml" path="external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+  -->
+  <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="generic_fs,qcom_sdm845" revision="refs/tags/android-13.0.0_r75" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" groups="generic_fs,vendor,qcom_sdm845" revision="refs/tags/android-13.0.0_r75" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
+  </project>
+  <project path="hardware/qcom/sdm845/display" name="CalyxOS/platform_hardware_qcom_sdm845_display" groups="generic_fs,qcom_sdm845" remote="gitlab" />
+  <project path="hardware/qcom/sdm845/gps" name="CalyxOS/platform_hardware_qcom_sdm845_gps" groups="generic_fs,qcom_sdm845" remote="gitlab" />
+  <project path="hardware/qcom/sdm845/media" name="CalyxOS/platform_hardware_qcom_sdm845_media" groups="generic_fs,qcom_sdm845" remote="gitlab" />
+  <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" groups="generic_fs,qcom_sdm845" revision="refs/tags/android-13.0.0_r75" />
+  <project path="hardware/qcom/sdm845/vr" name="platform/hardware/qcom/sdm845/vr" groups="generic_fs,qcom_sdm845" revision="refs/tags/android-13.0.0_r75" />
 
   <!-- Inline kernel build -->
   <project name="CalyxOS/platform_prebuilts_clang_kernel_linux-x86_clang-r416183b"  path="prebuilts/clang/kernel/linux-x86/clang-r416183b" groups="lineage" remote="gitlab" clone-depth="1" />

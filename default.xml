@@ -851,7 +851,7 @@
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" />
   <project path="hardware/google/pixel" name="CalyxOS/platform_hardware_google_pixel" groups="generic_fs,pixel" remote="gitlab" revision="android14-d1" />
   <project path="hardware/google/pixel-sepolicy" name="CalyxOS/platform_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" remote="gitlab" revision="android14-d1" />
-  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk" />
+  <project path="hardware/interfaces" name="CalyxOS/platform_hardware_interfaces" groups="pdk" remote="gitlab" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral,generic_fs" />
   <project path="hardware/libhardware" name="CalyxOS/platform_hardware_libhardware" groups="pdk" remote="gitlab" />
@@ -892,7 +892,7 @@
   <project path="hardware/samsung/nfc" name="platform/hardware/samsung/nfc" groups="pdk" />
   <project path="hardware/synaptics/wlan" name="platform/hardware/synaptics/wlan" groups="pdk" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" />
-  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" />
+  <project path="kernel/configs" name="CalyxOS/kernel_configs" groups="vts,pdk" remote="gitlab" />
   <project path="kernel/prebuilts/4.19/arm64" name="kernel/prebuilts/4.19/arm64" groups="pdk" clone-depth="1" />
   <project path="kernel/prebuilts/5.4/arm64" name="kernel/prebuilts/5.4/arm64" groups="pdk" clone-depth="1" />
   <project path="kernel/prebuilts/5.4/x86_64" name="kernel/prebuilts/5.4/x86-64" groups="pdk" clone-depth="1" />
@@ -944,7 +944,7 @@
   <project path="packages/apps/CarrierConfig" name="CalyxOS/platform_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
   <project path="packages/apps/CellBroadcastReceiver" name="CalyxOS/platform_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="CalyxOS/platform_packages_apps_Contacts" groups="pdk-fs" remote="gitlab" revision="staging/android14" />
+  <project path="packages/apps/Contacts" name="CalyxOS/platform_packages_apps_Contacts" groups="pdk-fs,lineage" remote="gitlab" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
   <project path="packages/apps/Dialer" name="CalyxOS/platform_packages_apps_Dialer" groups="pdk-fs" remote="gitlab" revision="staging/android14" />
   <project path="packages/apps/DocumentsUI" name="CalyxOS/platform_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
@@ -956,7 +956,7 @@
   <project path="packages/apps/Launcher3" name="CalyxOS/platform_packages_apps_Launcher3" groups="pdk-fs" remote="gitlab" revision="android14-d1" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="CalyxOS/platform_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="gitlab" />
-  <project path="packages/apps/Messaging" name="CalyxOS/platform_packages_apps_Messaging" groups="pdk-fs" remote="gitlab" revision="staging/android14" />
+  <project path="packages/apps/Messaging" name="CalyxOS/platform_packages_apps_Messaging" groups="pdk-fs,lineage" remote="gitlab" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="CalyxOS/platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="gitlab" revision="android14-d1" />
@@ -977,14 +977,14 @@
   <project path="packages/apps/SystemUIGo" name="platform/packages/apps/SystemUIGo" groups="pdk-fs" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" groups="pdk" />
-  <project path="packages/apps/ThemePicker" name="CalyxOS/platform_packages_apps_ThemePicker" groups="pdk-fs" remote="gitlab" revision="staging/android14" />
+  <project path="packages/apps/ThemePicker" name="CalyxOS/platform_packages_apps_ThemePicker" groups="pdk-fs,lineage" remote="gitlab" />
   <project path="packages/apps/Traceur" name="CalyxOS/platform_packages_apps_Traceur" groups="pdk-fs" remote="gitlab" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="pdk-fs" />
   <project path="packages/apps/TV" name="platform/packages/apps/TV" groups="pdk" />
   <project path="packages/apps/UniversalMediaPlayer" name="platform/packages/apps/UniversalMediaPlayer" />
   <project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" groups="pdk-fs" />
   <project path="packages/apps/WallpaperPicker2" name="CalyxOS/platform_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="gitlab" revision="android14-d1" />
-  <project path="packages/inputmethods/LatinIME" name="CalyxOS/platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="gitlab" revision="staging/android14" />
+  <project path="packages/inputmethods/LatinIME" name="CalyxOS/platform_packages_inputmethods_LatinIME" groups="pdk-fs,lineage" remote="gitlab" />
   <project path="packages/inputmethods/LeanbackIME" name="platform/packages/inputmethods/LeanbackIME" groups="pdk-fs" />
   <project path="packages/modules/adb" name="platform/packages/modules/adb" groups="pdk" />
   <project path="packages/modules/AdServices" name="platform/packages/modules/AdServices" groups="pdk-fs" />
@@ -1028,7 +1028,7 @@
   <project path="packages/modules/Wifi" name="CalyxOS/platform_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="gitlab" revision="android14-d1" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" groups="pdk-fs" />
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" />
-  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/CalendarProvider" name="CalyxOS/platform_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/ContactsProvider" name="CalyxOS/platform_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="gitlab" revision="android14-d1" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
@@ -1117,7 +1117,7 @@
   <project path="prebuilts/vndk/v33" name="platform/prebuilts/vndk/v33" groups="pdk" clone-depth="1" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/apex" name="CalyxOS/platform_system_apex" groups="pdk" remote="gitlab" revision="android14-d1" />
-  <project path="system/bpf" name="platform/system/bpf" groups="pdk" />
+  <project path="system/bpf" name="CalyxOS/platform_system_bpf" groups="pdk" remote="gitlab" />
   <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
   <project path="system/chre" name="platform/system/chre"  groups="pdk" />

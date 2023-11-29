@@ -2,16 +2,12 @@
 <manifest>
 
   <!-- Pixel 3, 3 XL -->
-  <!--
   <project name="CalyxOS/proprietary_vendor_google_crosshatch" path="vendor/google/crosshatch" remote="gitlab-priv" clone-depth="1" />
   <project name="CalyxOS/proprietary_vendor_google_blueline" path="vendor/google/blueline" remote="gitlab-priv" clone-depth="1" />
-  -->
 
   <!-- Pixel 3a, 3a XL -->
-  <!--
   <project name="CalyxOS/proprietary_vendor_google_bonito" path="vendor/google/bonito" remote="gitlab-priv" clone-depth="1" />
   <project name="CalyxOS/proprietary_vendor_google_sargo" path="vendor/google/sargo" remote="gitlab-priv" clone-depth="1" />
-  -->
 
   <!-- Pixel 4, 4 XL -->
   <project name="CalyxOS/proprietary_vendor_google_coral" path="vendor/google/coral" remote="gitlab-priv" clone-depth="1" />
