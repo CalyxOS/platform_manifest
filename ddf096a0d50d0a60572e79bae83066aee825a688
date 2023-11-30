@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b78d9066_322e96b9",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 854,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-30T13:02:29Z",
+      "side": 1,
+      "message": "TODO: See if this needs a d1 branch.",
+      "revId": "ddf096a0d50d0a60572e79bae83066aee825a688",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "08ed6edf_59441a8d",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 895,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-30T13:02:29Z",
+      "side": 1,
+      "message": "TODO: See if this needs a d1 branch. Unlikely.",
+      "revId": "ddf096a0d50d0a60572e79bae83066aee825a688",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3288f0df_08e3e036",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1031,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-30T13:02:29Z",
+      "side": 1,
+      "message": "Unlikely but see if this needs a -d1",
+      "revId": "ddf096a0d50d0a60572e79bae83066aee825a688",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "490a8529_4e119765",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1120,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-30T13:02:29Z",
+      "side": 1,
+      "message": "See if this needs a -d1",
+      "revId": "ddf096a0d50d0a60572e79bae83066aee825a688",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
