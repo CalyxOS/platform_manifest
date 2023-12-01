@@ -59,7 +59,7 @@
   <project name="CalyxOS/device_google_flame" path="device/google/flame" groups="device,coral,generic_fs" remote="gitlab" />
 
   <!-- Pixel 4a -->
-  <project name="CalyxOS/device_google_sunfish" path="device/google/sunfish" groups="device,sunfish" remote="gitlab" />
+  <project name="CalyxOS/device_google_sunfish" path="device/google/sunfish" groups="device,sunfish" remote="gitlab" revision="refs/tags/5.1.2-4" />
   <project name="CalyxOS/device_google_sunfish-kernel" path="device/google/sunfish-kernel" groups="device,sunfish" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_sunfish-sepolicy" path="device/google/sunfish-sepolicy" groups="device,sunfish" remote="gitlab" />
 
