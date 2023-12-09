@@ -83,6 +83,7 @@
   <project name="CalyxOS/vendor_qcom_opensource_data-ipa-cfg-mgr-legacy-um" path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_display" path="vendor/qcom/opensource/display" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/vendor_qcom_opensource_healthd-ext" path="vendor/qcom/opensource/healthd-ext" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" groups="lineage" remote="gitlab" />
