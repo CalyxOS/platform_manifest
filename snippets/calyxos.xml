@@ -59,7 +59,7 @@
   <project name="CalyxOS/device_google_flame" path="device/google/flame" groups="device,coral,generic_fs" remote="gitlab" />
 
   <!-- Pixel 4a -->
-  <project name="CalyxOS/device_google_sunfish" path="device/google/sunfish" groups="device,sunfish" remote="gitlab" />
+  <project name="CalyxOS/device_google_sunfish" path="device/google/sunfish" groups="device,sunfish" remote="gitlab" revision="refs/tags/5.2.0-4" />
   <project name="CalyxOS/device_google_sunfish-kernel" path="device/google/sunfish-kernel" groups="device,sunfish" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_sunfish-sepolicy" path="device/google/sunfish-sepolicy" groups="device,sunfish" remote="gitlab" />
 
@@ -67,9 +67,9 @@
   <project name="CalyxOS/device_google_redbull" path="device/google/redbull" groups="device,redbull" remote="gitlab" />
   <project name="device/google/redbull-kernel" path="device/google/redbull-kernel" groups="device,bramble,redfin" clone-depth="1" />
   <project name="CalyxOS/device_google_redbull-sepolicy" path="device/google/redbull-sepolicy" groups="device,redbull" remote="gitlab" />
-  <project name="CalyxOS/device_google_redfin" path="device/google/redfin" groups="device,redfin" remote="gitlab" />
+  <project name="CalyxOS/device_google_redfin" path="device/google/redfin" groups="device,redfin" remote="gitlab" revision="refs/tags/5.2.0-4" />
   <project name="CalyxOS/device_google_redfin-sepolicy" path="device/google/redfin-sepolicy" groups="device,redfin" remote="gitlab" />
-  <project name="CalyxOS/device_google_bramble" path="device/google/bramble" groups="device,bramble" remote="gitlab" />
+  <project name="CalyxOS/device_google_bramble" path="device/google/bramble" groups="device,bramble" remote="gitlab" revision="refs/tags/5.2.0-4" />
   <project name="CalyxOS/device_google_bramble-sepolicy" path="device/google/bramble-sepolicy" groups="device,bramble" remote="gitlab" />
   <project name="CalyxOS/device_google_barbet" path="device/google/barbet" groups="device,barbet" remote="gitlab" />
   <project name="CalyxOS/device_google_barbet-sepolicy" path="device/google/barbet-sepolicy" groups="device,barbet" remote="gitlab" />
