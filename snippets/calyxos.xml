@@ -118,7 +118,7 @@
   <project name="CalyxOS/device_google_husky" path="device/google/husky" groups="device,ripcurrent" remote="gitlab" />
   <project name="CalyxOS/device_google_shiba" path="device/google/shiba" groups="device,ripcurrent" remote="gitlab" />
   <project name="CalyxOS/device_google_shusky" path="device/google/shusky" groups="device,ripcurrent" remote="gitlab" />
-  <project name="CalyxOS/device_google_shusky-sepolicy" path="device/google/shusky-sepolicy" groups="device,ripcurrent" remote="gitlab" />
+  <project name="CalyxOS/device_google_shusky-sepolicy" path="device/google/shusky-sepolicy" groups="device,ripcurrent" remote="gitlab" revision="refs/tags/5.2.0-8" />
   <project name="device/google/shusky-kernel" path="device/google/shusky-kernel" groups="device,ripcurrent" clone-depth="1" />
 
 </manifest>
