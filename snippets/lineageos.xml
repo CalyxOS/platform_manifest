@@ -104,7 +104,7 @@
 
   <!-- Motorola sm6225 -->
   <project name="CalyxOS/device_motorola_devon" path="device/motorola/devon" remote="gitlab" revision="refs/tags/5.2.0-6" />
-  <project name="CalyxOS/device_motorola_hawao" path="device/motorola/hawao" remote="gitlab" />
+  <project name="CalyxOS/device_motorola_hawao" path="device/motorola/hawao" remote="gitlab" revision="refs/tags/5.2.0-9" />
   <project name="CalyxOS/device_motorola_rhode" path="device/motorola/rhode" remote="gitlab" revision="refs/tags/5.2.0-6" />
   <project name="CalyxOS/device_motorola_sm6225-common" path="device/motorola/sm6225-common" remote="gitlab" revision="refs/tags/5.2.0-6" />
   <project name="CalyxOS/kernel_motorola_sm6225" path="kernel/motorola/sm6225" remote="gitlab" />
