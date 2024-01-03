@@ -54,9 +54,9 @@
   -->
 
   <!-- Motorola sm6225 -->
-  <project name="CalyxOS/proprietary_vendor_motorola_devon" path="vendor/motorola/devon" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_motorola_hawao" path="vendor/motorola/hawao" remote="gitlab-priv" clone-depth="1" />
-  <project name="CalyxOS/proprietary_vendor_motorola_rhode" path="vendor/motorola/rhode" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_motorola_devon" path="vendor/motorola/devon" remote="gitlab-priv" clone-depth="1" revision="refs/tags/5.2.1" />
+  <project name="CalyxOS/proprietary_vendor_motorola_hawao" path="vendor/motorola/hawao" remote="gitlab-priv" clone-depth="1" revision="refs/tags/5.2.1" />
+  <project name="CalyxOS/proprietary_vendor_motorola_rhode" path="vendor/motorola/rhode" remote="gitlab-priv" clone-depth="1" revision="refs/tags/5.2.1" />
   <project name="CalyxOS/proprietary_vendor_motorola_sm6225-common" path="vendor/motorola/sm6225-common" remote="gitlab-priv" clone-depth="1" />
 
 </manifest>
