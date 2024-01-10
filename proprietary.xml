@@ -46,7 +46,7 @@
   <project name="CalyxOS/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="gitlab-priv" clone-depth="1" />
 
   <!-- Fairphone 4 -->
-  <project name="CalyxOS/proprietary_vendor_fairphone_FP4" path="vendor/fairphone/FP4" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_fairphone_FP4" path="vendor/fairphone/FP4" remote="gitlab-priv" clone-depth="1" revision="refs/tags/5.3.1-2" />
 
   <!-- SHIFT SHIFT6mq -->
   <!--
