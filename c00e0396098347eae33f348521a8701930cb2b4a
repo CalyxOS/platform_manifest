@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49a6a328_5b1c9e0b",
+        "filename": "snippets/calyxos_aml.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-01-31T22:14:31Z",
+      "side": 1,
+      "message": "I thought this would work but I was wrong.\n\n```\nerror: in `sync -dj6 --force-sync`: extend-project element specifies non-existent project: CalyxOS/tmp/platform_prebuilts_module_sdk_art\n```",
+      "revId": "c00e0396098347eae33f348521a8701930cb2b4a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
