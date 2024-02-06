@@ -28,14 +28,14 @@
   <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" />
 
   <!-- LineageOS forks with additional changes -->
-  <project name="CalyxOS/device_calyx_sepolicy" path="device/calyx/sepolicy" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_calyx-sdk" path="calyx-sdk" groups="lineage" remote="gitlab" revision="staging/android14" />
+  <project name="CalyxOS/device_calyx_sepolicy" path="device/calyx/sepolicy" groups="lineage" remote="gitlab" revision="refs/tags/5.4.0" />
+  <project name="CalyxOS/platform_calyx-sdk" path="calyx-sdk" groups="lineage" remote="gitlab" revision="refs/tags/5.4.0" />
   <project name="CalyxOS/platform_hardware_calyx_compat" path="hardware/calyx/compat" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_calyx_interfaces" path="hardware/calyx/interfaces" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_calyx_livedisplay" path="hardware/calyx/livedisplay" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Backgrounds" path="packages/apps/Backgrounds" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_CalyxParts" path="packages/apps/CalyxParts" groups="lineage" remote="gitlab" revision="staging/android14" />
-  <project name="CalyxOS/platform_packages_apps_SetupWizard" path="packages/apps/SetupWizard" groups="lineage" remote="gitlab" revision="staging/android14" />
+  <project name="CalyxOS/platform_packages_apps_CalyxParts" path="packages/apps/CalyxParts" groups="lineage" remote="gitlab" revision="refs/tags/5.4.0" />
+  <project name="CalyxOS/platform_packages_apps_SetupWizard" path="packages/apps/SetupWizard" groups="lineage" remote="gitlab" revision="refs/tags/5.4.0" />
   <project name="CalyxOS/platform_packages_overlays_Calyx" path="packages/overlays/Calyx" groups="lineage" remote="gitlab" />
 
   <!-- Devices -->
