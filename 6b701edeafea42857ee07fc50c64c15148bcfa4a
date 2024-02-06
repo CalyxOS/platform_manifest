@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3958b21c_f0cbb443",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-06T14:56:47Z",
+      "side": 1,
+      "message": "Wait for branches to be pushed otherwise sync will fail.",
+      "revId": "6b701edeafea42857ee07fc50c64c15148bcfa4a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
