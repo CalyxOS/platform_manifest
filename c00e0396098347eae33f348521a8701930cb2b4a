@@ -16,6 +16,24 @@
       "message": "I thought this would work but I was wrong.\n\n```\nerror: in `sync -dj6 --force-sync`: extend-project element specifies non-existent project: CalyxOS/tmp/platform_prebuilts_module_sdk_art\n```",
       "revId": "c00e0396098347eae33f348521a8701930cb2b4a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e2f75349_029c82cc",
+        "filename": "snippets/calyxos_aml.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-02-07T15:12:15Z",
+      "side": 1,
+      "message": "Ack, can use remove-project and then add it again. Works for now at least.",
+      "parentUuid": "49a6a328_5b1c9e0b",
+      "revId": "c00e0396098347eae33f348521a8701930cb2b4a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
