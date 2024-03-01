@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0223d4c6_5eaf533b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-01T21:04:31Z",
+      "side": 1,
+      "message": "Repos not made yet.\n\nLFS setup (with R2) is ready, but not tested yet.",
+      "revId": "ed9fa676cc34dd39de7f42c7fed4a6e23b2b23a3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
