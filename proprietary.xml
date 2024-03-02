@@ -49,7 +49,7 @@
   <project name="CalyxOS/proprietary_vendor_fairphone_FP4" path="vendor/fairphone/FP4" remote="gitlab-priv" clone-depth="1" />
 
   <!-- Fairphone 5 -->
-  <project name="CalyxOS/proprietary_vendor_fairphone_FP5" path="vendor/fairphone/FP5" remote="gitlab-priv" clone-depth="1" />
+  <project name="CalyxOS/proprietary_vendor_fairphone_FP5" path="vendor/fairphone/FP5" remote="gitlab-priv" clone-depth="1" revision="refs/tags/5.4.2" />
 
   <!-- SHIFT SHIFT6mq -->
   <project name="CalyxOS/proprietary_vendor_shift_axolotl" path="vendor/shift/axolotl" remote="gitlab-priv" clone-depth="1" />
