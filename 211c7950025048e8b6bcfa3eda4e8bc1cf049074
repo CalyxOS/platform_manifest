@@ -16,6 +16,24 @@
       "message": "We\u0027ll use LFS for all the prebuilt repos here from day one. No changes needed yet since it\u0027s still WiP, just leaving a note for future me\n\nhttps://gitlab.com/CalyxOS/calyxos/-/issues/2151\n\nWill reply to this once it\u0027s setup, just something to keep in mind before making any repos.",
       "revId": "211c7950025048e8b6bcfa3eda4e8bc1cf049074",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc81ab45_8754d522",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 16
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-04T22:26:45Z",
+      "side": 1,
+      "message": "Ahhh, so with this, would we have all the AML prebuilts, makefiles, blueprints in a single repo? Like they could all be in here: https://gitlab.com/CalyxOS/tmp/aml_blueprints (prebuilts/calyx/aml) as one repo? That could be nice.",
+      "parentUuid": "be86b686_3feb10dc",
+      "revId": "211c7950025048e8b6bcfa3eda4e8bc1cf049074",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
