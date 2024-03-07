@@ -94,7 +94,7 @@
   <project name="CalyxOS/kernel_fairphone_sm7225" path="kernel/fairphone/sm7225" remote="gitlab" />
 
   <!-- Fairphone 5 -->
-  <project name="CalyxOS/device_fairphone_FP5" path="device/fairphone/FP5" remote="gitlab" revision="staging/android14" />
+  <project name="CalyxOS/device_fairphone_FP5" path="device/fairphone/FP5" remote="gitlab" revision="refs/tags/5.5.0" />
   <project name="CalyxOS/kernel_fairphone_qcm6490" path="kernel/fairphone/qcm6490" remote="gitlab" />
 
   <!-- SHIFT SHIFT6mq -->
