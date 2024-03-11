@@ -16,6 +16,57 @@
       "message": "I don\u0027t need this change to be merged right now, but I could use the repos/branches. Thanks!",
       "revId": "b0447527f395b762a9113d78432ba6137142ab4f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fa6b85fa_6c0f137e",
+        "filename": "snippets/calyxos_aml.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-11T17:39:32Z",
+      "side": 1,
+      "message": "Will create on tmp for now. Why aml_34 here though? It should be android14 to match everything.",
+      "revId": "b0447527f395b762a9113d78432ba6137142ab4f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c3794ec8_d7b5b727",
+        "filename": "snippets/calyxos_aml.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-11T17:39:32Z",
+      "side": 1,
+      "message": "Repo exists",
+      "revId": "b0447527f395b762a9113d78432ba6137142ab4f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "015ded5e_fc8962b3",
+        "filename": "snippets/calyxos_aml.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-11T17:39:32Z",
+      "side": 1,
+      "message": "All AOSP forks below, tbd.",
+      "revId": "b0447527f395b762a9113d78432ba6137142ab4f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
