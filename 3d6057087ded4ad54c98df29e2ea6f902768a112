@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "055e30fe_3f0f4a6f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-11T14:31:54Z",
+      "side": 1,
+      "message": "This would let us do adjust flags, doing things like enabling allow_private_space.\n\nNot urgent.",
+      "revId": "3d6057087ded4ad54c98df29e2ea6f902768a112",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
