@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2994d4c4_8508bfbe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-11T17:32:43Z",
+      "side": 1,
+      "message": "I don\u0027t need this change to be merged right now, but I could use the repos/branches. Thanks!",
+      "revId": "b0447527f395b762a9113d78432ba6137142ab4f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
