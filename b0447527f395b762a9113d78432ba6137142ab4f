@@ -37,6 +37,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3359cd65_920f3eb7",
+        "filename": "snippets/calyxos_aml.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-11T17:44:24Z",
+      "side": 1,
+      "message": "The prebuilts are supposed to be able to work with older Android versions too. For example, couldn\u0027t AOSP release aml_35xxxxxx even before Android 15 is released, and start shipping to 14? That\u0027s why I didn\u0027t name it android14. We *could* name it that, though, if it\u0027s that much easier.",
+      "parentUuid": "fa6b85fa_6c0f137e",
+      "revId": "b0447527f395b762a9113d78432ba6137142ab4f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c3794ec8_d7b5b727",
         "filename": "snippets/calyxos_aml.xml",
         "patchSetId": 2
@@ -48,6 +66,24 @@
       "writtenOn": "2024-03-11T17:39:32Z",
       "side": 1,
       "message": "Repo exists",
+      "revId": "b0447527f395b762a9113d78432ba6137142ab4f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "af641e87_6b091d73",
+        "filename": "snippets/calyxos_aml.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-11T17:44:24Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "c3794ec8_d7b5b727",
       "revId": "b0447527f395b762a9113d78432ba6137142ab4f",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
