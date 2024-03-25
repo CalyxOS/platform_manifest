@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "488c5ffa_4e887149",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-25T21:23:25Z",
+      "side": 1,
+      "message": "https://gitlab.com/CalyxOS/tmp/platform_packages_modules_DeviceLock/-/commit/9438981ce1097148c9dba7cf0dd156f9b7b3612c",
+      "revId": "8ca4d7ef7c5f1d6be98bb06eb5dc040647182b0f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
