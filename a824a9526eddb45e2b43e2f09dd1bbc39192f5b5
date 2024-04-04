@@ -16,6 +16,24 @@
       "message": "Using private /tmp repos. Not ready to go at all. Just for testing.",
       "revId": "a824a9526eddb45e2b43e2f09dd1bbc39192f5b5",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "56bf2f56_3afe5586",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-04-04T14:02:45Z",
+      "side": 1,
+      "message": "This commit message does say \"testing\" now. Still working on how to handle production repos at https://review.calyxos.org/c/CalyxOS/platform_manifest/+/25172",
+      "parentUuid": "a48e6adf_b3fe5c11",
+      "revId": "a824a9526eddb45e2b43e2f09dd1bbc39192f5b5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
