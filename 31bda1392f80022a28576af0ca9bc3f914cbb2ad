@@ -16,6 +16,23 @@
       "message": "DO NOT MERGE, will be tagged, uploaded for reference.",
       "revId": "31bda1392f80022a28576af0ca9bc3f914cbb2ad",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5d911090_88fc7a9c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-05-17T12:49:34Z",
+      "side": 1,
+      "message": "LGTM",
+      "revId": "31bda1392f80022a28576af0ca9bc3f914cbb2ad",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
