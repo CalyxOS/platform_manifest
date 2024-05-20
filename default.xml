@@ -20,7 +20,7 @@
   <superproject name="platform/superproject" remote="aosp" revision="android-14.0.0_r35" />
   <contactinfo bugurl="go/repo-bug" />
 
-  <project path="build/make" name="CalyxOS/platform_build" groups="pdk,sysui-studio" remote="gitlab" >
+  <project path="build/make" name="CalyxOS/platform_build" groups="pdk,sysui-studio" remote="gitlab" revision="refs/tags/5.7.0-2" >
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
     <linkfile dest="build/core" src="core" />

@@ -25,7 +25,7 @@
   <project name="CalyxOS/platform_prebuilts_calyx_microg" path="prebuilts/calyx/microg" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/keys" path="calyx/keys" remote="gitlab" />
   <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" />
-  <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" />
+  <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" revison="refs/tags/5.7.0-2" />
 
   <!-- LineageOS forks with additional changes -->
   <project name="CalyxOS/device_calyx_sepolicy" path="device/calyx/sepolicy" groups="lineage" remote="gitlab" revision="refs/tags/5.7.0" />
