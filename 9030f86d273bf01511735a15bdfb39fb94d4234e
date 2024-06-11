@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c5d33d6e_16090065",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-06-11T18:33:14Z",
+      "side": 1,
+      "message": "To sync AOSP: https://zifb.in/raw/htfaeWa1MN (Thanks Mike)",
+      "revId": "9030f86d273bf01511735a15bdfb39fb94d4234e",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
