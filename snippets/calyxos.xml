@@ -124,6 +124,6 @@
   <!-- Pixel 8a -->
   <project name="CalyxOS/device_google_akita" path="device/google/akita" groups="device,akita" remote="gitlab" />
   <project name="CalyxOS/device_google_akita-sepolicy" path="device/google/akita-sepolicy" groups="device,akita" remote="gitlab" />
-  <project name="device/google/akita-kernel" path="device/google/akita-kernel" groups="device,akita" clone-depth="1" revision="refs/tags/android-14.0.0_r41" />
+  <project name="device/google/akita-kernel" path="device/google/akita-kernel" groups="device,akita" clone-depth="1" />
 
 </manifest>
