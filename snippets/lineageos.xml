@@ -107,7 +107,7 @@
   <project name="CalyxOS/device_motorola_rhode" path="device/motorola/rhode" remote="gitlab" />
   <project name="CalyxOS/device_motorola_sm6225-common" path="device/motorola/sm6225-common" remote="gitlab" />
   <project name="CalyxOS/kernel_motorola_sm6225" path="kernel/motorola/sm6225" remote="gitlab" />
-  <project name="CalyxOS/platform_hardware_motorola" path="hardware/motorola" remote="gitlab" />
-  <project name="CalyxOS/platform_system_qcom" path="system/qcom" remote="gitlab" />
+  <project name="CalyxOS/platform_hardware_motorola" path="hardware/motorola" groups="lineage" remote="gitlab" />
+  <project name="CalyxOS/platform_system_qcom" path="system/qcom" groups="lineage" remote="gitlab" />
 
 </manifest>
