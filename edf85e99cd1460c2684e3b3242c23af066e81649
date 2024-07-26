@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64cf49c8_1300c176",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-26T22:06:21Z",
+      "side": 1,
+      "message": "`repo sync` will need auth for the LFS objects",
+      "revId": "edf85e99cd1460c2684e3b3242c23af066e81649",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
