@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2b3d15e_5ebdf903",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-08-08T14:42:41Z",
+      "side": 1,
+      "message": "Just reverting it wholesale, and we\u0027ll reland later.",
+      "revId": "8f63e6476e7fad3f838816defe09cf23a64fb4df",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
