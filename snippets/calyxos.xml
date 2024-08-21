@@ -17,7 +17,7 @@
   <project name="CalyxOS/platform_packages_apps_Seedvault" path="packages/apps/Seedvault" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_SystemUpdater" path="packages/apps/SystemUpdater" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Updater" path="packages/apps/Updater" remote="gitlab" />
-  <project name="CalyxOS/lfs_prebuilts_calyx_chromium_arm64" path="prebuilts/calyx/chromium/arm64" remote="gitlab" />
+  <project name="CalyxOS/lfs_prebuilts_calyx_chromium_arm64" path="prebuilts/calyx/chromium/arm64" remote="gitlab" revision="refs/tags/5.10.2" />
   <project name="CalyxOS/lfs_prebuilts_calyx_chromium_x64" path="prebuilts/calyx/chromium/x64" remote="gitlab" />
   <project name="CalyxOS/lfs_prebuilts_calyx_datura" path="prebuilts/calyx/datura" remote="gitlab" />
   <project name="CalyxOS/lfs_prebuilts_calyx_fdroid" path="prebuilts/calyx/fdroid" remote="gitlab" />
