@@ -58,6 +58,14 @@
   <!-- Pixel 8a -->
   <project name="CalyxOS/lfs_vendor_google_akita" path="vendor/google/akita" remote="gitlab-priv" />
 
+  <!-- Pixel 9, 9 Pro, 9 Pro XL -->
+  <project name="CalyxOS/lfs_vendor_google_caiman" path="vendor/google/caiman" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_google_komodo" path="vendor/google/komodo" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_google_tokay" path="vendor/google/tokay" remote="gitlab-priv" />
+
+  <!-- Pixel 9 Pro Fold -->
+  <project name="CalyxOS/lfs_vendor_google_comet" path="vendor/google/comet" remote="gitlab-priv" />
+
   <!-- Fairphone 4 -->
   <!--
   <project name="CalyxOS/lfs_vendor_fairphone_FP4" path="vendor/fairphone/FP4" remote="gitlab-priv" />

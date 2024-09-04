@@ -139,4 +139,16 @@
   <project name="CalyxOS/device_google_akita-sepolicy" path="device/google/akita-sepolicy" groups="device,akita" remote="gitlab" />
   <project name="device/google/akita-kernels/5.15" path="device/google/akita-kernels/5.15" groups="device,akita" clone-depth="1" />
 
+  <!-- Pixel 9, 9 Pro, 9 Pro XL -->
+  <project name="CalyxOS/device_google_zumapro" path="device/google/zumapro" groups="device,ripcurrentpro" remote="gitlab" />
+  <project name="CalyxOS/device_google_zumapro-sepolicy" path="device/google/zumapro-sepolicy" groups="device,ripcurrentpro" remote="gitlab" />
+  <project name="CalyxOS/device_google_caimito" path="device/google/caimito" groups="device,caimito" remote="gitlab" />
+  <project name="device/google/caimito-kernels/6.1" path="device/google/caimito-kernels/6.1" groups="device,caimito" clone-depth="1" />
+  <project name="CalyxOS/device_google_caimito-sepolicy" path="device/google/caimito-sepolicy" groups="device,caimito" remote="gitlab" />
+
+  <!-- Pixel 9 Pro Fold -->
+  <project name="CalyxOS/device_google_comet" path="device/google/comet" groups="device,comet" remote="gitlab" />
+  <project name="device/google/comet-kernels/6.1" path="device/google/comet-kernels/6.1" groups="device,comet" clone-depth="1" />
+  <project name="CalyxOS/device_google_comet-sepolicy" path="device/google/comet-sepolicy" groups="device,comet" remote="gitlab" />
+
 </manifest>
