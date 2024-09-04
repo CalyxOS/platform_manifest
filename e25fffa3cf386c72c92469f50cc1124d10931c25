@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0bc09ff9_38eaa6bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2024-09-04T21:19:01Z",
+      "side": 1,
+      "message": "Restored PS2. Syncs fine.",
+      "revId": "e25fffa3cf386c72c92469f50cc1124d10931c25",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
