@@ -20,6 +20,7 @@
   <project name="CalyxOS/vendor_crowdin" path="vendor/crowdin" groups="lineage" remote="gitlab" />
 
   <!-- Legacy AOSP additions -->
+  <!--
   <project name="platform/external/tinyxml" path="external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
   <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="generic_fs,qcom_sdm845" revision="refs/tags/android-13.0.0_r75" />
   <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" groups="generic_fs,vendor,qcom_sdm845" revision="refs/tags/android-13.0.0_r75" >
@@ -31,15 +32,19 @@
   <project path="hardware/qcom/sdm845/media" name="CalyxOS/platform_hardware_qcom_sdm845_media" groups="generic_fs,qcom_sdm845" remote="gitlab" />
   <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" groups="generic_fs,qcom_sdm845" revision="refs/tags/android-13.0.0_r75" />
   <project path="hardware/qcom/sdm845/vr" name="platform/hardware/qcom/sdm845/vr" groups="generic_fs,qcom_sdm845" revision="refs/tags/android-13.0.0_r75" />
+  -->
 
   <!-- Inline kernel build -->
+  <!--
   <project name="CalyxOS/platform_prebuilts_clang_kernel_linux-x86_clang-r416183b"  path="prebuilts/clang/kernel/linux-x86/clang-r416183b" groups="lineage" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="lineage" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="lineage" remote="gitlab" clone-depth="1" />
   <project name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" clone-depth="1" revision="refs/tags/android-14.0.0_r0.7" />
   <project name="CalyxOS/platform_prebuilts_tools-lineage" path="prebuilts/tools-lineage" groups="lineage" remote="gitlab" clone-depth="1" />
+  -->
 
   <!-- CodeLinaro additions -->
+  <!--
   <project name="CalyxOS/device_qcom_sepolicy" path="device/qcom/sepolicy" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/device_qcom_sepolicy_vndr_legacy-um" path="device/qcom/sepolicy_vndr/legacy-um" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_external_ant-wireless_ant_client" path="external/ant-wireless/ant_client" groups="lineage" remote="gitlab" />
@@ -49,9 +54,13 @@
   <project name="CalyxOS/platform_external_json-c" path="external/json-c" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_bootctrl" path="hardware/qcom-caf/bootctrl" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_common" path="hardware/qcom-caf/common" groups="lineage" remote="gitlab" >
+  -->
     <!-- add guard for AOSP hardware/qcom dir -->
+    <!--
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    -->
     <!-- add guards for CAF repositories -->
+    <!--
     <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
@@ -86,22 +95,30 @@
   <project name="CalyxOS/vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_usb" path="vendor/qcom/opensource/usb" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" groups="lineage" remote="gitlab" />
+  -->
 
   <!-- Devices -->
 
   <!-- Fairphone 4 -->
+  <!--
   <project name="CalyxOS/device_fairphone_FP4" path="device/fairphone/FP4" remote="gitlab" />
   <project name="CalyxOS/kernel_fairphone_sm7225" path="kernel/fairphone/sm7225" remote="gitlab" />
+  -->
 
   <!-- Fairphone 5 -->
+  <!--
   <project name="CalyxOS/device_fairphone_FP5" path="device/fairphone/FP5" remote="gitlab" />
   <project name="CalyxOS/kernel_fairphone_qcm6490" path="kernel/fairphone/qcm6490" remote="gitlab" />
+  -->
 
   <!-- SHIFT SHIFT6mq -->
+  <!--
   <project name="CalyxOS/device_shift_axolotl" path="device/shift/axolotl" remote="gitlab" />
   <project name="CalyxOS/kernel_shift_sdm845" path="kernel/shift/sdm845" remote="gitlab" />
+  -->
 
   <!-- Motorola sm6225 -->
+  <!--
   <project name="CalyxOS/device_motorola_devon" path="device/motorola/devon" remote="gitlab" />
   <project name="CalyxOS/device_motorola_hawao" path="device/motorola/hawao" remote="gitlab" />
   <project name="CalyxOS/device_motorola_rhode" path="device/motorola/rhode" remote="gitlab" />
@@ -109,5 +126,6 @@
   <project name="CalyxOS/kernel_motorola_sm6225" path="kernel/motorola/sm6225" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_motorola" path="hardware/motorola" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_system_qcom" path="system/qcom" groups="lineage" remote="gitlab" />
+  -->
 
 </manifest>
