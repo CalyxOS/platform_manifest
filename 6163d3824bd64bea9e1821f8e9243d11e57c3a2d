@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4d98c0a0_90c3e2c3",
+        "filename": "proprietary.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-09-04T19:44:10Z",
+      "side": 1,
+      "message": "Pending",
+      "revId": "6163d3824bd64bea9e1821f8e9243d11e57c3a2d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93460a85_45d991e2",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-09-04T19:44:10Z",
+      "side": 1,
+      "message": "All above pending",
+      "revId": "6163d3824bd64bea9e1821f8e9243d11e57c3a2d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dfd63b23_f8ff54fb",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-09-04T19:44:10Z",
+      "side": 1,
+      "message": "Will need repo creation",
+      "revId": "6163d3824bd64bea9e1821f8e9243d11e57c3a2d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b85b5d7d_44ab9a3a",
+        "filename": "snippets/lineageos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-09-04T19:44:10Z",
+      "side": 1,
+      "message": "Pending",
+      "revId": "6163d3824bd64bea9e1821f8e9243d11e57c3a2d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
