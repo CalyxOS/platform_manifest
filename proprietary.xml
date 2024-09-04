@@ -2,24 +2,34 @@
 <manifest>
 
   <!-- Pixel 3, 3 XL -->
+  <!--
   <project name="CalyxOS/lfs_vendor_google_crosshatch" path="vendor/google/crosshatch" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_google_blueline" path="vendor/google/blueline" remote="gitlab-priv" />
+  -->
 
   <!-- Pixel 3a, 3a XL -->
+  <!--
   <project name="CalyxOS/lfs_vendor_google_bonito" path="vendor/google/bonito" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_google_sargo" path="vendor/google/sargo" remote="gitlab-priv" />
+  -->
 
   <!-- Pixel 4, 4 XL -->
+  <!--
   <project name="CalyxOS/lfs_vendor_google_coral" path="vendor/google/coral" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_google_flame" path="vendor/google/flame" remote="gitlab-priv" />
+  -->
 
   <!-- Pixel 4a -->
+  <!--
   <project name="CalyxOS/lfs_vendor_google_sunfish" path="vendor/google/sunfish" remote="gitlab-priv" />
+  -->
 
   <!-- Pixel 5, 4a (5G), 5a -->
+  <!--
   <project name="CalyxOS/lfs_vendor_google_redfin" path="vendor/google/redfin" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_google_bramble" path="vendor/google/bramble" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_google_barbet" path="vendor/google/barbet" remote="gitlab-priv" />
+  -->
 
   <!-- Pixel 6, 6 Pro -->
   <project name="CalyxOS/lfs_vendor_google_raven" path="vendor/google/raven" remote="gitlab-priv" />
@@ -48,19 +58,39 @@
   <!-- Pixel 8a -->
   <project name="CalyxOS/lfs_vendor_google_akita" path="vendor/google/akita" remote="gitlab-priv" />
 
+  <!-- Pixel 9, 9 Pro, 9 Pro XL -->
+  <!--
+  <project name="CalyxOS/lfs_vendor_google_caiman" path="vendor/google/caiman" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_google_komodo" path="vendor/google/komodo" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_google_tokay" path="vendor/google/tokay" remote="gitlab-priv" />
+  -->
+
+  <!-- Pixel 9 Pro Fold -->
+  <!--
+  <project name="CalyxOS/lfs_vendor_google_comet" path="vendor/google/comet" remote="gitlab-priv" />
+  -->
+
   <!-- Fairphone 4 -->
+  <!--
   <project name="CalyxOS/lfs_vendor_fairphone_FP4" path="vendor/fairphone/FP4" remote="gitlab-priv" />
+  -->
 
   <!-- Fairphone 5 -->
+  <!--
   <project name="CalyxOS/lfs_vendor_fairphone_FP5" path="vendor/fairphone/FP5" remote="gitlab-priv" />
+  -->
 
   <!-- SHIFT SHIFT6mq -->
+  <!--
   <project name="CalyxOS/lfs_vendor_shift_axolotl" path="vendor/shift/axolotl" remote="gitlab-priv" />
+  -->
 
   <!-- Motorola sm6225 -->
+  <!--
   <project name="CalyxOS/lfs_vendor_motorola_devon" path="vendor/motorola/devon" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_motorola_hawao" path="vendor/motorola/hawao" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_motorola_rhode" path="vendor/motorola/rhode" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_motorola_sm6225-common" path="vendor/motorola/sm6225-common" remote="gitlab-priv" />
+  -->
 
 </manifest>

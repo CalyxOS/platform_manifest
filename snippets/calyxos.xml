@@ -40,30 +40,43 @@
 
   <!-- Devices -->
 
+  <!-- Pixel common -->
+  <project name="device/google/common/etm" path="device/google/common/etm" groups="device" clone-depth="1" />
+  <project name="CalyxOS/device_google_gs-common" path="device/google/gs-common" groups="device,slider,bluejay,blueport,cloudripper,pdk-gs-arm,pdk-cw-tvc" remote="gitlab" />
+
   <!-- Pixel 3, 3 XL -->
+  <!--
   <project name="CalyxOS/device_google_blueline" path="device/google/blueline" groups="device,crosshatch,generic_fs" remote="gitlab" />
   <project name="CalyxOS/device_google_crosshatch" path="device/google/crosshatch" groups="device,crosshatch,generic_fs" remote="gitlab" />
   <project name="CalyxOS/device_google_crosshatch-kernel" path="device/google/crosshatch-kernel" groups="device,crosshatch,generic_fs" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_crosshatch-sepolicy" path="device/google/crosshatch-sepolicy" groups="device,crosshatch,generic_fs" remote="gitlab" />
+  -->
 
   <!-- Pixel 3a, 3a XL -->
+  <!--
   <project name="CalyxOS/device_google_bonito" path="device/google/bonito" groups="device,bonito" remote="gitlab" />
   <project name="CalyxOS/device_google_bonito-kernel" path="device/google/bonito-kernel" groups="device,bonito" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_bonito-sepolicy" path="device/google/bonito-sepolicy" groups="device,bonito" remote="gitlab" />
   <project name="CalyxOS/device_google_sargo" path="device/google/sargo" groups="device,bonito" remote="gitlab" />
+  -->
 
   <!-- Pixel 4, 4 XL -->
+  <!--
   <project name="CalyxOS/device_google_coral" path="device/google/coral" groups="device,coral,generic_fs" remote="gitlab" />
   <project name="CalyxOS/device_google_coral-kernel" path="device/google/coral-kernel" groups="device,coral,generic_fs" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_coral-sepolicy" path="device/google/coral-sepolicy" groups="device,coral,generic_fs" remote="gitlab" />
   <project name="CalyxOS/device_google_flame" path="device/google/flame" groups="device,coral,generic_fs" remote="gitlab" />
+  -->
 
   <!-- Pixel 4a -->
+  <!--
   <project name="CalyxOS/device_google_sunfish" path="device/google/sunfish" groups="device,sunfish" remote="gitlab" />
   <project name="CalyxOS/device_google_sunfish-kernel" path="device/google/sunfish-kernel" groups="device,sunfish" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_sunfish-sepolicy" path="device/google/sunfish-sepolicy" groups="device,sunfish" remote="gitlab" />
+  -->
 
   <!-- Pixel 5, 4a (5G), 5a -->
+  <!--
   <project name="CalyxOS/device_google_redbull" path="device/google/redbull" groups="device,redbull" remote="gitlab" />
   <project name="device/google/redbull-kernel" path="device/google/redbull-kernel" groups="device,bramble,redfin" clone-depth="1" />
   <project name="CalyxOS/device_google_redbull-sepolicy" path="device/google/redbull-sepolicy" groups="device,redbull" remote="gitlab" />
@@ -73,57 +86,76 @@
   <project name="CalyxOS/device_google_bramble-sepolicy" path="device/google/bramble-sepolicy" groups="device,bramble" remote="gitlab" />
   <project name="CalyxOS/device_google_barbet" path="device/google/barbet" groups="device,barbet" remote="gitlab" />
   <project name="CalyxOS/device_google_barbet-sepolicy" path="device/google/barbet-sepolicy" groups="device,barbet" remote="gitlab" />
+  -->
 
   <!-- Pixel 6, 6 Pro -->
-  <project name="CalyxOS/device_google_gs101" path="device/google/gs101" groups="device,slider,bluejay,pdk-gs-arm" remote="gitlab" />
-  <project name="CalyxOS/device_google_gs101-sepolicy" path="device/google/gs101-sepolicy" groups="device,slider,bluejay,pdk-gs-arm" remote="gitlab" />
-  <project name="CalyxOS/device_google_gs-common" path="device/google/gs-common" groups="device,slider,bluejay,cloudripper,pdk-gs-arm" remote="gitlab" />
+  <project name="CalyxOS/device_google_gs101" path="device/google/gs101" groups="device,slider,bluejay,blueport,pdk-gs-arm" remote="gitlab" />
+  <project name="CalyxOS/device_google_gs101-sepolicy" path="device/google/gs101-sepolicy" groups="device,slider,bluejay,blueport,pdk-gs-arm" remote="gitlab" />
   <project name="CalyxOS/device_google_oriole" path="device/google/oriole" groups="device,slider,pdk-gs-arm" remote="gitlab" />
   <project name="CalyxOS/device_google_raven" path="device/google/raven" groups="device,slider,pdk-gs-arm" remote="gitlab" />
   <project name="CalyxOS/device_google_raviole" path="device/google/raviole" groups="device,slider,pdk-gs-arm" remote="gitlab" />
-  <project name="device/google/raviole-kernel" path="device/google/raviole-kernel" groups="device,slider,pdk-gs-arm" clone-depth="1" />
+  <project name="device/google/raviole-kernels/5.10" path="device/google/raviole-kernels/5.10" groups="device,slider,pdk-gs-arm" clone-depth="1" />
 
   <!-- Pixel 6a -->
   <project name="CalyxOS/device_google_bluejay" path="device/google/bluejay" groups="device,bluejay" remote="gitlab" />
-  <project name="device/google/bluejay-kernel" path="device/google/bluejay-kernel" groups="device,bluejay" clone-depth="1" />
+  <project name="device/google/bluejay-kernels/5.10" path="device/google/bluejay-kernels/5.10" groups="device,bluejay" clone-depth="1" />
   <project name="CalyxOS/device_google_bluejay-sepolicy" path="device/google/bluejay-sepolicy" groups="device,bluejay" remote="gitlab" />
 
   <!-- Pixel 7, 7 Pro -->
-  <project name="CalyxOS/device_google_gs201" path="device/google/gs201" groups="device,cloudripper" remote="gitlab" />
-  <project name="CalyxOS/device_google_gs201-sepolicy" path="device/google/gs201-sepolicy" groups="device,cloudripper" remote="gitlab" />
-  <project name="CalyxOS/device_google_cheetah" path="device/google/cheetah" groups="device,cloudripper" remote="gitlab" />
-  <project name="CalyxOS/device_google_panther" path="device/google/panther" groups="device,cloudripper" remote="gitlab" />
-  <project name="CalyxOS/device_google_pantah" path="device/google/pantah" groups="device,cloudripper" remote="gitlab" />
-  <project name="CalyxOS/device_google_pantah-sepolicy" path="device/google/pantah-sepolicy" groups="device,cloudripper" remote="gitlab" />
-  <project name="device/google/pantah-kernel" path="device/google/pantah-kernel" groups="device,cloudripper" clone-depth="1" />
+  <project name="CalyxOS/device_google_gs201" path="device/google/gs201" groups="device,cloudripper,pdk-gs-arm" remote="gitlab" />
+  <project name="CalyxOS/device_google_gs201-sepolicy" path="device/google/gs201-sepolicy" groups="device,cloudripper,pdk-gs-arm" remote="gitlab" />
+  <project name="CalyxOS/device_google_cheetah" path="device/google/cheetah" groups="device,cloudripper,pdk-gs-arm" remote="gitlab" />
+  <project name="CalyxOS/device_google_panther" path="device/google/panther" groups="device,cloudripper,pdk-gs-arm" remote="gitlab" />
+  <project name="CalyxOS/device_google_pantah" path="device/google/pantah" groups="device,cloudripper,pdk-gs-arm" remote="gitlab" />
+  <project name="CalyxOS/device_google_pantah-sepolicy" path="device/google/pantah-sepolicy" groups="device,cloudripper,pdk-gs-arm" remote="gitlab" />
+  <project name="device/google/pantah-kernels/5.10" path="device/google/pantah-kernels/5.10" groups="device,cloudripper,pdk-gs-arm" clone-depth="1" />
 
   <!-- Pixel 7a -->
   <project name="CalyxOS/device_google_lynx" path="device/google/lynx" groups="device,lynx" remote="gitlab" />
   <project name="CalyxOS/device_google_lynx-sepolicy" path="device/google/lynx-sepolicy" groups="device,lynx" remote="gitlab" />
-  <project name="device/google/lynx-kernel" path="device/google/lynx-kernel" groups="device,lynx" clone-depth="1" />
+  <project name="device/google/lynx-kernels/5.10" path="device/google/lynx-kernels/5.10" groups="device,lynx" clone-depth="1" />
 
   <!-- Pixel Tablet -->
   <project name="CalyxOS/device_google_tangorpro" path="device/google/tangorpro" groups="device,tangorpro" remote="gitlab" />
   <project name="CalyxOS/device_google_tangorpro-sepolicy" path="device/google/tangorpro-sepolicy" groups="device,tangorpro" remote="gitlab" />
-  <project name="device/google/tangorpro-kernel" path="device/google/tangorpro-kernel" groups="device,tangorpro" clone-depth="1" />
+  <project name="device/google/tangorpro-kernels/5.10" path="device/google/tangorpro-kernels/5.10" groups="device,tangorpro" clone-depth="1" />
 
   <!-- Pixel Fold -->
   <project name="CalyxOS/device_google_felix" path="device/google/felix" groups="device,felix" remote="gitlab" />
   <project name="CalyxOS/device_google_felix-sepolicy" path="device/google/felix-sepolicy" groups="device,felix" remote="gitlab" />
-  <project name="device/google/felix-kernel" path="device/google/felix-kernel" groups="device,felix" clone-depth="1" />
+  <project name="device/google/felix-kernels/5.10" path="device/google/felix-kernels/5.10" groups="device,felix" clone-depth="1" />
 
   <!-- Pixel 8, 8 Pro -->
-  <project name="CalyxOS/device_google_zuma" path="device/google/zuma" groups="device,ripcurrent" remote="gitlab" />
-  <project name="CalyxOS/device_google_zuma-sepolicy" path="device/google/zuma-sepolicy" groups="device,ripcurrent" remote="gitlab" />
+  <project name="CalyxOS/device_google_zuma" path="device/google/zuma" groups="device,ripcurrent,pdk-gs-arm" remote="gitlab" />
+  <project name="CalyxOS/device_google_zuma-sepolicy" path="device/google/zuma-sepolicy" groups="device,ripcurrent,pdk-gs-arm" remote="gitlab" />
   <project name="CalyxOS/device_google_husky" path="device/google/husky" groups="device,ripcurrent" remote="gitlab" />
   <project name="CalyxOS/device_google_shiba" path="device/google/shiba" groups="device,ripcurrent" remote="gitlab" />
   <project name="CalyxOS/device_google_shusky" path="device/google/shusky" groups="device,ripcurrent" remote="gitlab" />
   <project name="CalyxOS/device_google_shusky-sepolicy" path="device/google/shusky-sepolicy" groups="device,ripcurrent" remote="gitlab" />
-  <project name="device/google/shusky-kernel" path="device/google/shusky-kernel" groups="device,ripcurrent" clone-depth="1" />
+  <project name="device/google/shusky-kernels/5.15" path="device/google/shusky-kernels/5.15" groups="device,ripcurrent,pdk-gs-arm" clone-depth="1" />
 
   <!-- Pixel 8a -->
   <project name="CalyxOS/device_google_akita" path="device/google/akita" groups="device,akita" remote="gitlab" />
   <project name="CalyxOS/device_google_akita-sepolicy" path="device/google/akita-sepolicy" groups="device,akita" remote="gitlab" />
-  <project name="device/google/akita-kernel" path="device/google/akita-kernel" groups="device,akita" clone-depth="1" />
+  <project name="device/google/akita-kernels/5.15" path="device/google/akita-kernels/5.15" groups="device,akita" clone-depth="1" />
+
+  <!-- Pixel 9, 9 Pro, 9 Pro XL -->
+  <!--
+  <project name="CalyxOS/device_google_zumapro" path="device/google/zumapro" groups="device,ripcurrentpro" remote="gitlab" />
+  <project name="CalyxOS/device_google_zumapro-sepolicy" path="device/google/zumapro-sepolicy" groups="device,ripcurrentpro" remote="gitlab" />
+  <project name="CalyxOS/device_google_caiman" path="device/google/caiman" groups="device,caimito" remote="gitlab" />
+  <project name="CalyxOS/device_google_caimito" path="device/google/caimito" groups="device,caimito" remote="gitlab" />
+  <project name="CalyxOS/device_google_komodo" path="device/google/komodo" groups="device,caimito" remote="gitlab" />
+  <project name="CalyxOS/device_google_tokay" path="device/google/tokay" groups="device,caimito" remote="gitlab" />
+  <project name="device/google/caimito-kernels/6.1" path="device/google/caimito-kernels/6.1" groups="device,caimito" clone-depth="1" />
+  <project name="CalyxOS/device_google_caimito-sepolicy" path="device/google/caimito-sepolicy" groups="device,caimito" remote="gitlab" />
+  -->
+
+  <!-- Pixel 9 Pro Fold -->
+  <!--
+  <project name="CalyxOS/device_google_comet" path="device/google/comet" groups="device,comet" remote="gitlab" />
+  <project name="device/google/comet-kernels/6.1" path="device/google/comet-kernels/6.1" groups="device,comet" clone-depth="1" />
+  <project name="CalyxOS/device_google_comet-sepolicy" path="device/google/comet-sepolicy" groups="device,comet" remote="gitlab" />
+  -->
 
 </manifest>
