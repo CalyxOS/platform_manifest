@@ -87,6 +87,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ddccf36_e1760c20",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-09-04T19:55:25Z",
+      "side": 1,
+      "message": "* [new branch]      5.11.0^{commit} -\u003e staging/android15  \n\n`.gitreview` remains",
+      "parentUuid": "93460a85_45d991e2",
+      "revId": "6163d3824bd64bea9e1821f8e9243d11e57c3a2d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dfd63b23_f8ff54fb",
@@ -117,6 +135,24 @@
       "writtenOn": "2024-09-04T19:44:10Z",
       "side": 1,
       "message": "Pending",
+      "revId": "6163d3824bd64bea9e1821f8e9243d11e57c3a2d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b61fc32_51431ee8",
+        "filename": "snippets/lineageos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-09-04T19:55:25Z",
+      "side": 1,
+      "message": "* [new branch]      5.11.0^{commit} -\u003e staging/android15  \n\n`.gitreview` remains",
+      "parentUuid": "b85b5d7d_44ab9a3a",
       "revId": "6163d3824bd64bea9e1821f8e9243d11e57c3a2d",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
