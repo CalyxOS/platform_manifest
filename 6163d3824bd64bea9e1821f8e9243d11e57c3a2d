@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9c454ea1_df79986a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-09-04T19:56:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d64e2eb1_11439efb",
+      "revId": "6163d3824bd64bea9e1821f8e9243d11e57c3a2d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4d98c0a0_90c3e2c3",
@@ -70,6 +88,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e547a9ba_b8ea260c",
+        "filename": "proprietary.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-09-04T19:56:59Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "4aa58f02_6239cbea",
+      "revId": "6163d3824bd64bea9e1821f8e9243d11e57c3a2d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "93460a85_45d991e2",
@@ -118,6 +154,24 @@
       "writtenOn": "2024-09-04T19:44:10Z",
       "side": 1,
       "message": "Will need repo creation",
+      "revId": "6163d3824bd64bea9e1821f8e9243d11e57c3a2d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cdbaf380_e85420e7",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-09-04T19:56:59Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "dfd63b23_f8ff54fb",
       "revId": "6163d3824bd64bea9e1821f8e9243d11e57c3a2d",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
