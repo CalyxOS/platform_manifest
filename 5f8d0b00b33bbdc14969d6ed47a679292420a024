@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ca82a3ca_9cbf0292",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-09-06T21:24:11Z",
+      "side": 1,
+      "message": "We forgot LFS for these repos 😊",
+      "revId": "5f8d0b00b33bbdc14969d6ed47a679292420a024",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
