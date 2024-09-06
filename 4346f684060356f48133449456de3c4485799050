@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "463f893d_576a82ce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-09-06T21:33:52Z",
+      "side": 1,
+      "message": "`repo sync vendor/qcom/opensource/commonsys-intf/display vendor/qcom/opensource/display vendor/qcom/opensource/interfaces`",
+      "revId": "4346f684060356f48133449456de3c4485799050",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
