@@ -78,7 +78,7 @@
   <!-- Pixel 5, 4a (5G), 5a -->
   <!--
   <project name="CalyxOS/device_google_redbull" path="device/google/redbull" groups="device,redbull" remote="gitlab" />
-  <project name="device/google/redbull-kernel" path="device/google/redbull-kernel" groups="device,bramble,redfin" clone-depth="1" />
+  <project name="CalyxOS/device_google_redbull-kernel" path="device/google/redbull-kernel" groups="device,bramble,redfin" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_redbull-sepolicy" path="device/google/redbull-sepolicy" groups="device,redbull" remote="gitlab" />
   <project name="CalyxOS/device_google_redfin" path="device/google/redfin" groups="device,redfin" remote="gitlab" />
   <project name="CalyxOS/device_google_redfin-sepolicy" path="device/google/redfin-sepolicy" groups="device,redfin" remote="gitlab" />
