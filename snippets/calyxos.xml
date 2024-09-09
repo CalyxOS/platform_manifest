@@ -41,8 +41,8 @@
   <!-- Devices -->
 
   <!-- Pixel 3, 3 XL -->
-  <project name="CalyxOS/device_google_blueline" path="device/google/blueline" groups="device,crosshatch,generic_fs" remote="gitlab" revision="refs/tags/5.11.1-4" />
-  <project name="CalyxOS/device_google_crosshatch" path="device/google/crosshatch" groups="device,crosshatch,generic_fs" remote="gitlab" />
+  <project name="CalyxOS/device_google_blueline" path="device/google/blueline" groups="device,crosshatch,generic_fs" remote="gitlab" />
+  <project name="CalyxOS/device_google_crosshatch" path="device/google/crosshatch" groups="device,crosshatch,generic_fs" remote="gitlab" revision="refs/tags/5.11.1-4" />
   <project name="CalyxOS/device_google_crosshatch-kernel" path="device/google/crosshatch-kernel" groups="device,crosshatch,generic_fs" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_crosshatch-sepolicy" path="device/google/crosshatch-sepolicy" groups="device,crosshatch,generic_fs" remote="gitlab" />
 
