@@ -1159,7 +1159,7 @@
   <project path="packages/modules/ImsMedia" name="platform/packages/modules/ImsMedia" groups="pdk"/>
   <project path="packages/modules/IntentResolver" name="CalyxOS/platform_packages_modules_IntentResolver" groups="pdk,sysui-studio" remote="gitlab" />
   <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" groups="pdk" />
-  <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/modules/DnsResolver" name="CalyxOS/platform_packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
   <project path="packages/modules/Media" name="platform/packages/modules/Media" groups="pdk" />
   <project path="packages/modules/ModuleMetadata" name="platform/packages/modules/ModuleMetadata" groups="pdk" />
   <project path="packages/modules/NetworkPermissionConfig" name="platform/packages/modules/NetworkPermissionConfig" groups="pdk-cw-fs,pdk-fs" />
