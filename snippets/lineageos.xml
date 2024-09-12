@@ -17,7 +17,9 @@
   <project name="CalyxOS/platform_packages_resources_devicesettings" path="packages/resources/devicesettings" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_prebuilts_extract-tools" path="prebuilts/extract-tools" groups="lineage" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/platform_tools_extract-utils" path="tools/extract-utils" groups="lineage" remote="gitlab" />
+  <!--
   <project name="CalyxOS/vendor_crowdin" path="vendor/crowdin" groups="lineage" remote="gitlab" />
+  -->
 
   <!-- Legacy AOSP additions -->
   <!--
