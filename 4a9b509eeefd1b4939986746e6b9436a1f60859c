@@ -16,6 +16,24 @@
       "message": "Pending repo creation",
       "revId": "4a9b509eeefd1b4939986746e6b9436a1f60859c",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "27c01ad7_bf0282ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-09-16T11:50:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a2849bb6_944c272d",
+      "revId": "4a9b509eeefd1b4939986746e6b9436a1f60859c",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
