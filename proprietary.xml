@@ -2,65 +2,65 @@
 <manifest>
 
   <!-- Pixel 3, 3 XL -->
-  <project name="CalyxOS/lfs_vendor_google_crosshatch" path="vendor/google/crosshatch" remote="gitlab-priv" />
-  <project name="CalyxOS/lfs_vendor_google_blueline" path="vendor/google/blueline" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_google_crosshatch" path="vendor/google/crosshatch" remote="gitlab-priv" revision="refs/tags/5.11.3" />
+  <project name="CalyxOS/lfs_vendor_google_blueline" path="vendor/google/blueline" remote="gitlab-priv" revision="refs/tags/5.11.3" />
 
   <!-- Pixel 3a, 3a XL -->
-  <project name="CalyxOS/lfs_vendor_google_bonito" path="vendor/google/bonito" remote="gitlab-priv" />
-  <project name="CalyxOS/lfs_vendor_google_sargo" path="vendor/google/sargo" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_google_bonito" path="vendor/google/bonito" remote="gitlab-priv" revision="refs/tags/5.11.3" />
+  <project name="CalyxOS/lfs_vendor_google_sargo" path="vendor/google/sargo" remote="gitlab-priv" revision="refs/tags/5.11.3" />
 
   <!-- Pixel 4, 4 XL -->
-  <project name="CalyxOS/lfs_vendor_google_coral" path="vendor/google/coral" remote="gitlab-priv" />
-  <project name="CalyxOS/lfs_vendor_google_flame" path="vendor/google/flame" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_google_coral" path="vendor/google/coral" remote="gitlab-priv" revision="refs/tags/5.11.3" />
+  <project name="CalyxOS/lfs_vendor_google_flame" path="vendor/google/flame" remote="gitlab-priv" revision="refs/tags/5.11.3" />
 
   <!-- Pixel 4a -->
-  <project name="CalyxOS/lfs_vendor_google_sunfish" path="vendor/google/sunfish" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_google_sunfish" path="vendor/google/sunfish" remote="gitlab-priv" revision="refs/tags/5.11.3" />
 
   <!-- Pixel 5, 4a (5G), 5a -->
-  <project name="CalyxOS/lfs_vendor_google_redfin" path="vendor/google/redfin" remote="gitlab-priv" />
-  <project name="CalyxOS/lfs_vendor_google_bramble" path="vendor/google/bramble" remote="gitlab-priv" />
-  <project name="CalyxOS/lfs_vendor_google_barbet" path="vendor/google/barbet" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_google_redfin" path="vendor/google/redfin" remote="gitlab-priv" revision="refs/tags/5.11.3" />
+  <project name="CalyxOS/lfs_vendor_google_bramble" path="vendor/google/bramble" remote="gitlab-priv" revision="refs/tags/5.11.3" />
+  <project name="CalyxOS/lfs_vendor_google_barbet" path="vendor/google/barbet" remote="gitlab-priv" revision="refs/tags/5.11.3" />
 
   <!-- Pixel 6, 6 Pro -->
-  <project name="CalyxOS/lfs_vendor_google_raven" path="vendor/google/raven" remote="gitlab-priv" />
-  <project name="CalyxOS/lfs_vendor_google_oriole" path="vendor/google/oriole" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_google_raven" path="vendor/google/raven" remote="gitlab-priv" revision="refs/tags/5.11.3" />
+  <project name="CalyxOS/lfs_vendor_google_oriole" path="vendor/google/oriole" remote="gitlab-priv" revision="refs/tags/5.11.3" />
 
   <!-- Pixel 6a -->
-  <project name="CalyxOS/lfs_vendor_google_bluejay" path="vendor/google/bluejay" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_google_bluejay" path="vendor/google/bluejay" remote="gitlab-priv" revision="refs/tags/5.11.3" />
 
   <!-- Pixel 7, 7 Pro -->
-  <project name="CalyxOS/lfs_vendor_google_cheetah" path="vendor/google/cheetah" remote="gitlab-priv" />
-  <project name="CalyxOS/lfs_vendor_google_panther" path="vendor/google/panther" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_google_cheetah" path="vendor/google/cheetah" remote="gitlab-priv" revision="refs/tags/5.11.3" />
+  <project name="CalyxOS/lfs_vendor_google_panther" path="vendor/google/panther" remote="gitlab-priv" revision="refs/tags/5.11.3" />
 
   <!-- Pixel 7a -->
-  <project name="CalyxOS/lfs_vendor_google_lynx" path="vendor/google/lynx" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_google_lynx" path="vendor/google/lynx" remote="gitlab-priv" revision="refs/tags/5.11.3" />
 
   <!-- Pixel Tablet -->
-  <project name="CalyxOS/lfs_vendor_google_tangorpro" path="vendor/google/tangorpro" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_google_tangorpro" path="vendor/google/tangorpro" remote="gitlab-priv" revision="refs/tags/5.11.3" />
 
   <!-- Pixel Fold -->
-  <project name="CalyxOS/lfs_vendor_google_felix" path="vendor/google/felix" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_google_felix" path="vendor/google/felix" remote="gitlab-priv" revision="refs/tags/5.11.3" />
 
   <!-- Pixel 8, 8 Pro -->
-  <project name="CalyxOS/lfs_vendor_google_husky" path="vendor/google/husky" remote="gitlab-priv" />
-  <project name="CalyxOS/lfs_vendor_google_shiba" path="vendor/google/shiba" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_google_husky" path="vendor/google/husky" remote="gitlab-priv" revision="refs/tags/5.11.3" />
+  <project name="CalyxOS/lfs_vendor_google_shiba" path="vendor/google/shiba" remote="gitlab-priv" revision="refs/tags/5.11.3" />
 
   <!-- Pixel 8a -->
-  <project name="CalyxOS/lfs_vendor_google_akita" path="vendor/google/akita" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_google_akita" path="vendor/google/akita" remote="gitlab-priv" revision="refs/tags/5.11.3" />
 
   <!-- Fairphone 4 -->
-  <project name="CalyxOS/lfs_vendor_fairphone_FP4" path="vendor/fairphone/FP4" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_fairphone_FP4" path="vendor/fairphone/FP4" remote="gitlab-priv" revision="refs/tags/5.11.3" />
 
   <!-- Fairphone 5 -->
-  <project name="CalyxOS/lfs_vendor_fairphone_FP5" path="vendor/fairphone/FP5" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_fairphone_FP5" path="vendor/fairphone/FP5" remote="gitlab-priv" revision="refs/tags/5.11.3" />
 
   <!-- SHIFT SHIFT6mq -->
-  <project name="CalyxOS/lfs_vendor_shift_axolotl" path="vendor/shift/axolotl" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_shift_axolotl" path="vendor/shift/axolotl" remote="gitlab-priv" revision="refs/tags/5.11.3" />
 
   <!-- Motorola sm6225 -->
-  <project name="CalyxOS/lfs_vendor_motorola_devon" path="vendor/motorola/devon" remote="gitlab-priv" />
-  <project name="CalyxOS/lfs_vendor_motorola_hawao" path="vendor/motorola/hawao" remote="gitlab-priv" />
-  <project name="CalyxOS/lfs_vendor_motorola_rhode" path="vendor/motorola/rhode" remote="gitlab-priv" />
-  <project name="CalyxOS/lfs_vendor_motorola_sm6225-common" path="vendor/motorola/sm6225-common" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_motorola_devon" path="vendor/motorola/devon" remote="gitlab-priv" revision="refs/tags/5.11.3" />
+  <project name="CalyxOS/lfs_vendor_motorola_hawao" path="vendor/motorola/hawao" remote="gitlab-priv" revision="refs/tags/5.11.3" />
+  <project name="CalyxOS/lfs_vendor_motorola_rhode" path="vendor/motorola/rhode" remote="gitlab-priv" revision="refs/tags/5.11.3" />
+  <project name="CalyxOS/lfs_vendor_motorola_sm6225-common" path="vendor/motorola/sm6225-common" remote="gitlab-priv" revision="refs/tags/5.11.3" />
 
 </manifest>
