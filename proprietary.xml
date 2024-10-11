@@ -60,7 +60,7 @@
   <!-- Motorola sm6225 -->
   <project name="CalyxOS/lfs_vendor_motorola_devon" path="vendor/motorola/devon" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_motorola_hawao" path="vendor/motorola/hawao" remote="gitlab-priv" />
-  <project name="CalyxOS/lfs_vendor_motorola_rhode" path="vendor/motorola/rhode" remote="gitlab-priv"" />
+  <project name="CalyxOS/lfs_vendor_motorola_rhode" path="vendor/motorola/rhode" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_motorola_sm6225-common" path="vendor/motorola/sm6225-common" remote="gitlab-priv" />
 
 </manifest>
