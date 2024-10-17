@@ -1,0 +1,30 @@
+{
+  "comments": [],
+  "submitRequirementResults": [
+    {
+      "submitRequirement": {
+        "name": "Code-Review",
+        "description": {
+          "value": "A maximum vote is required for the \u0027Code-Review\u0027 label. A minimum vote is blocking."
+        },
+        "applicabilityExpression": {},
+        "submittabilityExpression": {
+          "expressionString": "label:Code-Review\u003dMAX AND -label:Code-Review\u003dMIN"
+        },
+        "overrideExpression": {},
+        "allowOverrideInChildProjects": false
+      },
+      "applicabilityExpressionResult": {},
+      "submittabilityExpressionResult": {
+        "value": {"expression":{"expressionString":"label:Code-Review=MAX AND -label:Code-Review=MIN"},"status":"PASS","errorMessage":{"value":null},"passingAtoms":["label:Code-Review=MAX"],"failingAtoms":["label:Code-Review=MIN"]}
+      },
+      "overrideExpressionResult": {},
+      "patchSetCommitId": "837cf4d6b212696601d27bfd4656cdf7ef7e77cf",
+      "legacy": {
+        "value": false
+      },
+      "forced": {},
+      "hidden": {}
+    }
+  ]
+}
