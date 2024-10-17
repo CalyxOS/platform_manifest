@@ -33,7 +33,7 @@
     <linkfile src="bazel.BUILD" dest="BUILD" />
   </project>
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="pdk" />
-  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
+  <project path="build/blueprint" name="CalyxOS/platform_build_blueprint" groups="pdk,tradefed" remote="gitlab" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" />
   <project path="build/release" name="CalyxOS/platform_build_release" groups="pdk,tradefed" remote="gitlab" />
   <project path="build/soong" name="CalyxOS/platform_build_soong" groups="pdk,tradefed" remote="gitlab" >
@@ -1179,7 +1179,7 @@
   <project path="packages/modules/ThreadNetwork" name="platform/packages/modules/ThreadNetwork" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/Uwb" name="CalyxOS/platform_packages_modules_Uwb" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
   <project path="packages/modules/UprobeStats" name="platform/packages/modules/UprobeStats" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" groups="pdk" />
+  <project path="packages/modules/Virtualization" name="CalyxOS/platform_packages_modules_Virtualization" groups="pdk" remote="gitlab" />
   <project path="packages/modules/vndk" name="platform/packages/modules/vndk" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/Wifi" name="CalyxOS/platform_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="gitlab" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" groups="pdk-fs" />
