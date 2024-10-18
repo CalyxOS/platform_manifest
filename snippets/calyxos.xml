@@ -62,7 +62,6 @@
   -->
 
   <!-- Pixel 5, 4a (5G), 5a -->
-  <!--
   <project name="CalyxOS/device_google_redbull" path="device/google/redbull" groups="device,redbull" remote="gitlab" />
   <project name="CalyxOS/device_google_redbull-kernel" path="device/google/redbull-kernel" groups="device,bramble,redfin" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_redbull-sepolicy" path="device/google/redbull-sepolicy" groups="device,redbull" remote="gitlab" />
@@ -72,7 +71,6 @@
   <project name="CalyxOS/device_google_bramble-sepolicy" path="device/google/bramble-sepolicy" groups="device,bramble" remote="gitlab" />
   <project name="CalyxOS/device_google_barbet" path="device/google/barbet" groups="device,barbet" remote="gitlab" />
   <project name="CalyxOS/device_google_barbet-sepolicy" path="device/google/barbet-sepolicy" groups="device,barbet" remote="gitlab" />
-  -->
 
   <!-- Pixel 6, 6 Pro -->
   <project name="CalyxOS/device_google_gs101" path="device/google/gs101" groups="device,slider,bluejay,pdk-gs-arm" remote="gitlab" />
