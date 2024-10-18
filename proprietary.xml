@@ -13,11 +13,9 @@
   -->
 
   <!-- Pixel 5, 4a (5G), 5a -->
-  <!--
   <project name="CalyxOS/lfs_vendor_google_redfin" path="vendor/google/redfin" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_google_bramble" path="vendor/google/bramble" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_google_barbet" path="vendor/google/barbet" remote="gitlab-priv" />
-  -->
 
   <!-- Pixel 6, 6 Pro -->
   <project name="CalyxOS/lfs_vendor_google_raven" path="vendor/google/raven" remote="gitlab-priv" />

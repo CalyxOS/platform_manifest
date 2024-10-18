@@ -21,6 +21,15 @@
   <project name="CalyxOS/vendor_crowdin" path="vendor/crowdin" groups="lineage" remote="gitlab" />
   -->
 
+  <!-- Legacy AOSP additions -->
+  <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk-qcom" revision="refs/tags/android-15.0.0_r5" />
+  <project path="hardware/qcom/sm7250/display" name="CalyxOS/platform_hardware_qcom_sm7250_display" groups="qcom_sm7250" remote="gitlab" />
+  <project path="hardware/qcom/sm7250/gps" name="CalyxOS/platform_hardware_qcom_sm7250_gps" groups="qcom_sm7250" remote="gitlab" >
+    <linkfile dest="hardware/qcom/sm7250/Android.mk" src="os_pickup.mk" />
+    <linkfile dest="hardware/qcom/sm7250/Android.bp" src="os_pickup.bp" />
+  </project>
+  <project path="hardware/qcom/sm7250/media" name="CalyxOS/platform_hardware_qcom_sm7250_media" groups="qcom_sm7250" remote="gitlab" />
+
   <!-- Inline kernel build -->
   <!--
   <project name="CalyxOS/platform_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="lineage" remote="gitlab" clone-depth="1" />
