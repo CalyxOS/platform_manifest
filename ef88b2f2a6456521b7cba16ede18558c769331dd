@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "39a318ba_c15627d5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-10-18T19:15:53Z",
+      "side": 1,
+      "message": "Old LFS setup, will slow down builds",
+      "revId": "ef88b2f2a6456521b7cba16ede18558c769331dd",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
