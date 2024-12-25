@@ -22,9 +22,11 @@
   <project name="CalyxOS/lfs_prebuilts_calyx_chromium_arm64" path="prebuilts/calyx/chromium/arm64" remote="gitlab" />
   <project name="CalyxOS/lfs_prebuilts_calyx_chromium_x64" path="prebuilts/calyx/chromium/x64" remote="gitlab" />
   <project name="CalyxOS/lfs_prebuilts_calyx_datura" path="prebuilts/calyx/datura" remote="gitlab" />
+  <project name="CalyxOS/lfs_prebuilts_calyx_espeak-ng" path="prebuilts/calyx/espeak-ng" remote="gitlab" />
   <project name="CalyxOS/lfs_prebuilts_calyx_fdroid" path="prebuilts/calyx/fdroid" remote="gitlab" />
   <project name="CalyxOS/lfs_prebuilts_calyx_lupin" path="prebuilts/calyx/lupin" remote="gitlab" />
   <project name="CalyxOS/lfs_prebuilts_calyx_microg" path="prebuilts/calyx/microg" remote="gitlab" />
+  <project name="CalyxOS/lfs_prebuilts_calyx_talkback" path="prebuilts/calyx/talkback" remote="gitlab" />
   <project name="CalyxOS/keys" path="calyx/keys" remote="gitlab" />
   <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" />
   <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" />
