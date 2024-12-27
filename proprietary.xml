@@ -53,21 +53,15 @@
   <project name="CalyxOS/lfs_vendor_google_comet" path="vendor/google/comet" remote="gitlab-priv" />
 
   <!-- Fairphone 4 -->
-  <!--
   <project name="CalyxOS/lfs_vendor_fairphone_FP4" path="vendor/fairphone/FP4" remote="gitlab-priv" />
-  -->
 
   <!-- Fairphone 5 -->
-  <!--
   <project name="CalyxOS/lfs_vendor_fairphone_FP5" path="vendor/fairphone/FP5" remote="gitlab-priv" />
-  -->
 
   <!-- Motorola sm6225 -->
-  <!--
   <project name="CalyxOS/lfs_vendor_motorola_devon" path="vendor/motorola/devon" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_motorola_hawao" path="vendor/motorola/hawao" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_motorola_rhode" path="vendor/motorola/rhode" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_motorola_sm6225-common" path="vendor/motorola/sm6225-common" remote="gitlab-priv" />
-  -->
 
 </manifest>
