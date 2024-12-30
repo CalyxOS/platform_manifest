@@ -9,7 +9,7 @@
   <project name="CalyxOS/platform_external_calyx_lupin" path="external/calyx/lupin" remote="gitlab" />
   <project name="CalyxOS/platform_external_espeak-ng_espeak-ng" path="external/espeak-ng/espeak-ng" remote="gitlab" />
   <project name="CalyxOS/platform_external_google_talkback" path="external/google/talkback" remote="gitlab" />
-  <project name="CalyxOS/platform_external_microg_GmsCore" path="external/microg/GmsCore" remote="gitlab" />
+  <project name="CalyxOS/platform_external_microg_GmsCore" path="external/microg/GmsCore" remote="gitlab" revision="staging/android15" />
   <project name="CalyxOS/platform_external_microg_GsfProxy" path="external/microg/GsfProxy" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_AuroraStorePrivilegedExtension" path="packages/apps/AuroraStorePrivilegedExtension" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Bellis" path="packages/apps/Bellis" remote="gitlab" />
