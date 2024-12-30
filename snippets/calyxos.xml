@@ -3,20 +3,20 @@
 
   <!-- CalyxOS additions -->
   <project name="CalyxOS/platform_manifest" path="manifest" remote="gitlab" />
-  <project name="CalyxOS/platform_external_calyx_chromium" path="external/calyx/chromium" remote="gitlab" />
-  <project name="CalyxOS/platform_external_calyx_datura" path="external/calyx/datura" remote="gitlab" />
-  <project name="CalyxOS/platform_external_calyx_GCamPhotosPreview" path="external/calyx/GCamPhotosPreview" remote="gitlab" />
-  <project name="CalyxOS/platform_external_calyx_lupin" path="external/calyx/lupin" remote="gitlab" />
+  <project name="CalyxOS/platform_external_calyx_chromium" path="external/calyx/chromium" remote="gitlab" revision="staging/android15" />
+  <project name="CalyxOS/platform_external_calyx_datura" path="external/calyx/datura" remote="gitlab" revision="staging/android15" />
+  <project name="CalyxOS/platform_external_calyx_GCamPhotosPreview" path="external/calyx/GCamPhotosPreview" remote="gitlab" revision="staging/android15" />
+  <project name="CalyxOS/platform_external_calyx_lupin" path="external/calyx/lupin" remote="gitlab" revision="staging/android15" />
   <project name="CalyxOS/platform_external_espeak-ng_espeak-ng" path="external/espeak-ng/espeak-ng" remote="gitlab" />
   <project name="CalyxOS/platform_external_google_talkback" path="external/google/talkback" remote="gitlab" />
-  <project name="CalyxOS/platform_external_microg_GmsCore" path="external/microg/GmsCore" remote="gitlab" />
-  <project name="CalyxOS/platform_external_microg_GsfProxy" path="external/microg/GsfProxy" remote="gitlab" />
+  <project name="CalyxOS/platform_external_microg_GmsCore" path="external/microg/GmsCore" remote="gitlab" revision="staging/android15" />
+  <project name="CalyxOS/platform_external_microg_GsfProxy" path="external/microg/GsfProxy" remote="gitlab" revision="staging/android15" />
   <project name="CalyxOS/platform_packages_apps_AuroraStorePrivilegedExtension" path="packages/apps/AuroraStorePrivilegedExtension" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Bellis" path="packages/apps/Bellis" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_F-DroidPrivilegedExtension" path="packages/apps/F-DroidPrivilegedExtension" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Panic" path="packages/apps/Panic" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Ripple" path="packages/apps/Ripple" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_Seedvault" path="packages/apps/Seedvault" remote="gitlab" />
+  <project name="CalyxOS/platform_packages_apps_Seedvault" path="packages/apps/Seedvault" remote="gitlab" revision="staging/android15" />
   <project name="CalyxOS/platform_packages_apps_SystemUpdater" path="packages/apps/SystemUpdater" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Updater" path="packages/apps/Updater" remote="gitlab" />
   <project name="CalyxOS/lfs_prebuilts_calyx_chromium_arm64" path="prebuilts/calyx/chromium/arm64" remote="gitlab" />
