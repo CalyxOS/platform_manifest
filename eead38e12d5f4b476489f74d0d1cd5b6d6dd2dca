@@ -16,6 +16,24 @@
       "message": "Empty repo created",
       "revId": "eead38e12d5f4b476489f74d0d1cd5b6d6dd2dca",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "04584ed1_cd749481",
+        "filename": "snippets/lineageos.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2024-12-30T22:17:26Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "33b7b4b0_cbf5c7b6",
+      "revId": "eead38e12d5f4b476489f74d0d1cd5b6d6dd2dca",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
