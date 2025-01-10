@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2f0ab6e5_1229c0d2",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-10T14:02:15Z",
+      "side": 1,
+      "message": "Can go through these one by one.\n\nThere\u0027s three kinds of repos here\n1. Purely our repos, and no extra changes needed, e.g. prebuilts, \u0027keys\u0027 - can just push 6.3.0 to qpr1\n2. Some work done in android14, e.g. \u0027external/chromium\u0027 in which case, can push 5.14.2 to qpr1, after making sure there\u0027s nothing\n3. upstream apps - here, for microg, we\u0027d have to take version number into account, since that is based on number of commits. Although what we\u0027ve done is applied a one-time offset in the past, until next version bump\nSo, if today\u0027s version number is 100, and rebase makes it 50 - apply 50 as our offset, until next upstream release bumps it to 100 or higher, at which point we remove that.",
+      "revId": "883d997682c01e7db5dd46604aed3fb9e3c7f189",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dcda556b_66d22a31",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-10T14:02:15Z",
+      "side": 1,
+      "message": "What do we want to do here? Rebase one by one?\n\nOr just keep merging for this cycle?",
+      "revId": "883d997682c01e7db5dd46604aed3fb9e3c7f189",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
