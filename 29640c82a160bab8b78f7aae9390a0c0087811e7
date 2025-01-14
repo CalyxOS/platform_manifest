@@ -16,6 +16,24 @@
       "message": "This should be created from android14 instead",
       "revId": "29640c82a160bab8b78f7aae9390a0c0087811e7",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b177948_ced069c7",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-14T23:24:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c3c9dbe0_3d5ca22a",
+      "revId": "29640c82a160bab8b78f7aae9390a0c0087811e7",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
