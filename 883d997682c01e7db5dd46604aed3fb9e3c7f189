@@ -51,6 +51,24 @@
       "parentUuid": "dcda556b_66d22a31",
       "revId": "883d997682c01e7db5dd46604aed3fb9e3c7f189",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "acb244c1_b14a0084",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-14T23:23:37Z",
+      "side": 1,
+      "message": "Ok, created android15-qpr1 from staging/android15",
+      "parentUuid": "81aa81b0_e7ec8161",
+      "revId": "883d997682c01e7db5dd46604aed3fb9e3c7f189",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
