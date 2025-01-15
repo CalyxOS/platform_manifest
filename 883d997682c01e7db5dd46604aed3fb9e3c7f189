@@ -18,6 +18,24 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f5c08387_548d6075",
+        "filename": "snippets/calyxos.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-15T11:57:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2f0ab6e5_1229c0d2",
+      "revId": "883d997682c01e7db5dd46604aed3fb9e3c7f189",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dcda556b_66d22a31",
