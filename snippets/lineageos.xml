@@ -87,7 +87,7 @@
 
   <!-- Fairphone 5 -->
   <project name="CalyxOS/device_fairphone_FP5" path="device/fairphone/FP5" remote="gitlab" />
-  <project name="CalyxOS/kernel_fairphone_qcm6490" path="kernel/fairphone/qcm6490" remote="gitlab" />
+  <project name="CalyxOS/kernel_fairphone_qcm6490" path="kernel/fairphone/qcm6490" remote="gitlab" revision="refs/tags/6.3.1-2" />
 
   <!-- Motorola sm6225 -->
   <project name="CalyxOS/device_motorola_devon" path="device/motorola/devon" remote="gitlab" />
