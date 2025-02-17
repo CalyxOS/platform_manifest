@@ -12,6 +12,9 @@
   <project name="CalyxOS/lfs_vendor_google_sunfish" path="vendor/google/sunfish" remote="gitlab-priv" />
   -->
 
+  <!-- AA -->
+  <project name="CalyxOS/proprietary_vendor_google_gearhead" path="vendor/google/gearhead" remote="gitlab-priv" />
+
   <!-- Pixel 5, 4a (5G), 5a -->
   <project name="CalyxOS/lfs_vendor_google_redfin" path="vendor/google/redfin" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_google_bramble" path="vendor/google/bramble" remote="gitlab-priv" />
