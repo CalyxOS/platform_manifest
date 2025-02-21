@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "55891cc0_47d5cd57",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-02-21T14:38:05Z",
+      "side": 1,
+      "message": "List: curl https://gitlab.com/CalyxOS/platform_manifest/-/commit/cde274a3d63970040610423042e037b4430409e0.diff | grep \"+\" | grep -v @ | cut -d \\\" -f 2 | grep -v default.xml \u003e list\n\nChecks:\n1. for i in `cat /tmp/list`; do git -C $i log --oneline -1; done\n2. for i in `cat /tmp/list`; do git -C $i diff android-15.0.0_r14; done\n\nOnly git-review, \n\nOne note is that some of these may have open gerrit changes, such as IntentResolver, so we should exclude those too.",
+      "revId": "cde274a3d63970040610423042e037b4430409e0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
