@@ -7,11 +7,11 @@
   <remote  name="gitlab"
            fetch=".."
            review="review.calyxos.org"
-           revision="refs/heads/android15-qpr1" />
+           revision="refs/heads/android15-qpr2" />
   <remote  name="gitlab-priv"
            fetch="ssh://git@gitlab.com"
            review="review.calyxos.org"
-           revision="refs/heads/android15-qpr1" />
+           revision="refs/heads/android15-qpr2" />
   <default revision="refs/tags/android-15.0.0_r14"
            remote="aosp"
            sync-j="4"
