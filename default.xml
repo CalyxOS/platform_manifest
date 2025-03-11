@@ -436,7 +436,7 @@
   <project path="external/perfetto" name="platform/external/perfetto" groups="pdk,sysui-studio" />
   <project path="external/perfmark" name="platform/external/perfmark" groups="pdk" />
   <project path="external/piex" name="platform/external/piex" groups="pdk" />
-  <project path="external/pigweed" name="CalyxOS/platform_external_pigweed" groups="pdk" remote="gitlab" />
+  <project path="external/pigweed" name="platform/external/pigweed" groups="pdk" />
   <project path="external/ply" name="platform/external/ply" groups="pdk" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk,sysui-studio" />
   <project path="external/pthreadpool" name="platform/external/pthreadpool" groups="pdk" />
