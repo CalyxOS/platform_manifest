@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Pixel 4, 4 XL -->
-  <!--
-  <project name="CalyxOS/lfs_vendor_google_coral" path="vendor/google/coral" remote="gitlab-priv" />
-  <project name="CalyxOS/lfs_vendor_google_flame" path="vendor/google/flame" remote="gitlab-priv" />
-  -->
-
-  <!-- Pixel 4a -->
-  <!--
-  <project name="CalyxOS/lfs_vendor_google_sunfish" path="vendor/google/sunfish" remote="gitlab-priv" />
-  -->
-
   <!-- AA -->
   <project name="CalyxOS/proprietary_vendor_google_gearhead" path="vendor/google/gearhead" remote="gitlab-priv" />
 

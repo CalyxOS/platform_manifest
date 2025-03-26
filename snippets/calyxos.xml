@@ -49,21 +49,6 @@
   <project name="device/google/common/etm" path="device/google/common/etm" groups="device" clone-depth="1" />
   <project name="CalyxOS/device_google_gs-common" path="device/google/gs-common" groups="device,slider,bluejay,cloudripper,pdk-gs-arm,pdk-cw-tvc" remote="gitlab" />
 
-  <!-- Pixel 4, 4 XL -->
-  <!--
-  <project name="CalyxOS/device_google_coral" path="device/google/coral" groups="device,coral,generic_fs" remote="gitlab" />
-  <project name="CalyxOS/device_google_coral-kernel" path="device/google/coral-kernel" groups="device,coral,generic_fs" remote="gitlab" clone-depth="1" />
-  <project name="CalyxOS/device_google_coral-sepolicy" path="device/google/coral-sepolicy" groups="device,coral,generic_fs" remote="gitlab" />
-  <project name="CalyxOS/device_google_flame" path="device/google/flame" groups="device,coral,generic_fs" remote="gitlab" />
-  -->
-
-  <!-- Pixel 4a -->
-  <!--
-  <project name="CalyxOS/device_google_sunfish" path="device/google/sunfish" groups="device,sunfish" remote="gitlab" />
-  <project name="CalyxOS/device_google_sunfish-kernel" path="device/google/sunfish-kernel" groups="device,sunfish" remote="gitlab" clone-depth="1" />
-  <project name="CalyxOS/device_google_sunfish-sepolicy" path="device/google/sunfish-sepolicy" groups="device,sunfish" remote="gitlab" />
-  -->
-
   <!-- Pixel 5, 4a (5G), 5a -->
   <project name="CalyxOS/device_google_redbull" path="device/google/redbull" groups="device,redbull" remote="gitlab" />
   <project name="CalyxOS/device_google_redbull-kernel" path="device/google/redbull-kernel" groups="device,bramble,redfin" remote="gitlab" clone-depth="1" />
