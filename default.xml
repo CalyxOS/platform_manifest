@@ -8,6 +8,10 @@
            fetch=".."
            review="review.calyxos.org"
            revision="refs/heads/android15-qpr2" />
+  <remote  name="gitlab-main"
+           fetch=".."
+           review="review.calyxos.org"
+           revision="refs/heads/main" />
   <remote  name="gitlab-priv"
            fetch="ssh://git@gitlab.com"
            review="review.calyxos.org"
