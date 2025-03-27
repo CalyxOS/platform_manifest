@@ -4,16 +4,16 @@
   <!-- CalyxOS additions -->
   <project name="CalyxOS/platform_manifest" path="manifest" remote="gitlab" />
   <project name="CalyxOS/device_google_gearhead" path="device/google/gearhead" remote="gitlab" />
-  <project name="CalyxOS/platform_external_calyx_chromium" path="external/calyx/chromium" remote="gitlab" >
+  <project name="CalyxOS/platform_external_calyx_chromium" path="external/calyx/chromium" remote="gitlab-main" >
     <linkfile src="os_pickup.bp" dest="prebuilts/calyx/chromium/Android.bp" />
   </project>
   <project name="CalyxOS/platform_external_calyx_datura" path="external/calyx/datura" remote="gitlab" />
-  <project name="CalyxOS/platform_external_calyx_GCamPhotosPreview" path="external/calyx/GCamPhotosPreview" remote="gitlab" />
-  <project name="CalyxOS/platform_external_calyx_lupin" path="external/calyx/lupin" remote="gitlab" />
-  <project name="CalyxOS/platform_external_espeak-ng_espeak-ng" path="external/espeak-ng/espeak-ng" remote="gitlab" />
-  <project name="CalyxOS/platform_external_google_talkback" path="external/google/talkback" remote="gitlab" />
-  <project name="CalyxOS/platform_external_microg_GmsCore" path="external/microg/GmsCore" remote="gitlab" />
-  <project name="CalyxOS/platform_external_microg_GsfProxy" path="external/microg/GsfProxy" remote="gitlab" />
+  <project name="CalyxOS/platform_external_calyx_GCamPhotosPreview" path="external/calyx/GCamPhotosPreview" remote="gitlab-main" />
+  <project name="CalyxOS/platform_external_calyx_lupin" path="external/calyx/lupin" remote="gitlab-main" />
+  <project name="CalyxOS/platform_external_espeak-ng_espeak-ng" path="external/espeak-ng/espeak-ng" remote="gitlab-main" />
+  <project name="CalyxOS/platform_external_google_talkback" path="external/google/talkback" remote="gitlab-main" />
+  <project name="CalyxOS/platform_external_microg_GmsCore" path="external/microg/GmsCore" remote="gitlab-main" />
+  <project name="CalyxOS/platform_external_microg_GsfProxy" path="external/microg/GsfProxy" remote="gitlab-main" />
   <project name="CalyxOS/platform_packages_apps_AuroraStorePrivilegedExtension" path="packages/apps/AuroraStorePrivilegedExtension" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Bellis" path="packages/apps/Bellis" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_F-DroidPrivilegedExtension" path="packages/apps/F-DroidPrivilegedExtension" remote="gitlab" />
@@ -22,14 +22,14 @@
   <project name="CalyxOS/platform_packages_apps_Seedvault" path="packages/apps/Seedvault" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_SystemUpdater" path="packages/apps/SystemUpdater" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Updater" path="packages/apps/Updater" remote="gitlab" />
-  <project name="CalyxOS/lfs_prebuilts_calyx_chromium_arm64" path="prebuilts/calyx/chromium/arm64" remote="gitlab" />
-  <project name="CalyxOS/lfs_prebuilts_calyx_chromium_x64" path="prebuilts/calyx/chromium/x64" remote="gitlab" />
+  <project name="CalyxOS/lfs_prebuilts_calyx_chromium_arm64" path="prebuilts/calyx/chromium/arm64" remote="gitlab-main" />
+  <project name="CalyxOS/lfs_prebuilts_calyx_chromium_x64" path="prebuilts/calyx/chromium/x64" remote="gitlab-main" />
   <project name="CalyxOS/lfs_prebuilts_calyx_datura" path="prebuilts/calyx/datura" remote="gitlab" />
-  <project name="CalyxOS/lfs_prebuilts_calyx_espeak-ng" path="prebuilts/calyx/espeak-ng" remote="gitlab" />
-  <project name="CalyxOS/lfs_prebuilts_calyx_fdroid" path="prebuilts/calyx/fdroid" remote="gitlab" />
-  <project name="CalyxOS/lfs_prebuilts_calyx_lupin" path="prebuilts/calyx/lupin" remote="gitlab" />
-  <project name="CalyxOS/lfs_prebuilts_calyx_microg" path="prebuilts/calyx/microg" remote="gitlab" />
-  <project name="CalyxOS/lfs_prebuilts_calyx_talkback" path="prebuilts/calyx/talkback" remote="gitlab" />
+  <project name="CalyxOS/lfs_prebuilts_calyx_espeak-ng" path="prebuilts/calyx/espeak-ng" remote="gitlab-main" />
+  <project name="CalyxOS/lfs_prebuilts_calyx_fdroid" path="prebuilts/calyx/fdroid" remote="gitlab-main" />
+  <project name="CalyxOS/lfs_prebuilts_calyx_lupin" path="prebuilts/calyx/lupin" remote="gitlab-main" />
+  <project name="CalyxOS/lfs_prebuilts_calyx_microg" path="prebuilts/calyx/microg" remote="gitlab-main" />
+  <project name="CalyxOS/lfs_prebuilts_calyx_talkback" path="prebuilts/calyx/talkback" remote="gitlab-main" />
   <project name="CalyxOS/keys" path="calyx/keys" remote="gitlab" />
   <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" />
   <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" />
