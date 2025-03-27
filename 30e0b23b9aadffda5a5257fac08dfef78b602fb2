@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d998830f_4b80ae14",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-03-27T12:59:58Z",
+      "side": 1,
+      "message": "Could something like this work?\n\nThe revision could still be changed for tagged builds, but for other builds it would use main.\n\nIntends to address the issue of Android version-based branches when we don\u0027t need them.",
+      "revId": "30e0b23b9aadffda5a5257fac08dfef78b602fb2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
