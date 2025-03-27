@@ -52,6 +52,23 @@
       "parentUuid": "fee39cfa_5d690fc8",
       "revId": "30e0b23b9aadffda5a5257fac08dfef78b602fb2",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ac1ee814_96a8c915",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-03-27T14:21:18Z",
+      "side": 1,
+      "message": "Options:\n1. Update `calyxremote` in vendor/calyx to handle this too\n2. Or, just use gitlab remote and set revision per-repo individually.\n\nEither approach is fine, just noting it down here, can do whenever we decide to go ahead.",
+      "revId": "30e0b23b9aadffda5a5257fac08dfef78b602fb2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
