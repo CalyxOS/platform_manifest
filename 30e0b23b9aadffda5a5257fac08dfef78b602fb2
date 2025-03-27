@@ -16,6 +16,24 @@
       "message": "Could something like this work?\n\nThe revision could still be changed for tagged builds, but for other builds it would use main.\n\nIntends to address the issue of Android version-based branches when we don\u0027t need them.",
       "revId": "30e0b23b9aadffda5a5257fac08dfef78b602fb2",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fee39cfa_5d690fc8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-03-27T14:02:31Z",
+      "side": 1,
+      "message": "We can just use it in general, tbh, that\u0027d be easier to handle.\n\nI\u0027d like to think a bit more, and then we can start switching. Chromium would be a good first, and then maybe we can do the rest.",
+      "parentUuid": "d998830f_4b80ae14",
+      "revId": "30e0b23b9aadffda5a5257fac08dfef78b602fb2",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
