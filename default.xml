@@ -7,7 +7,15 @@
   <remote  name="gitlab"
            fetch=".."
            review="review.calyxos.org"
+<<<<<<< HEAD   (6b3616 Switch to cross-platform blueprint for Chromium)
            revision="refs/heads/android15-qpr1" />
+=======
+           revision="refs/heads/android15-qpr2" />
+  <remote  name="gitlab-main"
+           fetch=".."
+           review="review.calyxos.org"
+           revision="refs/heads/main" />
+>>>>>>> CHANGE (5cb99f Use main branch for repos which aren't version specific)
   <remote  name="gitlab-priv"
            fetch="ssh://git@gitlab.com"
            review="review.calyxos.org"
