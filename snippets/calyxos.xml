@@ -4,7 +4,9 @@
   <!-- CalyxOS additions -->
   <project name="CalyxOS/platform_manifest" path="manifest" remote="gitlab" />
   <project name="CalyxOS/device_google_gearhead" path="device/google/gearhead" remote="gitlab" />
-  <project name="CalyxOS/platform_external_calyx_chromium" path="external/calyx/chromium" remote="gitlab" />
+  <project name="CalyxOS/platform_external_calyx_chromium" path="external/calyx/chromium" remote="gitlab" >
+    <linkfile src="os_pickup.bp" dest="prebuilts/calyx/chromium/Android.bp" />
+  </project>
   <project name="CalyxOS/platform_external_calyx_datura" path="external/calyx/datura" remote="gitlab" />
   <project name="CalyxOS/platform_external_calyx_GCamPhotosPreview" path="external/calyx/GCamPhotosPreview" remote="gitlab" />
   <project name="CalyxOS/platform_external_calyx_lupin" path="external/calyx/lupin" remote="gitlab" />
