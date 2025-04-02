@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1d6ac614_e1d0b1d6",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-04-02T20:10:09Z",
+      "side": 1,
+      "message": "More like remove Eleven because of Twelve. For a moment I thought we had missed this here.",
+      "revId": "709d3ebb055b098eaea228864e65fc90622ee03d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
