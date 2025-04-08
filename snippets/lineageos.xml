@@ -93,10 +93,10 @@
   <project name="CalyxOS/kernel_motorola_sm6225" path="kernel/motorola/sm6225" remote="gitlab" />
 
   <!-- Motorola sm6375 -->
-  <project name="CalyxOS/device_motorola_bangkk" path="device/motorola/bangkk" remote="gitlab" revision="staging/android15-qpr2" />
-  <project name="CalyxOS/device_motorola_fogos" path="device/motorola/fogos" remote="gitlab" revision="staging/android15-qpr2" />
-  <project name="CalyxOS/device_motorola_sm6375-common" path="device/motorola/sm6375-common" remote="gitlab" revision="staging/android15-qpr2" />
-  <project name="CalyxOS/kernel_motorola_sm6375" path="kernel/motorola/sm6375" remote="gitlab" revision="staging/android15-qpr2" />
+  <project name="CalyxOS/device_motorola_bangkk" path="device/motorola/bangkk" remote="gitlab" revision="refs/tags/6.5.21" />
+  <project name="CalyxOS/device_motorola_fogos" path="device/motorola/fogos" remote="gitlab" revision="refs/tags/6.5.21" />
+  <project name="CalyxOS/device_motorola_sm6375-common" path="device/motorola/sm6375-common" remote="gitlab" revision="refs/tags/6.5.21" />
+  <project name="CalyxOS/kernel_motorola_sm6375" path="kernel/motorola/sm6375" remote="gitlab" revision="refs/tags/6.5.21" />
 
   <project name="CalyxOS/platform_hardware_motorola" path="hardware/motorola" groups="lineage" remote="gitlab" />
 
