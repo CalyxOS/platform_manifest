@@ -44,6 +44,9 @@
   <!-- Pixel 9 Pro Fold -->
   <project name="CalyxOS/lfs_vendor_google_comet" path="vendor/google/comet" remote="gitlab-priv" />
 
+  <!-- Pixel 9a -->
+  <project name="CalyxOS/lfs_vendor_google_tegu" path="vendor/google/tegu" remote="gitlab-priv" />
+
   <!-- Fairphone 4 -->
   <project name="CalyxOS/lfs_vendor_fairphone_FP4" path="vendor/fairphone/FP4" remote="gitlab-priv" />
 

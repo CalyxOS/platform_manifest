@@ -126,4 +126,9 @@
   <project name="device/google/comet-kernels/6.1" path="device/google/comet-kernels/6.1" groups="device,comet" clone-depth="1" />
   <project name="CalyxOS/device_google_comet-sepolicy" path="device/google/comet-sepolicy" groups="device,comet" remote="gitlab" />
 
+  <!-- Pixel 9a -->
+  <project path="CalyxOS/device_google_tegu" name="device/google/tegu" groups="device,tegu" remote="gitlab" />
+  <project path="device/google/tegu-kernels/6.1" name="device/google/tegu-kernels/6.1" groups="device,tegu" clone-depth="1" />
+  <project path="CalyxOS/device_google_tegu-sepolicy" name="device/google/tegu-sepolicy" groups="device,tegu" remote="gitlab" />
+
 </manifest>
