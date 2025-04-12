@@ -8,7 +8,6 @@
   <project name="CalyxOS/platform_packages_apps_Camelot" path="packages/apps/Camelot" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_DeskClock" path="packages/apps/DeskClock" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Eleven" path="packages/apps/Eleven" groups="lineage" remote="gitlab" />
-  <project name="CalyxOS/platform_packages_apps_ElmyraService" path="packages/apps/ElmyraService" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Etar" path="packages/apps/Etar" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_packages_apps_Gallery2" path="packages/apps/Gallery2" groups="lineage" remote="gitlab" />
