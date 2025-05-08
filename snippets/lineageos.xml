@@ -84,8 +84,8 @@
   <project name="CalyxOS/kernel_fairphone_qcm6490" path="kernel/fairphone/qcm6490" remote="gitlab" />
 
   <!-- Motorola sm6225 -->
-  <project name="CalyxOS/device_motorola_devon" path="device/motorola/devon" remote="gitlab" />
-  <project name="CalyxOS/device_motorola_hawao" path="device/motorola/hawao" remote="gitlab" />
+  <project name="CalyxOS/device_motorola_devon" path="device/motorola/devon" remote="gitlab" revision="refs/tags/6.7.21-2" />
+  <project name="CalyxOS/device_motorola_hawao" path="device/motorola/hawao" remote="gitlab" revision="refs/tags/6.7.21-2" />
   <project name="CalyxOS/device_motorola_rhode" path="device/motorola/rhode" remote="gitlab" />
   <project name="CalyxOS/device_motorola_sm6225-common" path="device/motorola/sm6225-common" remote="gitlab" />
   <project name="CalyxOS/kernel_motorola_sm6225" path="kernel/motorola/sm6225" remote="gitlab" />
