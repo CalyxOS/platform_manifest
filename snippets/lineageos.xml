@@ -95,7 +95,7 @@
   <project name="CalyxOS/device_motorola_fogo" path="device/motorola/fogo" remote="gitlab" />
   <project name="CalyxOS/device_motorola_fogos" path="device/motorola/fogos" remote="gitlab" />
   <project name="CalyxOS/device_motorola_sm6375-common" path="device/motorola/sm6375-common" remote="gitlab" />
-  <project name="CalyxOS/kernel_motorola_sm6375" path="kernel/motorola/sm6375" remote="gitlab" revision="refs/tags/6.7.22-2" />
+  <project name="CalyxOS/kernel_motorola_sm6375" path="kernel/motorola/sm6375" remote="gitlab" revision="refs/tags/6.7.22-4" />
 
   <project name="CalyxOS/platform_hardware_motorola" path="hardware/motorola" groups="lineage" remote="gitlab" revsion="refs/tags/6.7.22-2" />
 
