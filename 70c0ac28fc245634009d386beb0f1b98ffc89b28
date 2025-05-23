@@ -16,6 +16,24 @@
       "message": "Need to push something here, can merge after",
       "revId": "70c0ac28fc245634009d386beb0f1b98ffc89b28",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5e479ed1_47a53e97",
+        "filename": "proprietary.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-05-23T13:27:56Z",
+      "side": 1,
+      "message": "Empty commit is already pushed.",
+      "parentUuid": "85ca520e_63ca1bba",
+      "revId": "70c0ac28fc245634009d386beb0f1b98ffc89b28",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
