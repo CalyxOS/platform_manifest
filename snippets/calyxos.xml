@@ -143,7 +143,7 @@
 
   <!-- Pixel 9a -->
   <project name="CalyxOS/device_google_tegu" path="device/google/tegu" groups="device,tegu" remote="gitlab" />
-  <project name="device/google/tegu-kernels/6.1" path="device/google/tegu-kernels/6.1" groups="device,tegu" clone-depth="1" revision="refs/tags/android-15.0.0_r25" />
+  <project name="device/google/tegu-kernels/6.1" path="device/google/tegu-kernels/6.1" groups="device,tegu" clone-depth="1" revision="refs/tags/android-15.0.0_r31" />
   <project name="CalyxOS/device_google_tegu-sepolicy" path="device/google/tegu-sepolicy" groups="device,tegu" remote="gitlab" />
 
 </manifest>
