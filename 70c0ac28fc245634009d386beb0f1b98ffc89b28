@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "85ca520e_63ca1bba",
+        "filename": "proprietary.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-05-23T12:52:38Z",
+      "side": 1,
+      "message": "Need to push something here, can merge after",
+      "revId": "70c0ac28fc245634009d386beb0f1b98ffc89b28",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
