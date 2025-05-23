@@ -16,6 +16,24 @@
       "message": "Forked, still empty.",
       "revId": "da63c03d4b16ad50f33209f72046ddc295c09f77",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e2d81ba_f13badbb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-05-23T12:49:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "593d8025_ade792d3",
+      "revId": "da63c03d4b16ad50f33209f72046ddc295c09f77",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
