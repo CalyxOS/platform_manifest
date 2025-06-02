@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b0dfddbc_c9b4b615",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-06-02T21:11:49Z",
+      "side": 1,
+      "message": "This already has a qpr1 branch, not sure how old it is.",
+      "revId": "64f77b494f41dd330ad19de1c75bedc7b25e0995",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
