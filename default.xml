@@ -44,7 +44,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="art" name="platform/art" groups="pdk" />
+  <project path="art" name="CalyxOS/platform_art" groups="pdk" remote="gitlab" />
   <project path="bionic" name="CalyxOS/platform_bionic" groups="pdk" remote="gitlab" />
   <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw" />
   <project path="bootable/recovery" name="CalyxOS/platform_bootable_recovery" groups="pdk" remote="gitlab" />
@@ -1118,7 +1118,7 @@
   <project path="packages/inputmethods/LeanbackIME" name="platform/packages/inputmethods/LeanbackIME" groups="pdk-fs" />
   <project path="packages/modules/adb" name="platform/packages/modules/adb" groups="pdk" />
   <project path="packages/modules/AdServices" name="platform/packages/modules/AdServices" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
-  <project path="packages/modules/AppSearch" name="platform/packages/modules/AppSearch" groups="pdk" />
+  <project path="packages/modules/AppSearch" name="CalyxOS/platform_packages_modules_AppSearch" groups="pdk" remote="gitlab" />
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" groups="pdk" clone-depth="1" />
   <project path="packages/modules/Bluetooth" name="CalyxOS/platform_packages_modules_Bluetooth" groups="pdk" remote="gitlab" />
   <project path="packages/modules/CaptivePortalLogin" name="platform/packages/modules/CaptivePortalLogin" groups="pdk-cw-fs,pdk-fs" />
