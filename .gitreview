@@ -2,4 +2,4 @@
 host=review.calyxos.org
 port=29418
 project=CalyxOS/platform_manifest
-defaultbranch=android15-qpr2
+defaultbranch=staging/android16
