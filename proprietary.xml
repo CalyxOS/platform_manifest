@@ -5,9 +5,11 @@
   <project name="CalyxOS/proprietary_vendor_google_gearhead" path="vendor/google/gearhead" remote="gitlab-priv" />
 
   <!-- Pixel 5, 4a (5G), 5a -->
+  <!--
   <project name="CalyxOS/lfs_vendor_google_redfin" path="vendor/google/redfin" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_google_bramble" path="vendor/google/bramble" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_google_barbet" path="vendor/google/barbet" remote="gitlab-priv" />
+  -->
 
   <!-- Pixel 6, 6 Pro -->
   <project name="CalyxOS/lfs_vendor_google_raven" path="vendor/google/raven" remote="gitlab-priv" />
@@ -45,24 +47,34 @@
   <project name="CalyxOS/lfs_vendor_google_comet" path="vendor/google/comet" remote="gitlab-priv" />
 
   <!-- Fairphone 4 -->
+  <!--
   <project name="CalyxOS/lfs_vendor_fairphone_FP4" path="vendor/fairphone/FP4" remote="gitlab-priv" />
+  -->
 
   <!-- Fairphone 5 -->
+  <!--
   <project name="CalyxOS/lfs_vendor_fairphone_FP5" path="vendor/fairphone/FP5" remote="gitlab-priv" />
+  -->
 
   <!-- Motorola sm6225 -->
+  <!--
   <project name="CalyxOS/lfs_vendor_motorola_devon" path="vendor/motorola/devon" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_motorola_hawao" path="vendor/motorola/hawao" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_motorola_rhode" path="vendor/motorola/rhode" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_motorola_sm6225-common" path="vendor/motorola/sm6225-common" remote="gitlab-priv" />
+  -->
 
   <!-- Motorola sm6375 -->
+  <!--
   <project name="CalyxOS/lfs_vendor_motorola_bangkk" path="vendor/motorola/bangkk" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_motorola_fogo" path="vendor/motorola/fogo" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_motorola_fogos" path="vendor/motorola/fogos" remote="gitlab-priv" />
   <project name="CalyxOS/lfs_vendor_motorola_sm6375-common" path="vendor/motorola/sm6375-common" remote="gitlab-priv" />
+  -->
 
   <!-- SHIFTphone 8 -->
+  <!--
   <project name="CalyxOS/lfs_vendor_shift_otter" path="vendor/shift/otter" remote="gitlab-priv" />
+  -->
 
 </manifest>
