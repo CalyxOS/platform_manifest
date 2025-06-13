@@ -42,7 +42,9 @@
   <project name="CalyxOS/platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_external_ant-wireless_hidl" path="external/ant-wireless/hidl" groups="lineage" remote="gitlab" />
+  -->
   <project name="CalyxOS/platform_external_json-c" path="external/json-c" groups="lineage" remote="gitlab" />
+  <!--
   <project name="CalyxOS/platform_hardware_qcom-caf_bootctrl" path="hardware/qcom-caf/bootctrl" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_common" path="hardware/qcom-caf/common" groups="lineage" remote="gitlab" >
   -->
