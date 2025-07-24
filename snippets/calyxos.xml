@@ -48,7 +48,6 @@
   <!-- Devices -->
 
   <!-- Pixel common -->
-  <project name="device/google/common/etm" path="device/google/common/etm" groups="device" clone-depth="1" />
   <project name="CalyxOS/device_google_gs-common" path="device/google/gs-common" groups="device,slider,bluejay,cloudripper,pdk-gs-arm,pdk-cw-tvc" remote="gitlab" />
 
   <!-- Pixel 5, 4a (5G), 5a -->
