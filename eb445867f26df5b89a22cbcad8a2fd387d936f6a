@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43d0730f_1aaac659",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-07-28T15:32:32Z",
+      "side": 1,
+      "message": "Since this is staging and it is a dependency for other things, can we simply merge it, along with its followup change, or is there a compelling reason not to?",
+      "revId": "eb445867f26df5b89a22cbcad8a2fd387d936f6a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
