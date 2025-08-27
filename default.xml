@@ -970,7 +970,7 @@
   <project path="tools/aadevtools" name="platform/tools/aadevtools" groups="pdk" />
   <project path="tools/acloud" name="platform/tools/acloud" groups="tools,vts,projectarch,pdk,tradefed" />
   <project path="tools/apifinder" name="platform/tools/apifinder" groups="pdk,tools" />
-  <project path="tools/apksig" name="platform/tools/apksig" groups="pdk,tradefed" />
+  <project path="tools/apksig" name="CalyxOS/platform_tools_apksig" groups="pdk,tradefed" remote="gitlab" />
   <project path="tools/apkzlib" name="platform/tools/apkzlib" groups="pdk,tradefed" />
   <project path="tools/asuite" name="platform/tools/asuite" groups="pdk,sysui-studio" />
   <project path="tools/carrier_settings" name="platform/tools/carrier_settings" groups="tools" />
