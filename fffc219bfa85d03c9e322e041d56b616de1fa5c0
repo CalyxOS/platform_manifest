@@ -16,6 +16,23 @@
       "message": "It\u0027s annoying to have to fork this for the few line change I want to make to the part of apexer.py that calls avbtool for signing, but I don\u0027t see a great alternative.",
       "revId": "fffc219bfa85d03c9e322e041d56b616de1fa5c0",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f06bdc7_bc968cb1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2025-08-28T22:14:31Z",
+      "side": 1,
+      "message": "https://review.calyxos.org/c/CalyxOS/platform_system_apex/+/41396",
+      "revId": "fffc219bfa85d03c9e322e041d56b616de1fa5c0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
