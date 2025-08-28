@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0787fcf_4f151c52",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2025-08-28T13:56:55Z",
+      "side": 1,
+      "message": "It\u0027s annoying to have to fork this for the few line change I want to make to the part of apexer.py that calls avbtool for signing, but I don\u0027t see a great alternative.",
+      "revId": "fffc219bfa85d03c9e322e041d56b616de1fa5c0",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
