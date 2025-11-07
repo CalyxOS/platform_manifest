@@ -67,28 +67,21 @@
   <!-- Devices -->
 
   <!-- Fairphone 4 -->
-  <!--
   <project name="CalyxOS/device_fairphone_FP4" path="device/fairphone/FP4" remote="gitlab" />
   <project name="CalyxOS/kernel_fairphone_sm7225" path="kernel/fairphone/sm7225" remote="gitlab" />
-  -->
 
   <!-- Fairphone 5 -->
-  <!--
   <project name="CalyxOS/device_fairphone_FP5" path="device/fairphone/FP5" remote="gitlab" />
   <project name="CalyxOS/kernel_fairphone_qcm6490" path="kernel/fairphone/qcm6490" remote="gitlab" />
-  -->
 
   <!-- Motorola sm6225 -->
-  <!--
   <project name="CalyxOS/device_motorola_devon" path="device/motorola/devon" remote="gitlab" />
   <project name="CalyxOS/device_motorola_hawao" path="device/motorola/hawao" remote="gitlab" />
   <project name="CalyxOS/device_motorola_rhode" path="device/motorola/rhode" remote="gitlab" />
   <project name="CalyxOS/device_motorola_sm6225-common" path="device/motorola/sm6225-common" remote="gitlab" />
   <project name="CalyxOS/kernel_motorola_sm6225" path="kernel/motorola/sm6225" remote="gitlab" />
-  -->
 
   <!-- Motorola sm6375 -->
-  <!--
   <project name="CalyxOS/device_motorola_bangkk" path="device/motorola/bangkk" remote="gitlab" />
   <project name="CalyxOS/device_motorola_fogo" path="device/motorola/fogo" remote="gitlab" />
   <project name="CalyxOS/device_motorola_fogos" path="device/motorola/fogos" remote="gitlab" />
@@ -96,12 +89,9 @@
   <project name="CalyxOS/kernel_motorola_sm6375" path="kernel/motorola/sm6375" remote="gitlab" />
 
   <project name="CalyxOS/platform_hardware_motorola" path="hardware/motorola" groups="lineage" remote="gitlab" />
-  -->
 
   <!-- SHIFTphone 8 -->
-  <!--
   <project name="CalyxOS/device_shift_otter" path="device/shift/otter" remote="gitlab" />
   <project name="CalyxOS/kernel_shift_qcm6490" path="kernel/shift/qcm6490" remote="gitlab" />
-  -->
 
 </manifest>
