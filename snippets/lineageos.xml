@@ -24,7 +24,7 @@
   <project name="CalyxOS/platform_hardware_qcom_sm7250_gps" path="hardware/qcom/sm7250/gps" groups="lineage,qcom_sm7250" remote="gitlab" />
 
   <!-- Inline kernel build -->
-  <project name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" clone-depth="1" revision="main-kernel-build-2024" />
+  <project name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" clone-depth="1" revision="main-kernel-2025" />
   <project name="CalyxOS/platform_prebuilts_tools-lineage" path="prebuilts/tools-lineage" groups="lineage" remote="gitlab" clone-depth="1" />
 
   <!-- CodeLinaro additions -->
