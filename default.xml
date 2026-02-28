@@ -38,7 +38,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="art" name="CalyxOS/platform_art" groups="pdk" remote="gitlab" />
+  <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="CalyxOS/platform_bionic" groups="pdk" remote="gitlab" />
   <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw" />
   <project path="bootable/recovery" name="CalyxOS/platform_bootable_recovery" groups="pdk" remote="gitlab" />
@@ -47,7 +47,7 @@
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" />
   <project path="developers/samples/android" name="platform/developers/samples/android" groups="developers" />
-  <project path="development" name="CalyxOS/platform_development" groups="developers,pdk-cw-fs,pdk-fs,sysui-studio" remote="gitlab" />
+  <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs,sysui-studio" />
   <project path="device/amlogic/yukawa" name="device/amlogic/yukawa" groups="device,yukawa,pdk" />
   <project path="device/common" name="CalyxOS/device_common" groups="pdk-cw-fs,pdk" remote="gitlab" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
@@ -55,7 +55,7 @@
   <project path="device/generic/art" name="device/generic/art" groups="pdk" />
   <project path="device/generic/car" name="device/generic/car" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
-  <project path="device/generic/goldfish" name="CalyxOS/device_generic_goldfish" groups="pdk" remote="gitlab" />
+  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
   <project path="device/generic/trusty" name="device/generic/trusty" groups="pdk" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
@@ -663,7 +663,7 @@
   <project path="hardware/st/nfc" name="CalyxOS/platform_hardware_st_nfc" groups="pdk" remote="gitlab" />
   <project path="hardware/st/secure_element" name="platform/hardware/st/secure_element" groups="pdk" />
   <project path="hardware/st/secure_element2" name="platform/hardware/st/secure_element2" groups="pdk" />
-  <project path="hardware/samsung/nfc" name="CalyxOS/platform_hardware_samsung_nfc" groups="pdk" remote="gitlab" />
+  <project path="hardware/samsung/nfc" name="platform/hardware/samsung/nfc" groups="pdk" />
   <project path="hardware/synaptics/wlan" name="platform/hardware/synaptics/wlan" groups="pdk" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" />
   <project path="kernel/configs" name="CalyxOS/kernel_configs" groups="vts,pdk" remote="gitlab" />
@@ -786,7 +786,7 @@
   <project path="packages/modules/Gki" name="platform/packages/modules/Gki" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/HealthFitness" name="platform/packages/modules/HealthFitness" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/ImsMedia" name="platform/packages/modules/ImsMedia" groups="pdk"/>
-  <project path="packages/modules/IntentResolver" name="CalyxOS/platform_packages_modules_IntentResolver" groups="pdk,sysui-studio" remote="gitlab" />
+  <project path="packages/modules/IntentResolver" name="platform/packages/modules/IntentResolver" groups="pdk,sysui-studio" />
   <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" groups="pdk" />
   <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/Media" name="platform/packages/modules/Media" groups="pdk" />
