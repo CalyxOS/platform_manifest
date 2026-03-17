@@ -15,7 +15,7 @@
   <remote  name="gitlab-priv"
            fetch="ssh://git@gitlab.com"
            review="review.calyxos.org"
-           revision="refs/heads/android16" />
+           revision="refs/heads/android16-qpr2" />
   <default revision="refs/tags/android-16.0.0_r4"
            remote="aosp"
            sync-j="4"
