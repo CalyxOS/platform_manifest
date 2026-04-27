@@ -66,6 +66,6 @@
   <project name="CalyxOS/lfs_vendor_motorola_sm6375-common" path="vendor/motorola/sm6375-common" remote="gitlab-priv" />
 
   <!-- SHIFTphone 8 -->
-  <project name="CalyxOS/lfs_vendor_shift_otter" path="vendor/shift/otter" remote="gitlab-priv" />
+  <project name="CalyxOS/lfs_vendor_shift_otter" path="vendor/shift/otter" remote="gitlab-priv" revision="refs/tags/7.2.1.0-1" />
 
 </manifest>
