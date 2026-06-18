@@ -141,7 +141,7 @@
   <project path="external/deqp-deps/amber" name="platform/external/deqp-deps/amber" groups="pdk-fs,pdk-cw-tvc" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk" />
   <project path="external/dlmalloc" name="platform/external/dlmalloc" groups="pdk" />
-  <project path="external/dng_sdk" name="CalyxOS/platform_external_dng_sdk" groups="pdk" remote="gitlab" />
+  <project path="external/dng_sdk" name="platform/external/dng_sdk" groups="pdk" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk" />
   <project path="external/dokka" name="platform/external/dokka" groups="pdk" />
@@ -346,7 +346,7 @@
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk" />
   <project path="external/libpciaccess" name="platform/external/libpciaccess" groups="pdk" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk" />
-  <project path="external/libpng" name="CalyxOS/platform_external_libpng" groups="pdk" remote="gitlab" />
+  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libppd" name="platform/external/libppd" groups="pdk" />
   <project path="external/libprotobuf-mutator" name="platform/external/libprotobuf-mutator" groups="pdk" />
   <project path="external/libsrtp2" name="platform/external/libsrtp2" groups="pdk" />
@@ -547,7 +547,7 @@
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="CalyxOS/platform_external_sqlite" groups="pdk" remote="gitlab" />
+  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/spdx-tools" name="platform/external/spdx-tools" groups="pdk" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/starlark-go" name="platform/external/starlark-go" groups="pdk" />
@@ -740,7 +740,7 @@
   <project path="packages/apps/Car/References" name="platform/packages/apps/Car/References" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="CalyxOS/platform_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/CertInstaller" name="CalyxOS/platform_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="CalyxOS/platform_packages_apps_Contacts" groups="pdk-fs,lineage" remote="gitlab" />
   <project path="packages/apps/ContactsPicker" name="platform/packages/apps/ContactsPicker" groups="pdk-fs" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
@@ -752,7 +752,7 @@
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/ImsServiceEntitlement" name="CalyxOS/platform_packages_apps_ImsServiceEntitlement" groups="pdk-fs" remote="gitlab" />
-  <project path="packages/apps/KeyChain" name="CalyxOS/platform_packages_apps_KeyChain" groups="pdk-fs" remote="gitlab" />
+  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher3" name="CalyxOS/platform_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="gitlab" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/Login" name="platform/packages/apps/Login" groups="pdk-fs" />
@@ -792,7 +792,7 @@
   <project path="packages/apps/WallpaperPicker2" name="CalyxOS/platform_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio,lineage" remote="gitlab" />
   <project path="packages/inputmethods/LatinIME" name="CalyxOS/platform_packages_inputmethods_LatinIME" groups="pdk-fs,lineage" remote="gitlab" />
   <project path="packages/inputmethods/LeanbackIME" name="platform/packages/inputmethods/LeanbackIME" groups="pdk-fs" />
-  <project path="packages/modules/adb" name="CalyxOS/platform_packages_modules_adb" groups="pdk" remote="gitlab" />
+  <project path="packages/modules/adb" name="platform/packages/modules/adb" groups="pdk" />
   <project path="packages/modules/AdServices" name="CalyxOS/platform_packages_modules_AdServices" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="gitlab" />
   <project path="packages/modules/AppSearch" name="platform/packages/modules/AppSearch" groups="pdk" />
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" groups="pdk" clone-depth="1" />
@@ -819,7 +819,7 @@
   <project path="packages/modules/ModuleMetadata" name="platform/packages/modules/ModuleMetadata" groups="pdk" />
   <project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/modules/Nfc" name="CalyxOS/platform_packages_modules_Nfc" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
+  <project path="packages/modules/Nfc" name="platform/packages/modules/Nfc" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/NpuManager" name="platform/packages/modules/NpuManager" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/modules/OnDevicePersonalization" name="platform/packages/modules/OnDevicePersonalization" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/Permission" name="CalyxOS/platform_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
@@ -833,8 +833,8 @@
   <project path="packages/modules/Telephony" name="platform/packages/modules/Telephony" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/modules/ThreadNetwork" name="platform/packages/modules/ThreadNetwork" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/Uwb" name="platform/packages/modules/Uwb" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/modules/UprobeStats" name="CalyxOS/platform_packages_modules_UprobeStats" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
-  <project path="packages/modules/Virtualization" name="CalyxOS/platform_packages_modules_Virtualization" groups="pdk" remote="gitlab" />
+  <project path="packages/modules/UprobeStats" name="platform/packages/modules/UprobeStats" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" groups="pdk" />
   <project path="packages/modules/vndk" name="platform/packages/modules/vndk" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/WebApp" name="platform/packages/modules/WebApp" groups="pdk-fs,pdk-cw-tvc"/>
   <project path="packages/modules/WebViewBootstrap" name="platform/packages/modules/WebViewBootstrap" groups="pdk" />
@@ -844,7 +844,7 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/ContactsKeysProvider" name="platform/packages/providers/ContactsKeysProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/ContactsProvider" name="CalyxOS/platform_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/MediaProvider" name="CalyxOS/platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="gitlab" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
