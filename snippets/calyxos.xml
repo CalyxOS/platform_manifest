@@ -44,6 +44,8 @@
 
   <!-- Pixel common -->
   <project name="CalyxOS/device_google_gs-common" path="device/google/gs-common" groups="device,slider,bluejay,cloudripper,pdk-gs-arm,pdk-cw-tvc" remote="gitlab" />
+  <project name="CalyxOS/platform_hardware_google_pixel" path="hardware/google/pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" remote="gitlab" />
+  <project name="CalyxOS/platform_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" groups="generic_fs,pixel,pdk-desktop" remote="gitlab" />
 
   <!-- Pixel 5, 4a (5G), 5a -->
   <project name="CalyxOS/device_google_redbull" path="device/google/redbull" groups="device,redbull" remote="gitlab" />
