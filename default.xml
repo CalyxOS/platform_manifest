@@ -984,7 +984,7 @@
   <project path="system/media" name="CalyxOS/platform_system_media" groups="pdk" remote="gitlab" />
   <project path="system/memory/amemdiff" name="platform/system/memory/amemdiff" groups="pdk" />
   <project path="system/memory/guardian" name="platform/system/memory/guardian" groups="pdk" />
-  <project path="system/memory/libion" name="platform/system/memory/libion" groups="pdk" />
+  <project path="system/memory/libion" name="CalyxOS/platform_system_memory_libion" groups="pdk" remote="gitlab" />
   <project path="system/memory/libdmabufheap" name="platform/system/memory/libdmabufheap" groups="pdk" />
   <project path="system/memory/libmeminfo" name="platform/system/memory/libmeminfo" groups="pdk" />
   <project path="system/memory/libmemtrack" name="platform/system/memory/libmemtrack" groups="pdk" />
