@@ -745,7 +745,7 @@
   <project path="packages/apps/ContactsPicker" name="platform/packages/apps/ContactsPicker" groups="pdk-fs" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
   <project path="packages/apps/DeviceDiagnostics" name="platform/packages/apps/DeviceDiagnostics" groups="pdk" />
-  <project path="packages/apps/Dialer" name="CalyxOS/platform_packages_apps_Dialer" groups="pdk-fs,lineage" remote="gitlab" />
+  <project path="packages/apps/Dialer" name="CalyxOS/platform_packages_apps_Dialer" groups="pdk-fs,lineage" remote="gitlab" revision="android16-qpr2" />
   <project path="packages/apps/DocumentsUI" name="CalyxOS/platform_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
   <project path="packages/apps/EmergencyInfo" name="CalyxOS/platform_packages_apps_EmergencyInfo" groups="pdk-fs" remote="gitlab" />
   <project path="packages/apps/EyeDropper" name="platform/packages/apps/EyeDropper" groups="pdk-fs" />
@@ -758,7 +758,7 @@
   <project path="packages/apps/Login" name="platform/packages/apps/Login" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="CalyxOS/platform_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="gitlab" />
   <project path="external/android_onboarding" name="platform/external/android_onboarding" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="CalyxOS/platform_packages_apps_Messaging" groups="pdk-fs,lineage" remote="gitlab" />
+  <project path="packages/apps/Messaging" name="CalyxOS/platform_packages_apps_Messaging" groups="pdk-fs,lineage" remote="gitlab" revision="android16-qpr2" />
   <project path="packages/apps/Multiuser" name="platform/packages/apps/Multiuser" groups="pdk-fs" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
