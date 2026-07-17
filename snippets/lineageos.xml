@@ -23,23 +23,32 @@
   <project name="CalyxOS/vendor_crowdin" path="vendor/crowdin" groups="lineage" remote="gitlab" revision="android16-qpr2" />
 
   <!-- Legacy AOSP additions -->
+  <!--
   <project name="CalyxOS/platform_hardware_qcom_sm7250_display" path="hardware/qcom/sm7250/display" groups="lineage,qcom_sm7250" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom_sm7250_gps" path="hardware/qcom/sm7250/gps" groups="lineage,qcom_sm7250" remote="gitlab" />
+  -->
 
   <!-- Inline kernel build -->
   <project name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" clone-depth="1" revision="main-kernel-2025" />
   <project name="CalyxOS/platform_prebuilts_tools-lineage" path="prebuilts/tools-lineage" groups="lineage" remote="gitlab" clone-depth="1" />
 
   <!-- CodeLinaro additions -->
+  <!--
   <project name="CalyxOS/device_qcom_sepolicy" path="device/qcom/sepolicy" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/device_qcom_sepolicy_vndr_legacy-um" path="device/qcom/sepolicy_vndr/legacy-um" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_external_ant-wireless_hidl" path="external/ant-wireless/hidl" groups="lineage" remote="gitlab" />
+  -->
   <project name="CalyxOS/platform_external_json-c" path="external/json-c" groups="lineage" remote="gitlab" />
+  <!--
   <project name="CalyxOS/platform_hardware_qcom-caf_bootctrl" path="hardware/qcom-caf/bootctrl" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom-caf_common" path="hardware/qcom-caf/common" groups="lineage" remote="gitlab" >
+  -->
     <!-- add guard for AOSP hardware/qcom dir -->
+    <!--
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    -->
     <!-- add guards for CAF repositories -->
+    <!--
     <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
@@ -66,6 +75,7 @@
   <project name="CalyxOS/vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_usb" path="vendor/qcom/opensource/usb" groups="lineage" remote="gitlab" />
   <project name="CalyxOS/vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" groups="lineage" remote="gitlab" />
+  -->
 
   <!-- Devices -->
 
