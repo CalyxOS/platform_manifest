@@ -143,7 +143,7 @@
   <project path="external/double-conversion" name="platform/external/double-conversion" groups="pdk" />
   <project path="external/downloader" name="platform/external/downloader" groups="pdk" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" />
-  <project path="external/dtc" name="platform/external/dtc" groups="pdk"/>
+  <project path="external/dtc" name="CalyxOS/platform_external_dtc" groups="pdk" remote="gitlab" />
   <project path="external/dynamic_depth" name="platform/external/dynamic_depth" groups="pdk" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk" />
