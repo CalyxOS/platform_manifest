@@ -59,6 +59,9 @@
   <project name="CalyxOS/lfs_vendor_fairphone_FP5" path="vendor/fairphone/FP5" remote="gitlab" />
   -->
 
+  <!-- Fairphone 6 -->
+  <project name="CalyxOS/lfs_vendor_fairphone_FP6" path="vendor/fairphone/FP6" remote="gitlab" />
+
   <!-- Motorola sm6225 -->
   <!--
   <project name="CalyxOS/lfs_vendor_motorola_devon" path="vendor/motorola/devon" remote="gitlab" />
