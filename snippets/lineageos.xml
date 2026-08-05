@@ -106,10 +106,12 @@
   -->
 
   <!-- Fairphone 6 -->
+  <!--
   <project name="CalyxOS/device_fairphone_FP6" path="device/fairphone/FP6" remote="gitlab" />
   <project name="CalyxOS/kernel_fairphone_sm7635" path="kernel/fairphone/sm7635" remote="gitlab" />
   <project name="CalyxOS/kernel_fairphone_sm7635-devicetrees" path="kernel/fairphone/sm7635-devicetrees" remote="gitlab" />
   <project name="CalyxOS/kernel_fairphone_sm7635-modules" path="kernel/fairphone/sm7635-modules" remote="gitlab" />
+  -->
 
   <!-- Motorola sm6225 -->
   <!--

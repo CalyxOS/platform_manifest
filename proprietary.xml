@@ -60,7 +60,9 @@
   -->
 
   <!-- Fairphone 6 -->
+  <!--
   <project name="CalyxOS/lfs_vendor_fairphone_FP6" path="vendor/fairphone/FP6" remote="gitlab" />
+  -->
 
   <!-- Motorola sm6225 -->
   <!--
