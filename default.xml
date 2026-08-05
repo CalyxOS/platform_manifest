@@ -7,11 +7,11 @@
   <remote  name="gitlab"
            fetch=".."
            review="review.calyxos.org"
-           revision="refs/heads/android16-qpr2" />
+           revision="refs/tags/7.2.4.20" />
   <remote  name="gitlab-main"
            fetch=".."
            review="review.calyxos.org"
-           revision="refs/heads/main" />
+           revision="refs/tags/7.2.4.20" />
   <default revision="refs/tags/android-16.0.0_r4"
            remote="aosp"
            sync-j="4"
