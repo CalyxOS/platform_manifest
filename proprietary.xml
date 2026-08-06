@@ -50,39 +50,27 @@
   <project name="CalyxOS/lfs_vendor_google_tegu" path="vendor/google/tegu" remote="gitlab" />
 
   <!-- Fairphone 4 -->
-  <!--
   <project name="CalyxOS/lfs_vendor_fairphone_FP4" path="vendor/fairphone/FP4" remote="gitlab" />
-  -->
 
   <!-- Fairphone 5 -->
-  <!--
   <project name="CalyxOS/lfs_vendor_fairphone_FP5" path="vendor/fairphone/FP5" remote="gitlab" />
-  -->
 
   <!-- Fairphone 6 -->
-  <!--
   <project name="CalyxOS/lfs_vendor_fairphone_FP6" path="vendor/fairphone/FP6" remote="gitlab" />
-  -->
 
   <!-- Motorola sm6225 -->
-  <!--
   <project name="CalyxOS/lfs_vendor_motorola_devon" path="vendor/motorola/devon" remote="gitlab" />
   <project name="CalyxOS/lfs_vendor_motorola_hawao" path="vendor/motorola/hawao" remote="gitlab" />
   <project name="CalyxOS/lfs_vendor_motorola_rhode" path="vendor/motorola/rhode" remote="gitlab" />
   <project name="CalyxOS/lfs_vendor_motorola_sm6225-common" path="vendor/motorola/sm6225-common" remote="gitlab" />
-  -->
 
   <!-- Motorola sm6375 -->
-  <!--
   <project name="CalyxOS/lfs_vendor_motorola_bangkk" path="vendor/motorola/bangkk" remote="gitlab" />
   <project name="CalyxOS/lfs_vendor_motorola_fogo" path="vendor/motorola/fogo" remote="gitlab" />
   <project name="CalyxOS/lfs_vendor_motorola_fogos" path="vendor/motorola/fogos" remote="gitlab" />
   <project name="CalyxOS/lfs_vendor_motorola_sm6375-common" path="vendor/motorola/sm6375-common" remote="gitlab" />
-  -->
 
   <!-- SHIFTphone 8 -->
-  <!--
   <project name="CalyxOS/lfs_vendor_shift_otter" path="vendor/shift/otter" remote="gitlab" />
-  -->
 
 </manifest>
