@@ -28,7 +28,25 @@
   <project name="CalyxOS/lfs_prebuilts_calyx_talkback" path="prebuilts/calyx/talkback" remote="gitlab-main" />
   <project name="CalyxOS/keys" path="calyx/keys" remote="gitlab" />
   <project name="CalyxOS/scripts" path="calyx/scripts" remote="gitlab" />
-  <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" />
+  <project name="CalyxOS/vendor_calyx" path="vendor/calyx" remote="gitlab" >
+    <!-- Symlink placeholders for Lineage target configs -->
+    <linkfile src="config/placeholder.mk" dest="vendor/lineage/config/common_car.mk" />
+    <linkfile src="config/placeholder.mk" dest="vendor/lineage/config/common_full_foldable_book_telephony.mk" />
+    <linkfile src="config/placeholder.mk" dest="vendor/lineage/config/common_full_go_phone.mk" />
+    <linkfile src="config/placeholder.mk" dest="vendor/lineage/config/common_full_phone.mk" />
+    <linkfile src="config/placeholder.mk" dest="vendor/lineage/config/common_full_tablet.mk" />
+    <linkfile src="config/placeholder.mk" dest="vendor/lineage/config/common_full_tablet_wifionly.mk" />
+    <linkfile src="config/placeholder.mk" dest="vendor/lineage/config/common_full_tv.mk" />
+    <linkfile src="config/placeholder.mk" dest="vendor/lineage/config/common_mini_go_phone.mk" />
+    <linkfile src="config/placeholder.mk" dest="vendor/lineage/config/common_mini_phone.mk" />
+    <linkfile src="config/placeholder.mk" dest="vendor/lineage/config/common_mini_tablet.mk" />
+    <linkfile src="config/placeholder.mk" dest="vendor/lineage/config/common_mini_tablet_wifionly.mk" />
+    <linkfile src="config/placeholder.mk" dest="vendor/lineage/config/common_mini_tv.mk" />
+    <linkfile src="config/placeholder.mk" dest="vendor/lineage/config/common_mobile.mk" />
+    <linkfile src="config/placeholder.mk" dest="vendor/lineage/config/common_mobile_full.mk" />
+    <linkfile src="config/placeholder.mk" dest="vendor/lineage/config/common_mobile_mini.mk" />
+    <linkfile src="config/placeholder.mk" dest="vendor/lineage/config/common_tv.mk" />
+  </project>
 
   <!-- LineageOS forks with additional changes -->
   <project name="CalyxOS/device_calyx_sepolicy" path="device/calyx/sepolicy" groups="lineage" remote="gitlab" />
