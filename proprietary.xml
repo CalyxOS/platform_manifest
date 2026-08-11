@@ -49,6 +49,9 @@
   <!-- Pixel 9a -->
   <project name="CalyxOS/lfs_vendor_google_tegu" path="vendor/google/tegu" remote="gitlab" />
 
+  <!-- Pixel 10a -->
+  <project name="CalyxOS/lfs_vendor_google_stallion" path="vendor/google/stallion" remote="gitlab" />
+
   <!-- Fairphone 4 -->
   <project name="CalyxOS/lfs_vendor_fairphone_FP4" path="vendor/fairphone/FP4" remote="gitlab" />
 

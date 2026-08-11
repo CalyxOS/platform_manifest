@@ -131,4 +131,8 @@
   <project name="CalyxOS/device_google_tegu" path="device/google/tegu" groups="device,tegu" remote="gitlab" />
   <project name="CalyxOS/device_google_tegu-kernels" path="device/google/tegu-kernels" groups="device,tegu" clone-depth="1" remote="gitlab" />
 
+  <!-- Pixel 10a -->
+  <project name="CalyxOS/device_google_stallion" path="device/google/stallion" groups="device,stallion" remote="gitlab" />
+  <project name="CalyxOS/device_google_stallion-kernels" path="device/google/stallion-kernels" groups="device,stallion" clone-depth="1" remote="gitlab" />
+
 </manifest>
