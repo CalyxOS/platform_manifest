@@ -793,7 +793,7 @@
   <project path="packages/inputmethods/LatinIME" name="CalyxOS/platform_packages_inputmethods_LatinIME" groups="pdk-fs,lineage" remote="gitlab" />
   <project path="packages/inputmethods/LeanbackIME" name="platform/packages/inputmethods/LeanbackIME" groups="pdk-fs" />
   <project path="packages/modules/adb" name="platform/packages/modules/adb" groups="pdk" />
-  <project path="packages/modules/AdServices" name="CalyxOS/platform_packages_modules_AdServices" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="gitlab" />
+  <project path="packages/modules/AdServices" name="platform/packages/modules/AdServices" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <project path="packages/modules/AppSearch" name="platform/packages/modules/AppSearch" groups="pdk" />
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" groups="pdk" clone-depth="1" />
   <project path="packages/modules/Bluetooth" name="CalyxOS/platform_packages_modules_Bluetooth" groups="pdk" remote="gitlab" />
@@ -981,7 +981,7 @@
   <project path="system/libziparchive" name="platform/system/libziparchive" groups="pdk" />
   <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" />
   <project path="system/logging" name="CalyxOS/platform_system_logging" groups="pdk" remote="gitlab" />
-  <project path="system/media" name="CalyxOS/platform_system_media" groups="pdk" remote="gitlab" />
+  <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/memory/amemdiff" name="platform/system/memory/amemdiff" groups="pdk" />
   <project path="system/memory/guardian" name="platform/system/memory/guardian" groups="pdk" />
   <project path="system/memory/libion" name="CalyxOS/platform_system_memory_libion" groups="pdk" remote="gitlab" />
