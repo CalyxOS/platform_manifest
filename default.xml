@@ -31,7 +31,7 @@
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" />
   <project path="build/release" name="CalyxOS/platform_build_release" groups="pdk,tradefed,sysui-studio" remote="gitlab" />
   <project path="build/soong" name="CalyxOS/platform_build_soong" groups="pdk,tradefed,sysui-studio" remote="gitlab" />
-  <project path="art" name="platform/art" groups="pdk" />
+  <project path="art" name="CalyxOS/platform_art" groups="pdk" remote="gitlab" />
   <project path="bionic" name="CalyxOS/platform_bionic" groups="pdk" remote="gitlab" />
   <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw,pdk-arsp-ag-sot,pdk-arsp-common" />
   <project path="bootable/recovery" name="CalyxOS/platform_bootable_recovery" groups="pdk" remote="gitlab" />
@@ -178,7 +178,7 @@
   <project path="external/flatbuffers" name="platform/external/flatbuffers" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk" />
   <project path="external/fmtlib" name="platform/external/fmtlib" groups="pdk" />
-  <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
+  <project path="external/freetype" name="CalyxOS/platform_external_freetype" groups="pdk" remote="gitlab" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk" />
   <project path="external/fsverity-utils" name="platform/external/fsverity-utils" groups="pdk" />
   <project path="external/FP16" name="platform/external/FP16" groups="pdk" />
@@ -313,7 +313,7 @@
   <project path="external/libchrome-gestures" name="platform/external/libchrome-gestures" groups="pdk" />
   <project path="external/libconfig" name="platform/external/libconfig" groups="pdk" />
   <project path="external/libcups" name="platform/external/libcups" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libcupsfilters" name="platform/external/libcupsfilters" groups="pdk" />
+  <project path="external/libcupsfilters" name="CalyxOS/platform_external_libcupsfilters" groups="pdk" remote="gitlab" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
   <project path="external/libdisplay-info" name="platform/external/libdisplay-info" groups="pdk" />
@@ -327,9 +327,9 @@
   <project path="external/libdav1d" name="platform/external/libdav1d" groups="pdk" />
   <project path="external/libfuse" name="platform/external/libfuse" groups="pdk" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
-  <project path="external/libhevc" name="platform/external/libhevc" groups="pdk" />
+  <project path="external/libhevc" name="CalyxOS/platform_external_libhevc" groups="pdk" remote="gitlab" />
   <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" />
-  <project path="external/libjxl" name="platform/external/libjxl" groups="pdk" />
+  <project path="external/libjxl" name="CalyxOS/platform_external_libjxl" groups="pdk" remote="gitlab" />
   <project path="external/libkmsxx" name="platform/external/libkmsxx" groups="pdk" />
   <project path="external/liblc3" name="platform/external/liblc3" groups="pdk" />
   <project path="external/libldac" name="platform/external/libldac" groups="pdk" />
@@ -340,14 +340,14 @@
   <project path="external/libnfnetlink" name="platform/external/libnfnetlink" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
-  <project path="external/libopenapv" name="platform/external/libopenapv" groups="pdk" />
+  <project path="external/libopenapv" name="CalyxOS/platform_external_libopenapv" groups="pdk" remote="gitlab" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpalmrejection" name="platform/external/libpalmrejection" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk" />
   <project path="external/libpciaccess" name="platform/external/libpciaccess" groups="pdk" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
-  <project path="external/libppd" name="platform/external/libppd" groups="pdk" />
+  <project path="external/libpng" name="CalyxOS/platform_external_libpng" groups="pdk" remote="gitlab" />
+  <project path="external/libppd" name="CalyxOS/platform_external_libppd" groups="pdk" remote="gitlab" />
   <project path="external/libprotobuf-mutator" name="platform/external/libprotobuf-mutator" groups="pdk" />
   <project path="external/libsrtp2" name="platform/external/libsrtp2" groups="pdk" />
   <project path="external/libtextclassifier" name="platform/external/libtextclassifier" groups="pdk" />
@@ -604,7 +604,7 @@
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wireless-regdb" name="platform/external/wireless-regdb" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="CalyxOS/platform_external_wpa_supplicant_8" groups="pdk" remote="gitlab" />
   <project path="external/wmediumd" name="platform/external/wmediumd" groups="pdk" />
   <project path="external/wuffs-mirror-release-c" name="platform/external/wuffs-mirror-release-c" groups="pdk,qcom_msm8x26" />
   <project path="external/wycheproof" name="platform/external/wycheproof" groups="pdk" />
@@ -670,7 +670,7 @@
   <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" groups="pdk" />
   <project path="hardware/nxp/nxp_mcu_loader" name="platform/hardware/nxp/nxp_mcu_loader" groups="pdk" />
   <project path="hardware/nxp/uwb" name="platform/hardware/nxp/uwb" groups="pdk-arsp-ag-sot,pdk-arsp-common" />
-  <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk" />
+  <project path="hardware/nxp/secure_element" name="CalyxOS/platform_hardware_nxp_secure_element" groups="pdk" remote="gitlab" />
   <project path="hardware/nxp/weaver" name="platform/hardware/nxp/weaver" groups="pdk" />
   <project path="hardware/qcom/wlan" name="CalyxOS/platform_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="gitlab" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
@@ -742,7 +742,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="CalyxOS/platform_packages_apps_Contacts" groups="pdk-fs,lineage" remote="gitlab" />
-  <project path="packages/apps/ContactsPicker" name="platform/packages/apps/ContactsPicker" groups="pdk-fs" />
+  <project path="packages/apps/ContactsPicker" name="CalyxOS/platform_packages_apps_ContactsPicker" groups="pdk-fs" remote="gitlab" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
   <project path="packages/apps/DeviceDiagnostics" name="platform/packages/apps/DeviceDiagnostics" groups="pdk" />
   <project path="packages/apps/Dialer" name="CalyxOS/platform_packages_apps_Dialer" groups="pdk-fs,lineage" remote="gitlab" />
@@ -786,13 +786,13 @@
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="pdk-fs,pdk-cw-tvc" />
   <project path="packages/apps/TvFeedbackConsent" name="platform/packages/apps/TvFeedbackConsent" groups="pdk-fs" />
   <project path="packages/apps/TvSystemUI" name="platform/packages/apps/TvSystemUI" groups="pdk-fs" />
-  <project path="packages/apps/TV" name="platform/packages/apps/TV" groups="pdk" />
+  <project path="packages/apps/TV" name="CalyxOS/platform_packages_apps_TV" groups="pdk" remote="gitlab" />
   <project path="packages/apps/UniversalMediaPlayer" name="platform/packages/apps/UniversalMediaPlayer" />
   <project path="packages/apps/VirtualGamepad" name="platform/packages/apps/VirtualGamepad" groups="pdk-fs" />
   <project path="packages/apps/WallpaperPicker2" name="CalyxOS/platform_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio,lineage" remote="gitlab" />
   <project path="packages/inputmethods/LatinIME" name="CalyxOS/platform_packages_inputmethods_LatinIME" groups="pdk-fs,lineage" remote="gitlab" />
   <project path="packages/inputmethods/LeanbackIME" name="platform/packages/inputmethods/LeanbackIME" groups="pdk-fs" />
-  <project path="packages/modules/adb" name="platform/packages/modules/adb" groups="pdk" />
+  <project path="packages/modules/adb" name="CalyxOS/platform_packages_modules_adb" groups="pdk" remote="gitlab" />
   <project path="packages/modules/AdServices" name="platform/packages/modules/AdServices" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <project path="packages/modules/AppSearch" name="platform/packages/modules/AppSearch" groups="pdk" />
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" groups="pdk" clone-depth="1" />
@@ -819,7 +819,7 @@
   <project path="packages/modules/ModuleMetadata" name="platform/packages/modules/ModuleMetadata" groups="pdk" />
   <project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/modules/Nfc" name="platform/packages/modules/Nfc" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/modules/Nfc" name="CalyxOS/platform_packages_modules_Nfc" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
   <project path="packages/modules/NpuManager" name="platform/packages/modules/NpuManager" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/modules/OnDevicePersonalization" name="platform/packages/modules/OnDevicePersonalization" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/Permission" name="CalyxOS/platform_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
@@ -832,7 +832,7 @@
   <project path="packages/modules/Telecom" name="platform/packages/modules/Telecom" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/modules/Telephony" name="platform/packages/modules/Telephony" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/modules/ThreadNetwork" name="platform/packages/modules/ThreadNetwork" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/modules/Uwb" name="platform/packages/modules/Uwb" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/modules/Uwb" name="CalyxOS/platform_packages_modules_Uwb" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
   <project path="packages/modules/UprobeStats" name="platform/packages/modules/UprobeStats" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" groups="pdk" />
   <project path="packages/modules/vndk" name="platform/packages/modules/vndk" groups="pdk-cw-fs,pdk-fs" />
@@ -844,11 +844,11 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/ContactsKeysProvider" name="platform/packages/providers/ContactsKeysProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/ContactsProvider" name="CalyxOS/platform_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/MediaProvider" name="CalyxOS/platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="gitlab" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/TelephonyProvider" name="CalyxOS/platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" />
