@@ -23,10 +23,8 @@
   <project name="CalyxOS/vendor_crowdin" path="vendor/crowdin" groups="lineage" remote="gitlab" revision="android16-qpr2" />
 
   <!-- Legacy AOSP additions -->
-  <!--
   <project name="CalyxOS/platform_hardware_qcom_sm7250_display" path="hardware/qcom/sm7250/display" groups="lineage,qcom_sm7250" remote="gitlab" />
   <project name="CalyxOS/platform_hardware_qcom_sm7250_gps" path="hardware/qcom/sm7250/gps" groups="lineage,qcom_sm7250" remote="gitlab" />
-  -->
 
   <!-- Inline kernel build -->
   <project name="kernel/prebuilts/build-tools" path="prebuilts/kernel-build-tools" clone-depth="1" revision="main-kernel-2025" />
