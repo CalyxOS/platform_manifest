@@ -115,7 +115,7 @@
   <project name="CalyxOS/platform_hardware_motorola" path="hardware/motorola" groups="lineage" remote="gitlab" />
 
   <!-- SHIFTphone 8 -->
-  <project name="CalyxOS/device_shift_otter" path="device/shift/otter" remote="gitlab" />
+  <project name="CalyxOS/device_shift_otter" path="device/shift/otter" remote="gitlab" revision="refs/tags/8.0.0.0-2" />
   <project name="CalyxOS/kernel_shift_qcm6490" path="kernel/shift/qcm6490" remote="gitlab" />
 
 </manifest>
