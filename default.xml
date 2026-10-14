@@ -64,7 +64,7 @@
   <project path="device/linaro/dragonboard" name="device/linaro/dragonboard" groups="device,dragonboard,pdk" />
   <project path="device/linaro/hikey" name="device/linaro/hikey" groups="device,hikey,pdk" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="external/aac" name="platform/external/aac" groups="pdk" />
+  <project path="external/aac" name="CalyxOS/platform_external_aac" groups="pdk" remote="gitlab" />
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" groups="pdk" />
   <project path="external/accessibility-test-framework" name="platform/external/accessibility-test-framework" groups="pdk" />
   <project path="external/accompanist" name="platform/external/accompanist" groups="pdk" />
@@ -230,7 +230,7 @@
   <project path="external/hafnium" name="platform/external/hafnium" groups="pdk" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
-  <project path="external/hplip" name="platform/external/hplip" groups="pdk" />
+  <project path="external/hplip" name="CalyxOS/platform_external_hplip" groups="pdk" remote="gitlab" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk" />
   <project path="external/iamf_tools" name="platform/external/iamf_tools" groups="pdk" />
   <project path="external/icing" name="platform/external/icing" groups="pdk" />
@@ -576,7 +576,7 @@
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" />
   <project path="external/tpm2-tss" name="platform/external/tpm2-tss" groups="pdk" />
   <project path="external/trace-cmd" name="platform/external/trace-cmd" groups="pdk" />
-  <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
+  <project path="external/tremolo" name="CalyxOS/platform_external_tremolo" groups="pdk" remote="gitlab" />
   <project path="external/trusty/arm-trusted-firmware" name="trusty/external/trusted-firmware-a" groups="trusty,pdk" />
   <project path="external/trusty/bootloader" name="trusty/external/trusty" groups="trusty,pdk" />
   <project path="external/trusty/headers" name="trusty/external/headers" groups="trusty,pdk" />
@@ -812,18 +812,18 @@
   <project path="packages/modules/HealthFitness" name="platform/packages/modules/HealthFitness" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/ImsMedia" name="platform/packages/modules/ImsMedia" groups="pdk"/>
   <project path="packages/modules/ImsStack" name="platform/packages/modules/ImsStack" groups="pdk"/>
-  <project path="packages/modules/IntentResolver" name="platform/packages/modules/IntentResolver" groups="pdk,sysui-studio" />
+  <project path="packages/modules/IntentResolver" name="CalyxOS/platform_packages_modules_IntentResolver" groups="pdk,sysui-studio" remote="gitlab" />
   <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" groups="pdk" />
   <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/Media" name="platform/packages/modules/Media" groups="pdk" />
   <project path="packages/modules/ModuleMetadata" name="platform/packages/modules/ModuleMetadata" groups="pdk" />
   <project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/modules/NeuralNetworks" name="CalyxOS/platform_packages_modules_NeuralNetworks" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
   <project path="packages/modules/Nfc" name="CalyxOS/platform_packages_modules_Nfc" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
   <project path="packages/modules/NpuManager" name="platform/packages/modules/NpuManager" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/modules/OnDevicePersonalization" name="platform/packages/modules/OnDevicePersonalization" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/Permission" name="CalyxOS/platform_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
-  <project path="packages/modules/Profiling" name="platform/packages/modules/Profiling" groups="pdk" />
+  <project path="packages/modules/Profiling" name="CalyxOS/platform_packages_modules_Profiling" groups="pdk" remote="gitlab" />
   <project path="packages/modules/RemoteKeyProvisioning" name="platform/packages/modules/RemoteKeyProvisioning" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/modules/RuntimeI18n" name="platform/packages/modules/RuntimeI18n" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/Scheduling" name="platform/packages/modules/Scheduling" groups="pdk-cw-fs,pdk-fs" />
@@ -859,7 +859,7 @@
   <project path="packages/services/CrossDeviceSync" name="platform/packages/services/CrossDeviceSync" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/DeviceAsWebcam" name="platform/packages/services/DeviceAsWebcam" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/DroidfoodAttestationFixer" name="platform/packages/services/DroidfoodAttestationFixer" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Iwlan" name="platform/packages/services/Iwlan" groups="pdk-cw-fs,pdk-fs"/>
+  <project path="packages/services/Iwlan" name="CalyxOS/platform_packages_services_Iwlan" groups="pdk-cw-fs,pdk-fs" remote="gitlab" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Mtp" name="platform/packages/services/Mtp" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/QualifiedNetworksService" name="platform/packages/services/QualifiedNetworksService" groups="pdk-cw-fs,pdk-fs"/>
@@ -1105,7 +1105,7 @@
   <project path="trusty/user/app/sample" name="trusty/app/sample" groups="trusty,pdk" />
   <project path="trusty/user/app/secretkeeper" name="trusty/app/secretkeeper" groups="trusty,pdk" />
   <project path="trusty/user/app/storage" name="trusty/app/storage" groups="trusty,pdk" />
-  <project path="trusty/user/base" name="trusty/lib" groups="trusty,pdk" />
+  <project path="trusty/user/base" name="CalyxOS/trusty_user_base" groups="trusty,pdk" remote="gitlab" />
   <project path="trusty/user/desktop" name="trusty/user/desktop" groups="android-desktop,pdk,trusty" />
   <project path="trusty/vendor/google/aosp" name="trusty/vendor/google/aosp" groups="trusty,pdk" >
    <!-- Install lk_inc.mk into trusty root -->
