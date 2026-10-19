@@ -531,7 +531,7 @@
   <project path="external/sdk-platform-java" name="platform/external/sdk-platform-java" groups="pdk,tradefed" />
   <project path="external/sdv/vsomeip" name="platform/external/sdv/vsomeip" groups="pdk" />
   <project path="external/seccomp-tests" name="platform/external/seccomp-tests" groups="pdk" />
-  <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
+  <project path="external/selinux" name="CalyxOS/platform_external_selinux" groups="pdk" remote="gitlab" />
   <project path="external/setfilters" name="platform/external/setfilters" groups="pdk" />
   <project path="external/setupcompat" name="CalyxOS/platform_external_setupcompat" groups="pdk,sysui-studio" remote="gitlab" />
   <project path="external/setupdesign" name="platform/external/setupdesign" groups="pdk,sysui-studio" />
@@ -625,7 +625,7 @@
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/hardware/interfaces" name="platform/frameworks/hardware/interfaces" groups="pdk,sysui-studio" />
+  <project path="frameworks/hardware/interfaces" name="CalyxOS/platform_frameworks_hardware_interfaces" groups="pdk,sysui-studio" remote="gitlab" />
   <project path="frameworks/layoutlib" name="platform/frameworks/layoutlib" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/libs/binary_translation" name="platform/frameworks/libs/binary_translation" groups="pdk" />
   <project path="frameworks/libs/systemui" name="CalyxOS/platform_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="gitlab" />
@@ -661,7 +661,7 @@
   <project path="hardware/google/av" name="platform/hardware/google/av" groups="pdk" />
   <project path="hardware/google/camera" name="CalyxOS/platform_hardware_google_camera" groups="pdk" remote="gitlab" />
   <project path="hardware/google/gfxstream" name="platform/hardware/google/gfxstream" groups="pdk" />
-  <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk,sysui-studio" />
+  <project path="hardware/google/interfaces" name="CalyxOS/platform_hardware_google_interfaces" groups="pdk,sysui-studio" remote="gitlab" />
   <project path="hardware/interfaces" name="CalyxOS/platform_hardware_interfaces" groups="pdk,sysui-studio" remote="gitlab" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
   <project path="hardware/libhardware" name="CalyxOS/platform_hardware_libhardware" groups="pdk" remote="gitlab" />
@@ -1026,7 +1026,7 @@
   <project path="system/tools/xsdc" name="platform/system/tools/xsdc" groups="pdk" />
   <project path="system/unwinding" name="platform/system/unwinding" groups="pdk" />
   <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
-  <project path="system/usb" name="platform/system/usb" groups="pdk" />
+  <project path="system/usb" name="CalyxOS/platform_system_usb" groups="pdk" remote="gitlab" />
   <project path="system/usb_info_tools" name="platform/system/usb_info_tools" groups="pdk" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="system/weaver" name="platform/system/weaver" groups="pdk" />
